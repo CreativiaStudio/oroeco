@@ -1,0 +1,67 @@
+{
+  "source": "snapshot",
+  "syncedAt": "2026-11-13T14:07:48.254Z",
+  "username": "gioielleria_oroeco",
+  "posts": [
+    {
+      "id": "ig-DfriYz-jTII",
+      "shortcode": "DfriYz-jTII",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/p/DfriYz-jTII/",
+      "imageUrl": "/images/instagram/post-1.jpg",
+      "alt": "ORO&co — Decorazioni e sculture natalizie in boutique",
+      "caption": "ORO&co — Atmosfera natalizia e oggetti d'arte in boutique",
+      "isVideo": false,
+      "timestamp": "2026-11-13T10:00:00Z"
+    },
+    {
+      "id": "ig-DfnJb_rDXQQ",
+      "shortcode": "DfnJb_rDXQQ",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/p/DfnJb_rDXQQ/",
+      "imageUrl": "/images/instagram/post-2.jpg",
+      "alt": "ORO&co — Arte della tavola e cristalli d'autore",
+      "caption": "ORO&co — Arte della tavola e porcellane",
+      "isVideo": false,
+      "timestamp": "2026-11-11T10:00:00Z"
+    },
+    {
+      "id": "ig-DfjoU_0jfHX",
+      "shortcode": "DfjoU_0jfHX",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/p/DfjoU_0jfHX/",
+      "imageUrl": "/images/instagram/post-3.jpg",
+      "alt": "ORO&co — Selezioni esclusive @gioielleria_oroeco",
+      "caption": "ORO&co — Collezioni in boutique",
+      "isVideo": false,
+      "timestamp": "2026-11-10T10:00:00Z"
+    },
+    {
+      "id": "ig-DfhLmChodKt",
+      "shortcode": "DfhLmChodKt",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/p/DfhLmChodKt/",
+      "imageUrl": "/images/instagram/post-4.jpg",
+      "alt": "ORO&co — Porcellane e idee regalo Villeroy & Boch",
+      "caption": "ORO&co — Tavola d'autore e porcellane",
+      "isVideo": false,
+      "timestamp": "2026-11-09T10:00:00Z"
+    },
+    {
+      "id": "ig-Dfb3IeCFaad",
+      "shortcode": "Dfb3IeCFaad",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/p/Dfb3IeCFaad/",
+      "imageUrl": "/images/instagram/post-5.jpg",
+      "alt": "ORO&co — Anello in oro e diamanti in primo piano",
+      "caption": "ORO&co — Alta gioielleria in boutique",
+      "isVideo": false,
+      "timestamp": "2026-11-07T10:00:00Z"
+    },
+    {
+      "id": "ig-DfZ727hjFsM",
+      "shortcode": "DfZ727hjFsM",
+      "permalink": "https://www.instagram.com/gioielleria_oroeco/reel/DfZ727hjFsM/",
+      "imageUrl": "/images/instagram/post-6.jpg",
+      "alt": "ORO&co — Reel ufficiale dalla boutique di San Marzano sul Sarno",
+      "caption": "ORO&co — Reel ufficiale dalla boutique",
+      "isVideo": true,
+      "timestamp": "2026-11-06T10:00:00Z"
+    }
+  ]
+}

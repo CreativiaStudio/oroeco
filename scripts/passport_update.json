@@ -1,0 +1,16 @@
+{
+  "codebase_status": {
+    "build": "Next.js 15.5 production build completata con 0 errori",
+    "status": "DB DEDICATO COLLEGATO E POPOLATO CON 522 PRODOTTI",
+    "e2e_tests": "168/168 PASSED (Tiers 1-5)",
+    "dev_server": "Attivo su http://localhost:3000",
+    "brands_count": 18,
+    "db_isolation": "100% Isolato su istanza autonoma",
+    "products_count": 522,
+    "pending_approval_count": 482,
+    "approved_count": 40,
+    "categories_count": 22,
+    "supabase_project": "oroeco (cuztyagbckeyljlhhzvr.supabase.co)",
+    "keepalive": "Attivo (Windows Task quotidiano 04:00 + Vercel Cron)"
+  }
+}

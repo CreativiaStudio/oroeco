@@ -1,0 +1,258 @@
+[
+  {
+    "brand": "Cuorematto",
+    "total": 58,
+    "domains": [
+      "invalid-url"
+    ],
+    "sampleTest": {
+      "url": "/images/products/cuorematto/cuorematto_box_solidale.jpg",
+      "status": "ERROR",
+      "error": "Failed to parse URL from /images/products/cuorematto/cuorematto_box_solidale.jpg",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Bulova",
+    "total": 30,
+    "domains": [
+      "media.citizen.it"
+    ],
+    "sampleTest": {
+      "url": "https://media.citizen.it/ImgOriginal/bulova_96P253_01_2000x2000.jpg",
+      "status": 200,
+      "ok": true
+    },
+    "status": "✅ FUNZIONANTE (200 OK)"
+  },
+  {
+    "brand": "Guess",
+    "total": 4,
+    "domains": [
+      "www.guess.eu"
+    ],
+    "sampleTest": {
+      "url": "https://www.guess.eu/media/catalog/product/guess_ORC-OR-D01_01.jpg",
+      "status": 410,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Unoaerre",
+    "total": 79,
+    "domains": [
+      "www.unoaerre.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.unoaerre.it/media/catalog/product/cache/b1c7992ed5aefd82a6f24b0e326dcb59/u/n/unoaerre_gioiello_classica_lux.jpg",
+      "status": 200,
+      "ok": true
+    },
+    "status": "✅ FUNZIONANTE (200 OK)"
+  },
+  {
+    "brand": "Stroili",
+    "total": 190,
+    "domains": [
+      "www.stroilioro.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw7bbe2d1c/images/c1683799-master.jpg?sw=1024&sh=1024",
+      "status": 200,
+      "ok": true
+    },
+    "status": "✅ FUNZIONANTE (200 OK)"
+  },
+  {
+    "brand": "Golay",
+    "total": 2,
+    "domains": [
+      "www.golay.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.golay.com/media/catalog/product/golay_ORC-AN-003_01.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Cammeo Italiano",
+    "total": 1,
+    "domains": [
+      "www.cammeoitaliano.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.cammeoitaliano.it/media/catalog/product/cammeo_ORC-OR-002_01.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Nihama",
+    "total": 21,
+    "domains": [
+      "www.nihama.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.nihama.it/media/catalog/product/nihama_ORC_CO_003_strand.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Dana Oro 9 kt",
+    "total": 2,
+    "domains": [
+      "www.danaoro.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.danaoro.it/media/catalog/product/dana_ORC-OR-003_01.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "AMEN",
+    "total": 1,
+    "domains": [
+      "www.amengioielli.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.amengioielli.com/media/catalog/product/amen_ORC-CI-002_01.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Locman",
+    "total": 8,
+    "domains": [
+      "www.locman.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.locman.it/media/catalog/product/locman_ORC-OR-U02_front_dial.jpg",
+      "status": 404,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Gerba",
+    "total": 2,
+    "domains": [
+      "www.gerba.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.gerba.it/media/catalog/product/gerba_ORC-AC-K01_01.jpg",
+      "status": 404,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Ducati",
+    "total": 2,
+    "domains": [
+      "www.ducati.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.ducati.com/media/catalog/product/ducati_ORC-AC-S01_01.jpg",
+      "status": 503,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Villeroy",
+    "total": 21,
+    "domains": [
+      "www.villeroy-boch.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.villeroy-boch.com/media/catalog/product/vb_ORC-CA-B01_front_table.jpg",
+      "status": 403,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Gli Alberelli",
+    "total": 3,
+    "domains": [
+      "www.glialberelli.it"
+    ],
+    "sampleTest": {
+      "url": "https://www.glialberelli.it/media/catalog/product/alberelli_ORC-CA-C01_01.jpg",
+      "status": 404,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Paul Picot",
+    "total": 11,
+    "domains": [
+      "www.paulpicot.ch"
+    ],
+    "sampleTest": {
+      "url": "https://www.paulpicot.ch/media/watches/paul_picot_4209_dial_front.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Lladró",
+    "total": 9,
+    "domains": [
+      "www.lladro.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.lladro.com/media/catalog/product/lladro_01009430_front_sculpture.jpg",
+      "status": 406,
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Davide Delucchi",
+    "total": 1,
+    "domains": [
+      "www.davitedelucchi.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.davitedelucchi.com/media/catalog/product/dd_ORC-AN-002_macro_stone.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  },
+  {
+    "brand": "Davite Delucchi",
+    "total": 77,
+    "domains": [
+      "www.davitedelucchi.com"
+    ],
+    "sampleTest": {
+      "url": "https://www.davitedelucchi.com/media/catalog/product/dd_DD-03X9x-2_macro_stone.jpg",
+      "status": "ERROR",
+      "error": "fetch failed",
+      "ok": false
+    },
+    "status": "❌ ROTTO / NON ESISTE (404/ERR)"
+  }
+]

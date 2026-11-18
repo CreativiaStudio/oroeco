@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="68" viewBox="0 0 220 68" fill="none">
+  <!-- Stemma: esagono allungato tipo scudo, doppio contorno -->
+  <polygon points="110,7 123,14 123,30 110,37 97,30 97,14" stroke="#020202" stroke-width="1"/>
+  <polygon points="110,11.5 119,16 119,28 110,32.5 101,28 101,16" stroke="#9A7D43" stroke-width="0.6"/>
+  <text x="110" y="25.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10" letter-spacing="0.5" fill="#4E423E">G</text>
+  <!-- Wordmark -->
+  <text x="110" y="57" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="8" fill="#020202">GERBA</text>
+</svg>
