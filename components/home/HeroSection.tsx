@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const R2_BASE = (
@@ -7,33 +6,42 @@ const R2_BASE = (
 ).replace(/\/+$/, "");
 
 /**
- * Hero full-bleed della homepage con regia fotografica doppia:
- * - Desktop (lg+): fotografia editoriale 16:9 luminosa con modella, bocca e rubino a destra
- *   e sfondo avorio-champagne pulito a sinistra, animata da un respiro continuo ultra-fluido.
- * - Mobile (<lg): taglio verticale 9:16 dedicato con modella protagonista in alto/centro e copy luminoso in basso.
+ * Hero full-bleed della homepage con Cinemagraph reale (Kling 2.1 Pro, loop seamless):
+ * - Desktop (lg+): video 16:9 (0.62 MB) con camera fissa, modella che respira e muove
+ *   delicatamente la mano sulla destra e sfondo avorio-champagne pulito a sinistra.
+ * - Mobile (<lg): video 9:16 (0.60 MB) dedicato con modella e rubino protagonisti nella
+ *   fascia alta/centrale e copy luminoso sul velluto scuro in basso.
  */
 export function HeroSection() {
   return (
     <section className="relative isolate flex h-[92svh] min-h-[640px] max-h-[960px] w-full items-end overflow-hidden bg-[#1b0812] lg:items-center lg:bg-[#f5efe6]">
-      {/* Versione Desktop 16:9 — Luminosa, zero patina sulla modella, bocca pienamente visibile */}
-      <Image
-        src={`${R2_BASE}/hero/hero-modella-desktop-v2.webp`}
-        alt="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
-        fill
-        priority
-        sizes="100vw"
-        className="animate-hero-kenburns hidden object-cover object-[72%_top] lg:block xl:object-[62%_top] 2xl:object-top"
-      />
+      {/* Versione Desktop 16:9 — Cinemagraph reale seamless loop */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster={`${R2_BASE}/hero/hero-modella-desktop-v2.webp`}
+        aria-label="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
+        className="pointer-events-none absolute inset-0 hidden h-full w-full object-cover object-[72%_top] lg:block xl:object-[62%_top] 2xl:object-top"
+      >
+        <source src={`${R2_BASE}/hero/hero-modella-desktop.mp4`} type="video/mp4" />
+      </video>
 
-      {/* Versione Mobile 9:16 — Modella e anello protagonisti nella fascia alta/centrale */}
-      <Image
-        src={`${R2_BASE}/hero/hero-modella-mobile-v2.webp`}
-        alt="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
-        fill
-        priority
-        sizes="100vw"
-        className="animate-hero-kenburns object-cover object-[50%_18%] lg:hidden"
-      />
+      {/* Versione Mobile 9:16 — Cinemagraph verticale seamless loop */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster={`${R2_BASE}/hero/hero-modella-mobile-v2.webp`}
+        aria-label="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover object-[50%_18%] lg:hidden"
+      >
+        <source src={`${R2_BASE}/hero/hero-modella-mobile.mp4`} type="video/mp4" />
+      </video>
 
       {/* Sfumatura superiore discreta e snella solo per la leggibilità della navbar trasparente */}
       <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#17110d]/42 via-[#17110d]/14 to-transparent lg:h-28" />
