@@ -5,6 +5,7 @@ import { Clock, MapPin, MessageSquare, Phone, ShieldCheck, Cookie } from "lucide
 import { InstagramFeedStrip } from "@/components/layout/InstagramFeedStrip";
 import { Logo } from "@/components/layout/Logo";
 import { NewsletterForm } from "@/components/layout/NewsletterForm";
+import { PaymentLogos } from "@/components/layout/PaymentLogos";
 
 const collections = [
   { label: "Gioielli", href: "/gioielli" },
@@ -22,18 +23,6 @@ const assistance = [
   { label: "Privacy Policy (GDPR)", href: "/privacy-policy" },
   { label: "Cookie Policy", href: "/cookie-policy" },
   { label: "Termini e Condizioni", href: "/termini-e-condizioni" },
-];
-
-const payments = [
-  "Visa",
-  "Mastercard",
-  "American Express",
-  "PayPal",
-  "Apple Pay",
-  "Klarna",
-  "Scalapay",
-  "Revolut",
-  "Compass",
 ];
 
 function InstagramIcon({ className = "h-4 w-4" }: { className?: string }) {
@@ -204,18 +193,11 @@ export function Footer() {
       {/* Sezione Finale — Pagamenti & Copyright */}
       <div className="border-t border-white/10 bg-[#011929] py-8">
         <div className="container-luxe flex flex-col items-center justify-between gap-6 lg:flex-row">
-          <div className="flex flex-wrap items-center justify-center gap-2.5">
-            <span className="text-[0.62rem] uppercase tracking-[0.18em] text-white/45">
+          <div className="flex flex-col items-center gap-3 lg:items-start">
+            <span className="text-[0.62rem] uppercase tracking-[0.18em] text-white/50">
               Pagamenti protetti
             </span>
-            {payments.map((payment) => (
-              <span
-                key={payment}
-                className="rounded-sm border border-white/15 bg-white/5 px-3 py-1.5 font-serif text-[0.65rem] uppercase tracking-[0.14em] text-white/85"
-              >
-                {payment}
-              </span>
-            ))}
+            <PaymentLogos />
           </div>
 
           <div className="flex flex-col items-center gap-1.5 text-center lg:items-end lg:text-right">
