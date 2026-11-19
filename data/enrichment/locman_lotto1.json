@@ -1,0 +1,195 @@
+{
+  "brandSlug": "locman",
+  "brandId": "f29e325d-cab0-4597-8137-44db009799ec",
+  "brandName": "Locman",
+  "supplierName": "Locman S.p.A.",
+  "invoiceRef": "LOCMAN.xlsx",
+  "verifiedAt": "2026-11-19T16:03:00+01:00",
+  "items": [
+    {
+      "sku": "0560A01A-00BKNKB0",
+      "found": true,
+      "sourceUrl": "https://www.locman.it/products/mare-300mt?variant=54121694429517",
+      "name": "Locman — Orologio Uomo Mare 300 MT Cronografo Acciaio e Titanio 44mm",
+      "shortDescription": "Orologio sportivo Locman Mare 300 MT da uomo con cassa 44 mm in acciaio e titanio, vetro zaffiro e impermeabilità 30 ATM.",
+      "description": "Orologio originale Locman della collezione Mare 300 MT (ref. 0560A01A-00BKNKB0), progettato all'Isola d'Elba per unire spirito subacqueo e precisione tecnica. Cassa da 44 mm in acciaio e titanio con fondello serrato da 4 viti, movimento cronografo al quarzo Miyota ad alta affidabilità, vetro zaffiro antigraffio e antiriflesso e impermeabilità certificata fino a 30 ATM (300 metri). Corredato di astuccio ufficiale e garanzia internazionale Locman.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 535,
+      "attributes": {
+        "Collezione": "Mare 300 MT",
+        "Genere": "Uomo",
+        "Materiale cassa": "Acciaio e Titanio",
+        "material": "Acciaio e Titanio",
+        "metal": "Acciaio e Titanio",
+        "Diametro cassa": "44 mm",
+        "Movimento": "Cronografo Quarzo Miyota",
+        "Funzioni": "Cronografo, Data",
+        "Vetro": "Vetro zaffiro antigraffio e antiriflesso",
+        "Impermeabilità": "30 ATM (300 metri)",
+        "Quadrante": "Nero",
+        "Origine": "Isola d'Elba, Italia"
+      },
+      "tags": ["locman", "orologi", "uomo", "mare-300mt", "cronografo", "subacqueo", "titanio"],
+      "imageUrls": [
+        "https://www.locman.it/cdn/shop/files/0560A01A-00BKNKB0_frontaleV1.jpg?v=1781636210&width=1400"
+      ]
+    },
+    {
+      "sku": "0223T06S-00AGWHB0",
+      "found": true,
+      "sourceUrl": "https://www.locman.it/products/stealth-titanio?variant=54121719890253",
+      "name": "Locman — Orologio Uomo Stealth Titanio Solo Tempo 42mm",
+      "shortDescription": "Orologio ultraleggero Locman Stealth Titanio da uomo 42 mm con bracciale in titanio, vetro zaffiro e impermeabilità 20 ATM.",
+      "description": "Orologio originale Locman della collezione Stealth Titanio (ref. 0223T06S-00AGWHB0), ispirato alla tecnologia aeronautica per offrire leggerezza estrema, ergonomia sul polso ed eleganza essenziale. Cassa da 42 mm e bracciale interamente in titanio, quadrante bianco ad alta leggibilità, movimento solo tempo al quarzo Ronda, vetro zaffiro antigraffio e antiriflesso e impermeabilità fino a 20 ATM. Completo di cofanetto ufficiale e garanzia Locman.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 759,
+      "attributes": {
+        "Collezione": "Stealth",
+        "Genere": "Uomo",
+        "Materiale cassa": "Titanio",
+        "material": "Titanio",
+        "metal": "Titanio",
+        "Diametro cassa": "42 mm",
+        "Movimento": "Solo tempo Quarzo Ronda",
+        "Funzioni": "Solo tempo, Data",
+        "Vetro": "Vetro zaffiro antigraffio e antiriflesso",
+        "Impermeabilità": "20 ATM",
+        "Bracciale": "Bracciale in Titanio",
+        "Quadrante": "Bianco / Argento",
+        "Origine": "Isola d'Elba, Italia"
+      },
+      "tags": ["locman", "orologi", "uomo", "stealth", "titanio", "solo-tempo"],
+      "imageUrls": [
+        "https://www.locman.it/cdn/shop/files/0223T06S-00AGWHB0_frontaleV1.webp?v=1781644656&width=1400"
+      ]
+    },
+    {
+      "sku": "0254A01A-00BKNKPK",
+      "found": true,
+      "sourceUrl": "https://www.locman.it/products/1960-collection?variant=54121683747149",
+      "name": "Locman — Orologio Uomo 1960 Cronografo 42mm Quadrante Nero",
+      "shortDescription": "Orologio Locman collezione 1960 da uomo con cassa in acciaio 42 mm, movimento cronografo Miyota e vetro zaffiro.",
+      "description": "Orologio originale Locman della collezione 1960 (ref. 0254A01A-00BKNKPK), omaggio allo stile senza tempo degli anni Sessanta e al fascino della Dolce Vita italiana. Cassa sottile ed elegante in acciaio da 42 mm con quadrante nero e dettagli essenziali, movimento cronografo al quarzo Miyota, vetro zaffiro antigraffio e antiriflesso e impermeabilità fino a 5 ATM. Completo di cofanetto e garanzia ufficiale Locman.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 398,
+      "attributes": {
+        "Collezione": "1960",
+        "Genere": "Uomo",
+        "Materiale cassa": "Acciaio",
+        "material": "Acciaio",
+        "metal": "Acciaio",
+        "Diametro cassa": "42 mm",
+        "Movimento": "Cronografo Quarzo Miyota",
+        "Funzioni": "Cronografo",
+        "Vetro": "Vetro zaffiro antigraffio e antiriflesso",
+        "Impermeabilità": "5 ATM",
+        "Quadrante": "Nero",
+        "Origine": "Isola d'Elba, Italia"
+      },
+      "tags": ["locman", "orologi", "uomo", "1960", "cronografo", "vintage"],
+      "imageUrls": [
+        "https://www.locman.it/cdn/shop/files/0254A01A-00BKNKPK_frontale_b23311f2-f507-4d12-aee4-b9edb3706b55.jpg?v=1784122732&width=1400"
+      ]
+    },
+    {
+      "sku": "0253R14R-RRMWRG2PA",
+      "found": true,
+      "sourceUrl": "https://oiritaly.it/it/locman/orologio/donna/0253r14r-rrmwrg2pa/",
+      "name": "Locman — Orologio Donna 1960 Lady Oro Rosa e Madreperla 30mm",
+      "shortDescription": "Orologio femminile Locman 1960 Lady con cassa 30 mm in acciaio color oro rosa, quadrante madreperla e cinturino in pelle beige.",
+      "description": "Orologio originale Locman 1960 Lady (ref. 0253R14R-RRMWRG2PA) dal fascino femminile e raffinato. Caratterizzato da cassa tonda da 30 mm in acciaio con finitura oro rosa, luminoso quadrante in madreperla con indici e lancette color oro rosa, movimento solo tempo al quarzo ad alta precisione, cinturino in pelle beige e impermeabilità 3 ATM. Completo di astuccio ufficiale e garanzia Locman.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 362,
+      "attributes": {
+        "Collezione": "1960 Lady",
+        "Genere": "Donna",
+        "Materiale cassa": "Acciaio finitura Oro Rosa",
+        "material": "Acciaio finitura Oro Rosa",
+        "metal": "Acciaio Oro Rosa",
+        "Diametro cassa": "30 mm",
+        "Movimento": "Solo tempo al quarzo",
+        "Funzioni": "Solo tempo",
+        "Quadrante": "Madreperla con indici oro rosa",
+        "Cinturino": "Pelle beige",
+        "Impermeabilità": "3 ATM",
+        "Origine": "Isola d'Elba, Italia"
+      },
+      "tags": ["locman", "orologi", "donna", "1960-lady", "madreperla", "oro-rosa"],
+      "imageUrls": [
+        "https://cdn.oiritaly.it/image-storage/2bb6a7df-46a1-4af2-978a-146920fdb7bc/prod|img_zoom",
+        "https://cdn.oiritaly.it/image-storage/965cb598-98dc-48bf-be06-18d1c660d906/prod|img_zoom",
+        "https://cdn.oiritaly.it/image-storage/50f4b200-8c70-469f-8834-0e9e0e968290/prod|img_zoom"
+      ]
+    },
+    {
+      "sku": "0542A01S-00BKORB0",
+      "found": true,
+      "sourceUrl": "https://casadeigioielli.it/products/orologio-locman-montecristo-41-mm-0542a01s-00bkorb0",
+      "name": "Locman — Orologio Uomo Montecristo Cronografo 41mm Acciaio e Titanio",
+      "shortDescription": "Orologio Locman Montecristo 41 mm in acciaio e titanio con quadrante nero e dettagli arancione, cronografo al quarzo e bracciale acciaio.",
+      "description": "Orologio originale Locman della celebre collezione Montecristo (ref. 0542A01S-00BKORB0) con cassa da 41 mm (spessore 14,20 mm) in acciaio e titanio, vetro minerale con trattamento zaffiro, movimento cronografo al quarzo, quadrante nero con numeri arabi stampati e vivaci dettagli arancioni, bracciale in acciaio (ansa 23 mm) e impermeabilità fino a 10 ATM. Corredato di scatola e garanzia ufficiale Locman.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 940,
+      "attributes": {
+        "Collezione": "Montecristo",
+        "Genere": "Uomo",
+        "Materiale cassa": "Acciaio e Titanio",
+        "material": "Acciaio e Titanio",
+        "metal": "Acciaio e Titanio",
+        "Diametro cassa": "41 mm",
+        "Spessore cassa": "14,20 mm",
+        "Movimento": "Cronografo al quarzo",
+        "Funzioni": "Cronografo",
+        "Vetro": "Vetro minerale con trattamento zaffiro",
+        "Impermeabilità": "10 ATM",
+        "Quadrante": "Nero con dettagli arancione",
+        "Bracciale": "Acciaio (ansa 23 mm)",
+        "Origine": "Isola d'Elba, Italia"
+      },
+      "tags": ["locman", "orologi", "uomo", "montecristo", "cronografo", "acciaio", "titanio"],
+      "imageUrls": [
+        "https://casadeigioielli.it/cdn/shop/files/0542A01S-00BKORB0_frontale.jpg?v=1751442092&width=1946"
+      ]
+    },
+    {
+      "sku": "0538A01S-00BKGYPK",
+      "found": true,
+      "sourceUrl": "https://www.locman.it/products/montecristo-skeleton?variant=54121683353933",
+      "name": "Locman — Orologio Uomo Montecristo Skeleton Automatico Swiss Made 42mm",
+      "shortDescription": "Orologio meccanico automatico scheletrato Locman Montecristo Skeleton da uomo 42 mm, calibro Swiss Made Landeron DP 20 e cassa acciaio e titanio.",
+      "description": "Orologio originale Locman Montecristo Skeleton (ref. 0538A01S-00BKGYPK), presentato per celebrare il decimo anniversario della collezione simbolo della maison. L'architettura scheletrata rivela al polso tutta la raffinatezza del movimento meccanico automatico Swiss Made Landeron DP 20. Cassa da 42 mm in acciaio e titanio con finitura nera, vetro zaffiro antigraffio e antiriflesso e impermeabilità fino a 10 ATM. Corredato di cofanetto ufficiale e garanzia internazionale Locman.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 1320,
+      "attributes": {
+        "Collezione": "Montecristo Skeleton",
+        "Genere": "Uomo",
+        "Materiale cassa": "Acciaio e Titanio",
+        "material": "Acciaio e Titanio",
+        "metal": "Acciaio e Titanio",
+        "Diametro cassa": "42 mm",
+        "Movimento": "Meccanico Automatico Scheletrato Swiss Made Landeron DP 20",
+        "Funzioni": "Solo tempo scheletrato",
+        "Vetro": "Vetro zaffiro antigraffio e antiriflesso",
+        "Impermeabilità": "10 ATM",
+        "Quadrante": "Scheletrato Nero / Antracite",
+        "Origine": "Isola d'Elba · Calibro Swiss Made"
+      },
+      "tags": ["locman", "orologi", "uomo", "montecristo", "skeleton", "automatico", "swiss-made"],
+      "imageUrls": [
+        "https://www.locman.it/cdn/shop/files/0538A01S-00BKGYPK_frontaleV1.jpg?v=1781636149&width=1400"
+      ]
+    }
+  ]
+}
