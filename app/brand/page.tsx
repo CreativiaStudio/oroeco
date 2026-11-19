@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { PageHero } from "@/components/catalog/PageHero";
 import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
-import { getBrandLogoPath } from "@/lib/brandLogos";
+import { getBrandLogoCardOpticalClass, getBrandLogoPath } from "@/lib/brandLogos";
 import { getAllBrands } from "@/lib/catalog";
 import { getLiveAllApprovedProducts } from "@/lib/liveCatalog";
 
@@ -54,7 +54,7 @@ export default async function BrandPage({
                   <img
                     src={getBrandLogoPath(brand.slug)}
                     alt={brand.name}
-                    className="max-h-20 w-auto max-w-[210px] object-contain transition-transform duration-500 group-hover:scale-105 sm:max-h-24"
+                    className={`${getBrandLogoCardOpticalClass(brand.slug)} w-auto max-w-[200px] object-contain transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105`}
                   />
                 </div>
                 <p className="text-[0.65rem] uppercase tracking-[0.22em] text-[#9A7D43]">

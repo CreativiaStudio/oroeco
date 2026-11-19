@@ -63,3 +63,32 @@ export const brandLogoOpticalClass: Record<string, string> = {
 export function getBrandLogoOpticalClass(slug: string): string {
   return brandLogoOpticalClass[slug] ?? "h-[36px] sm:h-[44px]";
 }
+
+/**
+ * Classi di armonizzazione ottica dedicate alle card della pagina /brand
+ * e all'header di /brand/[slug]: stessa area visiva percepita tra wordmark larghi e stemmi verticali.
+ */
+export const brandLogoCardOpticalClass: Record<string, string> = {
+  guess: "h-[30px] sm:h-[34px]",
+  bulova: "h-[32px] sm:h-[36px]",
+  lladro: "h-[36px] sm:h-[40px]",
+  unoaerre: "h-[38px] sm:h-[42px]",
+  locman: "h-[38px] sm:h-[42px]",
+  nihama: "h-[40px] sm:h-[46px]",
+  golay: "h-[40px] sm:h-[46px]",
+  amen: "h-[42px] sm:h-[48px]",
+  stroili: "h-[44px] sm:h-[50px]",
+  "paul-picot": "h-[48px] sm:h-[54px]",
+  "gli-alberelli": "h-[50px] sm:h-[56px]",
+  "dana-oro-9-kt": "h-[50px] sm:h-[56px]",
+  gerba: "h-[56px] sm:h-[64px]",
+  "villeroy-boch": "h-[56px] sm:h-[64px]",
+  cuorematto: "h-[62px] sm:h-[70px]",
+  "davite-delucchi": "h-[60px] sm:h-[68px]",
+  ducati: "h-[62px] sm:h-[70px]",
+  "cammeo-italiano": "h-[68px] sm:h-[78px]",
+};
+
+export function getBrandLogoCardOpticalClass(slug: string): string {
+  return brandLogoCardOpticalClass[slug] ?? "h-[46px] sm:h-[52px]";
+}
