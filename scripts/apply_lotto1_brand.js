@@ -199,11 +199,11 @@ async function main() {
             item.sourceUrl
           );
           if (itemHashes.has(sha256)) continue;
-          if (imgIdx === 0 && seenPrimaryHashes.has(sha256)) {
+          if (imgIdx === 0 && seenPrimaryHashes.has(sha256) && item.allowSharedImage !== true) {
             throw new Error(`Duplicate primary image hash across products for ${item.sku}`);
           }
           itemHashes.add(sha256);
-          if (imgIdx === 0) seenPrimaryHashes.add(sha256);
+          if (imgIdx === 0 && item.allowSharedImage !== true) seenPrimaryHashes.add(sha256);
 
           imgIdx++;
           const key = `products/${payload.brandSlug}/${skuSlug}-${String(imgIdx).padStart(2, "0")}.webp`;

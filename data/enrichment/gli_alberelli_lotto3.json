@@ -1,0 +1,3375 @@
+{
+  "brandSlug": "gli-alberelli",
+  "brandId": "42a81a7c-3e36-4e28-80ab-dfba3e7d3a86",
+  "brandName": "Gli Alberelli",
+  "supplierName": "GLI ALBERELLI ITALIA SRLS",
+  "invoiceRef": "Fatture Gli Alberelli 2025-2026 (97, 102, 360)",
+  "items": [
+    {
+      "sku": "0159FBL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumina-frangipane-blu/?attribute_dimensioni=Piccola+-+%C3%B8+9+h+10",
+      "name": "Profumina Frangipane Blu — Piccola – ø 9 h 10",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Profumina dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 17.6,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0159FBL.jpg"
+      ]
+    },
+    {
+      "sku": "0159FG",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumina-frangipane-giallo/?attribute_dimensioni=Piccola+-+%C3%B8+9+h+10",
+      "name": "Profumina Frangipane Giallo — Piccola – ø 9 h 10",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Profumina dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 17.6,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0159FG.jpg"
+      ]
+    },
+    {
+      "sku": "0159FI",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumina-frangipane-indaco/?attribute_dimensioni=Piccola+-+%C3%B8+9+h+10",
+      "name": "Profumina Frangipane Indaco — Piccola – ø 9 h 10",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Profumina dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 17.6,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0159FI.jpg"
+      ]
+    },
+    {
+      "sku": "0159FL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumina-frangipane-lilla/?attribute_dimensioni=Piccola+-+%C3%B8+9+h+10",
+      "name": "Profumina Frangipane Lilla — Piccola – ø 9 h 10",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Profumina dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 17.6,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0159FL.jpg"
+      ]
+    },
+    {
+      "sku": "0160",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 6,
+      "supplierCost": 12.8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Profumatore Profumotta",
+      "shortDescription": "Profumatore Profumotta — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Profumatore Profumotta (Codice 0160). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PROFUMOTTA S1B K332).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 31,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0195",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 29,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Microprofumatore Mina Ass x 6",
+      "shortDescription": "Microprofumatore Mina Ass x 6 — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Microprofumatore Mina Ass x 6 (Codice 0195). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (MICROPROFUMINA ASS X 6).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 70,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0274A",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 9.5,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-arance/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Ambiente Arance Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Ambiente Arance Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 21,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0274A.jpg"
+      ]
+    },
+    {
+      "sku": "0274L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 9.5,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-limoni/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Ambiente Limoni Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore per ambiente in ceramica con decoro Limoni Vietri.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 21,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0274L.jpg"
+      ]
+    },
+    {
+      "sku": "0274PE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 9.5,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-peperoncino/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Ambiente Peperoncino Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Ambiente Peperoncino Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 21,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0274PE.jpg"
+      ]
+    },
+    {
+      "sku": "0276A",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-arance/?attribute_dimensione=Grande+-+%C3%B8+14+h+16",
+      "name": "Profumatore Ambiente Arance Grande (ø 14 h 16 cm)",
+      "shortDescription": "Profumatore Ambiente Arance Grande (ø 14 h 16 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 26.4,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0276A.jpg"
+      ]
+    },
+    {
+      "sku": "0276L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 12,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-limoni/?attribute_dimensione=Grande+-+%C3%B8+14+h+16",
+      "name": "Profumatore Ambiente Limoni Grande (ø 14 h 16 cm)",
+      "shortDescription": "Profumatore per ambiente in ceramica con decoro Limoni Vietri.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 26.4,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0276L.jpg"
+      ]
+    },
+    {
+      "sku": "0276LV",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 12,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Profumatore Limone/Vietri",
+      "shortDescription": "Profumatore Limone/Vietri — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Profumatore Limone/Vietri (Codice 0276LV). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PROFUMATORE LIMONE/VIETRI S2).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 29,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0276PE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 4,
+      "supplierCost": 12,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-peperoncino/?attribute_dimensione=Grande+-+%C3%B8+14+h+16",
+      "name": "Profumatore Ambiente Peperoncino Grande (ø 14 h 16 cm)",
+      "shortDescription": "Profumatore Ambiente Peperoncino Grande (ø 14 h 16 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 26.4,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0276PE.jpg"
+      ]
+    },
+    {
+      "sku": "0277C",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-calla/?attribute_dimensione=Grande+-+%C3%B8+14+h+19",
+      "name": "Profumatore Fiori Calla Grande (ø 14 h 19 cm)",
+      "shortDescription": "Profumatore Fiori Calla Grande (ø 14 h 19 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0277C.jpg"
+      ]
+    },
+    {
+      "sku": "0277F",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Profumatore Frangipane",
+      "shortDescription": "Profumatore Frangipane — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Profumatore Frangipane (Codice 0277F). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PROFUMATORE FRANGIPANE).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 36,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0277FC",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-campanelline/?attribute_dimensione=Grande+-+%C3%B8+14+h+19",
+      "name": "Profumatore Fiori Campanelline Celeste Grande (ø 14 h 19 cm)",
+      "shortDescription": "Profumatore Fiori Campanelline Celeste Grande (ø 14 h 19 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0277FC.jpg"
+      ]
+    },
+    {
+      "sku": "0277IR",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-iris/?attribute_dimensione=Grande+-+%C3%B8+14+h+19",
+      "name": "Profumatore Fiori Ibiscus Rosa / Iris Grande (ø 14 h 19 cm)",
+      "shortDescription": "Profumatore Fiori Ibiscus Rosa / Iris Grande (ø 14 h 19 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0277IR.jpg"
+      ]
+    },
+    {
+      "sku": "0277OR",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-ortensia/?attribute_dimensione=Grande+-+%C3%B8+14+h+19",
+      "name": "Profumatore Fiori Ortensia Grande (ø 14 h 19 cm)",
+      "shortDescription": "Profumatore Fiori Ortensia Grande (ø 14 h 19 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0277OR.jpg"
+      ]
+    },
+    {
+      "sku": "0278FC",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-campanelline/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Fiori Campanelline Celeste Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Fiori Campanelline Celeste Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 24,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0278FC.jpg"
+      ]
+    },
+    {
+      "sku": "0278IR",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-iris/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Fiori Ibiscus Rosa / Iris Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Fiori Ibiscus Rosa / Iris Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 24,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0278IR.jpg"
+      ]
+    },
+    {
+      "sku": "0278R",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-rosa/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Fiori Rosa Rossa Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Fiori Rosa Rossa Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 24,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0278R.jpg"
+      ]
+    },
+    {
+      "sku": "0278T",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiori-tulipani/?attribute_dimensione=Piccola+-+%C3%B8+12+h+13",
+      "name": "Profumatore Fiori Tulipani Piccolo (ø 12 h 13 cm)",
+      "shortDescription": "Profumatore Fiori Tulipani Piccolo (ø 12 h 13 cm) — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 24,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0278T.jpg"
+      ]
+    },
+    {
+      "sku": "0285",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.3,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumo-ambiente-positano-piccolo-copia/?attribute_dimensioni=9%2C5+%C3%97+11%2C5+cm",
+      "name": "Profumatore Ambiente Decoro Positano Medio (9,5 × 11,5 cm)",
+      "shortDescription": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , rivela sfumature vivaci e tonalità terrose che ricordano i colori del mare di Positano, del cielo al tramonto e della vegetazione lussureggiante. Le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "description": "Profumatore per ambiente in ceramica con decoro Positano, misura Piccola. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 29.5,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/04/2.jpg"
+      ]
+    },
+    {
+      "sku": "0286",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 3,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumo-ambiente-positano-piccolo-copia/?attribute_dimensioni=14+%C3%97+13+cm",
+      "name": "Profumatore Ambiente Decoro Positano Grande (14 × 13 cm)",
+      "shortDescription": "Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , rivela sfumature vivaci e tonalità terrose che ricordano i colori del mare di Positano, del cielo al tramonto e della vegetazione lussureggiante. Le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "description": "Profumatore per ambiente in ceramica con decoro Positano, misura Piccola. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 42.5,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/09/0286-546x546-2.jpg"
+      ]
+    },
+    {
+      "sku": "0811A",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6.8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/sfera-prato-con-farfalle-arancio/?attribute_dimensioni=Piccola+-+%C3%B8+7+h+9",
+      "name": "Sfera Prato con Farfalle Arancio — Piccola – ø 7 h 9",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Sfera Prato con Farfalle dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0811A.jpg"
+      ]
+    },
+    {
+      "sku": "0811V",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6.8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/sfera-prato-con-farfalle-verde/?attribute_dimensioni=Piccola+-+%C3%B8+7+h+9",
+      "name": "Sfera Prato con Farfalle Verde — Piccola – ø 7 h 9",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Sfera Prato con Farfalle dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0811V.jpg"
+      ]
+    },
+    {
+      "sku": "0812F",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/sfera-prato-con-farfalle-fucsia/?attribute_dimensioni=Grande+-+%C3%B8+9+h+12",
+      "name": "Sfera Prato con Farfalle Fucsia — Grande – ø 9 h 12",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Sfera Prato con Farfalle dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 24.2,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0812F.jpg"
+      ]
+    },
+    {
+      "sku": "0812V",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 11,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/sfera-prato-con-farfalle-verde/?attribute_dimensioni=Grande+-+%C3%B8+9+h+12",
+      "name": "Sfera Prato con Farfalle Verde — Grande – ø 9 h 12",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano. Un singolare complemento d’arredo | Una originale idea regalo.",
+      "description": "Sfera Prato con Farfalle dal profumo inconfondibile, è adatta ad ogni ambiente. Il profumo è incluso nella confezione. Disponibile anche in altre colorazioni.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 24.2,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0812V.jpg"
+      ]
+    },
+    {
+      "sku": "0818C",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 40,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Cespuglio Calle Base 10x10",
+      "shortDescription": "Cespuglio Calle Base 10x10 — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Cespuglio Calle Base 10x10 (Codice 0818C). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CESPUGLIO CALLE BASE 10X10 S11).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 96,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0819C",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Cespuglio Calle Base 7x7",
+      "shortDescription": "Cespuglio Calle Base 7x7 — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Cespuglio Calle Base 7x7 (Codice 0819C). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CESPUGLIO CALLE BASE 7X7 S1B).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 60,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0899C",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-calla/",
+      "name": "Pianta Natura mignon Calla",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Calla (Codice 0899C). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON CALLA).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Calla.jpg"
+      ]
+    },
+    {
+      "sku": "0899CM",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-campanula/",
+      "name": "Pianta Natura mignon Campanula",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Campanula (Codice 0899CM). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON CAMPANU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Campanula-1.jpg"
+      ]
+    },
+    {
+      "sku": "0899E",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-elleboro/",
+      "name": "Pianta Natura mignon Elleboro",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Elleboro (Codice 0899E). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON ELLEBOR).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Elleboro-1.jpg"
+      ]
+    },
+    {
+      "sku": "0899F",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 4,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-frangipane/",
+      "name": "Piantina Natura Mignon Frangipane",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura Frangipane Lilla — Piccola. Creazione artigianale in porcellana di Capodimonte dipinta a mano firmata Gli Alberelli (Ref. 0899F).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "dimensions": "6 &times; 6 &times; 14 cm",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0899FG.jpg"
+      ]
+    },
+    {
+      "sku": "0899FA",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-arancio/",
+      "name": "Pianta Natura mignon Arancio",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Arancio (Codice 0899FA). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON F.ARANC).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Fiore-Arancio-1.jpg"
+      ]
+    },
+    {
+      "sku": "0899GC",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-giacinto/",
+      "name": "Pianta Natura mignon Giacinto",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Giacinto (Codice 0899GC). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON GIACINT).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Giacinto.jpg"
+      ]
+    },
+    {
+      "sku": "0899GL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-giglio/",
+      "name": "Pianta Natura mignon Giglio",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Giglio (Codice 0899GL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON GIGLIO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Giglio.jpg"
+      ]
+    },
+    {
+      "sku": "0904TB",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-media-con-fiore-tulipano-bianco/?attribute_dimensioni=Media",
+      "name": "Pianta media con fiore Tulipano Bianco — : Media",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta media con fiore Tulipano Bianco — : Media (Codice 0904TB). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NAT.2FIORI TULIP BIAN).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0904TB.jpg"
+      ]
+    },
+    {
+      "sku": "0904TBL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-media-con-fiore-tulipano-blu/?attribute_dimensioni=Media",
+      "name": "Pianta media con fiore Tulipano Blu — : Media",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta media con fiore Tulipano Blu — : Media (Codice 0904TBL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NAT.2 FIORI TULIP BLU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0904TBL.jpg"
+      ]
+    },
+    {
+      "sku": "0904TC",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-media-con-fiore-tulipano-celeste/?attribute_dimensioni=Media",
+      "name": "Pianta media con fiore Tulipano Celeste — : Media",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta media con fiore Tulipano Celeste — : Media (Codice 0904TC). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NAT.2FIORI TULIP CELE).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0904TC.jpg"
+      ]
+    },
+    {
+      "sku": "0904TF",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-media-con-fiore-tulipano-fuxia/?attribute_dimensioni=Media",
+      "name": "Pianta media con fiore Tulipano Fuxia — : Media",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta media con fiore Tulipano Fuxia — : Media (Codice 0904TF). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTA NAT.2 FIORI TULIP.ROSA).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0904TF.jpg"
+      ]
+    },
+    {
+      "sku": "0914BL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-piantina-foglia-ortensia-blu/",
+      "name": "Piantina foglia Ortensia – Blu",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina foglia Ortensia di colore Blu. Disponibile anche in diversi altri colori.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 36.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0914-Blu-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "0914C",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-piantina-foglia-ortensia-celeste/",
+      "name": "Piantina foglia Ortensia – Celeste",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina foglia Ortensia di colore Celeste. Disponibile anche in diversi altri colori.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 36.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0914-BA-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "0914F",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-piantina-foglia-ortensia-rosa/",
+      "name": "Piantina foglia Ortensia – Rosa",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina foglia Ortensia di colore Rosa. Disponibile anche in diversi altri colori.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 36.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0914-Rosa-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "0914R",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-piantina-foglia-ortensia-bianco/",
+      "name": "Piantina foglia Ortensia – Bianco",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina foglia Ortensia di colore bianco. Disponibile anche in diversi altri colori.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 36.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0914-Bianco-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "0918BL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 24,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-base-trasparente-blu/?attribute_dimensioni=Media+-+%C3%B8+11+h+11",
+      "name": "Scultura Ortensia con Base Trasparente Blu Media (ø 11 h 11 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Fiore ortensia con base bianca. Un complemento d’arredo che sembra fiorire come una vera ortensia. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 58.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0918bl.jpg"
+      ]
+    },
+    {
+      "sku": "0918F",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-base-trasparente-fucsia/?attribute_dimensioni=Media+-+%C3%B8+11+h+11",
+      "name": "Scultura Ortensia con Base Trasparente Rosa / Fucsia Media (ø 11 h 11 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Fiore ortensia con base bianca. Un complemento d’arredo che sembra fiorire come una vera ortensia. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 58.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0918f.jpg"
+      ]
+    },
+    {
+      "sku": "0919BL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 13.5,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-base-trasparente-blu/?attribute_dimensioni=Piccola+-+%C3%B8+7+h+9",
+      "name": "Scultura Ortensia con Base Trasparente Blu Piccola (ø 7 h 9 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Fiore ortensia con base bianca. Un complemento d’arredo che sembra fiorire come una vera ortensia. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0919BL.jpg"
+      ]
+    },
+    {
+      "sku": "0919C",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 13.5,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-base-trasparente-celeste/?attribute_dimensioni=Piccola+-+%C3%B8+7+h+9",
+      "name": "Scultura Ortensia con Base Trasparente Celeste Piccola (ø 7 h 9 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Fiore ortensia con base bianca. Un complemento d’arredo che sembra fiorire come una vera ortensia. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0919C.jpg"
+      ]
+    },
+    {
+      "sku": "0919L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.5,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-base-trasparente-lilla/?attribute_dimensioni=Piccola+-+%C3%B8+7+h+9",
+      "name": "Scultura Ortensia con Base Trasparente Lilla Piccola (ø 7 h 9 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Fiore ortensia con base bianca. Un complemento d’arredo che sembra fiorire come una vera ortensia. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 33,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0919V.jpg"
+      ]
+    },
+    {
+      "sku": "0920BL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 70,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-lampada-ortensia-cm-18-base-e-paralume-blu/",
+      "name": "Lampada Ortensia cm 18 + base e paralume – Blu",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Lampada Ortensia composta dalla base bianca e dal paralume abbinato al fiore. E’ una lampada che regala un’atmosfera sobria, quella giusta per creare uno stile unico alla tua casa.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 169.4,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/0920BL.jpg"
+      ]
+    },
+    {
+      "sku": "1101SB",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/cuori-cuore-con-frase-bianco/?attribute_dimensioni=1101+-+7+x+h+7+cm",
+      "name": "Cuore con Frase Bianco — : 1101 – 7 x h 7 cm",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Cuore grande disponibile nelle sue tante varianti di colore: bianco, blu, celeste, rosa, giallo, nero, rosso, tortora e verde. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 12.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/1101SB.jpg"
+      ]
+    },
+    {
+      "sku": "1101SBL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/cuori-cuore-con-frase-blu/?attribute_dimensioni=1101+-+7+x+h+7+cm",
+      "name": "Cuore con Frase Blu — : 1101 – 7 x h 7 cm",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Cuore grande disponibile nelle sue tante varianti di colore: bianco, blu, celeste, rosa, giallo, nero, rosso, tortora e verde. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 12.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/1101SBL.jpg"
+      ]
+    },
+    {
+      "sku": "1101SR",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/cuori-cuore-con-frase-rosso/?attribute_dimensioni=1101+-+7+x+h+7+cm",
+      "name": "Cuore con Frase Rosso — : 1101 – 7 x h 7 cm",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Cuore grande disponibile nelle sue tante varianti di colore: bianco, blu, celeste, rosa, giallo, nero, rosso, tortora e verde. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 12.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/1101SR.jpg"
+      ]
+    },
+    {
+      "sku": "1101SV",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/cuori-cuore-con-frase-verde/?attribute_dimensioni=1101+-+7+x+h+7+cm",
+      "name": "Cuore con Frase Verde — : 1101 – 7 x h 7 cm",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Cuore grande disponibile nelle sue tante varianti di colore: bianco, blu, celeste, rosa, giallo, nero, rosso, tortora e verde. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 12.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/1101SV.jpg"
+      ]
+    },
+    {
+      "sku": "7701BL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8.3,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Blu",
+      "name": "Corno Portafortuna Piccolo Blu (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-BL-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7701BX",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 5,
+      "supplierCost": 8.3,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Bordeaux",
+      "name": "Corno Portafortuna Piccolo Bordeaux (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-BX-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7701R",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 5,
+      "supplierCost": 8.3,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Rosso",
+      "name": "Corno Portafortuna Piccolo Rosso (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-R-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7701T",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 8.3,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Tortora",
+      "name": "Corno Portafortuna Piccolo Tortora (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-T-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7701V",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8.3,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Verde",
+      "name": "Corno Portafortuna Piccolo Verde (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-V-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7702BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Bordeaux",
+      "shortDescription": "Corno Medio Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Bordeaux (Codice 7702BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704B",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 17.6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno A 34 cm Bianco",
+      "shortDescription": "Corno A 34 cm Bianco — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno A 34 cm Bianco (Codice 7704B). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO A 34 CM BIANCO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 3,
+      "supplierCost": 17.6,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Bordeaux",
+      "shortDescription": "Corno 34 cm Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Bordeaux (Codice 7704BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 17.6,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Rosso",
+      "shortDescription": "Corno 34 cm Rosso — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Rosso (Codice 7704R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM ROSSO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704T",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 17.6,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Tortora",
+      "shortDescription": "Corno 34 cm Tortora — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Tortora (Codice 7704T). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM TORTORA).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7717",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/profumatore-fiamma-18-cm/",
+      "name": "Profumatore Ambiente Fiamma Rosso (18 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Profumatore collezione fiamma, prodotto artigianale, fatto a mano dai nostri ceramisti.",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 70.4,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/7717.jpg"
+      ]
+    },
+    {
+      "sku": "AL12L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 16,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-ricco-limone/?attribute_dimensione=%C3%B8+8+h+15+cm",
+      "name": "Alberello Ricco di Limoni in Porcellana (ø 8 h 15 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Ricco di Limoni in Porcellana (ø 8 h 15 cm) (Codice AL12L). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H15 LIMONI).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 38.72,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/alberelli2026s_10.jpg"
+      ]
+    },
+    {
+      "sku": "AL12PE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 16,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-ricco-peperoncino/?attribute_dimensione=%C3%B8+8+h+15+cm",
+      "name": "Alberello Ricco di Peperoncini in Porcellana (ø 8 h 15 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Ricco di Peperoncini in Porcellana (ø 8 h 15 cm) (Codice AL12PE). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H15 PEPER).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 38.72,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/AL12PE.jpg"
+      ]
+    },
+    {
+      "sku": "AL13L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 31,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-ricco-limone/?attribute_dimensione=%C3%B8+12+h+19+cm",
+      "name": "Alberello Ricco di Limoni in Porcellana (ø 12 h 19 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Ricco di Limoni in Porcellana (ø 12 h 19 cm) (Codice AL13L). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H 19 LIMONI).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 74.8,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/alberelli2026s_11.jpg"
+      ]
+    },
+    {
+      "sku": "AL13PE",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 31,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Albero Ricco H19 Peperoncinooncino",
+      "shortDescription": "Albero Ricco H19 Peperoncinooncino — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Albero Ricco H19 Peperoncinooncino (Codice AL13PE). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H19 PEPERONCINO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 74,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "AL14L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 46,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-ricco-limone/?attribute_dimensione=%C3%B8+16+h+27+cm",
+      "name": "Alberello Ricco di Limoni in Porcellana (ø 16 h 27 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Ricco di Limoni in Porcellana (ø 16 h 27 cm) (Codice AL14L). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H 27 LIMONI).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 111.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/alberelli2026s_9.jpg"
+      ]
+    },
+    {
+      "sku": "AL14PE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 46,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-ricco-peperoncino/?attribute_dimensione=%C3%B8+16+h+27+cm",
+      "name": "Alberello Ricco di Peperoncini in Porcellana (ø 16 h 27 cm)",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Ricco di Peperoncini in Porcellana (ø 16 h 27 cm) (Codice AL14PE). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERO RICCO H27 PEPER.).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 111.1,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2026/05/AL14PEjpg.jpg"
+      ]
+    },
+    {
+      "sku": "AL1A",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/gli-alberelli-alberello-allegro-mignon-arancio/?attribute_dimensioni=6+%C3%97+11+cm",
+      "name": "Alberello Allegro Arancio in Porcellana (6 × 11 cm)",
+      "shortDescription": "Sanno regalare alla tua casa quel tocco di natura pura tutto l’anno. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Alberello Allegro Arancio in Porcellana (6 × 11 cm) (Codice AL1A). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ALBERELLO ALLEGRO ARANCIO S1 E).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/09/AL1A-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "AL1L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://bonbonstore.it/prodotto/gli-alberelli-alberello-allegro-mignon-limone/",
+      "name": "Alberello Allegro Limoni Mignon in Porcellana",
+      "shortDescription": "La collezione presenta tutti i fiori della linea, rigorosamente in ceramica di Capodimonte dipinta a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. DIMENSIONE: 6 X 6 X 11 H",
+      "description": "Bomboniera completa di scatola regalo ed essenza profumata Collezione bomboniere Gli Alberelli Marchio di eccellenza nel settore bomboniera e home decor. Da anni ormai punto di riferimento per gli appassionati della ceramica di Capodimonte, quest’ultima rivisitata in chiave moderna. Con le sue numerose collezione ci regala articoli unici, con un pizzico di colore capace di arricchire ogni ambiente. La collezione presenta varie riproduzioni di alberi di: limone, arancio, melo, pero, peperoncino, olivo e per i più romantici albero di cuori. Tutti rigorosamente in ceramica di Capodimonte, dipinti a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. La collezione presenta tutti i fiori della linea, rigorosamente in ceramica di Capodimonte dipinta a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. Aggiungi alla Wishlist",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 26.5,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://bonbonstore.it/wp-content/uploads/2024/10/AL1L-1.webp"
+      ]
+    },
+    {
+      "sku": "AL1LFV",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 19.4,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": "https://www.glialberelli.it/?post_type=product&p=2840&attribute_dimensioni=7%C3%9711+cm",
+      "name": "Alberello Allegro Limoni e Fiori Decoro Positano (7 × 11 cm)",
+      "shortDescription": "ALBERELLO ALLEGRO — : 7×11 cm in porcellana artistica di Capodimonte Gli Alberelli.",
+      "description": "ALBERELLO ALLEGRO — : 7×11 cm. Creazione artigianale in porcellana di Capodimonte dipinta a mano firmata Gli Alberelli (Ref. AL1LFV).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42.5,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/09/AL1-LFV-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "AL1PE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 12.1,
+      "invoiceRef": "G ALBERELLI.pdf, IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://bonbonstore.it/prodotto/gli-alberelli-alberello-allegro-mignon-peperoncino/",
+      "name": "Alberello Allegro Peperoncini Mignon in Porcellana",
+      "shortDescription": "La collezione presenta tutti i fiori della linea, rigorosamente in ceramica di Capodimonte dipinta a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. DIMENSIONE: 6 X 6 X 11 H",
+      "description": "Bomboniera completa di scatola regalo ed essenza profumata Collezione bomboniere Gli Alberelli Marchio di eccellenza nel settore bomboniera e home decor. Da anni ormai punto di riferimento per gli appassionati della ceramica di Capodimonte, quest’ultima rivisitata in chiave moderna. Con le sue numerose collezione ci regala articoli unici, con un pizzico di colore capace di arricchire ogni ambiente. La collezione presenta varie riproduzioni di alberi di: limone, arancio, melo, pero, peperoncino, olivo e per i più romantici albero di cuori. Tutti rigorosamente in ceramica di Capodimonte, dipinti a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. La collezione presenta tutti i fiori della linea, rigorosamente in ceramica di Capodimonte dipinta a mano, disponibili in diverse misure. Gli articoli gli alberelli possono essere; un ottimo regalo per un buon augurio, soprammobili per arredare la tua casa o la bomboniera perfetta per la tua cerimonia. Aggiungi alla Wishlist",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 26.5,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://bonbonstore.it/wp-content/uploads/2024/10/AL1PE.webp"
+      ]
+    },
+    {
+      "sku": "K1978",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.66,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Kit 8pz Calamita Fiori/Frutti",
+      "shortDescription": "Kit 8pz Calamita Fiori/Frutti — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Kit 8pz Calamita Fiori/Frutti (Codice K1978). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (KIT 8PZ CALAMITA FIORI/FRUTTI).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 93,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "K899T",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 64,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Kit 8pz.Piantina Nat.Tulipani",
+      "shortDescription": "Kit 8pz.Piantina Nat.Tulipani — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Kit 8pz.Piantina Nat.Tulipani (Codice K899T). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (KIT 8PZ.PIANTINA NAT.TULIPANI).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 154,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG21B",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 13.2,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno Piccolo Pigna Bianco",
+      "shortDescription": "Corno Piccolo Pigna Bianco — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Piccolo Pigna Bianco (Codice PG21B). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO PICCOLO PIGNA BIANCO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 32,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG21BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 13.2,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno Piccolo Pigna Bordeaux",
+      "shortDescription": "Corno Piccolo Pigna Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Piccolo Pigna Bordeaux (Codice PG21BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO PICCOLO PIGNA BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 32,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG21R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 13.2,
+      "invoiceRef": "G ALBERELLI.pdf",
+      "sourceUrl": null,
+      "name": "Corno Piccolo Pigna Rosso",
+      "shortDescription": "Corno Piccolo Pigna Rosso — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Piccolo Pigna Rosso (Codice PG21R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO PICCOLO PIGNA ROSSO S1B).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 32,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704BL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 17.6,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Blu",
+      "shortDescription": "Corno 34 cm Blu — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Blu (Codice 7704BL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM BLU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702BL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Blu",
+      "shortDescription": "Corno Medio Blu — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Blu (Codice 7702BL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO BLU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7703R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 66,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grande Rosso",
+      "shortDescription": "Corno Grande Rosso — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grande Rosso (Codice 7703R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GRANDE ROSSO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 158,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG21",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 8,
+      "supplierCost": 13.2,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Piccolo Pigna",
+      "shortDescription": "Corno Piccolo Pigna — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Piccolo Pigna (Codice PG21). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO PICCOLO PIGNA S1B).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 32,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG22R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Pigna Rosso",
+      "shortDescription": "Corno Medio Pigna Rosso — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Pigna Rosso (Codice PG22R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO PIGNA ROSSO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG22BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Pigna Bordeaux",
+      "shortDescription": "Corno Medio Pigna Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Pigna Bordeaux (Codice PG22BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO PIGNA BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG22T",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Pigna Tortora",
+      "shortDescription": "Corno Medio Pigna Tortora — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Pigna Tortora (Codice PG22T). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO PIGNA TORTORA).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG23BL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 49.5,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grande Pigna Blu",
+      "shortDescription": "Corno Grande Pigna Blu — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grande Pigna Blu (Codice PG23BL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GRANDE PIGNA BLU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 119,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG23BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 49.5,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grande Pigna Bordeaux",
+      "shortDescription": "Corno Grande Pigna Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grande Pigna Bordeaux (Codice PG23BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GRANDE PIGNA BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 119,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG24BX",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 88,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf, IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grandissimo Pigna Bordeaux",
+      "shortDescription": "Corno Grandissimo Pigna Bordeaux — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grandissimo Pigna Bordeaux (Codice PG24BX). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GR.ISSMO PIGNA BORDEAUX).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 211,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG24V",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 88,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grandissimo Pigna Verde",
+      "shortDescription": "Corno Grandissimo Pigna Verde — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grandissimo Pigna Verde (Codice PG24V). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GR.ISSMO PIGNA VERDE).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 211,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0287",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 14,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/scatola-con-decoro-positano-copia/",
+      "name": "Scatola Contenitore Decoro Positano in Ceramica",
+      "shortDescription": "Scatola in ceramica con decoro Positano. Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Porta in casa tua il fascino senza tempo della Costiera Amalfitana con la Piantina Amica Cactus , un capolavoro artigianale della raffinata collezione Positano. Realizzata in grandi dimensioni per diventare il fulcro di qualsiasi ambiente, questa creazione unisce l’eleganza rustica del Mediterraneo al design contemporaneo, donando un tocco di natura sofisticata e senza tempo. Ogni esemplare è fabbricato a mano con materiali di alta qualità, plasmato da abili artigiani che ne curano ogni dettaglio, dalla forma organica alle spine delicatamente modellate. La superficie, interamente dipinta a mano , rivela sfumature vivaci e tonalità terrose che ricordano i colori del mare di Positano, del cielo al tramonto e della vegetazione lussureggiante. Le pennellate sapienti creano effetti di luce e profondità, rendendo ogni pezzo unico e irripetibile.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 37,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/04/1.jpg"
+      ]
+    },
+    {
+      "sku": "0276",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 12,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Profumatore Limone/Vietri",
+      "shortDescription": "Profumatore Limone/Vietri — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Profumatore Limone/Vietri (Codice 0276). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PROFUMATORE LIMONE/VIETRI S2).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 29,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0899I",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 8,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-mignon-ibiscus/",
+      "name": "Pianta Natura mignon Ibiscus",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura mignon Ibiscus (Codice 0899I). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PIANTINA NATURA MIGNON IBISCUS).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 19.25,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Ibiscus.jpg"
+      ]
+    },
+    {
+      "sku": "0916CP",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-piantina-multifiori-fiore-campanula/",
+      "name": "Piantina Multifiori Fiore Campanula",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina multifiori con decoro fiore Campanula Auspica alla primavera, una piantina che porta l’allegria dei colori e la bellezza dei fiori campestri. Adatta ad ogni ambiente ed un’ottima idea regalo e bomboniera.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0917-GL-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "0904G",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.1,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/piante-natura-pianta-natura-2-fiori-girasole/",
+      "name": "Pianta Natura 2 Fiori Girasole",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Pianta Natura 2 Fiori Girasole disponibile in diverse varianti di fiori. Ancora più ricca, la Pianta Natura 2 Fiori regalerà colori e freschezza all’ambiente che la ospiterà!",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 29.15,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/Girasole-1.jpg"
+      ]
+    },
+    {
+      "sku": "0295",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 18.2,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Profumatore Ambiente Medio Fiori",
+      "shortDescription": "Profumatore Ambiente Medio Fiori — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Profumatore Ambiente Medio Fiori (Codice 0295). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (PROFUMAMB. MEDIO FIORI S2).",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 44,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0160GL",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.8,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://grecohome.it/product/gli-alberelli-profumotta-giglio/",
+      "name": "Profumatore Ambiente Profumotta Giglio",
+      "shortDescription": "GLI ALBERELLI PROFUMOTTA GIGLIO — porcellana di Capodimonte Gli Alberelli.",
+      "description": "GLI ALBERELLI PROFUMOTTA GIGLIO La Profumotta Giglio, dalle dimensioni più grandi de Le Profumine, impone il suo gradevole profumo ovunque venga poggiata. Adatta a tutti gli ambienti, è disponibile in vari decori. Fabbricato artigianalmente ed interamente dipinto a mano. Adatto come Bomboniera oppure Oggettistica d’arredo. Certificato di garanzia incluso. DIMENSIONI 12 X 12 14 CM",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 28,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://grecohome.it/wp-content/uploads/2024/01/0160GL.jpeg"
+      ]
+    },
+    {
+      "sku": "0160GE",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 12.8,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": "https://grecohome.it/product/gli-alberelli-profumotta-gerbera/",
+      "name": "Profumatore Ambiente Profumotta Gerbera",
+      "shortDescription": "GLI ALBERELLI PROFUMOTTA GERBERA — porcellana di Capodimonte Gli Alberelli.",
+      "description": "GLI ALBERELLI PROFUMOTTA GERBERA La Profumotta Gerbera, dalle dimensioni più grandi de Le Profumine, impone il suo gradevole profumo ovunque venga poggiata. Adatta a tutti gli ambienti, è disponibile in vari decori. Fabbricato artigianalmente ed interamente dipinto a mano. Adatto come Bomboniera oppure Oggettistica d’arredo. Certificato di garanzia incluso. DIMENSIONI 12 X 12 14 CM",
+      "category": "casa",
+      "subcategory": "profumatori",
+      "subcategoryLabel": "Profumatori d'Ambiente",
+      "price": 28,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Profumatori d'Ambiente"
+      ],
+      "imageUrls": [
+        "https://grecohome.it/wp-content/uploads/2024/01/0160GE.jpeg"
+      ]
+    },
+    {
+      "sku": "0918R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 24,
+      "invoiceRef": "IT01879020517A2025_bsOvQ.pdf",
+      "sourceUrl": null,
+      "name": "Ortensiasia Bianco cm 13",
+      "shortDescription": "Ortensiasia Bianco cm 13 — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ortensiasia Bianco cm 13 (Codice 0918R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ORTENSIA BIANCA CM 13 B10).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 58,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7701",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 8,
+      "supplierCost": 8.3,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Piccolo Monocolore",
+      "shortDescription": "Corno Piccolo Monocolore — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Piccolo Monocolore (Codice 7701). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO PICCOLO MONOCOLORE S1B).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Rosso",
+      "shortDescription": "Corno Medio Rosso — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Rosso (Codice 7702R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO ROSSO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702B",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Bianco",
+      "shortDescription": "Corno Medio Bianco — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Bianco (Codice 7702B). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO BIANCO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702N",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-medio/?attribute_colore=Nero",
+      "name": "Corno Portafortuna Medio Nero",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Disponibile in vari colori. Non lasciartelo scappare!",
+      "description": "Corno medio monocolore disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92.95,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-N-546x546-1.jpeg"
+      ]
+    },
+    {
+      "sku": "PG24R",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 88,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/pigne-corno-grandissimo-pigna/",
+      "name": "Corno Grandissimo Pigna Portafortuna Rosso",
+      "shortDescription": "La Pigna non può mancare nella casa di chi auspica alla buona sorte, prosperità e buona salute. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno dalle grandissime dimensioni con base pigna, disponibile in diverse varianti di colori. Prodotto artigianale, fatto a mano dai nostri ceramisti.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 212.85,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/PG-24-R-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "7702V",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Verde",
+      "shortDescription": "Corno Medio Verde — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Verde (Codice 7702V). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO VERDE).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704N",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 17.6,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Nero",
+      "shortDescription": "Corno 34 cm Nero — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Nero (Codice 7704N). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM NERO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7704G",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 17.6,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno 34 cm Giallo",
+      "shortDescription": "Corno 34 cm Giallo — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno 34 cm Giallo (Codice 7704G). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO 34 CM GIALLO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 42,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702T",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Tortora",
+      "shortDescription": "Corno Medio Tortora — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Tortora (Codice 7702T). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO TORTORA).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7702G",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-medio/",
+      "name": "Corno Portafortuna Medio Giallo",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Disponibile in vari colori. Non lasciartelo scappare!",
+      "description": "Corno medio monocolore disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 92.95,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7702-G-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "PG22BL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Pigna Blu",
+      "shortDescription": "Corno Medio Pigna Blu — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Pigna Blu (Codice PG22BL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO PIGNA BLU).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG22V",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Medio Pigna Verde",
+      "shortDescription": "Corno Medio Pigna Verde — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Medio Pigna Verde (Codice PG22V). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO MEDIO PIGNA VERDE).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PG22G",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 37.4,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/pigne-corno-medio-pigna/",
+      "name": "Corno Medio Pigna Portafortuna Giallo",
+      "shortDescription": "La Pigna non può mancare nella casa di chi auspica alla buona sorte, prosperità e buona salute. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno dalle medie dimensioni con base pigna, disponibile in diverse varianti di colori. Prodotto artigianale, fatto a mano dai nostri ceramisti.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 90.75,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/PG-22-G-546x546-1.png"
+      ]
+    },
+    {
+      "sku": "PG24G",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 88,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grandissimo Pigna Giallo",
+      "shortDescription": "Corno Grandissimo Pigna Giallo — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grandissimo Pigna Giallo (Codice PG24G). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO GR.ISSMO PIGNA GIALLO).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 211,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "0914L",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 15,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/ortensia-piantina-foglia-ortensia-lilla/",
+      "name": "Piantina foglia Ortensia – Lilla",
+      "shortDescription": "Fabbricato artigianalmente ed interamente dipinto a mano.",
+      "description": "Piantina foglia Ortensia di colore Lilla. Disponibile anche in diversi altri colori.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 36.3,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/0194-Lilla-546x546-1.jpg"
+      ]
+    },
+    {
+      "sku": "0919R",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 13.5,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Ortensiasia Bianco Piccola Base 7cm",
+      "shortDescription": "Ortensiasia Bianco Piccola Base 7cm — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Ortensiasia Bianco Piccola Base 7cm (Codice 0919R). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (ORTENSIA BIA PICCOLA BASE 7CM).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 32,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "7701B",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 32,
+      "supplierCost": 8.3,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": "https://www.glialberelli.it/prodotto/corni-corno-piccolo/?attribute_colore=Bianco",
+      "name": "Corno Portafortuna Piccolo Bianco (20 cm)",
+      "shortDescription": "Sempre in ceramica e dipinto a mano dai nostri artigiani, è un’ottima idea regalo soprattutto per gli amanti della tradizione. Scoprile tutte, nelle sue diverse dimensioni e colori!",
+      "description": "Corno piccolo monocolore bianco disponibile in diverse varianti di colori, adatto ad ogni ambiente.",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 20.35,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": false
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": [
+        "https://www.glialberelli.it/wp-content/uploads/2025/07/7701-B-546x546-1.jpeg"
+      ]
+    },
+    {
+      "sku": "PG24BL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 88,
+      "invoiceRef": "IT01879020517A2025_ddWFX.pdf",
+      "sourceUrl": null,
+      "name": "Corno Grandissimo Pigna Blu",
+      "shortDescription": "Corno Grandissimo Pigna Blu — porcellana artistica di Capodimonte Gli Alberelli dipinta a mano.",
+      "description": "Corno Grandissimo Pigna Blu (Codice PG24BL). Creazione artigianale in porcellana e ceramica artistica di Capodimonte interamente modellata e dipinta a mano dai maestri artigiani Gli Alberelli (CORNO (gia ritirato)).",
+      "category": "casa",
+      "subcategory": "statue",
+      "subcategoryLabel": "Complementi e Sculture",
+      "price": 211,
+      "attributes": {
+        "material": "Porcellana artistica di Capodimonte dipinta a mano",
+        "soloCassa": true
+      },
+      "tags": [
+        "Gli Alberelli",
+        "Capodimonte",
+        "Complementi e Sculture"
+      ],
+      "imageUrls": []
+    }
+  ]
+}
