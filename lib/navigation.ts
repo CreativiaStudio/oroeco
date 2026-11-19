@@ -48,12 +48,12 @@ export const mainNav: NavItem[] = [
     href: "/gioielli",
     columns: [
       {
-        heading: "Gioielli",
+        heading: "Sottocategorie",
         links: [
           { label: "Anelli", href: "/gioielli?sub=anelli" },
+          { label: "Bracciali", href: "/gioielli?sub=bracciali" },
           { label: "Collane", href: "/gioielli?sub=collane" },
           { label: "Orecchini", href: "/gioielli?sub=orecchini" },
-          { label: "Bracciali", href: "/gioielli?sub=bracciali" },
           {
             label: "Ciondoli e Componenti",
             href: "/gioielli?sub=ciondoli",
@@ -62,10 +62,10 @@ export const mainNav: NavItem[] = [
       },
     ],
     featured: {
-      eyebrow: "Alta Gioielleria",
-      title: "Diamanti & Oro 18 kt",
+      eyebrow: "Gioielleria",
+      title: "Oro, Perle & Luce",
       description:
-        "Solitari, verette e trilogy selezionati con perizia gemmologica.",
+        "Stroili, Unoaerre, Gerba, Guess e Nihama selezionati dalla nostra Gioielleria.",
       href: "/gioielli",
       cta: "Scopri la collezione",
       image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-3.jpg",
@@ -76,10 +76,10 @@ export const mainNav: NavItem[] = [
     href: "/orologi",
     columns: [
       {
-        heading: "Alta Orologeria",
+        heading: "Sottocategorie",
         links: [
-          { label: "Uomo", href: "/orologi?sub=uomo" },
-          { label: "Donna", href: "/orologi?sub=donna" },
+          { label: "Orologi Uomo", href: "/orologi?sub=uomo" },
+          { label: "Orologi Donna", href: "/orologi?sub=donna" },
         ],
       },
     ],
@@ -87,10 +87,10 @@ export const mainNav: NavItem[] = [
       eyebrow: "Alta Orologeria",
       title: "Segnatempo d'Autore",
       description:
-        "Bulova, Locman e Paul Picot: meccanica svizzera e design italiano.",
+        "Bulova, Locman, Paul Picot e Guess: meccanica svizzera e design italiano.",
       href: "/orologi",
       cta: "Esplora gli orologi",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/category-orologi.jpg",
+      image: "/images/client-media/cat-orologi.webp",
     },
   },
   {
@@ -98,23 +98,20 @@ export const mainNav: NavItem[] = [
     href: "/accessori",
     columns: [
       {
-        heading: "Accessori",
+        heading: "Sottocategorie",
         links: [
           { label: "Pelletteria", href: "/accessori?sub=pelletteria" },
-          { label: "Portachiavi", href: "/accessori?sub=portachiavi" },
-          { label: "Gemelli", href: "/accessori?sub=gemelli" },
-          { label: "Penne", href: "/accessori?sub=penne" },
         ],
       },
     ],
     featured: {
-      eyebrow: "Idee Regalo",
+      eyebrow: "Pelletteria & Regali",
       title: "Dettagli di Pregio",
       description:
-        "Pelletteria, gemelli da cerimonia e penne da regalo in confezione luxury.",
+        "Pochette e porta carte in pelle Saffiano firmati Gerba, in confezione regalo.",
       href: "/accessori",
       cta: "Scopri gli accessori",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/quad-unoaerre-bracciale.jpg",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gerba/gb015-black-01.webp",
     },
   },
   {
@@ -122,109 +119,94 @@ export const mainNav: NavItem[] = [
     href: "/casa",
     columns: [
       {
-        heading: "Casa & Arredo",
+        heading: "Sottocategorie",
         links: [
-          { label: "Posate", href: "/casa?sub=posate" },
-          { label: "Bicchieri", href: "/casa?sub=bicchieri" },
-          { label: "Vasi", href: "/casa?sub=vasi" },
-          { label: "Profumatori", href: "/casa?sub=profumatori" },
           { label: "Statue", href: "/casa?sub=statue" },
-        ],
-      },
-      {
-        heading: "Ambiente",
-        links: [
-          { label: "Candele", href: "/casa?sub=candele" },
-          { label: "Cornici", href: "/casa?sub=cornici" },
-          { label: "Decanter", href: "/casa?sub=decanter" },
+          { label: "Profumatori", href: "/casa?sub=profumatori" },
           { label: "Solidali", href: "/casa?sub=solidali" },
+          { label: "Candele", href: "/casa?sub=candele" },
+          { label: "Vasi", href: "/casa?sub=vasi" },
+          { label: "Decanter", href: "/casa?sub=decanter" },
         ],
       },
     ],
     featured: {
-      eyebrow: "Arte da Tavola",
-      title: "Villeroy & Lladró",
+      eyebrow: "Arte dell'Abitare",
+      title: "Gli Alberelli & Lladró",
       description:
-        "Porcellane, cristalli e oggetti d'arredo per la casa più elegante.",
+        "Sculture in porcellana, ceramiche artistiche e profumatori d'ambiente.",
       href: "/casa",
       cta: "Arreda con stile",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/VB-2200_1.webp",
+      image: "/images/client-media/cat-casa.webp",
     },
   },
   {
     label: "Brand",
     href: "/brand",
     children: [
-      { label: "Davite & Delucchi", href: "/brand?marca=davite-delucchi" },
-      { label: "Stroili", href: "/brand?marca=stroili" },
-      { label: "Nihama", href: "/brand?marca=nihama" },
-      { label: "Golay", href: "/brand?marca=golay" },
-      { label: "Dana Oro 9 kt", href: "/brand?marca=dana-oro-9-kt" },
-      { label: "Cammeo Italiano", href: "/brand?marca=cammeo-italiano" },
-      { label: "Gerba", href: "/brand?marca=gerba" },
-      { label: "Guess", href: "/brand?marca=guess" },
-      { label: "Bulova", href: "/brand?marca=bulova" },
-      { label: "Locman", href: "/brand?marca=locman" },
-      { label: "Paul Picot", href: "/brand?marca=paul-picot" },
-      { label: "Villeroy & Boch", href: "/brand?marca=villeroy-boch" },
-      { label: "Lladró", href: "/brand?marca=lladro" },
-      { label: "Cuorematto", href: "/brand?marca=cuorematto" },
-      { label: "Unoaerre", href: "/brand?marca=unoaerre" },
-      { label: "Gli Alberelli", href: "/brand?marca=gli-alberelli" },
-      { label: "Ducati", href: "/brand?marca=ducati" },
-      { label: "AMEN", href: "/brand?marca=amen" },
+      { label: "Bulova", href: "/brand/bulova" },
+      { label: "Cuorematto", href: "/brand/cuorematto" },
+      { label: "Gerba", href: "/brand/gerba" },
+      { label: "Gli Alberelli", href: "/brand/gli-alberelli" },
+      { label: "Guess", href: "/brand/guess" },
+      { label: "Lladró", href: "/brand/lladro" },
+      { label: "Locman", href: "/brand/locman" },
+      { label: "Nihama", href: "/brand/nihama" },
+      { label: "Paul Picot", href: "/brand/paul-picot" },
+      { label: "Stroili", href: "/brand/stroili" },
+      { label: "Unoaerre", href: "/brand/unoaerre" },
+      { label: "Villeroy & Boch", href: "/brand/villeroy-boch" },
     ],
   },
   {
     label: "Natale",
     href: "/natale",
-    children: [
-      { label: "Decorazioni", href: "/natale?sub=decorazioni" },
-      { label: "Regali di Natale", href: "/natale?sub=regali" },
+    columns: [
+      {
+        heading: "Sottocategorie",
+        links: [
+          { label: "Decorazioni", href: "/natale?sub=decorazioni" },
+          { label: "Regali di Natale", href: "/natale?sub=regali" },
+        ],
+      },
     ],
     featured: {
       eyebrow: "Speciale Natale 2026",
       title: "Speciale Natale 2026",
-      description: "Porcellane Villeroy & Boch e idee regalo firmate",
+      description: "Porcellane Villeroy & Boch e idee regalo firmate ORO&CO.",
       href: "/natale",
       cta: "Scopri il Natale",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/category-natale.jpg",
+      image: "/images/client-media/cat-natale.webp",
     },
   },
 ];
 
-/** Sottocategorie ufficiali per macro-area, usate nei filtri di categoria. */
+/** Sottocategorie ufficiali per macro-area, allineate al catalogo live approvato. */
 export const subcategoriesByCategory: Record<
   ProductCategory,
   { slug: string; label: string }[]
 > = {
   gioielli: [
     { slug: "anelli", label: "Anelli" },
+    { slug: "bracciali", label: "Bracciali" },
     { slug: "collane", label: "Collane" },
     { slug: "orecchini", label: "Orecchini" },
-    { slug: "bracciali", label: "Bracciali" },
     { slug: "ciondoli", label: "Ciondoli e Componenti" },
   ],
   orologi: [
-    { slug: "uomo", label: "Uomo" },
-    { slug: "donna", label: "Donna" },
+    { slug: "uomo", label: "Orologi Uomo" },
+    { slug: "donna", label: "Orologi Donna" },
   ],
   accessori: [
     { slug: "pelletteria", label: "Pelletteria" },
-    { slug: "portachiavi", label: "Portachiavi" },
-    { slug: "gemelli", label: "Gemelli" },
-    { slug: "penne", label: "Penne" },
   ],
   casa: [
-    { slug: "posate", label: "Posate" },
-    { slug: "bicchieri", label: "Bicchieri" },
-    { slug: "vasi", label: "Vasi" },
-    { slug: "profumatori", label: "Profumatori" },
     { slug: "statue", label: "Statue" },
-    { slug: "candele", label: "Candele" },
-    { slug: "cornici", label: "Cornici" },
-    { slug: "decanter", label: "Decanter" },
+    { slug: "profumatori", label: "Profumatori" },
     { slug: "solidali", label: "Solidali" },
+    { slug: "candele", label: "Candele" },
+    { slug: "vasi", label: "Vasi" },
+    { slug: "decanter", label: "Decanter" },
   ],
   natale: [
     { slug: "decorazioni", label: "Decorazioni" },
@@ -238,10 +220,10 @@ export const categoryCopy: Record<
   { title: string; eyebrow: string; description: string; image: string }
 > = {
   gioielli: {
-    eyebrow: "Alta Gioielleria",
+    eyebrow: "Gioielleria",
     title: "Gioielli",
     description:
-      "Solitari, verette, collane e bracciali in oro 18 kt e diamanti selezionati, con certificato ufficiale di autenticità.",
+      "Anelli, bracciali, collane, orecchini e perle coltivate selezionati con certificato ufficiale di autenticità.",
     image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-1.jpg",
   },
   orologi: {
@@ -249,27 +231,27 @@ export const categoryCopy: Record<
     title: "Orologi",
     description:
       "Segnatempo automatici, cronografi e subacquei dei marchi più prestigiosi, uomo e donna, con garanzia internazionale.",
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_firshire_moon_01.jpg",
+    image: "/images/client-media/cat-orologi.webp",
   },
   accessori: {
     eyebrow: "Dettagli di Pregio",
     title: "Accessori",
     description:
-      "Pelletteria, portachiavi, gemelli da cerimonia e penne da regalo: l'eleganza nei dettagli quotidiani.",
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_01.jpg",
+      "Pelletteria in pelle Saffiano e accessori da regalo firmati: l'eleganza nei dettagli quotidiani.",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gerba/gb015-black-01.webp",
   },
   casa: {
     eyebrow: "Arte dell'Abitare",
     title: "Casa",
     description:
-      "Posate, cristalli, porcellane e profumatori d'ambiente per una casa dal gusto raffinato.",
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_cranes_dome_01.jpg",
+      "Porcellane Lladró, ceramiche Gli Alberelli, profumatori d'ambiente e oggetti solidali per una casa dal gusto raffinato.",
+    image: "/images/client-media/cat-casa.webp",
   },
   natale: {
     eyebrow: "Speciale Natale 2026",
     title: "Natale",
     description:
-      "La selezione stagionale per i regali più preziosi: gioielli, decorazioni e confezioni luxury firmate ORO&CO.",
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-1.jpg",
+      "La selezione stagionale per i regali più preziosi: decorazioni Villeroy & Boch, oggetti da collezione e confezioni firmate ORO&CO.",
+    image: "/images/client-media/cat-natale.webp",
   },
 };

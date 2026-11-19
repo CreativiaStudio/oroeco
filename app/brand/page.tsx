@@ -38,7 +38,7 @@ export default async function BrandPage({
         eyebrow="Le Firme della Gioielleria"
         title="Brand"
         description="Diciotto marchi selezionati tra alta gioielleria, orologeria e arte della tavola: le firme che da sempre accompagnano la storia di ORO&CO."
-        image="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_yachtman_01.jpg"
+        image="/images/client-media/cat-orologi.webp"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Brand" }]}
       />
 
