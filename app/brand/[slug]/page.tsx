@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { CategoryExplorer } from "@/components/catalog/CategoryExplorer";
+import { getBrandLogoPath } from "@/lib/brandLogos";
 import { getAllBrands, getBrandBySlug } from "@/lib/catalog";
 import { getLiveProductsByBrand } from "@/lib/liveCatalog";
 
@@ -86,9 +87,9 @@ export default async function BrandDetailPage({ params }: BrandPageProps) {
 
           <div className="mt-8 max-w-2xl">
             <img
-              src={`https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/brands/${brand.slug}.svg`}
+              src={getBrandLogoPath(brand.slug)}
               alt={brand.name}
-              className="h-14 w-auto sm:h-16"
+              className="max-h-16 w-auto max-w-[240px] object-contain sm:max-h-20"
             />
             <h1 className="sr-only">{brand.name}</h1>
             <p className="mt-6 text-[0.68rem] uppercase tracking-[0.25em] text-gold">
