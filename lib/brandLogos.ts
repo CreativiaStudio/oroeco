@@ -34,3 +34,32 @@ export const brandLogoPaths: Record<string, string> = {
 export function getBrandLogoPath(slug: string): string {
   return brandLogoPaths[slug] ?? `${R2_BASE}/brands-official/${slug}.svg`;
 }
+
+/**
+ * Classi di armonizzazione ottica (Optical Area Balancing) calcolate sull'aspect ratio
+ * reale di ciascun logo, per garantire identico peso visivo tra wordmark larghi e stemmi verticali.
+ */
+export const brandLogoOpticalClass: Record<string, string> = {
+  guess: "h-[24px] sm:h-[30px]",
+  bulova: "h-[25px] sm:h-[31px]",
+  lladro: "h-[28px] sm:h-[34px]",
+  unoaerre: "h-[30px] sm:h-[36px]",
+  locman: "h-[30px] sm:h-[36px]",
+  nihama: "h-[32px] sm:h-[39px]",
+  golay: "h-[32px] sm:h-[39px]",
+  amen: "h-[34px] sm:h-[41px]",
+  stroili: "h-[35px] sm:h-[43px]",
+  "paul-picot": "h-[38px] sm:h-[46px]",
+  "gli-alberelli": "h-[40px] sm:h-[49px]",
+  "dana-oro-9-kt": "h-[40px] sm:h-[48px]",
+  gerba: "h-[44px] sm:h-[54px]",
+  "villeroy-boch": "h-[44px] sm:h-[54px]",
+  cuorematto: "h-[48px] sm:h-[58px]",
+  "davite-delucchi": "h-[48px] sm:h-[58px]",
+  ducati: "h-[48px] sm:h-[60px]",
+  "cammeo-italiano": "h-[54px] sm:h-[66px]",
+};
+
+export function getBrandLogoOpticalClass(slug: string): string {
+  return brandLogoOpticalClass[slug] ?? "h-[36px] sm:h-[44px]";
+}
