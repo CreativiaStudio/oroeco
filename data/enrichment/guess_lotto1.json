@@ -1,0 +1,2711 @@
+{
+  "brandSlug": "guess",
+  "brandId": "fcdac2bc-01f1-4bee-9ea0-42a7ba548c07",
+  "brandName": "Guess",
+  "supplierName": "Timeway Italy S.r.l.",
+  "invoiceRef": "Timeway Fatture & Ordini 2026",
+  "items": [
+    {
+      "sku": "GW0804G2",
+      "barcode": "091661543333",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 65.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-monte-gw0804g2-P435914.htm",
+      "name": "Guess — Orologio Uomo Monte Acciaio Argento Quadrante Nero 42mm (GW0804G2)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della collezione Monte (ref.",
+      "description": "Orologio solo tempo da uomo Guess della collezione Monte (ref. GW0804G2) con cassa rotonda da 42 mm in acciaio riciclato color argento, quadrante nero con numeri arabi, vetro minerale, movimento al quarzo 3H, impermeabilità 5 ATM e bracciale in acciaio inossidabile argento con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 119,
+      "attributes": {
+        "Collezione": "Monte",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo 3H",
+        "Cassa": "Acciaio riciclato argento",
+        "Diametro": "42 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero con numeri arabi",
+        "Cinturino": "Acciaio inossidabile argento (ansa 22 mm)",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio riciclato argento",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "monte",
+        "gw0804g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-monte-gw0804g2-gw0804g2_871393_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-monte-gw0804g2-gw0804g2_881403_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-monte-gw0804g2-gw0804g2_881404_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1112L2",
+      "barcode": "091661147036",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.95,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1112l2-P1850448.htm",
+      "name": "Guess — Orologio Donna Micro Mod Rettangolare Dorato 20mm (GW1112L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Micro Mod (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Micro Mod (ref. GW1112L2) con cassa rettangolare da 20 mm in acciaio dorato, quadrante color oro champagne con indici a bastoni, vetro minerale, movimento al quarzo, impermeabilità 3 ATM e bracciale in acciaio dorato con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 169,
+      "attributes": {
+        "Collezione": "Micro Mod",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio dorato rettangolare",
+        "Diametro": "20 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Oro champagne",
+        "Cinturino": "Acciaio dorato",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio dorato rettangolare",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "micro-mod",
+        "gw1112l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1112l2-gw1112l2_985970_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1154G1",
+      "barcode": "091661148033",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 98.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-cronografo-uomo-guess-gw1154g1-P1850457.htm",
+      "name": "Guess — Orologio Uomo Cassian Cronografo Quadrante Blu Pelle Marrone 42mm (GW1154G1)",
+      "shortDescription": "Orologio cronografo da uomo Guess della collezione Cassian (ref.",
+      "description": "Orologio cronografo da uomo Guess della collezione Cassian (ref. GW1154G1) con cassa rotonda da 42 mm in acciaio, quadrante blu con indici a bastoni, vetro minerale, movimento cronografo al quarzo, impermeabilità 3 ATM e cinturino in pelle marrone con chiusura ad ardiglione.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Cassian",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo cronografo",
+        "Cassa": "Acciaio rotonda",
+        "Diametro": "42 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Blu",
+        "Cinturino": "Pelle marrone",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio rotonda",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "cassian",
+        "gw1154g1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-cronografo-uomo-guess-gw1154g1-gw1154g1_985979_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "W1161G2",
+      "barcode": "091661488443",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 59.95,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-w1161g2-P196547.htm",
+      "name": "Guess — Orologio Uomo Imprint Nero Silicone 44mm (W1161G2)",
+      "shortDescription": "Orologio solo tempo da uomo Guess Imprint (ref.",
+      "description": "Orologio solo tempo da uomo Guess Imprint (ref. W1161G2) con cassa rotonda da 44 mm in acciaio lucido con trattamento IP nero, quadrante nero con logo triangolo e borchie nere, resistenza all'acqua 3 ATM (30 m) e cinturino in silicone nero.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 109,
+      "attributes": {
+        "Collezione": "Imprint",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio IP nero",
+        "Diametro": "44 mm",
+        "Quadrante": "Nero con logo triangolo",
+        "Cinturino": "Silicone nero",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio IP nero",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "imprint",
+        "w1161g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g2-w1161g2_318967_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g2-w1161g2_891672_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g2-w1161g2_891673_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0265G8",
+      "barcode": "091661530173",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 101.75,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-connoisseur-gw0265g8-P339649.htm",
+      "name": "Guess — Orologio Uomo Connoisseur Bicolore Quadrante Verde 42mm (GW0265G8)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della collezione Connoisseur (ref.",
+      "description": "Orologio solo tempo da uomo Guess della collezione Connoisseur (ref. GW0265G8) con cassa rotonda da 42 mm in acciaio inossidabile bicolore, quadrante verde sunray con numeri romani, movimento al quarzo analogico, bracciale bicolore oro e argento con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 185,
+      "attributes": {
+        "Collezione": "Connoisseur",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio inossidabile bicolore",
+        "Diametro": "42 mm",
+        "Quadrante": "Verde sunray con numeri romani",
+        "Cinturino": "Acciaio bicolore oro e argento",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio inossidabile bicolore",
+        "metal": "Acciaio bicolore"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "connoisseur",
+        "gw0265g8"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g8-gw0265g8_573533_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g8-gw0265g8_578570_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g8-gw0265g8_578571_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1153G7",
+      "barcode": "091661149085",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 109.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-gw1153g7-P1850456.htm",
+      "name": "Guess — Orologio Uomo Vincent Bicolore Quadrante Nero 39mm (GW1153G7)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della linea Vincent (ref.",
+      "description": "Orologio solo tempo da uomo Guess della linea Vincent (ref. GW1153G7) con cassa rotonda da 39 mm in acciaio, quadrante nero con indici a bastoni, vetro minerale, movimento al quarzo, impermeabilità 5 ATM e bracciale in acciaio bicolore con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 199,
+      "attributes": {
+        "Collezione": "Vincent",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio",
+        "Diametro": "39 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio bicolore",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "vincent",
+        "gw1153g7"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-gw1153g7-gw1153g7_985978_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0726G2",
+      "barcode": "091661541377",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 63.25,
+      "invoiceRef": "FC26I001002472 (19-03-2026) + FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-reputation-gw0726g2-P391659.htm",
+      "name": "Guess — Orologio Uomo Reputation Dorato Silicone Nero 44mm (GW0726G2)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della collezione Reputation (ref.",
+      "description": "Orologio solo tempo da uomo Guess della collezione Reputation (ref. GW0726G2) con cassa rotonda da 44 mm in acciaio lucido color oro, quadrante champagne sunray, vetro minerale, movimento al quarzo, impermeabilità 3 ATM (30 m) e cinturino nero in silicone con fibbia ad ardiglione.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 115,
+      "attributes": {
+        "Collezione": "Reputation",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio lucido color oro",
+        "Diametro": "44 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Champagne sunray",
+        "Cinturino": "Silicone nero",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio lucido color oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "reputation",
+        "gw0726g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-reputation-gw0726g2-gw0726g2_748429_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-reputation-gw0726g2-gw0726g2_748621_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-reputation-gw0726g2-gw0726g2_748622_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1058G2",
+      "barcode": "091661613913",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 120.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-cronografo-uomo-guess-gw1058g2-P569827.htm",
+      "name": "Guess — Orologio Uomo Arthur Cronografo Acciaio Dorato 42mm (GW1058G2)",
+      "shortDescription": "Orologio cronografo da uomo Guess della collezione Arthur (ref.",
+      "description": "Orologio cronografo da uomo Guess della collezione Arthur (ref. GW1058G2) con cassa rotonda da 42 mm in acciaio color oro, quadrante nero, movimento cronografo al quarzo, impermeabilità 5 ATM (50 m) e bracciale in acciaio inossidabile color oro con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 219,
+      "attributes": {
+        "Collezione": "Arthur",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo cronografo",
+        "Cassa": "Acciaio color oro",
+        "Diametro": "42 mm",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio inossidabile dorato",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio color oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "arthur",
+        "gw1058g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-cronografo-uomo-guess-gw1058g2-gw1058g2_975425_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0935L2",
+      "barcode": "091661580970",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 81.95,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://guesswatches.com/products/guess-ladies-ruby-gold-tone-analog-watch-gw0935l2",
+      "name": "Guess — Orologio Donna Ruby Ovale Dorato Quadrante Verde 24mm (GW0935L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Ruby (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Ruby (ref. GW0935L2) con cassa ovale da 24 mm in acciaio inossidabile lucido color oro, quadrante verde sunray con diamante lab-grown a ore 12, vetro minerale, movimento analogico al quarzo, impermeabilità 3 ATM e bracciale mesh regolabile color oro.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 149,
+      "attributes": {
+        "Collezione": "Ruby",
+        "Genere": "Donna",
+        "Movimento": "Quarzo analogico",
+        "Cassa": "Acciaio ovale dorato",
+        "Diametro": "24 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Verde sunray con diamante ore 12",
+        "Cinturino": "Acciaio mesh dorato",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio ovale dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "ruby",
+        "gw0935l2"
+      ],
+      "imageUrls": [
+        "https://guesswatches.com/cdn/shop/files/GW0935L2_Q.png?v=1757944970&width=1000",
+        "https://guesswatches.com/cdn/shop/files/GW0935L2_P.png?v=1757944970&width=640",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw0935l2-gw0935l2_985957_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1083L2",
+      "barcode": "091661146404",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 98.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1083l2-P1850442.htm",
+      "name": "Guess — Orologio Donna Cecelia Acciaio Dorato Quadrante Chiaro 24mm (GW1083L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Cecelia (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Cecelia (ref. GW1083L2) con cassa rotonda da 24 mm in acciaio dorato, quadrante chiaro con indici con pietre, vetro minerale, movimento al quarzo, impermeabilità 3 ATM e bracciale in acciaio color oro con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Cecelia",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio dorato",
+        "Diametro": "24 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Bianco / Grigio chiaro",
+        "Cinturino": "Acciaio dorato",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "cecelia",
+        "gw1083l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1083l2-gw1083l2_985964_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1082L2",
+      "barcode": "091661146367",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 118.25,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1082l2-P1850439.htm",
+      "name": "Guess — Orologio Donna Blair Champagne Dorato 26mm (GW1082L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Blair (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Blair (ref. GW1082L2) con cassa rotonda da 26 mm in acciaio finitura oro champagne, quadrante dorato con indici con pietre, vetro minerale, movimento al quarzo, impermeabilità 3 ATM e bracciale in acciaio color oro con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 215,
+      "attributes": {
+        "Collezione": "Blair",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio oro champagne",
+        "Diametro": "26 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Oro champagne",
+        "Cinturino": "Acciaio dorato",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio oro champagne",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "blair",
+        "gw1082l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1082l2-gw1082l2_985961_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1083L1",
+      "barcode": "091661146398",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 87.45,
+      "invoiceRef": "FC26I001009154 (03-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1083l1-P1850441.htm",
+      "name": "Guess — Orologio Donna Cecelia Acciaio Argento 24mm (GW1083L1)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Cecelia (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Cecelia (ref. GW1083L1) con cassa rotonda da 24 mm in acciaio, quadrante argento con indici con pietre, vetro minerale, movimento al quarzo, impermeabilità 3 ATM e bracciale in acciaio silver con chiusura déployante.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 159,
+      "attributes": {
+        "Collezione": "Cecelia",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio silver",
+        "Diametro": "24 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Argento",
+        "Cinturino": "Acciaio silver",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio silver",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "cecelia",
+        "gw1083l1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1083l1-gw1083l1_985963_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0468L1",
+      "barcode": "091661529115",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 65.45,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-melody-gw0468l1-P339631.htm",
+      "name": "Guess — Orologio Donna Melody Acciaio Argento Quadrante Bianco 28mm (GW0468L1)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Melody (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Melody (ref. GW0468L1). Cassa rotonda da 28 mm in acciaio inossidabile color argento con finitura lucida e cristalli sulla lunetta, quadrante bianco con finitura sunray e indici a bastoni, bracciale in acciaio inossidabile color argento lucido con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua fino a 30 m (3 ATM).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 119,
+      "attributes": {
+        "Collezione": "Melody",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio inossidabile",
+        "Diametro": "28 mm",
+        "Quadrante": "Bianco sunray",
+        "Cinturino": "Acciaio inossidabile argento",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "melody",
+        "gw0468l1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-melody-gw0468l1-gw0468l1_573516_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-melody-gw0468l1-gw0468l1_578586_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-melody-gw0468l1-gw0468l1_578587_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1018L1",
+      "barcode": "091661614934",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 90.75,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1018l1-P569824.htm",
+      "name": "Guess — Orologio Donna Hazel Acciaio Argento Quadrante Bianco 25mm (GW1018L1)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Hazel (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Hazel (ref. GW1018L1). Cassa compatta da 25 mm in acciaio color argento, quadrante bianco e argento con indici a bastoni e bracciale in acciaio riciclato color argento con chiusura déployante. Movimento al quarzo analogico e impermeabilità 5 ATM (50 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 165,
+      "attributes": {
+        "Collezione": "Hazel",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio",
+        "Diametro": "25 mm",
+        "Quadrante": "Bianco / Argento",
+        "Cinturino": "Acciaio riciclato argento",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "hazel",
+        "gw1018l1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1018l1-gw1018l1_975422_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1018L2",
+      "barcode": "091661615214",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 101.75,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1018l2-P569825.htm",
+      "name": "Guess — Orologio Donna Hazel Acciaio Dorato Quadrante Champagne 25mm (GW1018L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Hazel (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Hazel (ref. GW1018L2). Cassa da 25 mm in acciaio finitura oro giallo, quadrante champagne dorato con indici a bastoni e bracciale in acciaio riciclato color oro con chiusura déployante. Movimento al quarzo analogico e impermeabilità 5 ATM (50 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 185,
+      "attributes": {
+        "Collezione": "Hazel",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio dorato",
+        "Diametro": "25 mm",
+        "Quadrante": "Champagne / Oro",
+        "Cinturino": "Acciaio riciclato oro",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "hazel",
+        "gw1018l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1018l2-gw1018l2_975423_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0997L1",
+      "barcode": "091661610684",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 81.95,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw0997l1-P569809.htm",
+      "name": "Guess — Orologio Donna Bonnet Rettangolare Acciaio Argento 23mm (GW0997L1)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Bonnet (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Bonnet (ref. GW0997L1). Cassa rettangolare da 23 mm in acciaio color argento, quadrante bianco e argento con numeri romani e bracciale in acciaio inossidabile con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua 3 ATM (30 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 149,
+      "attributes": {
+        "Collezione": "Bonnet",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio rettangolare",
+        "Diametro": "23 mm",
+        "Quadrante": "Bianco / Argento",
+        "Cinturino": "Acciaio inossidabile argento",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio rettangolare",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "bonnet",
+        "gw0997l1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw0997l1-gw0997l1_975406_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0997L2",
+      "barcode": "091661610974",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.95,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw0997l2-P569808.htm",
+      "name": "Guess — Orologio Donna Bonnet Rettangolare Acciaio Dorato 23mm (GW0997L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Bonnet (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Bonnet (ref. GW0997L2). Cassa rettangolare da 23 mm in acciaio, quadrante bianco con numeri romani e bracciale in acciaio inossidabile color oro con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua 3 ATM (30 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 169,
+      "attributes": {
+        "Collezione": "Bonnet",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio rettangolare dorato",
+        "Diametro": "23 mm",
+        "Quadrante": "Bianco con numeri romani",
+        "Cinturino": "Acciaio inossidabile oro",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio rettangolare dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "bonnet",
+        "gw0997l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw0997l2-gw0997l2_975405_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0994L3",
+      "barcode": "091661613692",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.95,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw0994l3-P569812.htm",
+      "name": "Guess — Orologio Donna Leena Bicolore Quadrante Verde 26mm (GW0994L3)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Leena (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Leena (ref. GW0994L3). Cassa rotonda da 26 mm in acciaio, quadrante verde con indici con pietre e bracciale bicolore in acciaio riciclato argento e oro con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua 5 ATM (50 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 169,
+      "attributes": {
+        "Collezione": "Leena",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio bicolore",
+        "Diametro": "26 mm",
+        "Quadrante": "Verde",
+        "Cinturino": "Acciaio riciclato argento e oro",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio bicolore",
+        "metal": "Acciaio bicolore"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "leena",
+        "gw0994l3"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw0994l3-gw0994l3_975409_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0841L9",
+      "barcode": "091661614644",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.95,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-mini-luna-gw0841l9-P569835.htm",
+      "name": "Guess — Orologio Donna Mini Luna Acciaio Dorato Quadrante Ottanio 30mm (GW0841L9)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Mini Luna (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Mini Luna (ref. GW0841L9). Cassa rotonda da 30 mm in acciaio color oro, quadrante verde acqua/ottanio con numeri romani e bracciale in acciaio inossidabile color oro con chiusura déployante. Movimento al quarzo analogico e impermeabilità 3 ATM (30 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 169,
+      "attributes": {
+        "Collezione": "Mini Luna",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio dorato",
+        "Diametro": "30 mm",
+        "Quadrante": "Verde acqua",
+        "Cinturino": "Acciaio inossidabile oro",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "mini-luna",
+        "gw0841l9"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-mini-luna-gw0841l9-gw0841l9_975433_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0860L3",
+      "barcode": "091661564130",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 59.95,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-annette-gw0860l3-P421822.htm",
+      "name": "Guess — Orologio Donna Annette Acciaio Argento Pelle Bianca 36mm (GW0860L3)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Annette (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Annette (ref. GW0860L3). Cassa rotonda da 36 mm in acciaio lucido argentato con lunetta impreziosita da cristalli, vetro minerale, quadrante bianco e argento e cinturino in pelle bianca con fibbia ad ardiglione. Movimento al quarzo analogico e impermeabilità 3 ATM (30 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 109,
+      "attributes": {
+        "Collezione": "Annette",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio lucido con cristalli",
+        "Diametro": "36 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Bianco / Argento",
+        "Cinturino": "Pelle bianca",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio lucido con cristalli",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "annette",
+        "gw0860l3"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-annette-gw0860l3-gw0860l3_816298_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0265G7",
+      "barcode": "091661529993",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 96.25,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-connoisseur-gw0265g7-P339648.htm",
+      "name": "Guess — Orologio Uomo Connoisseur Acciaio Quadrante Blu 42mm (GW0265G7)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della collezione Connoisseur (ref.",
+      "description": "Orologio solo tempo da uomo Guess della collezione Connoisseur (ref. GW0265G7). Cassa rotonda da 42 mm in acciaio inossidabile color argento con finitura satinata e lucida, quadrante blu sunray con numeri romani e bracciale in acciaio inossidabile color argento lucido con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua 5 ATM (50 m).",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 175,
+      "attributes": {
+        "Collezione": "Connoisseur",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio inossidabile",
+        "Diametro": "42 mm",
+        "Quadrante": "Blu sunray",
+        "Cinturino": "Acciaio inossidabile argento",
+        "Impermeabilità": "5 ATM (50 m)",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "connoisseur",
+        "gw0265g7"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g7-gw0265g7_573532_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g7-gw0265g7_578566_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-connoisseur-gw0265g7-gw0265g7_578567_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1003G3",
+      "barcode": "091661610851",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 76.45,
+      "invoiceRef": "FC26I001002472 (19-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-clyde-gw1003g3-P569810.htm",
+      "name": "Guess — Orologio Uomo Clyde Rettangolare Quadrante Verde 33,7mm (GW1003G3)",
+      "shortDescription": "Orologio solo tempo da uomo Guess della collezione Clyde (ref.",
+      "description": "Orologio solo tempo da uomo Guess della collezione Clyde (ref. GW1003G3). Cassa rettangolare da 33,7 mm in acciaio, quadrante verde con numeri romani e cinturino in pelle nera con chiusura déployante. Movimento al quarzo analogico e resistenza all'acqua 3 ATM (30 m).",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 139,
+      "attributes": {
+        "Collezione": "Clyde",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio rettangolare",
+        "Diametro": "33,7 mm",
+        "Quadrante": "Verde",
+        "Cinturino": "Pelle nera",
+        "Impermeabilità": "3 ATM (30 m)",
+        "material": "Acciaio rettangolare",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "clyde",
+        "gw1003g3"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-clyde-gw1003g3-gw1003g3_975407_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0001L2",
+      "barcode": "091661512001",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 90.75,
+      "invoiceRef": "FC26I001003240 (09-04-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw0001l2-P238107.htm",
+      "name": "Guess — Orologio Donna Sugar Acciaio Dorato Logo 4G 37mm (GW0001L2)",
+      "shortDescription": "Orologio solo tempo da donna Guess della collezione Sugar (ref.",
+      "description": "Orologio solo tempo da donna Guess della collezione Sugar (ref. GW0001L2). Cassa rotonda da 37 mm in acciaio lucido color oro con lunetta tempestata di cristalli trasparenti, quadrante bianco con glitter e iconico logo 4G dorato, bracciale in acciaio lucido color oro con chiusura pilot. Movimento al quarzo e impermeabilità 1 ATM (10 m).",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 165,
+      "attributes": {
+        "Collezione": "Sugar",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio lucido oro con cristalli",
+        "Diametro": "37 mm",
+        "Quadrante": "Bianco glitter con logo 4G oro",
+        "Cinturino": "Acciaio lucido oro",
+        "Impermeabilità": "1 ATM (10 m)",
+        "material": "Acciaio lucido oro con cristalli",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "sugar",
+        "gw0001l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-donna-guess-gw0001l2-gw0001l2_378332_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-donna-guess-gw0001l2-gw0001l2_378446_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-donna-guess-gw0001l2-gw0001l2_378447_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1019L3",
+      "barcode": "091661615146",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.95,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-siren-gw1019l3-P569828.htm",
+      "name": "Guess — Orologio Donna Siren Bicolore Quadrante Argento 23mm (GW1019L3)",
+      "shortDescription": "Orologio di Guess della collezione Siren da donna.",
+      "description": "Orologio di Guess della collezione Siren da donna. Orologio solo tempo con cassa in acciaio di colore twotone e con quadrante in acciaio riciclato di colore silver. Cinturino in acciaio riciclato di colore silver & gold. Misura cassa: 23mm. La resistenza all'acqua è di 30. Il movimento è al quarzo. La referenza è: GW1019L3.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 169,
+      "attributes": {
+        "Collezione": "Siren",
+        "Genere": "Donna",
+        "Movimento": "Quarzo (solo tempo 3H, Seiko Y121)",
+        "Cassa": "Acciaio rotonda di colore twotone",
+        "Diametro": "23 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Argento",
+        "Cinturino": "Acciaio riciclato di colore silver & gold con chiusura deployante",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "material": "Acciaio rotonda di colore twotone",
+        "metal": "Acciaio bicolore"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "siren",
+        "gw1019l3"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-siren-gw1019l3-gw1019l3_975426_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "TW-1699844",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 109.45,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": null,
+      "name": "Guess — Orologio Uomo Arthur Cronografo Acciaio Argento 42mm (TW-1699844)",
+      "shortDescription": "Orologio cronografo uomo Guess Arthur 42mm acciaio silver (solo gestionale in attesa verifica referenza esatta).",
+      "description": "Orologio cronografo da uomo Guess collezione Arthur da 42 mm con cassa e bracciale in acciaio inossidabile color argento (codice ordine Timeway 1699844 / 1700668). Tenuto offline per mancato riscontro univoco sul quadrante ufficiale.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 199,
+      "attributes": {
+        "Collezione": "Arthur",
+        "Genere": "Uomo",
+        "Cassa": "Acciaio inossidabile argento",
+        "Diametro": "42 mm",
+        "Cinturino": "Bracciale acciaio argento",
+        "Note": "Solo Cassa — referenza quadrante non abbinata univocamente",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "arthur",
+        "solo-cassa"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GW0974G1",
+      "barcode": "0091661580659",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 76.45,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-chandler-gw0974g1-P435951.htm",
+      "name": "Guess — Orologio Uomo Chandler Acciaio Argento Quadrante Nero 40mm (GW0974G1)",
+      "shortDescription": "Orologio da uomo di Guess della collezione Chandler.",
+      "description": "Orologio da uomo di Guess della collezione Chandler. Orologio con cassa tonda in acciaio riciclato con finitura lucida di colore argento. Il diametro è di 40 mm. Il quadrante è nero. Il vetro è minerale. Il cinturino è in acciaio inossidabile con finitura lucida di colore argento con chiusura a scorrimento. La larghezza delle anse è di 20 mm. Il movimento è 3H al quarzo. La resistenza all'acqua è di 30m (3 ATM). La referenza è GW0974G1.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 139,
+      "attributes": {
+        "Collezione": "Chandler",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (3H)",
+        "Cassa": "Acciaio riciclato rotonda con finitura lucida colore argento",
+        "Diametro": "40 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio inossidabile maglia mesh colore argento",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "material": "Acciaio riciclato rotonda con finitura lucida colore argento",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "chandler",
+        "gw0974g1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-chandler-gw0974g1-gw0974g1_871388_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-chandler-gw0974g1-gw0974g1_881439_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-chandler-gw0974g1-gw0974g1_881440_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW1017L2",
+      "barcode": "091661614897",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 98.45,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-gw1017l2-P569823.htm",
+      "name": "Guess — Orologio Donna Holly Acciaio Dorato Quadrante Champagne 24mm (GW1017L2)",
+      "shortDescription": "Orologio di Guess della collezione Holly da donna.",
+      "description": "Orologio di Guess della collezione Holly da donna. Orologio solo tempo con cassa in acciaio di colore oro e con quadrante in acciaio riciclato di colore champagne. Cinturino in acciaio riciclato di colore gold. Misura cassa: 24mm. La resistenza all'acqua è di 30. Il movimento è al quarzo. La referenza è: GW1017L2.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Holly",
+        "Genere": "Donna",
+        "Movimento": "Quarzo (solo tempo 3H)",
+        "Cassa": "Acciaio rotonda di colore oro",
+        "Diametro": "24 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Champagne / Oro",
+        "Cinturino": "Acciaio riciclato di colore oro con chiusura deployante",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "material": "Acciaio rotonda di colore oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "holly",
+        "gw1017l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-gw1017l2-gw1017l2_975421_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0865L2",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 98.45,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-donna-guess-isla-gw0865l2-P421761.htm",
+      "name": "Guess — Orologio Donna Isla Acciaio Dorato Quadrante Argento 22mm (GW0865L2)",
+      "shortDescription": "Orologio da donna di Guess della collezione Isla.",
+      "description": "Orologio da donna di Guess della collezione Isla. Orologio con meccanismo quarzo analogico. Il cinturino è in acciaio riciclato di colore oro con finitura lucida. La chiusura del cinturino è a G-Links. Il quadrante è di colore argento con cassa lucida di colore oro. La lunetta ha una finitura crystal. Il vetro è minerale. La cassa è rettangolare. Dimensioni cassa: 22 mm. La referenza è GW0865L2.",
+      "category": "orologi",
+      "subcategory": "donna",
+      "subcategoryLabel": "Orologi Donna",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Isla",
+        "Genere": "Donna",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio rettangolare lucida di colore oro con cristalli sulla lunetta",
+        "Diametro": "22 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Argento",
+        "Cinturino": "Acciaio riciclato di colore oro con chiusura G-Links / deployante",
+        "Impermeabilità": "30m - 3ATM (stroilioro.com) / 100m - 10ATM (gioiapura.it)",
+        "material": "Acciaio rettangolare lucida di colore oro con cristalli sulla lunetta",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "donna",
+        "isla",
+        "gw0865l2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-donna-isla-gw0865l2-gw0865l2_816285_zoom.jpg",
+        "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw65d05671/images/c1699004-master.jpg?sw=1024&sh=1024"
+      ]
+    },
+    {
+      "sku": "GW0702G1",
+      "barcode": "0091661540172",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 98.45,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-monarch-gw0702g1-P421839.htm",
+      "name": "Guess — Orologio Uomo Monarch Acciaio Dorato Quadrante Nero 44mm (GW0702G1)",
+      "shortDescription": "Orologio da uomo di Guess della collezione Monarch.",
+      "description": "Orologio da uomo di Guess della collezione Monarch. Orologio con meccanismo quarzo analogico. Il cinturino è in acciaio inossidabile di colore oro con finitura lucida. La chiusura del cinturino è a scorrimento. Il quadrante è di colore nero con cassa lucida di colore oro. La lunetta ha una finitura liscia. Il vetro è minerale. La cassa è tonda. Dimensioni cassa: 44 mm. Resistenza all'acqua di 30m (3 ATM). La referenza è GW0702G1.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Monarch",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo",
+        "Cassa": "Acciaio rotonda lucida di colore oro",
+        "Diametro": "44 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio inossidabile maglia mesh di colore oro con chiusura a scorrimento",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "material": "Acciaio rotonda lucida di colore oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "monarch",
+        "gw0702g1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-monarch-gw0702g1-gw0702g1_816277_zoom.jpg",
+        "https://cdn.bluespirit.com/i/default/172405/orologio-guess-monarch-gugw0702g1_v1n252@2x.jpg",
+        "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwfcebd98e/images/c1696475-master.jpg?sw=1024&sh=1024"
+      ]
+    },
+    {
+      "sku": "W1161G1",
+      "barcode": "91661488450",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 59.95,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-w1161g1-P196548.htm",
+      "name": "Guess — Orologio Uomo Imprint Acciaio Dorato Quadrante Nero con logo triangolo oro 44mm (W1161G1)",
+      "shortDescription": "Orologio solo tempo da uomo di Guess della collezione Imprint.",
+      "description": "Orologio solo tempo da uomo di Guess della collezione Imprint. Modello con cassa del diametro di 44 mm in acciaio lucido con trattamento IP di colore oro e quadrante nero con logo triangolo e borchie oro. Orologio con cinturino in silicone nero. La resistenza all'acqua è di 30 metri. La referenza è W1161G1.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 109,
+      "attributes": {
+        "Collezione": "Imprint",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (solo tempo 3H)",
+        "Cassa": "Acciaio rotonda lucida con trattamento IP oro",
+        "Diametro": "44 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero con logo triangolo oro",
+        "Cinturino": "Silicone nero",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "material": "Acciaio rotonda lucida con trattamento IP oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "imprint",
+        "w1161g1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g1-w1161g1_318968_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g1-w1161g1_891674_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-solo-tempo-uomo-guess-w1161g1-w1161g1_891675_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "W0799G2",
+      "barcode": "91661493881",
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 151.25,
+      "invoiceRef": "Ordine 082-000840 (10-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-multifunzione-uomo-guess-w0799g2-P196549.htm",
+      "name": "Guess — Orologio Uomo Frontier Multifunzione Acciaio Dorato Quadrante Oro con pavé di cristalli 48mm (W0799G2)",
+      "shortDescription": "Orologio multifunzione da uomo di Guess della collezione Frontier.",
+      "description": "Orologio multifunzione da uomo di Guess della collezione Frontier. Modello con cassa del diametro di 48 mm in acciaio lucido con trattamento IP di colore oro impreziosita da cristalli e quadrante oro con pavé di cristalli. Orologio con bracciale in acciaio lucido con trattamento IP di colore oro impreziosito da cristalli. La resistenza all'acqua è di 100 metri. La referenza è W0799G2.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 275,
+      "attributes": {
+        "Collezione": "Frontier",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (multifunzione)",
+        "Cassa": "Acciaio rotonda lucida IP oro con cristalli",
+        "Diametro": "48 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Oro con pavé di cristalli",
+        "Cinturino": "Acciaio lucido IP oro con cristalli",
+        "Impermeabilità": "100m - 10ATM - 10bar",
+        "material": "Acciaio rotonda lucida IP oro con cristalli",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "frontier",
+        "w0799g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-multifunzione-uomo-guess-w0799g2-w0799g2_318969_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-multifunzione-uomo-guess-w0799g2-w0799g2_891670_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-multifunzione-uomo-guess-w0799g2-w0799g2_891671_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0896G1",
+      "barcode": "091661564383",
+      "found": true,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 87.45,
+      "invoiceRef": "RESO FC26N001000695 (24-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-clyde-gw0896g1-P421788.htm",
+      "name": "Guess — Orologio Uomo Clyde Acciaio Argento Quadrante Nero 33.7mm (GW0896G1)",
+      "shortDescription": "Orologio da uomo di Guess della collezione Clyde.",
+      "description": "Orologio da uomo di Guess della collezione Clyde. Orologio con meccanismo quarzo analogico. Il cinturino è in acciaio inossidabile di colore argento con finitura spazzolata/lucida. La chiusura del cinturino è a fibbia deployante. Il quadrante è di colore nero con cassa lucida di colore argento. La lunetta ha una finitura plain. Il vetro è minerale. Dimensioni cassa: 33.7 mm. Resistenza all'acqua di 30m (3 ATM). La referenza è GW0896G1.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 159,
+      "attributes": {
+        "Collezione": "Clyde",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (3H)",
+        "Cassa": "Acciaio lucida di colore argento",
+        "Diametro": "33.7 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio inossidabile di colore argento spazzolato/lucido",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "Note": "Reso / Nota di credito — Solo Gestionale",
+        "material": "Acciaio lucida di colore argento",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "clyde",
+        "gw0896g1"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-clyde-gw0896g1-gw0896g1_816290_zoom.jpg",
+        "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw8f98e666/images/c1699014-master.jpg?sw=1024&sh=1024"
+      ]
+    },
+    {
+      "sku": "GW0896G2",
+      "barcode": "091661564512",
+      "found": true,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 98.45,
+      "invoiceRef": "RESO FC26N001000695 (24-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-clyde-gw0896g2-P421807.htm",
+      "name": "Guess — Orologio Uomo Clyde Acciaio Dorato Quadrante Nero 33.7mm (GW0896G2)",
+      "shortDescription": "Orologio da uomo di Guess della collezione Clyde.",
+      "description": "Orologio da uomo di Guess della collezione Clyde. Orologio con meccanismo quarzo analogico. Il cinturino è in acciaio inossidabile di colore oro con finitura spazzolata/lucida. La chiusura del cinturino è a fibbia deployante. Il quadrante è di colore nero con cassa lucida di colore oro. La lunetta ha una finitura plain. Il vetro è minerale. Dimensioni cassa: 33.7 mm. Resistenza all'acqua di 30m (3 ATM). La referenza è GW0896G2.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 179,
+      "attributes": {
+        "Collezione": "Clyde",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (3H)",
+        "Cassa": "Acciaio lucida di colore oro",
+        "Diametro": "33.7 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Nero",
+        "Cinturino": "Acciaio inossidabile di colore oro spazzolato/lucido",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "Note": "Reso / Nota di credito — Solo Gestionale",
+        "material": "Acciaio lucida di colore oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "clyde",
+        "gw0896g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-clyde-gw0896g2-gw0896g2_816289_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "GW0978G2",
+      "barcode": "091661580444",
+      "found": true,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 103.95,
+      "invoiceRef": "FC26I001003558 (16-04-2026) + RESO FC26N001000695 (24-09-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orologio-solo-tempo-uomo-guess-oliver-gw0978g2-P435912.htm",
+      "name": "Guess — Orologio Uomo Oliver Acciaio Dorato Quadrante Champagne 35x38mm (GW0978G2)",
+      "shortDescription": "Orologio da uomo di Guess della collezione Oliver.",
+      "description": "Orologio da uomo di Guess della collezione Oliver. Orologio con cassa rettangolare in acciaio riciclato con finitura lucida di colore oro. Il diametro è di 35x38 mm. Il quadrante è champagne. Il vetro è minerale. Il cinturino è in acciaio riciclato con finitura lucida di colore oro con chiusura deployante. La larghezza delle anse è di 22 mm. Il movimento è 3H al quarzo. La resistenza all'acqua è di 30m (3 ATM). La referenza è GW0978G2.",
+      "category": "orologi",
+      "subcategory": "uomo",
+      "subcategoryLabel": "Orologi Uomo",
+      "price": 189,
+      "attributes": {
+        "Collezione": "Oliver",
+        "Genere": "Uomo",
+        "Movimento": "Quarzo (3H)",
+        "Cassa": "Acciaio riciclato rettangolare con finitura lucida colore oro",
+        "Diametro": "35 x 38 mm",
+        "Vetro": "Minerale",
+        "Quadrante": "Champagne / Oro",
+        "Cinturino": "Acciaio riciclato con finitura lucida colore oro e chiusura deployante",
+        "Impermeabilità": "30m - 3ATM - 3bar",
+        "Note": "Reso / Nota di credito — Solo Gestionale",
+        "material": "Acciaio riciclato rettangolare con finitura lucida colore oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "orologi",
+        "uomo",
+        "oliver",
+        "gw0978g2"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-oliver-gw0978g2-gw0978g2_871390_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-oliver-gw0978g2-gw0978g2_881443_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/orologio-al-quarzo-guess-uomo-oliver-gw0978g2-gw0978g2_881444_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBB02246JWRHAQS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-color-my-day-argento/JUBB02246JW-RHAQ.html",
+      "name": "Guess — Bracciale Donna Color My Day Azzurro Zaffiro e Argento (JUBB02246JWRHAQS)",
+      "shortDescription": "Bracciale in acciaio inossidabile placcato.",
+      "description": "Bracciale in acciaio inossidabile placcato. Design a catena. Ciondolo rotondo con dettaglio applicato di zirconi cubici. Incisione del logo in corsivo. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in rodio",
+        "Colore": "Azzurro / Argento",
+        "Pietre": "Zirconi cubici / Cristalli (6 mm)",
+        "Dimensioni": "Lunghezza catena: 14,6 cm, con catena di estensione da 3,8 cm; Ciondolo: 10 mm; Zircone cubico: 6 mm",
+        "Chiusura": "Moschettone",
+        "material": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in rodio",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "color-my-day",
+        "jubb02246jwrhaqs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-RHAQ"
+      ]
+    },
+    {
+      "sku": "JUBB02246JWRHS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-color-my-day-argento/JUBB02246JW-RH.html",
+      "name": "Guess — Bracciale Donna Color My Day Argento (JUBB02246JWRHS)",
+      "shortDescription": "Bracciale in acciaio inossidabile placcato.",
+      "description": "Bracciale in acciaio inossidabile placcato. Design a catena. Ciondolo rotondo con dettaglio applicato di zirconi cubici. Incisione del logo in corsivo. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in rodio",
+        "Colore": "Argento",
+        "Pietre": "Zirconi cubici / Cristalli (6 mm)",
+        "Dimensioni": "Lunghezza catena: 14,6 cm, con catena di estensione da 3,8 cm; Ciondolo: 10 mm; Zircone cubico: 6 mm",
+        "Chiusura": "Moschettone",
+        "material": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in rodio",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "color-my-day",
+        "jubb02246jwrhs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-RH",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-RH-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBB02246JWYGEMS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-color-my-day-oro/JUBB02246JW-YGEM.html",
+      "name": "Guess — Bracciale Donna Color My Day Verde Smeraldo e Oro (JUBB02246JWYGEMS)",
+      "shortDescription": "Bracciale in acciaio inossidabile placcato.",
+      "description": "Bracciale in acciaio inossidabile placcato. Design a catena. Ciondolo rotondo con dettaglio applicato di zirconi cubici. Incisione del logo in corsivo. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in oro",
+        "Colore": "Multicolore verde / Oro",
+        "Pietre": "Zirconi cubici / Cristalli (6 mm)",
+        "Dimensioni": "Lunghezza catena: 14,6 cm, con catena di estensione da 3,8 cm; Ciondolo: 10 mm; Zircone cubico: 6 mm",
+        "Chiusura": "Moschettone",
+        "material": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "color-my-day",
+        "jubb02246jwygems"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-YGEM"
+      ]
+    },
+    {
+      "sku": "JUBB02246JWYGS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-color-my-day-oro/JUBB02246JW-YG.html",
+      "name": "Guess — Bracciale Donna Color My Day Oro (JUBB02246JWYGS)",
+      "shortDescription": "Bracciale in acciaio inossidabile placcato.",
+      "description": "Bracciale in acciaio inossidabile placcato. Design a catena. Ciondolo rotondo con dettaglio applicato di zirconi cubici. Incisione del logo in corsivo. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in oro",
+        "Colore": "Oro",
+        "Pietre": "Zirconi cubici / Cristalli (6 mm)",
+        "Dimensioni": "Lunghezza catena: 14,6 cm, con catena di estensione da 3,8 cm; Ciondolo: 10 mm; Zircone cubico: 6 mm",
+        "Chiusura": "Moschettone",
+        "material": "89% acciaio inossidabile, 10% cristalli, 1% placcatura in oro",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "color-my-day",
+        "jubb02246jwygs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB02246JW-YG-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBB02248JWYGS",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": null,
+      "name": "Guess — Bracciale Rigido Clear Bangle Oro (JUBB02248JWYGS)",
+      "shortDescription": "Bracciale donna Guess (cod. JUBB02248JWYGS) da ordine Timeway, in attesa scheda e foto ufficiali.",
+      "description": "Bracciale Rigido Clear Bangle Oro da donna Guess (ref. JUBB02248JWYGS), inserito a gestionale da ordine Timeway 082-001103. Tenuto offline in attesa di immagine ufficiale verificata.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 40,
+      "attributes": {
+        "Genere": "Donna",
+        "Note": "Solo Cassa — foto ufficiale non reperita",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "solo-cassa",
+        "jubb02248jwygs"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "JUBB05516JWYGS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-tiny-pearly-oro/JUBB05516JW-YG.html",
+      "name": "Guess — Bracciale Donna Tiny Pearly Oro (JUBB05516JWYGS)",
+      "shortDescription": "Bracciale in acciaio inossidabile.",
+      "description": "Bracciale in acciaio inossidabile. Struttura a catena regolabile. Logo 4G centrale. Applicazione di cristalli. Diversi ciondoli in madreperla. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Tiny Pearly",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro",
+        "Pietre": "Cristalli, madreperla",
+        "Dimensioni": "Taglia S: da 14,6 a 18,4 cm / da 5,7 a 7,2 inch",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "tiny-pearly",
+        "jubb05516jwygs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB05516JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB05516JW-YG-ALT1",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB05516JW-YG-ALT3"
+      ]
+    },
+    {
+      "sku": "JUBB06014JWRHS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/bracciale-donna-gioielli-guess-beloved-jubb06014jwrhs-P569423.htm",
+      "name": "Guess — Bracciale Donna Beloved Maglie a Cuore Argento (JUBB06014JWRHS)",
+      "shortDescription": "Bracciale di Guess della collezione Beloved da donna.",
+      "description": "Bracciale di Guess della collezione Beloved da donna. Bracciale realizzato in acciaio di colore argento.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio",
+        "Colore": "Argento",
+        "Pietre": "Bianco",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "beloved",
+        "jubb06014jwrhs"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/bracciale-donna-gioielli-guess-beloved-jubb06014jwrhs_975339_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBB06014JWYGS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-beloved-oro/JUBB06014JW-YG.html",
+      "name": "Guess — Bracciale Donna Beloved Maglie a Cuore Oro (JUBB06014JWYGS)",
+      "shortDescription": "Bracciale in acciaio inossidabile.",
+      "description": "Bracciale in acciaio inossidabile. Struttura a catena. Cuori intrecciati. Applicazione di cristalli. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro",
+        "Pietre": "Cristalli",
+        "Dimensioni": "Taglia S: da 14,6 a 18,4 cm / da 5,7 a 7 inch",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "beloved",
+        "jubb06014jwygs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06014JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06014JW-YG-ALT1",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06014JW-YG-ALT2"
+      ]
+    },
+    {
+      "sku": "JUBB06017JWRHS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 22.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-beloved-argento/JUBB06017JW-RH.html",
+      "name": "Guess — Bracciale Donna Beloved Charm Cuore Cristallo Argento (JUBB06017JWRHS)",
+      "shortDescription": "Bracciale in acciaio inossidabile.",
+      "description": "Bracciale in acciaio inossidabile. Struttura a catena regolabile. Charm a forma di cuore. Applicazione di zirconi cubici. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 45,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Argento",
+        "Pietre": "Zirconi cubici",
+        "Dimensioni": "Taglia S: da 14,6 a 18,4 cm / da 5,7 a 7 inch",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "beloved",
+        "jubb06017jwrhs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06017JW-RH",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06017JW-RH-ALT3",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06017JW-RH-ALT4"
+      ]
+    },
+    {
+      "sku": "JUBB06091JWYGS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 30,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-beloved-oro/JUBB06091JW-YG.html",
+      "name": "Guess — Bracciale Donna Beloved Cuore Pavé e Madreperla Oro (JUBB06091JWYGS)",
+      "shortDescription": "Bracciale in acciaio inossidabile.",
+      "description": "Bracciale in acciaio inossidabile. Struttura a catena con elementi in madreperla. Ciondolo a forma di cuore con decorazione pavé. Applicazione di cristalli. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 60,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro",
+        "Pietre": "Cristalli, madreperla",
+        "Dimensioni": "Taglia S: da 14,6 a 18,4 cm / da 5,7 a 7 inch",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "beloved",
+        "jubb06091jwygs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06091JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06091JW-YG-ALT3",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06091JW-YG-ALT4"
+      ]
+    },
+    {
+      "sku": "JUBB06246JWYGS",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/bracciali/bracciale-moon-drops-oro/JUBB06246JW-YG.html",
+      "name": "Guess — Bracciale Donna Moon Drops Oro (JUBB06246JWYGS)",
+      "shortDescription": "Bracciale in acciaio inossidabile.",
+      "description": "Bracciale in acciaio inossidabile. Struttura a catena. Ciondolo centrale impreziosito da pavé. Applicazione di cristalli. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 50,
+      "attributes": {
+        "Collezione": "Moon Drops",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro",
+        "Pietre": "Cristalli",
+        "Dimensioni": "Taglia S: da 14,6 a 18,4 cm / da 5,7 a 7,2 inch",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "bracciali",
+        "moon-drops",
+        "jubb06246jwygs"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06246JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06246JW-YG-ALT3",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBB06246JW-YG-ALT4"
+      ]
+    },
+    {
+      "sku": "JUBE02161JWYGT/U",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": null,
+      "name": "Guess — Orecchini Lily Flowers & Circle Oro (JUBE02161JWYGT/U)",
+      "shortDescription": "Orecchini donna Guess (cod. JUBE02161JWYGT/U) da ordine Timeway, in attesa scheda e foto ufficiali.",
+      "description": "Orecchini Lily Flowers & Circle Oro da donna Guess (ref. JUBE02161JWYGT/U), inserito a gestionale da ordine Timeway 082-001103. Tenuto offline in attesa di immagine ufficiale verificata.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Genere": "Donna",
+        "Note": "Solo Cassa — foto ufficiale non reperita",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "solo-cassa",
+        "jube02161jwygt/u"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "JUBE02244JWRHAQT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-color-my-day-argento/JUBE02244JW-RHAQ.html",
+      "name": "Guess — Orecchini Donna Color My Day Azzurro Zaffiro e Argento (JUBE02244JWRHAQT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile placcato.",
+      "description": "Orecchini in acciaio inossidabile placcato. Design rotondo con zircone cubico centrale e incisione del logo in caratteri corsivi. Chiusura a farfallina.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "Colore": "Azzurro / Argento",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Diametro: 10 mm; zirconi cubici: 6 mm",
+        "Chiusura": "A farfallina",
+        "material": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "color-my-day",
+        "jube02244jwrhaqt-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02244JW-RHAQ",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02244JW-RHAQ-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBE02244JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-color-my-day-argento/JUBE02244JW-RH.html",
+      "name": "Guess — Orecchini Donna Color My Day Argento (JUBE02244JWRHT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile placcato.",
+      "description": "Orecchini in acciaio inossidabile placcato. Design rotondo con zircone cubico centrale e incisione del logo in caratteri corsivi. Chiusura a farfallina.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "Colore": "Argento",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Diametro: 10 mm; zirconi cubici: 6 mm",
+        "Chiusura": "A farfallina",
+        "material": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "color-my-day",
+        "jube02244jwrht-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02244JW-RH",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02244JW-RH-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBE02244JWYGEMT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-color-my-day-verde/JUBE02244JW-YGEM.html",
+      "name": "Guess — Orecchini Donna Color My Day Verde Smeraldo e Oro (JUBE02244JWYGEMT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile placcato.",
+      "description": "Orecchini in acciaio inossidabile placcato. Design rotondo con zircone cubico centrale e incisione del logo in caratteri corsivi. Chiusura a farfallina.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (placcatura in oro)",
+        "Colore": "Multicolore verde / Oro giallo",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Diametro: 10 mm; zirconi cubici: 6 mm",
+        "Chiusura": "A farfallina",
+        "material": "Acciaio inossidabile placcato (placcatura in oro)",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "color-my-day",
+        "jube02244jwygemt-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02244JW-YGEM"
+      ]
+    },
+    {
+      "sku": "JUBE02247JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-color-my-day-argento/JUBE02247JW-RH.html",
+      "name": "Guess — Orecchini Donna Color My Day Cerchio 50mm Argento (JUBE02247JWRHT/U)",
+      "shortDescription": "Orecchini pendenti in acciaio inossidabile placcato.",
+      "description": "Orecchini pendenti in acciaio inossidabile placcato. Ciondolo a forma di cerchio con dettaglio applicato in zirconi cubici. Chiusura a gancio.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "Colore": "Argento",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Diametro: 50 mm",
+        "Chiusura": "A gancio",
+        "material": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "color-my-day",
+        "jube02247jwrht-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02247JW-RH",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02247JW-RH-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBE02247JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-color-my-day-oro/JUBE02247JW-YG.html",
+      "name": "Guess — Orecchini Donna Color My Day Cerchio 50mm Oro (JUBE02247JWYGT/U)",
+      "shortDescription": "Orecchini pendenti in acciaio inossidabile placcato.",
+      "description": "Orecchini pendenti in acciaio inossidabile placcato. Ciondolo a forma di cerchio con dettaglio applicato in zirconi cubici. Chiusura a gancio.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (variante color oro)",
+        "Colore": "Oro",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Diametro: 50 mm",
+        "Chiusura": "A gancio",
+        "material": "Acciaio inossidabile placcato (variante color oro)",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "color-my-day",
+        "jube02247jwygt-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02247JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE02247JW-YG-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBE05521JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.orofashion.it/it/gioielli-guess/1069396-orecchini-pendenti-guess-tiny-perly-in-acciaio-dorato-jube05521jw-yg-7621235404505.html",
+      "name": "Guess — Orecchini Donna Tiny Pearly Madreperla e 4G Oro (JUBE05521JWYGT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile con pendenti in madreperla, charm con logo 4G e cristalli e zirconia cubica applicati.",
+      "description": "Orecchini in acciaio inossidabile con pendenti in madreperla, charm con logo 4G e cristalli e zirconia cubica applicati. Chiusura a farfalla.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Tiny Perly",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro / Dorato",
+        "Pietre": "Madreperla, cristalli e zirconia cubica",
+        "Chiusura": "A farfalla",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "tiny-perly",
+        "jube05521jwygt-u"
+      ],
+      "imageUrls": [
+        "https://www.orofashion.it/45107-thickbox_default/orecchini-pendenti-guess-tiny-perly-in-acciaio-dorato-jube05521jw-yg.jpg"
+      ]
+    },
+    {
+      "sku": "JUBE05571JWYGMCT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-mamounia-rosa/JUBE05571JW-YGMC.html",
+      "name": "Guess — Orecchini Donna Mamounia Oro Multicolore (JUBE05571JWYGMCT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile con struttura a cerchio con più cristalli, ciondolo con logo 4G e applicazione di cristalli.",
+      "description": "Orecchini in acciaio inossidabile con struttura a cerchio con più cristalli, ciondolo con logo 4G e applicazione di cristalli. Chiusura a farfallina.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Mamounia",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro multicolore",
+        "Pietre": "Cristalli",
+        "Dimensioni": "Diametro del cerchio: 2 cm / 0,7 inch",
+        "Chiusura": "A farfallina",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "mamounia",
+        "jube05571jwygmct-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE05571JW-YGMC",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE05571JW-YGMC-ALT3",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE05571JW-YGMC-ALT4"
+      ]
+    },
+    {
+      "sku": "JUBE06015JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 22.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orecchini-donna-gioielli-guess-beloved-jube06015jwrht-u-P569425.htm",
+      "name": "Guess — Orecchini Donna Beloved Cuore 15mm Argento (JUBE06015JWRHT/U)",
+      "shortDescription": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore argento con motivo a cuore e pietre bianche.",
+      "description": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore argento con motivo a cuore e pietre bianche.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 45,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio",
+        "Colore": "Argento",
+        "Pietre": "Pietre di colore bianco",
+        "Chiusura": "Farfallina",
+        "material": "Acciaio",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "beloved",
+        "jube06015jwrht-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orecchini-donna-gioielli-guess-beloved-jube06015jwrht-u_975782_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBE06015JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 22.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orecchini-donna-gioielli-guess-beloved-jube06015jwygt-u-P569426.htm",
+      "name": "Guess — Orecchini Donna Beloved Cuore 15mm Oro (JUBE06015JWYGT/U)",
+      "shortDescription": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore oro con motivo a cuore e pietre bianche.",
+      "description": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore oro con motivo a cuore e pietre bianche.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 45,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio",
+        "Colore": "Oro",
+        "Pietre": "Pietre di colore bianco",
+        "Chiusura": "Farfallina",
+        "material": "Acciaio",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "beloved",
+        "jube06015jwygt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orecchini-donna-gioielli-guess-beloved-jube06015jwygt-u_975783_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBE06096JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 20,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/orecchini-donna-gioielli-guess-beloved-jube06096jwygt-u-P569420.htm",
+      "name": "Guess — Orecchini Donna Beloved Cuore Pavé 10mm Oro (JUBE06096JWYGT/U)",
+      "shortDescription": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore oro con motivo a cuore e pietre bianche.",
+      "description": "Orecchini a lobo da donna di Guess della collezione Beloved, realizzati in acciaio di colore oro con motivo a cuore e pietre bianche.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 40,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio",
+        "Colore": "Oro",
+        "Pietre": "Pietre di colore bianco",
+        "Chiusura": "Farfallina",
+        "material": "Acciaio",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "beloved",
+        "jube06096jwygt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/orecchini-donna-gioielli-guess-beloved-jube06096jwygt-u_975779_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBE06249JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/orecchini/orecchini-moon-drops-oro/JUBE06249JW-YG.html",
+      "name": "Guess — Orecchini Donna Moon Drops Oro (JUBE06249JWYGT/U)",
+      "shortDescription": "Orecchini in acciaio inossidabile con struttura a cerchio, decorazione pavé su entrambi i lati e applicazione di cristalli.",
+      "description": "Orecchini in acciaio inossidabile con struttura a cerchio, decorazione pavé su entrambi i lati e applicazione di cristalli. Chiusura a farfallina.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Moon Drops",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Oro",
+        "Pietre": "Cristalli (pavé)",
+        "Dimensioni": "15 mm / 0,6 inch",
+        "Chiusura": "A farfallina",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "orecchini",
+        "moon-drops",
+        "jube06249jwygt-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE06249JW-YG",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE06249JW-YG-ALT1",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBE06249JW-YG-ALT3"
+      ]
+    },
+    {
+      "sku": "JUBN02245JWRHAQT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.guess.com/it-it/guess/donna/gioielli/collane/collana-color-my-day-argento/JUBN02245JW-RHAQ.html",
+      "name": "Guess — Collana Donna Color My Day Azzurro Zaffiro e Argento (JUBN02245JWRHAQT/U)",
+      "shortDescription": "Collana in acciaio inossidabile placcato con design a catena, ciondolo rotondo con dettaglio applicato in zirconi cubici e incisione del logo in caratte...",
+      "description": "Collana in acciaio inossidabile placcato con design a catena, ciondolo rotondo con dettaglio applicato in zirconi cubici e incisione del logo in caratteri corsivi. Chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 50,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "Colore": "Azzurro / Argento",
+        "Pietre": "Zirconi cubici (cristalli)",
+        "Dimensioni": "Lunghezza catena: 40,6 cm + allungo 5 cm; ciondolo: 10 mm; zirconi cubici: 6 mm",
+        "Chiusura": "A moschettone",
+        "material": "Acciaio inossidabile placcato (placcatura in rodio)",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "color-my-day",
+        "jubn02245jwrhaqt-u"
+      ],
+      "imageUrls": [
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBN02245JW-RHAQ",
+        "https://img.guess.com/image/upload/f_auto,q_auto,fl_strip_profile,e_sharpen:50,,w_800,c_scale/v1/EU/Style/ECOMM/JUBN02245JW-RHAQ-ALT1"
+      ]
+    },
+    {
+      "sku": "JUBN02245JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-color-my-day-jubn02245jwrht-u-P341394.htm",
+      "name": "Guess — Collana Donna Color My Day Argento (JUBN02245JWRHT/U)",
+      "shortDescription": "Collana di Guess da donna della collezione Color My Day in acciaio color argento con pendente cuore e cristallo bianco, lunghezza regolabile 45–47 cm co...",
+      "description": "Collana di Guess da donna della collezione Color My Day in acciaio color argento con pendente cuore e cristallo bianco, lunghezza regolabile 45–47 cm con chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 50,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Argento",
+        "Pietre": "Cristalli bianchi",
+        "Dimensioni": "45–47 cm",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "color-my-day",
+        "jubn02245jwrht-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwrht-u_575593_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwrht-u_895365_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwrht-u_895366_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN02245JWYGEMT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-color-my-day-jubn02245jwygemt-u-P341382.htm",
+      "name": "Guess — Collana Donna Color My Day Verde Smeraldo e Oro (JUBN02245JWYGEMT/U)",
+      "shortDescription": "Collana di Guess da donna della collezione Color My Day in acciaio dorato con pendente con cristallo taglio smeraldo verde, lunghezza regolabile 45–47 c...",
+      "description": "Collana di Guess da donna della collezione Color My Day in acciaio dorato con pendente con cristallo taglio smeraldo verde, lunghezza regolabile 45–47 cm con chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 50,
+      "attributes": {
+        "Collezione": "Color My Day",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro / Verde",
+        "Pietre": "Cristallo verde smeraldo",
+        "Dimensioni": "45–47 cm",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "color-my-day",
+        "jubn02245jwygemt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwygemt-u_575581_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwygemt-u_946048_zoom.jpg",
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-color-my-day-jubn02245jwygemt-u_946049_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN05569JWYGMCT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 35,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-mamounia-jubn05569jwygmct-u-P483055.htm",
+      "name": "Guess — Collana Donna Mamounia Oro Multicolore (JUBN05569JWYGMCT/U)",
+      "shortDescription": "Collana da donna Guess della collezione Mamounia realizzata in acciaio color oro giallo con emblema 4G e cristalli multicolore, lunghezza regolabile 40,...",
+      "description": "Collana da donna Guess della collezione Mamounia realizzata in acciaio color oro giallo con emblema 4G e cristalli multicolore, lunghezza regolabile 40,6–45,7 cm con chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 70,
+      "attributes": {
+        "Collezione": "Mamounia",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro giallo / Multicolore",
+        "Pietre": "Cristalli multicolore",
+        "Dimensioni": "40,6–45,7 cm",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "mamounia",
+        "jubn05569jwygmct-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-mamounia-jubn05569jwygmct-u_887103_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06007JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 40,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-beloved-jubn06007jwygt-u-P569419.htm",
+      "name": "Guess — Collana a Y Donna Beloved Cuore Pavé Oro (JUBN06007JWYGT/U)",
+      "shortDescription": "Collana da donna Guess della collezione Beloved realizzata in acciaio inossidabile color oro giallo con pendente floreale e cristalli bianchi, chiusura...",
+      "description": "Collana da donna Guess della collezione Beloved realizzata in acciaio inossidabile color oro giallo con pendente floreale e cristalli bianchi, chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 80,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro",
+        "Pietre": "Cristalli bianchi",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "beloved",
+        "jubn06007jwygt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-beloved-jubn06007jwygt-u_975778_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06013JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-beloved-jubn06013jwrht-u-P569421.htm",
+      "name": "Guess — Collana Donna Beloved Maglie a Cuore Argento (JUBN06013JWRHT/U)",
+      "shortDescription": "Collana da donna Guess della collezione Beloved realizzata in acciaio inossidabile color argento con doppio cuore intrecciato e pavé di cristalli bianch...",
+      "description": "Collana da donna Guess della collezione Beloved realizzata in acciaio inossidabile color argento con doppio cuore intrecciato e pavé di cristalli bianchi, chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Argento",
+        "Pietre": "Cristalli bianchi",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "beloved",
+        "jubn06013jwrht-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-beloved-jubn06013jwrht-u_975780_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06013JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.tictacarea.com/it/gioielli-guess-beloved/collana-guess-beloved-jubn06013jwygt-u",
+      "name": "Guess — Collana Donna Beloved Maglie a Cuore Oro (JUBN06013JWYGT/U)",
+      "shortDescription": "Collana da donna Guess della collezione Beloved in acciaio inossidabile dorato con due cuori intrecciati: uno interamente pavé di zirconi bianchi e l'al...",
+      "description": "Collana da donna Guess della collezione Beloved in acciaio inossidabile dorato con due cuori intrecciati: uno interamente pavé di zirconi bianchi e l'altro liscio lucidato a specchio con logo GUESS inciso. Catena da 41 cm regolabile con chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro",
+        "Pietre": "Zirconi bianchi",
+        "Dimensioni": "41 cm",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "beloved",
+        "jubn06013jwygt-u"
+      ],
+      "imageUrls": [
+        "https://www.tictacarea.com/217923-thickbox_xl/collana-guess-beloved-jubn06013jwygt-u.jpg",
+        "https://www.tictacarea.com/217924-thickbox_xl/collana-guess-beloved-jubn06013jwygt-u.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06016JWRHT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 27.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-beloved-jubn06016jwrht-u-P569427.htm",
+      "name": "Guess — Collana Donna Beloved Pendente Cuore Cristallo Argento (JUBN06016JWRHT/U)",
+      "shortDescription": "Collana a Y da donna Guess della collezione Beloved realizzata in acciaio color argento con cuori in pavé di cristalli bianchi, chiusura a moschettone.",
+      "description": "Collana a Y da donna Guess della collezione Beloved realizzata in acciaio color argento con cuori in pavé di cristalli bianchi, chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 55,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Argento",
+        "Pietre": "Cristalli bianchi",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "beloved",
+        "jubn06016jwrht-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-beloved-jubn06016jwrht-u_975784_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06090JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 40,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-beloved-jubn06090jwygt-u-P569432.htm",
+      "name": "Guess — Collana Girocollo Donna Beloved Cuore Pavé Oro (JUBN06090JWYGT/U)",
+      "shortDescription": "Collana a Y da donna Guess della collezione Beloved in acciaio color oro con pendenti a cuore con cristalli bianchi e logo Guess, chiusura a moschettone.",
+      "description": "Collana a Y da donna Guess della collezione Beloved in acciaio color oro con pendenti a cuore con cristalli bianchi e logo Guess, chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 80,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro",
+        "Pietre": "Cristalli bianchi",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "beloved",
+        "jubn06090jwygt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-beloved-jubn06090jwygt-u_975785_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBN06245JWYGT/U",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 30,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/collana-donna-gioielli-guess-moon-drops-jubn06245jwygt-u-P569402.htm",
+      "name": "Guess — Collana Donna Moon Drops Oro (JUBN06245JWYGT/U)",
+      "shortDescription": "Collana da donna Guess della collezione Moon Drops realizzata in acciaio color oro con medaglia pavé e chiusura a moschettone.",
+      "description": "Collana da donna Guess della collezione Moon Drops realizzata in acciaio color oro con medaglia pavé e chiusura a moschettone.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 60,
+      "attributes": {
+        "Collezione": "Moon Drops",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro",
+        "Chiusura": "Moschettone",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "collane",
+        "moon-drops",
+        "jubn06245jwygt-u"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/collana-donna-gioielli-guess-moon-drops-jubn06245jwygt-u_975966_zoom.jpg"
+      ]
+    },
+    {
+      "sku": "JUBR06018JWRH54",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 22.5,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/anello-donna-gioielli-guess-beloved-jubr06018jwrh56-P569431.htm",
+      "name": "Guess — Anello Donna Beloved Solitario Cuore Cristallo Argento (JUBR06018JWRH54)",
+      "shortDescription": "Anello contrarié da donna Guess della collezione Beloved in acciaio color argento con cuori e cristalli bianchi, misura 14 (EU 54).",
+      "description": "Anello contrarié da donna Guess della collezione Beloved in acciaio color argento con cuori e cristalli bianchi, misura 14 (EU 54).",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 45,
+      "attributes": {
+        "Collezione": "Beloved",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile",
+        "Colore": "Argento",
+        "Pietre": "Cristalli bianchi",
+        "Dimensioni": "Misura 14 (EU 54)",
+        "material": "Acciaio inossidabile",
+        "metal": "Acciaio argento"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "anelli",
+        "beloved",
+        "jubr06018jwrh54"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/anello-donna-gioielli-guess-beloved-jubr06018jwrh56_975344.jpg"
+      ]
+    },
+    {
+      "sku": "JUBR06256JWYG54",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 25,
+      "invoiceRef": "Ordine 082-001103 (15-03-2026)",
+      "sourceUrl": "https://www.gioiapura.it/anello-donna-gioielli-guess-moon-drops-jubr06256jwyg54-P569406.htm",
+      "name": "Guess — Anello Donna Moon Drops Contrarié Pavé Oro (JUBR06256JWYG54)",
+      "shortDescription": "Anello da donna Guess della collezione Moon Drops realizzato in acciaio color oro con dettagli brillanti e cristalli bianchi, misura 14 (EU 54).",
+      "description": "Anello da donna Guess della collezione Moon Drops realizzato in acciaio color oro con dettagli brillanti e cristalli bianchi, misura 14 (EU 54).",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 50,
+      "attributes": {
+        "Collezione": "Moon Drops",
+        "Genere": "Donna",
+        "Materiale": "Acciaio inossidabile dorato",
+        "Colore": "Oro",
+        "Pietre": "Cristalli bianchi",
+        "Dimensioni": "Misura 14 (EU 54)",
+        "material": "Acciaio inossidabile dorato",
+        "metal": "Acciaio dorato"
+      },
+      "tags": [
+        "guess",
+        "gioielli",
+        "anelli",
+        "moon-drops",
+        "jubr06256jwyg54"
+      ],
+      "imageUrls": [
+        "https://data.gioiapura.it/imgprodotto/anello-donna-gioielli-guess-moon-drops-jubr06256jwyg54_975336_zoom.jpg"
+      ]
+    }
+  ]
+}
