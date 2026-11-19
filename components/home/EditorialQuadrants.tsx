@@ -11,12 +11,12 @@ interface EditorialCard {
 
 const cards: EditorialCard[] = [
   {
-    // Riga 1 — Col 1: Modella, focus sul girocollo, watermark inferiore eliminato dal crop
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-3.jpg",
-    href: "/gioielli?sub=collane",
-    label: "Indossa la Luce — Girocollo in oro e diamanti",
+    // Riga 1 — Col 1: Orecchini pendenti oro giallo, diamanti e acquamarina (1080x1080 senza logo)
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/client-media/foto/oroeco-foto-24-square.webp",
+    href: "/gioielli?sub=orecchini",
+    label: "Orecchini pendenti in oro giallo, diamanti e acquamarina ORO&CO",
     imageClassName:
-      "object-cover object-[50%_36%] scale-[1.55] transition-transform duration-[1400ms] ease-out group-hover:scale-[1.61]",
+      "object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]",
     priority: true,
   },
   {
@@ -28,20 +28,20 @@ const cards: EditorialCard[] = [
       "object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]",
   },
   {
-    // Riga 2 — Col 1: Gioiello still-life, crop pulito centrato
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/tennis_diamanti_01.jpg",
-    href: "/prodotto/bracciale-tennis-diamanti-oro-bianco",
-    label: "Bracciale Tennis in diamanti 2,10 ct",
+    // Riga 2 — Col 1: Orologio gioiello oro indossato (1080x1080 senza logo)
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/client-media/foto/oroeco-foto-17-square.webp",
+    href: "/orologi",
+    label: "Orologio gioiello in acciaio dorato ORO&CO",
     imageClassName:
       "object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]",
   },
   {
-    // Riga 2 — Col 2: Modella, focus sul girocollo a fiori e orecchini, senza watermark
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-4.jpg",
-    href: "/gioielli",
-    label: "Girocollo rigido e orecchini in oro scolpito",
+    // Riga 2 — Col 2: Anello con smeraldo e contorno di diamanti (1080x1080 pulito senza logo)
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/client-media/foto/oroeco-foto-02-square.webp",
+    href: "/gioielli?sub=anelli",
+    label: "Anello in oro bianco con smeraldo ovale e diamanti ORO&CO",
     imageClassName:
-      "object-cover object-[50%_60%] scale-[1.48] transition-transform duration-[1400ms] ease-out group-hover:scale-[1.54]",
+      "object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]",
   },
 ];
 
