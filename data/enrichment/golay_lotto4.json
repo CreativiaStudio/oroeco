@@ -1,0 +1,609 @@
+{
+  "brandSlug": "golay",
+  "brandId": "e3ca3170-1862-4b19-bbd1-445576a90601",
+  "brandName": "Golay",
+  "supplierName": "World Diamond Group S.p.A.",
+  "invoiceRef": "Fatture World Diamond Group 2025-2026",
+  "items": [
+    {
+      "sku": "GIM34",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 482.5,
+      "invoiceRef": "IT02840560243_00MLF.pdf, IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Collana con Pendente Punto Luce Calla in Oro 18 kt e Diamante",
+      "shortDescription": "Collana con Pendente Punto Luce Calla in Oro 18 kt e Diamante — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Collana con Pendente Punto Luce Calla in Oro 18 kt e Diamante (Codice GIM34). COLLANA CON PENDENTE PUNTO LUCE CALLA / ct 0,08 F SI2 / COLLANA CON PENDENTE PUNTO LUCE CALLA / ct 0,12 G SI2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 1062,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "ANDMBD4A",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 311,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario Golay in Oro 18 kt con Diamante",
+      "shortDescription": "Anello Solitario Golay in Oro 18 kt con Diamante — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Solitario Golay in Oro 18 kt con Diamante (Codice ANDMBD4A). SOLITARIO. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 684,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "ABSOL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 458,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario Diana in Oro 18 kt e Diamante 0,10 ct",
+      "shortDescription": "Anello Solitario Diana in Oro 18 kt e Diamante 0,10 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Solitario Diana in Oro 18 kt e Diamante 0,10 ct (Codice ABSOL). ANELLO SOLITARIO DIANA / TIT. ORO 18KT Standard ct 0,10 G VS2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 1008,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "OIM34",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 590,
+      "invoiceRef": "IT02840560243_00MLF.pdf, IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Orecchini Punti Luce Calla in Oro 18 kt e Diamanti",
+      "shortDescription": "Orecchini Punti Luce Calla in Oro 18 kt e Diamanti — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Orecchini Punti Luce Calla in Oro 18 kt e Diamanti (Codice OIM34). ORECCHINI PUNTI LUCE CALLA / ct 0,22 F SI / ORECCHINI PUNTI LUCE CALLA / ct 0,30 G SI2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 1298,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Orecchini"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "AB1626",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 371.5,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario in Oro 18 kt con Diamante 0,09 ct",
+      "shortDescription": "Anello Solitario in Oro 18 kt con Diamante 0,09 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Solitario in Oro 18 kt con Diamante 0,09 ct (Codice AB1626). SOLITARIO / ct 0,09 F SI2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 817,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "ASL019DI",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 267,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario in Oro 18 kt con Diamante 0,05 ct",
+      "shortDescription": "Anello Solitario in Oro 18 kt con Diamante 0,05 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Solitario in Oro 18 kt con Diamante 0,05 ct (Codice ASL019DI). ANELLO SOLITARIO / TIT. ORO 18KT Standard ct 0,05 G I1. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 587,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "AIM34",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 650,
+      "invoiceRef": "IT02840560243_00MLF.pdf, IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario Calla in Oro 18 kt con Diamante",
+      "shortDescription": "Anello Solitario Calla in Oro 18 kt con Diamante — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Solitario Calla in Oro 18 kt con Diamante (Codice AIM34). ANELLO SOLITARIO / ct 0,10 G SI2 / ANELLO SOLITARIO / ct 0,16 G SI2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 1430,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GA5146O4BR020",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 770,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,20 ct",
+      "shortDescription": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,20 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,20 ct (Codice GA5146O4BR020). AN 18K diam. tepper ct. tot.0,20. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 1694,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GO5083O4BR030",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 971,
+      "invoiceRef": "IT02840560243_00MLF.pdf, IT02840560243_00R9U.pdf",
+      "sourceUrl": null,
+      "name": "Orecchini in Oro Bianco 18 kt con Diamanti Taglio Taper 0,30 ct",
+      "shortDescription": "Orecchini in Oro Bianco 18 kt con Diamanti Taglio Taper 0,30 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Orecchini in Oro Bianco 18 kt con Diamanti Taglio Taper 0,30 ct (Codice GO5083O4BR030). OR 18K diam. tepper ct. tot.0,30. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 2136,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Orecchini"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GP5011O4BR019",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 545,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Pendente in Oro Bianco 18 kt con Diamanti Taglio Taper 0,19 ct",
+      "shortDescription": "Pendente in Oro Bianco 18 kt con Diamanti Taglio Taper 0,19 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Pendente in Oro Bianco 18 kt con Diamanti Taglio Taper 0,19 ct (Codice GP5011O4BR019). PE 18K diam. tepper ct. tot.0,19. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 1199,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GXE2006O40000-42",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 114,
+      "invoiceRef": "IT02840560243_00MLF.pdf",
+      "sourceUrl": null,
+      "name": "Catenina Leggera in Oro Bianco 18 kt con Anellino 42 cm",
+      "shortDescription": "Catenina Leggera in Oro Bianco 18 kt con Anellino 42 cm — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Catenina Leggera in Oro Bianco 18 kt con Anellino 42 cm (Codice GXE2006O40000-42). CAT. 18K leggera c/anellino oro bianco cm.42. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 251,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": false
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "OPEN598D0035",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 1275,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Orecchini ad Amo con Castone Triangolare e Diamanti 0,70 ct",
+      "shortDescription": "Orecchini ad Amo con Castone Triangolare e Diamanti 0,70 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Orecchini ad Amo con Castone Triangolare e Diamanti 0,70 ct (Codice OPEN598D0035). ORECCHINI AD AMO CASTONE TRIANGOLARE / ct 0,70 G VS2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 2805,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Orecchini"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "OCT008DI15PT",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 795,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Orecchini Solitario con Contorno Diamanti in Platino 950 (0,39 ct)",
+      "shortDescription": "Orecchini Solitario con Contorno Diamanti in Platino 950 (0,39 ct) — articolo gestionale Solo Cassa (Platino 950).",
+      "description": "Orecchini Solitario con Contorno Diamanti in Platino 950 (0,39 ct) (Codice OCT008DI15PT). ORECCHINI SOLITARIO CENT CT.0,15 CONTORNO DIAMANTI / TIT. PLATINO 950 Standard ct 0,39 D SI1. Materiale: Platino 950. Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "orecchini",
+      "subcategoryLabel": "Orecchini",
+      "price": 1749,
+      "attributes": {
+        "material": "Platino 950",
+        "metal": "Platino 950",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Orecchini"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "PCT008DI10PT",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 585,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Collana con Diamante Centrale e Contorno in Platino 950 (0,17 ct)",
+      "shortDescription": "Collana con Diamante Centrale e Contorno in Platino 950 (0,17 ct) — articolo gestionale Solo Cassa (Platino 950).",
+      "description": "Collana con Diamante Centrale e Contorno in Platino 950 (0,17 ct) (Codice PCT008DI10PT). COLLANA CON DIAMANTE CENTRALE CT 0,10 E CONTORNO / TIT. PLATINO 950 Standard ct 0,17 E VVS1 / COLLANA CON DIAMANTE CENTRALE CT 0,10 E CONTORNO / TIT. PLATINO 950 Standard ct 0,17 E VVS1 Fatt.coll. 3101 del 31-10-2025. Materiale: Platino 950. Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 1287,
+      "attributes": {
+        "material": "Platino 950",
+        "metal": "Platino 950",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "ACT008DI25PT",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 0,
+      "supplierCost": 1145,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Anello Solitario con Contorno di Diamanti in Platino 950 (0,52 ct)",
+      "shortDescription": "Anello Solitario con Contorno di Diamanti in Platino 950 (0,52 ct) — articolo gestionale Solo Cassa (Platino 950).",
+      "description": "Anello Solitario con Contorno di Diamanti in Platino 950 (0,52 ct) (Codice ACT008DI25PT). BRACCIALE TENNIS A STELLA 0,53ct 20cm / TIT. PLATINO 950 Standard ct 0,52 D VS1 / ANELLO SOLITARIO CON CONTORNO CEN 0,25 IN PLATINO Fatt.coll. 3101 del 31-10-2025. Materiale: Platino 950. Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 2519,
+      "attributes": {
+        "material": "Platino 950",
+        "metal": "Platino 950",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Bracciali"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "BTQ040050WDI1-200",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 1520,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Bracciale Tennis a Stella in Oro 18 kt e Diamanti 0,54 ct (20 cm)",
+      "shortDescription": "Bracciale Tennis a Stella in Oro 18 kt e Diamanti 0,54 ct (20 cm) — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Bracciale Tennis a Stella in Oro 18 kt e Diamanti 0,54 ct (20 cm) (Codice BTQ040050WDI1-200). BRACCIALE TENNIS A STELLA 0,53ct 20cm / ct 0,54 G SI2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 3344,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Bracciali"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GPEN598D0035",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 1025,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Girocollo con Pendente ad Amo Castone Triangolare e Diamante 0,35 ct",
+      "shortDescription": "Girocollo con Pendente ad Amo Castone Triangolare e Diamante 0,35 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Girocollo con Pendente ad Amo Castone Triangolare e Diamante 0,35 ct (Codice GPEN598D0035). GIROCOLLO PENDENTE AD AMO CON CASTONE TRIANGOLARE / ct 0,35 G VS2. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 2255,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GD683RURB",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 665,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Collana con Pendente Cuore Liscio in Oro 18 kt",
+      "shortDescription": "Collana con Pendente Cuore Liscio in Oro 18 kt — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Collana con Pendente Cuore Liscio in Oro 18 kt (Codice GD683RURB). COLLANA PENDENTE CUORE LISCIO ROSA CASSETTO BIANCO / TIT. ORO 18KT Standard COLORE. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "collane",
+      "subcategoryLabel": "Collane",
+      "price": 1463,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Collane"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GA5146O4BR048B",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 2,
+      "supplierCost": 1295,
+      "invoiceRef": "IT02840560243_00OKM.pdf, IT02840560243_00R9U.pdf",
+      "sourceUrl": null,
+      "name": "Anello Castone Alto in Oro Bianco 18 kt con Diamanti Taper 0,48 ct",
+      "shortDescription": "Anello Castone Alto in Oro Bianco 18 kt con Diamanti Taper 0,48 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello Castone Alto in Oro Bianco 18 kt con Diamanti Taper 0,48 ct (Codice GA5146O4BR048B). AN 18K diam. tepper ct. tot.0,48 CASTONE ALTO. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 2849,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "GA5148O4BR064",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 1645,
+      "invoiceRef": "IT02840560243_00OKM.pdf",
+      "sourceUrl": null,
+      "name": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,64 ct",
+      "shortDescription": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,64 ct — articolo gestionale Solo Cassa (Oro Bianco 18 kt (750)).",
+      "description": "Anello in Oro Bianco 18 kt con Diamanti Taglio Taper 0,64 ct (Codice GA5148O4BR064). AN 18K diam. tepper ct. tot.0,64. Materiale: Oro Bianco 18 kt (750). Articolo registrato esclusivamente ad uso gestionale interno (Solo Cassa) su indicazione della gioielleria.",
+      "category": "gioielli",
+      "subcategory": "anelli",
+      "subcategoryLabel": "Anelli",
+      "price": 3619,
+      "attributes": {
+        "material": "Oro Bianco 18 kt (750)",
+        "metal": "Oro Bianco 18 kt (750)",
+        "soloCassa": true,
+        "diamanti": true
+      },
+      "tags": [
+        "Golay",
+        "Solo Cassa",
+        "Diamanti",
+        "Anelli"
+      ],
+      "imageUrls": []
+    }
+  ]
+}

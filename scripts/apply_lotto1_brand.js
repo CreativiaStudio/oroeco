@@ -54,6 +54,7 @@ function resolveEnrichmentFile(brandArg, fileArg) {
     path.join(dir, `${brandArg}_lotto1.json`),
     path.join(dir, `${brandArg}_lotto2.json`),
     path.join(dir, `${brandArg}_lotto3.json`),
+    path.join(dir, `${brandArg}_lotto4.json`),
     path.join(dir, `${brandArg}.json`),
   ];
   for (const c of candidates) {
