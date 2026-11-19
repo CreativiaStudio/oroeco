@@ -8,40 +8,38 @@ const R2_BASE = (
 
 /**
  * Hero full-bleed della homepage con regia fotografica doppia:
- * - Desktop (lg+): fotografia editoriale 16:9 con modella e rubino a destra e spazio negativo caldo champagne a sinistra.
- * - Mobile (<lg): taglio verticale 9:16 dedicato con modella protagonista in alto/centro e copy luminoso sul velluto scuro in basso.
+ * - Desktop (lg+): fotografia editoriale 16:9 luminosa con modella, bocca e rubino a destra
+ *   e sfondo avorio-champagne pulito a sinistra, animata da un respiro continuo ultra-fluido.
+ * - Mobile (<lg): taglio verticale 9:16 dedicato con modella protagonista in alto/centro e copy luminoso in basso.
  */
 export function HeroSection() {
   return (
-    <section className="relative isolate flex h-[92svh] min-h-[640px] max-h-[960px] w-full items-end overflow-hidden bg-[#1b0812] lg:items-center lg:bg-[#dfd3c4]">
-      {/* Versione Desktop 16:9 — Modella a destra, spazio negativo editoriale a sinistra */}
+    <section className="relative isolate flex h-[92svh] min-h-[640px] max-h-[960px] w-full items-end overflow-hidden bg-[#1b0812] lg:items-center lg:bg-[#f5efe6]">
+      {/* Versione Desktop 16:9 — Luminosa, zero patina sulla modella, bocca pienamente visibile */}
       <Image
-        src={`${R2_BASE}/hero/hero-modella-desktop.webp`}
+        src={`${R2_BASE}/hero/hero-modella-desktop-v2.webp`}
         alt="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
         fill
         priority
         sizes="100vw"
-        className="animate-hero-kenburns hidden object-cover object-[74%_center] lg:block xl:object-[64%_center] 2xl:object-center"
+        className="animate-hero-kenburns hidden object-cover object-[72%_top] lg:block xl:object-[62%_top] 2xl:object-top"
       />
 
       {/* Versione Mobile 9:16 — Modella e anello protagonisti nella fascia alta/centrale */}
       <Image
-        src={`${R2_BASE}/hero/hero-modella-mobile.webp`}
+        src={`${R2_BASE}/hero/hero-modella-mobile-v2.webp`}
         alt="Modella ORO&CO con anello rubino marquise in oro giallo e abito magenta"
         fill
         priority
         sizes="100vw"
-        className="animate-hero-kenburns object-cover object-[50%_22%] lg:hidden"
+        className="animate-hero-kenburns object-cover object-[50%_18%] lg:hidden"
       />
 
-      {/* Sfumatura superiore per la leggibilità dell'header trasparente */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-[#17130f]/55 via-[#17130f]/20 to-transparent lg:h-40 lg:from-[#17130f]/50 lg:via-[#17130f]/15" />
+      {/* Sfumatura superiore discreta e snella solo per la leggibilità della navbar trasparente */}
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#17110d]/42 via-[#17110d]/14 to-transparent lg:h-28" />
 
       {/* Mobile: velluto borgogna/ebano solo nella fascia bassa per copy bianco + oro ad alto contrasto */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#16060e]/92 via-[#230916]/45 to-transparent lg:hidden" />
-
-      {/* Desktop: leggero velo champagne solo sul lato sinistro, lasciando la modella a destra 100% viva */}
-      <div className="pointer-events-none absolute inset-0 hidden lg:block lg:bg-gradient-to-r lg:from-[#ded2c2]/82 lg:via-[#ded2c2]/30 lg:via-[46%] lg:to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#16060e]/88 via-[#230916]/35 to-transparent lg:hidden" />
 
       <div className="container-luxe relative z-10 pb-12 pt-28 sm:pb-16 lg:pb-0 lg:pt-16">
         <div className="max-w-[330px] sm:max-w-[390px] xl:max-w-[445px]">
@@ -57,7 +55,7 @@ export function HeroSection() {
             style={{ animationDelay: "220ms" }}
           >
             L&apos;Arte dell&apos;Oro
-            <span className="mt-1 block italic normal-case tracking-[0.02em] text-[#e7d9b8] lg:text-[#7f5f24]">
+            <span className="mt-1 block italic normal-case tracking-[0.02em] text-[#e7d9b8] lg:text-[#8c6a2b]">
               e del tempo
             </span>
           </h1>
