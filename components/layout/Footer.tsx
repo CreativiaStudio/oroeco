@@ -204,18 +204,16 @@ export function Footer() {
             <p className="text-xs text-white/45">
               © {new Date().getFullYear()} ORO&amp;CO Gioielleria di Calabrese Speranza — P.IVA 03525160655
             </p>
-            <div className="flex flex-wrap justify-center gap-3 text-[0.7rem] text-white/40">
-              <Link href="/privacy-policy" className="hover:text-gold">Privacy</Link>
-              <span>·</span>
-              <Link href="/cookie-policy" className="hover:text-gold">Cookie</Link>
-              <span>·</span>
-              <Link href="/termini-e-condizioni" className="hover:text-gold">Termini</Link>
-              <span>·</span>
-              <Link href="/spedizioni-e-resi" className="hover:text-gold">Spedizioni &amp; Resi</Link>
-            </div>
-            <p className="mt-1 text-xs text-white/45">
+            <p className="text-xs text-white/45">
               Sviluppato da{" "}
-              <span className="font-medium text-gold-soft">Creativia Studio</span>
+              <a
+                href="https://www.creativiastudio.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-gold-soft underline-offset-4 transition-colors hover:text-gold hover:underline"
+              >
+                Creativia Studio
+              </a>
             </p>
           </div>
         </div>
