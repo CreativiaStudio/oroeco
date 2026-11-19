@@ -1,4 +1,5 @@
 import { BadgeCheck, Gift, ShieldCheck, Store } from "lucide-react";
+import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 
 const badges = [
   {
@@ -23,14 +24,16 @@ const badges = [
   },
 ];
 
-/** Quattro pilastri di garanzia. */
+/** Quattro pilastri di garanzia con ingresso a cascata bidirezionale. */
 export function TrustBadges() {
   return (
     <section className="border-t border-[#dedede] bg-[#f7f3ec]">
       <div className="container-luxe grid grid-cols-1 divide-y divide-[#dedede] sm:grid-cols-2 sm:divide-y-0 lg:grid-cols-4 lg:divide-x lg:divide-[#dedede]">
-        {badges.map((badge) => (
-          <div
+        {badges.map((badge, idx) => (
+          <LuxuryReveal
             key={badge.title}
+            variant="scale"
+            delayMs={idx * 85}
             className="flex flex-col items-center gap-3 px-6 py-10 text-center"
           >
             <badge.icon className="h-6 w-6 text-gold" strokeWidth={1.25} />
@@ -40,7 +43,7 @@ export function TrustBadges() {
             <p className="max-w-[240px] text-xs leading-relaxed text-[#4e423e]">
               {badge.text}
             </p>
-          </div>
+          </LuxuryReveal>
         ))}
       </div>
     </section>

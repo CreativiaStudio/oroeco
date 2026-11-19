@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { AccountDrawer } from "@/components/layout/AccountDrawer";
 import { CookieConsentBanner } from "@/components/legal/CookieConsentBanner";
+import { SmoothScrollProvider } from "@/components/motion/SmoothScrollProvider";
 
 export function StorefrontShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -18,13 +19,13 @@ export function StorefrontShell({ children }: { children: ReactNode }) {
   }
 
   return (
-    <>
+    <SmoothScrollProvider>
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
       <CartDrawer />
       <AccountDrawer />
       <CookieConsentBanner />
-    </>
+    </SmoothScrollProvider>
   );
 }

@@ -72,7 +72,7 @@ export function ChristmasShowcase() {
 
         <div className="grid items-stretch gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {boxes.map((box, idx) => (
-            <LuxuryReveal key={box.title} variant="up" delayMs={idx * 90} className="h-full">
+            <LuxuryReveal key={box.title} variant="curtain" delayMs={idx * 90} className="h-full">
               <Link
                 href={box.href}
                 className="group flex h-full flex-col overflow-hidden rounded-[2px] border border-[#dedede] bg-white transition-colors duration-300 hover:border-gold/60"

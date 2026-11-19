@@ -63,13 +63,20 @@ export default async function HomePage() {
             <p className="text-[11px] uppercase tracking-[0.35em] text-[#8a8a8a]">
               CREATI PER EMOZIONARE · DAL 1992
             </p>
-            <blockquote className="mx-auto mt-8 max-w-4xl font-serif text-xl uppercase leading-[1.5] tracking-[0.08em] text-[#020202] sm:text-2xl lg:text-[1.85rem]">
+          </LuxuryReveal>
+          <LuxuryReveal variant="line" delayMs={100} className="mx-auto mt-6 h-px w-16 bg-gold/70">
+            <span className="sr-only">Separatore</span>
+          </LuxuryReveal>
+          <LuxuryReveal variant="up" delayMs={160}>
+            <blockquote className="mx-auto mt-7 max-w-4xl font-serif text-xl uppercase leading-[1.5] tracking-[0.08em] text-[#020202] sm:text-2xl lg:text-[1.85rem]">
               Ogni prezioso ORO&amp;CO è una promessa
               <br className="hidden md:inline" />
               di luce eterna, selezionata con perizia
               <br className="hidden md:inline" />
               gemmologica e custodita nel tempo.
             </blockquote>
+          </LuxuryReveal>
+          <LuxuryReveal variant="up" delayMs={260}>
             <p className="mt-8 text-xs uppercase tracking-[0.25em] text-[#8a8a8a]">
               Gioielleria ORO&amp;CO — San Marzano sul Sarno
             </p>

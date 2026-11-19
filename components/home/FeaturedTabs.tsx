@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ProductCard } from "@/components/product/ProductCard";
+import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 import { cn } from "@/lib/utils";
 import type { Product } from "@/types/product";
 
@@ -73,13 +74,15 @@ export function FeaturedTabs({ tabs }: FeaturedTabsProps) {
           </div>
         </div>
 
-        {/* Griglia */}
+        {/* Griglia con stagger bidirezionale */}
         <div
           key={current.id}
-          className="grid animate-fade-up grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4"
+          className="grid grid-cols-2 gap-x-6 gap-y-12 lg:grid-cols-4"
         >
-          {current.products.slice(0, 8).map((product) => (
-            <ProductCard key={product.id} product={product} />
+          {current.products.slice(0, 8).map((product, idx) => (
+            <LuxuryReveal key={product.id} variant="up" delayMs={(idx % 4) * 75}>
+              <ProductCard product={product} />
+            </LuxuryReveal>
           ))}
         </div>
       </div>

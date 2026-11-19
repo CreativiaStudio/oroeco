@@ -2,6 +2,8 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { SmartImage } from "@/components/ui/SmartImage";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
+import { ScrollParallax } from "@/components/motion/ScrollParallax";
 
 const R2_BASE = (
   process.env.NEXT_PUBLIC_R2_PUBLIC_URL ||
@@ -40,61 +42,71 @@ const categories = [
     label: "Regali di Natale",
     href: "/natale",
     description: "La selezione speciale delle feste",
-    image: `${R2_BASE}/natale/natale-2.jpg`,
+    image: `${R2_BASE}/client-media/categories/cat-natale.webp`,
     imageClassName:
-      "object-cover object-[50%_46%] scale-[1.04] transition-transform duration-[1200ms] ease-out group-hover:scale-[1.09]",
+      "object-cover object-center transition-transform duration-[1200ms] ease-out group-hover:scale-[1.05]",
     span: "lg:col-span-2",
   },
 ];
 
-/** Griglia delle macro-aree dello storefront. */
+/** Griglia delle macro-aree dello storefront con Curtain Reveal e Parallasse bidirezionale. */
 export function CategoryGrid() {
   return (
     <section className="border-t border-[#dedede] bg-white py-20 sm:py-28">
       <div className="container-luxe">
-        <SectionHeading
-          eyebrow="Le Collezioni"
-          title="Esplora il Mondo ORO&CO"
-          description="Quattro mondi, un'unica idea di eleganza: dai gioielli più preziosi agli oggetti che rendono speciale ogni casa."
-          align="left"
-          className="mb-12"
-        />
+        <LuxuryReveal variant="up">
+          <SectionHeading
+            eyebrow="Le Collezioni"
+            title="Esplora il Mondo ORO&CO"
+            description="Quattro mondi, un'unica idea di eleganza: dai gioielli più preziosi agli oggetti che rendono speciale ogni casa."
+            align="left"
+            className="mb-12"
+          />
+        </LuxuryReveal>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((category) => (
-            <Link
+          {categories.map((category, idx) => (
+            <LuxuryReveal
               key={category.href}
-              href={category.href}
-              className={`group relative isolate block h-[360px] overflow-hidden rounded-[2px] border border-[#dedede] sm:h-[380px] lg:h-[420px] xl:h-[450px] ${category.span}`}
+              variant="curtain"
+              delayMs={idx * 90}
+              className={category.span}
             >
-              <SmartImage
-                src={category.image}
-                alt={category.label}
-                className="h-full w-full"
-                imageClassName={category.imageClassName}
-                sizes={
-                  category.span
-                    ? "(max-width: 1024px) 100vw, 66vw"
-                    : "(max-width: 1024px) 100vw, 33vw"
-                }
-                fallbackLabel={category.label}
-              />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-6">
-                <div className="space-y-1.5">
-                  <h3 className="font-serif text-2xl uppercase tracking-[0.14em] text-white">
-                    {category.label}
-                  </h3>
-                  <p className="text-[11px] uppercase tracking-[0.18em] text-white/80">
-                    {category.description}
-                  </p>
+              <Link
+                href={category.href}
+                className="group relative isolate block h-[360px] overflow-hidden rounded-[2px] border border-[#dedede] sm:h-[380px] lg:h-[420px] xl:h-[450px]"
+              >
+                <ScrollParallax className="h-full w-full" speed={22} scale={1.08}>
+                  <SmartImage
+                    src={category.image}
+                    alt={category.label}
+                    className="h-full w-full"
+                    imageClassName={category.imageClassName}
+                    sizes={
+                      category.span
+                        ? "(max-width: 1024px) 100vw, 66vw"
+                        : "(max-width: 1024px) 100vw, 33vw"
+                    }
+                    fallbackLabel={category.label}
+                  />
+                </ScrollParallax>
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-6">
+                  <div className="space-y-1.5">
+                    <h3 className="font-serif text-2xl uppercase tracking-[0.14em] text-white">
+                      {category.label}
+                    </h3>
+                    <p className="text-[11px] uppercase tracking-[0.18em] text-white/80">
+                      {category.description}
+                    </p>
+                  </div>
+                  <ArrowUpRight
+                    className="h-4 w-4 shrink-0 text-white/80 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-gold"
+                    strokeWidth={1.25}
+                  />
                 </div>
-                <ArrowUpRight
-                  className="h-4 w-4 shrink-0 text-white/80 transition-colors group-hover:text-gold"
-                  strokeWidth={1.25}
-                />
-              </div>
-            </Link>
+              </Link>
+            </LuxuryReveal>
           ))}
         </div>
       </div>

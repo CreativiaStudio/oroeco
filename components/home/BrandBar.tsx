@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { brands } from "@/lib/catalog";
+import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 
 /** Rassegna dei marchi trattati in gioielleria: due righe fluide in senso opposto (~3 firme visibili per riga). */
 export function BrandBar() {
@@ -13,10 +14,12 @@ export function BrandBar() {
   return (
     <section className="border-y border-[#dedede] bg-white py-16 sm:py-20">
       <div className="container-luxe mb-10 text-center">
-        <span className="eyebrow">I Marchi della Gioielleria</span>
-        <h2 className="mt-3 font-serif text-2xl uppercase tracking-[0.12em] text-[#020202] sm:text-3xl">
-          Diciotto firme, un&apos;unica selezione
-        </h2>
+        <LuxuryReveal variant="up">
+          <span className="eyebrow">I Marchi della Gioielleria</span>
+          <h2 className="mt-3 font-serif text-2xl uppercase tracking-[0.12em] text-[#020202] sm:text-3xl">
+            Diciotto firme, un&apos;unica selezione
+          </h2>
+        </LuxuryReveal>
       </div>
 
       <div className="relative space-y-5 overflow-hidden py-2">
