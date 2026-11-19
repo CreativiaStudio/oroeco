@@ -63,52 +63,56 @@ function resolveEnrichmentFile(brandArg, fileArg) {
 }
 
 async function downloadAndConvertWebp(url, referer) {
-  const attempts = [
-    {
-      headers: {
-        "User-Agent": "curl/8.5.0",
-        Accept: "*/*",
-      },
-    },
-    {
-      headers: {
-        "User-Agent": UA,
-        Accept: "image/webp,image/png,image/jpeg,*/*;q=0.8",
-        ...(referer ? { Referer: referer } : {}),
-      },
-    },
-    {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; OroecoCatalogBot/1.0)",
-        Accept: "image/jpeg,image/png,image/webp,*/*",
-      },
-    },
-  ];
-
   let rawBuf = null;
   let lastErr = "Download failed";
 
-  for (const opt of attempts) {
-    try {
-      const res = await fetch(url, { headers: opt.headers });
-      if (!res.ok) {
-        lastErr = `HTTP ${res.status} downloading ${url}`;
-        continue;
+  if (!/^https?:\/\//i.test(url) && fs.existsSync(url)) {
+    rawBuf = fs.readFileSync(url);
+  } else {
+    const attempts = [
+      {
+        headers: {
+          "User-Agent": "curl/8.5.0",
+          Accept: "*/*",
+        },
+      },
+      {
+        headers: {
+          "User-Agent": UA,
+          Accept: "image/webp,image/png,image/jpeg,*/*;q=0.8",
+          ...(referer ? { Referer: referer } : {}),
+        },
+      },
+      {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (compatible; OroecoCatalogBot/1.0)",
+          Accept: "image/jpeg,image/png,image/webp,*/*",
+        },
+      },
+    ];
+
+    for (const opt of attempts) {
+      try {
+        const res = await fetch(url, { headers: opt.headers });
+        if (!res.ok) {
+          lastErr = `HTTP ${res.status} downloading ${url}`;
+          continue;
+        }
+        const ct = (res.headers.get("content-type") || "").toLowerCase();
+        if (ct.includes("text/html")) {
+          lastErr = `HTML response instead of image: ${url}`;
+          continue;
+        }
+        const buf = Buffer.from(await res.arrayBuffer());
+        if (buf.length < 2500) {
+          lastErr = `Image too small (${buf.length}B): ${url}`;
+          continue;
+        }
+        rawBuf = buf;
+        break;
+      } catch (e) {
+        lastErr = e.message;
       }
-      const ct = (res.headers.get("content-type") || "").toLowerCase();
-      if (ct.includes("text/html")) {
-        lastErr = `HTML response instead of image: ${url}`;
-        continue;
-      }
-      const buf = Buffer.from(await res.arrayBuffer());
-      if (buf.length < 2500) {
-        lastErr = `Image too small (${buf.length}B): ${url}`;
-        continue;
-      }
-      rawBuf = buf;
-      break;
-    } catch (e) {
-      lastErr = e.message;
     }
   }
 

@@ -1,0 +1,2790 @@
+{
+  "brandSlug": "gerba",
+  "brandId": "e098e220-a35d-409e-99a8-106cc377b7e5",
+  "brandName": "Gerba",
+  "supplierName": "GERBA SRL",
+  "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+  "items": [
+    {
+      "sku": "130",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-lab-130",
+      "name": "Gerba — Bracciale LAB (130)",
+      "shortDescription": "Il bracciale Gerba LAB 130 6mm si distingue per il suo particolare design, realizzato con occhio di tigre, aulite celeste, murrine e arg 925.",
+      "description": "Il bracciale Gerba LAB 130 6mm si distingue per il suo particolare design, realizzato con occhio di tigre, aulite celeste, murrine e arg 925. Realizzato rigorosamente a mano dai nostri artigiani richiede infatti un paziente lavoro (senza l’utilizzo di alcun particolare strumento), questo non fa che determinare la bellezza e la preziosità del lavoro impiegato.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "130"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/146.png?v=1734616282",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/130.jpg?v=1734616282"
+      ]
+    },
+    {
+      "sku": "149",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.5)",
+      "name": "Gerba — Bracciale LAB Aulite Celeste Ematite e Bronzite Argento 925 (149)",
+      "shortDescription": "Bracciale artigianale Gerba collezione LAB (ref.",
+      "description": "Bracciale artigianale Gerba collezione LAB (ref. 149), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con aulite celeste, ematite liscia, bronzite faccettata e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "149"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\149.png"
+      ]
+    },
+    {
+      "sku": "180",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.3)",
+      "name": "Gerba — Bracciale LAB Occhio di Tigre Rosso e Murrine Argento 925 (180)",
+      "shortDescription": "Bracciale artigianale Gerba collezione LAB (ref.",
+      "description": "Bracciale artigianale Gerba collezione LAB (ref. 180), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con occhio di tigre rosso,murrine e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "180"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\180.png"
+      ]
+    },
+    {
+      "sku": "182",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-lab-182",
+      "name": "Gerba — Bracciale LAB (182)",
+      "shortDescription": "Il bracciale Gerba LAB 182 6mm si distingue per il suo particolare design, realizzato occhio di tigre marrone, ematite liscia, murrine e Argento 925.",
+      "description": "Il bracciale Gerba LAB 182 6mm si distingue per il suo particolare design, realizzato occhio di tigre marrone, ematite liscia, murrine e Argento 925. Realizzato rigorosamente a mano dai nostri artigiani richiede infatti un paziente lavoro (senza l’utilizzo di alcun particolare strumento), questo non fa che determinare la bellezza e la preziosità del lavoro impiegato.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "182"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/LAB-182.png?v=1790171311"
+      ]
+    },
+    {
+      "sku": "183",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.3)",
+      "name": "Gerba — Bracciale LAB Aulite Celeste Ematite e Bronzite Argento 925 (183)",
+      "shortDescription": "Bracciale artigianale Gerba collezione LAB (ref.",
+      "description": "Bracciale artigianale Gerba collezione LAB (ref. 183), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con aulite celeste, ematite liscia, bronzite,murrine e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "183"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\183.png"
+      ]
+    },
+    {
+      "sku": "185",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.3)",
+      "name": "Gerba — Bracciale LAB Occhio di Tigre Verde e Murrine Argento 925 (185)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Lab (ref.",
+      "description": "Bracciale artigianale Gerba collezione Lab (ref. 185), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con occhio di tigre verde,murrina e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "Lab",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "185"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\185.png"
+      ]
+    },
+    {
+      "sku": "186",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.4)",
+      "name": "Gerba — Bracciale LAB Agata Blu e Murrine Argento 925 (186)",
+      "shortDescription": "Bracciale artigianale Gerba collezione LAB (ref.",
+      "description": "Bracciale artigianale Gerba collezione LAB (ref. 186), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con murrine,agata blu e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "186"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\186.png"
+      ]
+    },
+    {
+      "sku": "187",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.4)",
+      "name": "Gerba — Bracciale LAB Aulite Celeste e Murrine Argento 925 (187)",
+      "shortDescription": "Bracciale artigianale Gerba collezione LAB (ref.",
+      "description": "Bracciale artigianale Gerba collezione LAB (ref. 187), realizzato a mano in Italia dai maestri orafi Gerba: bracciale lab 6mm con aulite celestefaccettata,murrine e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "lab",
+        "made-in-italy",
+        "187"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\187.png"
+      ]
+    },
+    {
+      "sku": "249",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-stone-marechiaro",
+      "name": "Gerba — Bracciale Stone Marechiaro sodalite agata argento (249)",
+      "shortDescription": "Bracciale Da Uomo Stone Marechiaro con filo elastico, realizzato a mano con Sodalite, Agata e componenti in Argento 925.",
+      "description": "Bracciale Da Uomo Stone Marechiaro con filo elastico, realizzato a mano con Sodalite, Agata e componenti in Argento 925. Questo bracciale è il regalo perfetto per il tuo partner, adatto ad ogni occasione, come un compleanno o per San Valentino. Emblema di bellezza, eleganza e raffinatezza.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "stone",
+        "made-in-italy",
+        "249"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/108.png?v=1734615945"
+      ]
+    },
+    {
+      "sku": "250",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.12)",
+      "name": "Gerba — Bracciale Sahara Pietre Naturali e Argento 925 (250)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Stone (ref. 250), realizzato a mano in Italia dai maestri orafi Gerba: Sahara: occhio di tigre rosso, paesina, aulite 6mm e argento. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Stone",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "stone",
+        "made-in-italy",
+        "250"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\250.png"
+      ]
+    },
+    {
+      "sku": "364",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.6,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.13)",
+      "name": "Gerba — Bracciale Grey London Sodalite Ematite Labradorite 6mm (364)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 364), realizzato a mano in Italia dai maestri orafi Gerba: Grey London sodalite, ematite, labradorite sfacc 6mm e argento. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 48,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "364"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\364.png"
+      ]
+    },
+    {
+      "sku": "720",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.11)",
+      "name": "Gerba — Bracciale OLIVER Pietre Naturali e Argento 925 (720)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 720), realizzato a mano in Italia dai maestri orafi Gerba: OLIVER: occhio di tigre, pasta turchese e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "720"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\720.png"
+      ]
+    },
+    {
+      "sku": "725",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 2,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.12)",
+      "name": "Gerba — Bracciale MARTIN Pietre Naturali e Argento 925 (725)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 725), realizzato a mano in Italia dai maestri orafi Gerba: MARTIN:occhio di tigre, agata blu, pasta turchese e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "725"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\725.png"
+      ]
+    },
+    {
+      "sku": "732",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-paul-732-uomo",
+      "name": "Gerba — Bracciale Elastic Paul Uomo (732)",
+      "shortDescription": "Il bracciale Gerba Elastic Paul 732 si distingue per il suo design particolare, realizzato con bracciale elastico 6m occhio di tigre, aultie celeste e c...",
+      "description": "Il bracciale Gerba Elastic Paul 732 si distingue per il suo design particolare, realizzato con bracciale elastico 6m occhio di tigre, aultie celeste e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic",
+        "made-in-italy",
+        "732"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/112-2.png?v=1734616211",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/732-PAUL.jpg?v=1734616211",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/732.jpg?v=1768467582"
+      ]
+    },
+    {
+      "sku": "735",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-noah-735-uomo",
+      "name": "Gerba — Bracciale Elastic Noah Uomo (735)",
+      "shortDescription": "Il bracciale Gerba Elastic Noah 735 si distingue per il suo design particolare, realizzato con bracciale elastico 6m onice nero opaco, pasta turchese, e...",
+      "description": "Il bracciale Gerba Elastic Noah 735 si distingue per il suo design particolare, realizzato con bracciale elastico 6m onice nero opaco, pasta turchese, ematite scura e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic",
+        "made-in-italy",
+        "735"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/109-2_2f2f18d1-eef9-4f60-bb0b-f75c4a6a2b70.png?v=1734616203",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/735-NOAH.jpg?v=1734616203"
+      ]
+    },
+    {
+      "sku": "737",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.15,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-farrel-737-uomo",
+      "name": "Gerba — Bracciale Elastic Farrel Uomo (737)",
+      "shortDescription": "Il bracciale Gerba Elastic Farrel 737 si distingue per il suo design particolare, realizzato con bracciale elastico 6m paesina,ematite chiara,occhio di...",
+      "description": "Il bracciale Gerba Elastic Farrel 737 si distingue per il suo design particolare, realizzato con bracciale elastico 6m paesina,ematite chiara,occhio di tigre verde e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 47,
+      "attributes": {
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic",
+        "made-in-italy",
+        "737"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/114-1.png?v=1734616178",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/737-FARREL.jpg?v=1734616178"
+      ]
+    },
+    {
+      "sku": "757",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 19.8,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.9)",
+      "name": "Gerba — Bracciale Abram Pietre Naturali e Argento 925 (757)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 757), realizzato a mano in Italia dai maestri orafi Gerba: Abram: bracciale con filo elastico pietre dure, murrine e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 44,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "757"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\757.png"
+      ]
+    },
+    {
+      "sku": "759",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 19.8,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.9)",
+      "name": "Gerba — Bracciale George Pietre Naturali e Argento 925 (759)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 759), realizzato a mano in Italia dai maestri orafi Gerba: George: bracciale con filo elastico pietre dure e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 44,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "759"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\759.png"
+      ]
+    },
+    {
+      "sku": "760",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 19.8,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.9)",
+      "name": "Gerba — Bracciale Lewis Pietre Naturali e Argento 925 (760)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Elastic Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Elastic Stone (ref. 760), realizzato a mano in Italia dai maestri orafi Gerba: Lewis: bracciale con filo elastico pietre dure,murrine e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 44,
+      "attributes": {
+        "Collezione": "Elastic Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "elastic-stone",
+        "made-in-italy",
+        "760"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\760.png"
+      ]
+    },
+    {
+      "sku": "ACAPULCO 17",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-acapulco-17",
+      "name": "Gerba — Bracciale Colored (ACAPULCO 17)",
+      "shortDescription": "Il bracciale Gerba Colored Acapulco 17 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in...",
+      "description": "Il bracciale Gerba Colored Acapulco 17 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di alcun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "Taglia S/M 19 cm / Taglia M/L 21 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "acapulco-17"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/17_ACAPULCO_ALTO.png?v=1781106311"
+      ]
+    },
+    {
+      "sku": "BRN20",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 40.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.3)",
+      "name": "Gerba — Bracciale BRN Artigianale Argento 925 (BRN20)",
+      "shortDescription": "Bracciale artigianale Gerba collezione BRN (ref.",
+      "description": "Bracciale artigianale Gerba collezione BRN (ref. BRN20), realizzato a mano in Italia dai maestri orafi Gerba: bracciale con filo cerato, pietre dure, ceramiche e componenti Argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 89,
+      "attributes": {
+        "Collezione": "BRN",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "brn",
+        "made-in-italy",
+        "brn20"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\brn20.png"
+      ]
+    },
+    {
+      "sku": "BS38",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.10)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS38)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS38), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs38"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs38.png"
+      ]
+    },
+    {
+      "sku": "BS39",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.10)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS39)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS39), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs39"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs39.png"
+      ]
+    },
+    {
+      "sku": "BS40",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.10)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS40)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS40), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs40"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs40.png"
+      ]
+    },
+    {
+      "sku": "BS41",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.10)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS41)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS41), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs41"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs41.png"
+      ]
+    },
+    {
+      "sku": "BS42",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.11)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS42)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS42), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs42"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs42.png"
+      ]
+    },
+    {
+      "sku": "BS44",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 13.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (Catalogo Baby 2026.pdf p.11)",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS44)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Baby (ref.",
+      "description": "Bracciale artigianale Gerba collezione Baby (ref. BS44), realizzato a mano in Italia dai maestri orafi Gerba: bracciali realizzati a mano , murrine, ceramiche e componenti ag 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 29,
+      "attributes": {
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "baby",
+        "made-in-italy",
+        "bs44"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\bs44.png"
+      ]
+    },
+    {
+      "sku": "CANNES 12",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-cannes-12",
+      "name": "Gerba — Bracciale Colored (CANNES 12)",
+      "shortDescription": "Il bracciale Gerba Colored Cannes 12 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in A...",
+      "description": "Il bracciale Gerba Colored Cannes 12 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "Taglia S/M 19 cm / Taglia M/L 21 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "cannes-12"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/12_CANNES_ALTO.png?v=1781106369"
+      ]
+    },
+    {
+      "sku": "CE01",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 17.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.36)",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE01)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Ceramic (ref.",
+      "description": "Bracciale artigianale Gerba collezione Ceramic (ref. CE01), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE CERAMICA. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 39,
+      "attributes": {
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "ceramic",
+        "made-in-italy",
+        "ce01"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\ce01.png"
+      ]
+    },
+    {
+      "sku": "CE02",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 17.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.36)",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE02)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Ceramic (ref.",
+      "description": "Bracciale artigianale Gerba collezione Ceramic (ref. CE02), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE CERAMICA. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 39,
+      "attributes": {
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "ceramic",
+        "made-in-italy",
+        "ce02"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\ce02.png"
+      ]
+    },
+    {
+      "sku": "CE03",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 17.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.36)",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE03)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Ceramic (ref.",
+      "description": "Bracciale artigianale Gerba collezione Ceramic (ref. CE03), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE CERAMICA. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 39,
+      "attributes": {
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "ceramic",
+        "made-in-italy",
+        "ce03"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\ce03.png"
+      ]
+    },
+    {
+      "sku": "CE04",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 17.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.36)",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE04)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Ceramic (ref.",
+      "description": "Bracciale artigianale Gerba collezione Ceramic (ref. CE04), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE CERAMICA. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 39,
+      "attributes": {
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "ceramic",
+        "made-in-italy",
+        "ce04"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\ce04.png"
+      ]
+    },
+    {
+      "sku": "CE05",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 17.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.36)",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE05)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Ceramic (ref.",
+      "description": "Bracciale artigianale Gerba collezione Ceramic (ref. CE05), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE CERAMICA. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 39,
+      "attributes": {
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "ceramic",
+        "made-in-italy",
+        "ce05"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\ce05.png"
+      ]
+    },
+    {
+      "sku": "CS04",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.34)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS04)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS04), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche e argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs04"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs04.png"
+      ]
+    },
+    {
+      "sku": "CS06",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.34)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS06)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS06), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche e argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs06"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs06.png"
+      ]
+    },
+    {
+      "sku": "CS07",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.35)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS07)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS07), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche e argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs07"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs07.png"
+      ]
+    },
+    {
+      "sku": "CS08",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.35)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS08)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS08), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche e argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs08"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs08.png"
+      ]
+    },
+    {
+      "sku": "DOHA 28",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Colored Doha 28 Perla Murano 8mm e Argento 925 (DOHA 28)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Colored Murano (ref.",
+      "description": "Bracciale artigianale Gerba collezione Colored Murano (ref. DOHA 28), realizzato a mano in Italia dai maestri orafi Gerba: perla fatta a mano in vetro di murano 8mm e componente in argento 92. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored Murano",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored-murano",
+        "made-in-italy",
+        "doha-28"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "FORMENTERA 20",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-formentera-20",
+      "name": "Gerba — Bracciale Colored (FORMENTERA 20)",
+      "shortDescription": "Il bracciale Gerba Colored Formentera 20 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti...",
+      "description": "Il bracciale Gerba Colored Formentera 20 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "formentera-20"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/20_FORMENTERA_ALTO.png?v=1781106519"
+      ]
+    },
+    {
+      "sku": "GB004 RED",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 42,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO PELLETTERIA 2026_compressed.pdf p.4)",
+      "name": "Gerba — Porta Carte di Credito Pelle Saffiano Bordeaux (GB004 RED)",
+      "shortDescription": "Accessorio di pelletteria Gerba (ref.",
+      "description": "Accessorio di pelletteria Gerba (ref. GB004 RED) realizzato in pregiata pelle di vitello saffiano con logo Gerba in Argento 925: Porta carte di credito in pelle di vitello saffiano color bordeaux e logo gerba in argento. Lavorazione artigianale italiana dal design essenziale e curato in ogni cucitura.",
+      "category": "accessori",
+      "subcategory": "pelletteria",
+      "subcategoryLabel": "Pelletteria",
+      "price": 84,
+      "attributes": {
+        "Collezione": "Pelletteria",
+        "Genere": "Unisex",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Pelle di vitello e Argento 925",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "accessori",
+        "pelletteria",
+        "pelletteria",
+        "made-in-italy",
+        "gb004-red"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\gb004-red.png"
+      ]
+    },
+    {
+      "sku": "GB004BLACK V",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 42,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/carta-credito-gb004-black-v",
+      "name": "Gerba — Porta Carte di Credito GB004 BLACK V (GB004BLACK V)",
+      "shortDescription": "Eleganza essenziale, anima decisa.",
+      "description": "Eleganza essenziale, anima decisa. Questo porta carta di credito firmato Gerba Jewels è un capolavoro di design e artigianalità, pensato per l’uomo moderno che non rinuncia al piacere dell’eleganza. La sua struttura, interamente realizzata in pregiata pelle di vitello nero, offre un tatto morbido ed esclusivo, mentre la lavorazione sartoriale ne garantisce la resistenza e la raffinatezza estetica. Ogni dettaglio è curato alla perfezione: le cuciture, eseguite a mano, sottolineano la dedizione artigianale e conferiscono all’accessorio un aspetto inimitabile, capace di elevare il quotidiano a un livello superiore di stile. Il design essenziale si sposa con una funzionalità intelligente: all’interno, ampi vani discreti ma ben organizzati permettono di custodire carte di credito, biglietti da visita ed altri piccoli oggetti in completa sicurezza, mantenendo l’ordine e la praticità. Misure: 10x8 cm",
+      "category": "accessori",
+      "subcategory": "pelletteria",
+      "subcategoryLabel": "Pelletteria",
+      "price": 84,
+      "attributes": {
+        "Collezione": "Pelletteria",
+        "Genere": "Uomo",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Dimensioni": "10x8 cm",
+        "material": "Pelle di vitello e Argento 925",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "accessori",
+        "pelletteria",
+        "pelletteria",
+        "made-in-italy",
+        "gb004black-v"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/gb004blackv.jpg?v=1744385566",
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/DSC_3969_2780723b-59df-4516-90fc-60c555858871.jpg?v=1744385566"
+      ]
+    },
+    {
+      "sku": "GB010 BLACK",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 92.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/pochette-gb010-black",
+      "name": "Gerba — Pochette Pelle Saffiano (GB010 BLACK)",
+      "shortDescription": "Minimalismo sofisticato, anima urbana.",
+      "description": "Minimalismo sofisticato, anima urbana. Questa pochette firmata Gerba Jewels è pensata per chi ama distinguersi attraverso i dettagli. Realizzata in pregiata pelle nera con stampa saffiano, resistente e piacevolmente strutturata al tatto, incarna uno stile deciso e raffinato, perfetto per accompagnarti in ogni momento della giornata. Il design essenziale è valorizzato da un anello a D in metallo, inserito all’esterno, che permette di indossarla in modo pratico e disinvolto grazie alla coulisse in dotazione. Una scelta di stile che coniuga funzionalità e ricercatezza, ideale sia per look casual che più formali. Compatta, ma capiente quanto basta per custodire l’essenziale con eleganza, questa pochette è il perfetto equilibrio tra estetica contemporanea e spirito artigianale. Misure: 25x16 cm",
+      "category": "accessori",
+      "subcategory": "pelletteria",
+      "subcategoryLabel": "Pelletteria",
+      "price": 185,
+      "attributes": {
+        "Collezione": "Pelletteria",
+        "Genere": "Unisex",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Dimensioni": "25x16 cm",
+        "material": "Pelle di vitello e Argento 925",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "accessori",
+        "pelletteria",
+        "pelletteria",
+        "made-in-italy",
+        "gb010-black"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/Gerba6_8_20240256.jpg?v=1744384151"
+      ]
+    },
+    {
+      "sku": "GB015 BLACK",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 97.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO PELLETTERIA 2026_compressed.pdf p.13)",
+      "name": "Gerba — Pochette Piatta Pelle Saffiano Nera 25x19,5cm (GB015 BLACK)",
+      "shortDescription": "Accessorio di pelletteria Gerba (ref.",
+      "description": "Accessorio di pelletteria Gerba (ref. GB015 BLACK) realizzato in pregiata pelle di vitello saffiano con logo Gerba in Argento 925: pochette piatta in pelle di vitello saffiano misure: 25x19, 5x7 cm. Lavorazione artigianale italiana dal design essenziale e curato in ogni cucitura.",
+      "category": "accessori",
+      "subcategory": "pelletteria",
+      "subcategoryLabel": "Pelletteria",
+      "price": 195,
+      "attributes": {
+        "Collezione": "Pelletteria",
+        "Genere": "Unisex",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Pelle di vitello e Argento 925",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "accessori",
+        "pelletteria",
+        "pelletteria",
+        "made-in-italy",
+        "gb015-black"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\gb015-black.png"
+      ]
+    },
+    {
+      "sku": "HAITI 24",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-haiti-24",
+      "name": "Gerba — Bracciale Colored (HAITI 24)",
+      "shortDescription": "Il bracciale Gerba Colored Haiti 24 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Ar...",
+      "description": "Il bracciale Gerba Colored Haiti 24 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "haiti-24"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/24_HAITI_ALTO.png?v=1781846862"
+      ]
+    },
+    {
+      "sku": "HORN11",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.6,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-horn-collection-11",
+      "name": "Gerba — Bracciale Horn Collection 11 (HORN11)",
+      "shortDescription": "Bracciale Horn Collection 11 realizzato a mano con bronzite 6mm, ceramica, corno smaltato blu e Argento 925 anallergico.",
+      "description": "Bracciale Horn Collection 11 realizzato a mano con bronzite 6mm, ceramica, corno smaltato blu e Argento 925 anallergico.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 48,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn11"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/Horn-11.png?v=1790674271"
+      ]
+    },
+    {
+      "sku": "HORN12",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.6,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.23)",
+      "name": "Gerba — Bracciale Horn Collection Bronzite e Corno Turchese Argento 925 (HORN12)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Horn Collection (ref.",
+      "description": "Bracciale artigianale Gerba collezione Horn Collection (ref. HORN12), realizzato a mano in Italia dai maestri orafi Gerba: bronzite 6mm, ceramica, corno smaltato turchese e argento925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 48,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn12"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\horn12.png"
+      ]
+    },
+    {
+      "sku": "HORN13",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 21.6,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.23)",
+      "name": "Gerba — Bracciale Horn Collection Onice e Corno Rosso Argento 925 (HORN13)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Horn Collection (ref.",
+      "description": "Bracciale artigianale Gerba collezione Horn Collection (ref. HORN13), realizzato a mano in Italia dai maestri orafi Gerba: onice lucido 6mm, ceramica, corno smaltato rosso e argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 48,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn13"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\horn13.png"
+      ]
+    },
+    {
+      "sku": "HORN15EL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Horn Elastic Onice Faccettato Osso e Argento 925 (HORN15EL)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Horn Collection (ref.",
+      "description": "Bracciale artigianale Gerba collezione Horn Collection (ref. HORN15EL), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE ONICE FACCETTATO, Osso E Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn15el"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "HORN16EL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Horn Elastic Onice Faccettato Osso e Argento 925 (HORN16EL)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Horn Collection (ref.",
+      "description": "Bracciale artigianale Gerba collezione Horn Collection (ref. HORN16EL), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE ONICE FACCETTATO, Osso E Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn16el"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "HORN18EL",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 24.3,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Horn Elastic Onice Faccettato Osso e Argento 925 (HORN18EL)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Horn Collection (ref.",
+      "description": "Bracciale artigianale Gerba collezione Horn Collection (ref. HORN18EL), realizzato a mano in Italia dai maestri orafi Gerba: BRACCIALE ONICE FACCETTATO, Osso E Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 54,
+      "attributes": {
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "horn-collection",
+        "made-in-italy",
+        "horn18el"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "IBIZA 11",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-ibiza-11",
+      "name": "Gerba — Bracciale Colored (IBIZA 11)",
+      "shortDescription": "Il bracciale Gerba Colored Ibiza 11 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Ar...",
+      "description": "Il bracciale Gerba Colored Ibiza 11 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "ibiza-11"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/11_IBIZA_ALTO.png?v=1781106594"
+      ]
+    },
+    {
+      "sku": "LANZAROTE 19",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Colored Lanzarote 19 Perla Murano 8mm e Argento 925 (LANZAROTE 19)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Colored Murano (ref.",
+      "description": "Bracciale artigianale Gerba collezione Colored Murano (ref. LANZAROTE 19), realizzato a mano in Italia dai maestri orafi Gerba: perla fatta a mano in vetro di murano 8mm e componente in argento 92. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored Murano",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored-murano",
+        "made-in-italy",
+        "lanzarote-19"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "LUX 06",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 62.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-lux06",
+      "name": "Gerba — Bracciale Lux06 (LUX 06)",
+      "shortDescription": "Bracciale Lux06 realizzato con filo cerato e componenti in argento 925.",
+      "description": "Bracciale Lux06 realizzato con filo cerato e componenti in argento 925. Realizzato rigorosamente a mano dai nostri artigiani richiede infatti un paziente lavoro (senza l’utilizzo di alcun particolare strumento), questo non fa che determinare la bellezza e la preziosità del lavoro impiegato.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 139,
+      "attributes": {
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "luxury",
+        "made-in-italy",
+        "lux-06"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/LUX06.png?v=1790691905"
+      ]
+    },
+    {
+      "sku": "LUX 07",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 62.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-lux07",
+      "name": "Gerba — Bracciale Lux07 (LUX 07)",
+      "shortDescription": "Bracciale Lux07 realizzato con filo cerato e componenti in argento 925.",
+      "description": "Bracciale Lux07 realizzato con filo cerato e componenti in argento 925. Realizzato rigorosamente a mano dai nostri artigiani richiede infatti un paziente lavoro (senza l’utilizzo di alcun particolare strumento), questo non fa che determinare la bellezza e la preziosità del lavoro impiegato.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 139,
+      "attributes": {
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "luxury",
+        "made-in-italy",
+        "lux-07"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/LUX07.png?v=1790691966"
+      ]
+    },
+    {
+      "sku": "LUX 08",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 67.05,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-lux08",
+      "name": "Gerba — Bracciale Lux08 (LUX 08)",
+      "shortDescription": "Bracciale Lux08 realizzato con filo cerato e componenti in argento 925.",
+      "description": "Bracciale Lux08 realizzato con filo cerato e componenti in argento 925. Realizzato rigorosamente a mano dai nostri artigiani richiede infatti un paziente lavoro (senza l’utilizzo di alcun particolare strumento), questo non fa che determinare la bellezza e la preziosità del lavoro impiegato.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 149,
+      "attributes": {
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "luxury",
+        "made-in-italy",
+        "lux-08"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/LUX08.png?v=1790692016"
+      ]
+    },
+    {
+      "sku": "MURANO 04",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Colored Murano 04 Perla Murano 8mm e Argento 925 (MURANO 04)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Colored Murano (ref.",
+      "description": "Bracciale artigianale Gerba collezione Colored Murano (ref. MURANO 04), realizzato a mano in Italia dai maestri orafi Gerba: perla fatta a mano in vetro di murano 8mm e componente in argento 92. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored Murano",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored-murano",
+        "made-in-italy",
+        "murano-04"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "NAPOLI 46",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-exuma-23",
+      "name": "Gerba — Bracciale Colored (NAPOLI 46)",
+      "shortDescription": "Il bracciale Gerba Colored Napoli 46 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in A...",
+      "description": "Il bracciale Gerba Colored Napoli 46 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "napoli-46"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/46_NAPLES_ALTO.png?v=1781106474"
+      ]
+    },
+    {
+      "sku": "PL01",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 33.75,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl01",
+      "name": "Gerba — Bracciale Pearl (PL01)",
+      "shortDescription": "Il bracciale Gerba Pearl PL01 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925.",
+      "description": "Il bracciale Gerba Pearl PL01 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 75,
+      "attributes": {
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "pearl",
+        "made-in-italy",
+        "pl01"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/perle_001.jpg?v=1768465026"
+      ]
+    },
+    {
+      "sku": "PL02",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 33.75,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl02",
+      "name": "Gerba — Bracciale Pearl (PL02)",
+      "shortDescription": "Il bracciale Gerba Pearl PL02 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925.",
+      "description": "Il bracciale Gerba Pearl PL02 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 75,
+      "attributes": {
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "pearl",
+        "made-in-italy",
+        "pl02"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/perle_002.jpg?v=1768464975"
+      ]
+    },
+    {
+      "sku": "PL04",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 33.75,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl04",
+      "name": "Gerba — Bracciale Pearl (PL04)",
+      "shortDescription": "Il bracciale Gerba Pearl PL04 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925.",
+      "description": "Il bracciale Gerba Pearl PL04 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, perle center e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 75,
+      "attributes": {
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "pearl",
+        "made-in-italy",
+        "pl04"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/perle_004.jpg?v=1768464855"
+      ]
+    },
+    {
+      "sku": "PORTORICO 14",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-portorico-14",
+      "name": "Gerba — Bracciale Colored (PORTORICO 14)",
+      "shortDescription": "Il bracciale Gerba Colored Portorico 14 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti i...",
+      "description": "Il bracciale Gerba Colored Portorico 14 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano senza l'utilizzo di nessun particolare strumento, il bracciale richiede un'attenta e paziente elaborazione da parte dei nostri artigiani. Tale lavoro non fa che determinare la bellezza e la preziosità di un prodotto unico e originale nel suo genere. I componenti in Argento sono anallergici con il valore inciso come prova di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "portorico-14"
+      ],
+      "imageUrls": [
+        "https://cdn.shopify.com/s/files/1/0685/2411/4098/files/14_PORTORICO_ALTO.png?v=1781107134"
+      ]
+    },
+    {
+      "sku": "SANTORINI 25",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Colored Santorini 25 Perla Murano 8mm e Argento 925 (SANTORINI 25)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Colored Murano (ref.",
+      "description": "Bracciale artigianale Gerba collezione Colored Murano (ref. SANTORINI 25), realizzato a mano in Italia dai maestri orafi Gerba: perla fatta a mano in vetro di murano 8mm e componente in argento 92. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored Murano",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored-murano",
+        "made-in-italy",
+        "santorini-25"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "STRANGE S04",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 26.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s04",
+      "name": "Gerba — Bracciale (STRANGE S04)",
+      "shortDescription": "Il bracciale Gerba Strange S04 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e...",
+      "description": "Il bracciale Gerba Strange S04 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e Argento 925. Frutto di una rigorosa lavorazione a mano.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 59,
+      "attributes": {
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "strange-stone",
+        "made-in-italy",
+        "strange-s04"
+      ],
+      "imageUrls": [
+        "https://gerba.it/cdn/shop/files/STRANGES04.png?v=1790170586&width=1200"
+      ]
+    },
+    {
+      "sku": "STRANGE S05",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 26.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s05",
+      "name": "Gerba — Bracciale (STRANGE S05)",
+      "shortDescription": "Il bracciale Gerba Strange S05 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e...",
+      "description": "Il bracciale Gerba Strange S05 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e Argento 925. Frutto di una rigorosa lavorazione a mano.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 59,
+      "attributes": {
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "strange-stone",
+        "made-in-italy",
+        "strange-s05"
+      ],
+      "imageUrls": [
+        "https://gerba.it/cdn/shop/files/STRANGES05.png?v=1790170756&width=1200"
+      ]
+    },
+    {
+      "sku": "STRANGE S07",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 26.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s07",
+      "name": "Gerba — Bracciale (STRANGE S07)",
+      "shortDescription": "Il bracciale Gerba Strange S07 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e...",
+      "description": "Il bracciale Gerba Strange S07 si distingue per il suo design particolare, realizzato con filo cerato, pietre dure, murrine, componenti in lega Gerba e Argento 925. Frutto di una rigorosa lavorazione a mano.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 59,
+      "attributes": {
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "strange-stone",
+        "made-in-italy",
+        "strange-s07"
+      ],
+      "imageUrls": [
+        "https://gerba.it/cdn/shop/files/STRANGES07.png?v=1790170914&width=1200"
+      ]
+    },
+    {
+      "sku": "STRANGE S08",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 26.55,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.17)",
+      "name": "Gerba — Bracciale Strange Stone Pietre Dure Murrine e Argento 925 (STRANGE S08)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Strange Stone (ref.",
+      "description": "Bracciale artigianale Gerba collezione Strange Stone (ref. STRANGE S08), realizzato a mano in Italia dai maestri orafi Gerba: bracciale realizzato con filo cerato, pietre dure, murrine e Argento 925. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 59,
+      "attributes": {
+        "Collezione": "Strange Stone",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "strange-stone",
+        "made-in-italy",
+        "strange-s08"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\strange-s08.png"
+      ]
+    },
+    {
+      "sku": "SYDNEY 22",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-sydney-22",
+      "name": "Gerba — Bracciale Colored (SYDNEY 22)",
+      "shortDescription": "Il bracciale Gerba Colored Sydney 22 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in A...",
+      "description": "Il bracciale Gerba Colored Sydney 22 si distingue per il suo design particolare, composto da perla fatta a mano in vetro di murano 8mm e componenti in Argento 925. Frutto di una rigorosa lavorazione a mano.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored",
+        "made-in-italy",
+        "sydney-22"
+      ],
+      "imageUrls": [
+        "https://gerba.it/cdn/shop/files/22_SYDNEY_ALTO.png?v=1781107332&width=1200"
+      ]
+    },
+    {
+      "sku": "TOLEDO 03",
+      "barcode": null,
+      "found": false,
+      "forceOffline": true,
+      "stockQuantity": 1,
+      "supplierCost": 32.5,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": null,
+      "name": "Gerba — Bracciale Colored Toledo 03 Perla Murano 8mm e Argento 925 (TOLEDO 03)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Colored Murano (ref.",
+      "description": "Bracciale artigianale Gerba collezione Colored Murano (ref. TOLEDO 03), realizzato a mano in Italia dai maestri orafi Gerba: perla fatta a mano in vetro di murano 8mm e componente in argento 92. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 65,
+      "attributes": {
+        "Collezione": "Colored Murano",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Note": "Solo Cassa — immagine ufficiale non disponibile",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "colored-murano",
+        "made-in-italy",
+        "toledo-03"
+      ],
+      "imageUrls": []
+    },
+    {
+      "sku": "CS15",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.25,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.14)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS15)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS15), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 85,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs15"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs15.png"
+      ]
+    },
+    {
+      "sku": "CS16",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.25,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.14)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS16)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS16), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 85,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs16"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs16.png"
+      ]
+    },
+    {
+      "sku": "CS18",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.25,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.14)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS18)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS18), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 85,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs18"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs18.png"
+      ]
+    },
+    {
+      "sku": "CS19",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 38.25,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.14)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS19)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS19), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 85,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs19"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs19.png"
+      ]
+    },
+    {
+      "sku": "CS09",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.15)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS09)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS09), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs09"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs09.png"
+      ]
+    },
+    {
+      "sku": "CS10",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.15)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS10)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS10), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs10"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs10.png"
+      ]
+    },
+    {
+      "sku": "CS11",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.15)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS11)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS11), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs11"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs11.png"
+      ]
+    },
+    {
+      "sku": "CS12",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.15)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS12)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS12), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche Argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs12"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs12.png"
+      ]
+    },
+    {
+      "sku": "CS13",
+      "barcode": null,
+      "found": true,
+      "forceOffline": false,
+      "stockQuantity": 1,
+      "supplierCost": 34.2,
+      "invoiceRef": "Fattura SDI 374 (06-05-2026) GERBA SRL",
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO  SILVER  FW 2026 PREZZI OK _compressed_compressed.pdf p.15)",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS13)",
+      "shortDescription": "Bracciale artigianale Gerba collezione Caracciolo (ref.",
+      "description": "Bracciale artigianale Gerba collezione Caracciolo (ref. CS13), realizzato a mano in Italia dai maestri orafi Gerba: Bracciale con filo cerato, ceramiche e argento 925 e bronzo. Componenti anallergici in Argento 925 punzonati a garanzia di autenticità.",
+      "category": "gioielli",
+      "subcategory": "bracciali",
+      "subcategoryLabel": "Bracciali",
+      "price": 76,
+      "attributes": {
+        "Collezione": "Caracciolo",
+        "Genere": "Uomo",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Lavorazione": "Artigianale Made in Italy",
+        "material": "Argento 925 e pietre naturali",
+        "metal": "Argento 925"
+      },
+      "tags": [
+        "gerba",
+        "gioielli",
+        "bracciali",
+        "caracciolo",
+        "made-in-italy",
+        "cs13"
+      ],
+      "imageUrls": [
+        "C:\\Users\\mario\\.gemini\\antigravity\\brain\\af2d2ce4-7a99-485d-a8ad-968594a22598\\scratch\\gerba_pdf_imgs\\cs13.png"
+      ]
+    }
+  ]
+}
