@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { BrandBar } from "@/components/home/BrandBar";
 import { AtelierStory } from "@/components/home/AtelierStory";
 import { TrustBadges } from "@/components/home/TrustBadges";
+import { VideoShowcaseCarousel } from "@/components/home/VideoShowcaseCarousel";
 import { EditorialQuadrants } from "@/components/home/EditorialQuadrants";
 import { ChristmasShowcase } from "@/components/home/ChristmasShowcase";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
@@ -88,6 +89,7 @@ export default async function HomePage() {
       <AtelierStory />
       <CategoryGrid />
       <TrustBadges />
+      <VideoShowcaseCarousel />
     </>
   );
 }

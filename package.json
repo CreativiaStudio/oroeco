@@ -11,6 +11,7 @@
     "test:e2e": "node tests/e2e/runner.mjs"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1171.0",
     "@supabase/supabase-js": "^2.118.0",
     "@types/pg": "^8.23.1",
     "clsx": "^2.1.1",

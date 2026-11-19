@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="68" viewBox="0 0 220 68" fill="none">
-  <!-- Cammeo ovale minimalista con profilo inciso -->
-  <ellipse cx="110" cy="20" rx="15" ry="12" stroke="#9A7D43" stroke-width="1"/>
-  <path d="M107 28 C104 24 104 18 108 15 C110.5 13 113.5 14 114 17 L112 18.5 L114.5 20.5 L112.5 22.5 C112.5 25 111 27 107 28 Z" stroke="#020202" stroke-width="0.75" stroke-linejoin="round"/>
-  <!-- Wordmark -->
-  <text x="110" y="53" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.2" fill="#020202">CAMMEO ITALIANO</text>
-  <line x1="78" y1="59" x2="142" y2="59" stroke="#9A7D43" stroke-width="0.5"/>
-</svg>

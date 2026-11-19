@@ -113,7 +113,7 @@ export function Logo({
         )}
       >
         <Image
-          src="/images/logo-oroeco.jpeg"
+          src="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/logo-oroeco.jpeg"
           alt="ORO&CO — Gioielleria since 1992"
           fill
           sizes="180px"

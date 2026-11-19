@@ -36,7 +36,7 @@ const items: LookbookItem[] = [
     title: "Il cofanetto di Natale",
     description:
       "Cofanetto dono e nastro: ogni gioiello ORO&CO si presenta come un dono da ricordare.",
-    image: "/images/natale/natale-1.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-1.jpg",
     alt: "Cofanetto dono ORO&CO con nastro",
     badge: "Regali di Natale",
     href: "/natale?sub=regali",
@@ -49,7 +49,7 @@ const items: LookbookItem[] = [
     title: "Bagliori di Festa",
     description:
       "Oro 18 kt e diamanti selezionati con perizia gemmologica, per accendere le serate più importanti dell'anno.",
-    image: "/images/natale/natale-2.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-2.jpg",
     alt: "Gioielli in oro e diamanti con bagliori natalizi",
     badge: "Regali di Natale",
     href: "/gioielli",
@@ -62,7 +62,7 @@ const items: LookbookItem[] = [
     title: "La tavola delle feste",
     description:
       "Tavola, profumatori e arredi d'atmosfera per accogliere il Natale con misura e calore.",
-    image: "/images/natale/natale-3.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-3.jpg",
     alt: "Tavola natalizia con profumatori e arredi d'atmosfera",
     badge: "Decorazioni",
     href: "/natale?sub=decorazioni",
@@ -75,7 +75,7 @@ const items: LookbookItem[] = [
     title: "La confezione inclusa",
     description:
       "Confezione luxury e nastro firmati ORO&CO: il nostro dono, incluso in ogni ordine.",
-    image: "/images/natale/natale-4.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-4.jpg",
     alt: "Confezione luxury firmata ORO&CO",
     badge: "Confezione Regalo",
     href: "/natale",

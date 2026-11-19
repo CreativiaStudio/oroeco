@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section className="relative isolate flex h-[92svh] min-h-[620px] max-h-[960px] w-full items-end overflow-hidden bg-[#eae3d7] lg:items-center">
       <Image
-        src="/images/hero/hero-main.jpg"
+        src="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/hero/hero-main.jpg"
         alt="Anello in oro su cubo di travertino e bracciale tennis, collezione Oroeco"
         fill
         priority

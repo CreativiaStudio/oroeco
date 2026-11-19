@@ -27,20 +27,22 @@ export function AtelierStory() {
       <div className="container-luxe">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <SmartImage
-            src="/images/editorial/modella-3.jpg"
-            alt="Dettaglio di un gioiello lavorato a mano nell'atelier ORO&CO"
-            className="aspect-[4/5] w-full overflow-hidden rounded-[2px] border border-[#dedede]"
-            imageClassName="object-cover object-[50%_15%] scale-[1.09]"
+            src="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/client-media/foto/oroeco-foto-41.webp"
+            alt="Renato, mamma e zia nella gioielleria ORO&CO a San Marzano sul Sarno"
+            className="aspect-square w-full overflow-hidden rounded-[2px] border border-[#dedede]"
+            imageClassName="object-cover object-center"
             sizes="(max-width: 1024px) 100vw, 50vw"
             fallbackLabel="Atelier Oro&Co"
           />
 
           <div className="space-y-7">
             <span className="eyebrow">La Nostra Storia</span>
-            <h2 className="font-serif text-3xl leading-tight text-ink sm:text-4xl lg:text-[2.75rem]">
+            <h2 className="font-serif text-3xl leading-tight text-ink sm:text-4xl lg:text-[2.6rem]">
               L&apos;arte orafa di famiglia,
               <br />
-              <span className="italic text-gold">dal 1992 a San Marzano sul Sarno</span>
+              <span className="inline-block italic text-gold tracking-[-0.02em] text-[1.55rem] sm:text-[1.95rem] lg:text-[1.95rem] xl:text-[2.25rem] sm:whitespace-nowrap">
+                dal 1992 a San Marzano sul Sarno
+              </span>
             </h2>
             <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
               Tutto è iniziato nel 1992, quando Speranza e la famiglia Calabrese hanno aperto le porte della loro

@@ -68,7 +68,7 @@ export const mainNav: NavItem[] = [
         "Solitari, verette e trilogy selezionati con perizia gemmologica.",
       href: "/gioielli",
       cta: "Scopri la collezione",
-      image: "/images/editorial/modella-3.jpg",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-3.jpg",
     },
   },
   {
@@ -90,7 +90,7 @@ export const mainNav: NavItem[] = [
         "Bulova, Locman e Paul Picot: meccanica svizzera e design italiano.",
       href: "/orologi",
       cta: "Esplora gli orologi",
-      image: "/images/editorial/category-orologi.jpg",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/category-orologi.jpg",
     },
   },
   {
@@ -114,7 +114,7 @@ export const mainNav: NavItem[] = [
         "Pelletteria, gemelli da cerimonia e penne da regalo in confezione luxury.",
       href: "/accessori",
       cta: "Scopri gli accessori",
-      image: "/images/editorial/quad-unoaerre-bracciale.jpg",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/quad-unoaerre-bracciale.jpg",
     },
   },
   {
@@ -148,7 +148,7 @@ export const mainNav: NavItem[] = [
         "Porcellane, cristalli e oggetti d'arredo per la casa più elegante.",
       href: "/casa",
       cta: "Arreda con stile",
-      image: "/images/products/villeroy/VB-2200_1.webp",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/VB-2200_1.webp",
     },
   },
   {
@@ -188,7 +188,7 @@ export const mainNav: NavItem[] = [
       description: "Porcellane Villeroy & Boch e idee regalo firmate",
       href: "/natale",
       cta: "Scopri il Natale",
-      image: "/images/editorial/category-natale.jpg",
+      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/category-natale.jpg",
     },
   },
 ];
@@ -242,34 +242,34 @@ export const categoryCopy: Record<
     title: "Gioielli",
     description:
       "Solitari, verette, collane e bracciali in oro 18 kt e diamanti selezionati, con certificato ufficiale di autenticità.",
-    image: "/images/editorial/modella-1.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-1.jpg",
   },
   orologi: {
     eyebrow: "Alta Orologeria",
     title: "Orologi",
     description:
       "Segnatempo automatici, cronografi e subacquei dei marchi più prestigiosi, uomo e donna, con garanzia internazionale.",
-    image: "/images/products/paul-picot/paul_picot_firshire_moon_01.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_firshire_moon_01.jpg",
   },
   accessori: {
     eyebrow: "Dettagli di Pregio",
     title: "Accessori",
     description:
       "Pelletteria, portachiavi, gemelli da cerimonia e penne da regalo: l'eleganza nei dettagli quotidiani.",
-    image: "/images/products/luxury/gerba_bracciale_pietre_01.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_01.jpg",
   },
   casa: {
     eyebrow: "Arte dell'Abitare",
     title: "Casa",
     description:
       "Posate, cristalli, porcellane e profumatori d'ambiente per una casa dal gusto raffinato.",
-    image: "/images/products/lladro/lladro_cranes_dome_01.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_cranes_dome_01.jpg",
   },
   natale: {
     eyebrow: "Speciale Natale 2026",
     title: "Natale",
     description:
       "La selezione stagionale per i regali più preziosi: gioielli, decorazioni e confezioni luxury firmate ORO&CO.",
-    image: "/images/natale/natale-1.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-1.jpg",
   },
 };

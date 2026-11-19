@@ -33,10 +33,10 @@ export const metadata: Metadata = {
     title: "ORO&CO | Gioielleria & Alta Orologeria dal 1992",
     description:
       "L'eleganza senza tempo, l'arte dei preziosi. Gioielli, orologi e oggetti d'arte a San Marzano sul Sarno (SA) dal 1992.",
-    images: [{ url: "/images/logo-oroeco.jpeg", width: 1600, height: 1600, alt: "ORO&CO Gioielleria" }],
+    images: [{ url: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/logo-oroeco.jpeg", width: 1600, height: 1600, alt: "ORO&CO Gioielleria" }],
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/images/logo-oroeco.jpeg", apple: "/images/logo-oroeco.jpeg" },
+  icons: { icon: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/logo-oroeco.jpeg", apple: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/logo-oroeco.jpeg" },
 };
 
 export const viewport: Viewport = {

@@ -86,7 +86,7 @@ export default async function BrandDetailPage({ params }: BrandPageProps) {
 
           <div className="mt-8 max-w-2xl">
             <img
-              src={`/images/brands/${brand.slug}.svg`}
+              src={`https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/brands/${brand.slug}.svg`}
               alt={brand.name}
               className="h-14 w-auto sm:h-16"
             />

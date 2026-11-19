@@ -1,33 +1,74 @@
 import Link from "next/link";
 import { brands } from "@/lib/catalog";
 
-/** Rassegna dei marchi trattati in gioielleria (marquee elegante). */
+/** Rassegna dei marchi trattati in gioielleria: due righe fluide in senso opposto (~3 firme visibili per riga). */
 export function BrandBar() {
-  const loop = [...brands, ...brands];
+  const half = Math.ceil(brands.length / 2);
+  const topBrands = brands.slice(0, half);
+  const bottomBrands = brands.slice(half);
+
+  const rowTop = [...topBrands, ...topBrands];
+  const rowBottom = [...bottomBrands, ...bottomBrands];
 
   return (
     <section className="border-y border-[#dedede] bg-white py-16 sm:py-20">
-      <div className="container-luxe mb-9 text-center">
+      <div className="container-luxe mb-10 text-center">
         <span className="eyebrow">I Marchi della Gioielleria</span>
         <h2 className="mt-3 font-serif text-2xl uppercase tracking-[0.12em] text-[#020202] sm:text-3xl">
           Diciotto firme, un&apos;unica selezione
         </h2>
       </div>
 
-      <div className="group relative overflow-hidden">
-        <div className="flex w-max animate-marquee items-center group-hover:[animation-play-state:paused]">
-          {loop.map((brand, index) => (
-            <Link
-              key={`${brand.slug}-${index}`}
-              href={`/brand?marca=${brand.slug}`}
-              className="mx-7 whitespace-nowrap font-serif text-lg uppercase tracking-[0.2em] text-[#4e423e] transition-colors hover:text-[#020202] sm:mx-9 sm:text-xl"
-            >
-              {brand.name}
-            </Link>
-          ))}
+      <div className="relative space-y-5 overflow-hidden py-2">
+        {/* Riga 1 — scorrimento fluido verso sinistra */}
+        <div className="group relative overflow-hidden">
+          <div className="flex w-max animate-marquee items-center will-change-transform group-hover:[animation-play-state:paused]">
+            {rowTop.map((brand, index) => (
+              <div
+                key={`top-${brand.slug}-${index}`}
+                className="flex w-[65vw] shrink-0 items-center justify-center sm:w-[44vw] lg:w-[33.333vw]"
+              >
+                <Link
+                  href={`/brand?marca=${brand.slug}`}
+                  className="whitespace-nowrap font-serif text-xl uppercase tracking-[0.24em] text-[#4e423e] transition-colors duration-300 hover:text-[#020202] sm:text-2xl"
+                >
+                  {brand.name}
+                </Link>
+                <span
+                  aria-hidden="true"
+                  className="ml-auto h-1 w-1 rotate-45 bg-gold/60"
+                />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white to-transparent" />
+
+        {/* Riga 2 — scorrimento fluido in senso opposto (verso destra) */}
+        <div className="group relative overflow-hidden">
+          <div className="flex w-max animate-marquee-reverse items-center will-change-transform group-hover:[animation-play-state:paused]">
+            {rowBottom.map((brand, index) => (
+              <div
+                key={`bottom-${brand.slug}-${index}`}
+                className="flex w-[65vw] shrink-0 items-center justify-center sm:w-[44vw] lg:w-[33.333vw]"
+              >
+                <Link
+                  href={`/brand?marca=${brand.slug}`}
+                  className="whitespace-nowrap font-serif text-xl uppercase tracking-[0.24em] text-[#4e423e] transition-colors duration-300 hover:text-[#020202] sm:text-2xl"
+                >
+                  {brand.name}
+                </Link>
+                <span
+                  aria-hidden="true"
+                  className="ml-auto h-1 w-1 rotate-45 bg-gold/60"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Sfumature laterali morbide */}
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-white via-white/80 to-transparent sm:w-32" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-white via-white/80 to-transparent sm:w-32" />
       </div>
 
       <div className="container-luxe mt-10 text-center">

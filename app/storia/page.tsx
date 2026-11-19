@@ -71,7 +71,7 @@ export default function StoriaPage() {
         eyebrow="La Maison"
         title="La Nostra Storia"
         description="Una famiglia, una bottega, una passione per i preziosi che dal 1992 accompagna i momenti più importanti dei nostri clienti."
-        image="/images/editorial/modella-1.jpg"
+        image="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-1.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "La Nostra Storia" }]}
       />
 
@@ -118,7 +118,7 @@ export default function StoriaPage() {
 
           <div className="grid grid-cols-2 gap-4">
             <SmartImage
-              src="/images/editorial/modella-4.jpg"
+              src="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-4.jpg"
               alt="Gioielli in oro esposti in gioielleria ORO&CO"
               className="aspect-[3/4] w-full rounded-sm border border-line"
               imageClassName="object-cover object-[50%_16%] scale-[1.09]"
@@ -126,7 +126,7 @@ export default function StoriaPage() {
               fallbackLabel="Gioielleria Oro&Co"
             />
             <SmartImage
-              src="/images/products/davite-delucchi/trilogy_diamanti_01.jpg"
+              src="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/trilogy_diamanti_01.jpg"
               alt="Dettaglio di un bracciale prezioso ORO&CO"
               className="mt-10 aspect-[3/4] w-full rounded-sm border border-line"
               sizes="(max-width: 1024px) 50vw, 25vw"

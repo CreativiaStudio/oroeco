@@ -35,3 +35,7 @@ next-env.d.ts
 # private supplier invoices & local logs
 /Oroeco fatture/
 scripts/keepalive.log
+
+# media live exclusively on Cloudflare R2 (oroeco-media)
+/public/images/
+/public/videos/

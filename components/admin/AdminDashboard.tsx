@@ -22,6 +22,7 @@ import {
   FileSpreadsheet,
   FileText,
   History,
+  Images,
   LayoutDashboard,
   type LucideIcon,
   Minus,
@@ -52,6 +53,7 @@ import { SmartImage } from "@/components/ui/SmartImage";
 import { ProductInspectorModal } from "@/components/admin/ProductInspectorModal";
 import { AdminCrmSection } from "@/components/admin/AdminCrmSection";
 import { AdminBillingConnectionSection } from "@/components/admin/AdminBillingConnectionSection";
+import { MediaLibrary } from "@/components/admin/MediaLibrary";
 import { findProductByCode, getAllBrands, getAllProducts } from "@/lib/catalog";
 import { cn, formatPrice } from "@/lib/utils";
 import { useInventoryStore } from "@/store/useInventoryStore";
@@ -72,6 +74,7 @@ import type { Product, ProductCategory } from "@/types/product";
 type AdminSection =
   | "overview"
   | "inventory"
+  | "media"
   | "invoices"
   | "orders"
   | "crm"
@@ -97,6 +100,12 @@ const SECTIONS: SectionDef[] = [
     label: "Magazzino & Catalogo",
     caption: "Giacenze, prezzi e rettifiche",
     icon: Package,
+  },
+  {
+    id: "media",
+    label: "Libreria Media (R2)",
+    caption: "Archivio Cloudflare foto & video",
+    icon: Images,
   },
   {
     id: "invoices",
@@ -2095,6 +2104,11 @@ export function AdminDashboard() {
                 SEZIONE 6 — CRM CLIENTI & ORBITA
                 ============================================================ */}
             {activeSection === "crm" && <AdminCrmSection />}
+
+            {/* ============================================================
+                SEZIONE — LIBRERIA MEDIA CLOUDFLARE R2
+                ============================================================ */}
+            {activeSection === "media" && <MediaLibrary mode="manage" />}
 
             {/* ============================================================
                 SEZIONE 7 — CONNESSIONE FATTURAZIONE & CASSA

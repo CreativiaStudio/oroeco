@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { cn, initialsFromName } from "@/lib/utils";
+import { mediaUrl } from "@/lib/media";
 
 interface SmartImageProps {
   src?: string;
@@ -32,15 +33,16 @@ export function SmartImage({
   priority = false,
   fallbackLabel,
 }: SmartImageProps) {
-  const [failed, setFailed] = useState(!src);
+  const resolvedSrc = mediaUrl(src);
+  const [failed, setFailed] = useState(!resolvedSrc);
 
   useEffect(() => {
-    setFailed(!src);
-  }, [src]);
+    setFailed(!resolvedSrc);
+  }, [resolvedSrc]);
 
   return (
     <div className={cn("relative overflow-hidden bg-pearl", className)}>
-      {failed || !src ? (
+      {failed || !resolvedSrc ? (
         <div className="absolute inset-0 grid place-items-center bg-gradient-to-br from-[#f7f4ed] via-[#efe9dc] to-[#e3d8c1]">
           <div className="flex flex-col items-center gap-2 text-center">
             <span className="grid h-12 w-12 place-items-center rounded-full border border-gold/50 font-serif text-sm text-gold">
@@ -53,7 +55,7 @@ export function SmartImage({
         </div>
       ) : (
         <Image
-          src={src}
+          src={resolvedSrc}
           alt={alt}
           fill
           sizes={sizes}

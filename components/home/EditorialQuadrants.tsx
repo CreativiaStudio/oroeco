@@ -12,7 +12,7 @@ interface EditorialCard {
 const cards: EditorialCard[] = [
   {
     // Riga 1 — Col 1: Modella, focus sul girocollo, watermark inferiore eliminato dal crop
-    image: "/images/editorial/modella-3.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-3.jpg",
     href: "/gioielli?sub=collane",
     label: "Indossa la Luce — Girocollo in oro e diamanti",
     imageClassName:
@@ -20,16 +20,16 @@ const cards: EditorialCard[] = [
     priority: true,
   },
   {
-    // Riga 1 — Col 2: Gioiello still-life, crop pulito centrato
-    image: "/images/products/davite-delucchi/solitario_diamante_01.jpg",
-    href: "/prodotto/solitario-oro-bianco-diamante-050",
-    label: "Solitario in oro bianco e diamante 0,50 ct",
+    // Riga 1 — Col 2: Anello indossato ORO&CO, taglio quadrato 1080x1080 pulito senza logo
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/client-media/foto/oroeco-foto-15-square.webp",
+    href: "/gioielli?sub=anelli",
+    label: "Anello a fasce in oro rosa e diamanti ORO&CO",
     imageClassName:
       "object-cover object-center transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]",
   },
   {
     // Riga 2 — Col 1: Gioiello still-life, crop pulito centrato
-    image: "/images/products/davite-delucchi/tennis_diamanti_01.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/tennis_diamanti_01.jpg",
     href: "/prodotto/bracciale-tennis-diamanti-oro-bianco",
     label: "Bracciale Tennis in diamanti 2,10 ct",
     imageClassName:
@@ -37,7 +37,7 @@ const cards: EditorialCard[] = [
   },
   {
     // Riga 2 — Col 2: Modella, focus sul girocollo a fiori e orecchini, senza watermark
-    image: "/images/editorial/modella-4.jpg",
+    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-4.jpg",
     href: "/gioielli",
     label: "Girocollo rigido e orecchini in oro scolpito",
     imageClassName:

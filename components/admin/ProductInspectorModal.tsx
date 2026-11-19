@@ -31,6 +31,7 @@ import {
   X,
 } from "lucide-react";
 import { SmartImage } from "@/components/ui/SmartImage";
+import { MediaLibrary } from "@/components/admin/MediaLibrary";
 import { cn, formatPrice } from "@/lib/utils";
 import type { Product, ProductCategory } from "@/types/product";
 
@@ -87,6 +88,7 @@ export function ProductInspectorModal({
 
   const [copiedBarcode, setCopiedBarcode] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
+  const [mediaPickerMode, setMediaPickerMode] = useState<"replace" | "add" | null>(null);
 
   // Sync state when product changes
   useEffect(() => {
@@ -396,9 +398,27 @@ export function ProductInspectorModal({
                         return copy;
                       });
                     }}
-                    placeholder="/images/products/... o https://..."
+                    placeholder="https://pub-....r2.dev/products/..."
                     className="mt-1 w-full rounded-sm border border-[#E5E0D5] bg-white px-2.5 py-1.5 font-mono text-xs text-ink outline-none focus:border-[#C5A059]"
                   />
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    <button
+                      type="button"
+                      onClick={() => setMediaPickerMode("replace")}
+                      className="inline-flex items-center gap-1.5 rounded-sm bg-[#012236] px-2.5 py-1 text-[0.68rem] font-semibold text-white hover:bg-[#023352]"
+                    >
+                      <ImageIcon className="h-3.5 w-3.5 text-[#C5A059]" />
+                      <span>Scegli da Libreria R2</span>
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setMediaPickerMode("add")}
+                      className="inline-flex items-center gap-1 rounded-sm border border-[#E5E0D5] bg-[#F8F7F4] px-2.5 py-1 text-[0.68rem] font-medium text-ink hover:border-[#C5A059]"
+                    >
+                      <Plus className="h-3.5 w-3.5 text-[#C5A059]" />
+                      <span>Aggiungi foto alla galleria</span>
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -751,6 +771,36 @@ export function ProductInspectorModal({
           </div>
         </div>
       </div>
+
+      {mediaPickerMode && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm">
+          <div className="max-h-[90vh] w-full max-w-5xl overflow-y-auto rounded-md border border-[#E5E0D5] bg-[#F8F7F4] p-5 shadow-2xl">
+            <MediaLibrary
+              mode="picker"
+              onClose={() => setMediaPickerMode(null)}
+              onSelect={(item) => {
+                if (mediaPickerMode === "add") {
+                  setGalleryImages((prev) => {
+                    const next = [...prev, item.url];
+                    setActiveImageIndex(next.length - 1);
+                    return next;
+                  });
+                  setImageUrl(item.url);
+                } else {
+                  setImageUrl(item.url);
+                  setGalleryImages((prev) => {
+                    if (prev.length === 0) return [item.url];
+                    const copy = [...prev];
+                    copy[activeImageIndex] = item.url;
+                    return copy;
+                  });
+                }
+                setMediaPickerMode(null);
+              }}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

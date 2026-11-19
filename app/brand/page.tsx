@@ -36,7 +36,7 @@ export default async function BrandPage({
         eyebrow="Le Firme della Gioielleria"
         title="Brand"
         description="Diciotto marchi selezionati tra alta gioielleria, orologeria e arte della tavola: le firme che da sempre accompagnano la storia di ORO&CO."
-        image="/images/products/paul-picot/paul_picot_yachtman_01.jpg"
+        image="https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_yachtman_01.jpg"
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Brand" }]}
       />
 
@@ -50,7 +50,7 @@ export default async function BrandPage({
             >
               <div className="mb-6 flex h-28 items-center justify-center border-b border-[#ece6dc] px-4 pb-5 sm:h-32">
                 <img
-                  src={"/images/brands/" + brand.slug + ".svg"}
+                  src={"https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/brands/" + brand.slug + ".svg"}
                   alt={brand.name}
                   className="h-20 w-full max-w-[240px] object-contain transition-transform duration-500 group-hover:scale-105 sm:h-24"
                 />

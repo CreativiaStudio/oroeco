@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 68" fill="none" role="img" aria-label="AMEN">
-  <title>AMEN</title>
-  <circle cx="110" cy="16" r="10.5" stroke="#9A7D43" stroke-width="1.1"/>
-  <circle cx="110" cy="16" r="7.6" stroke="#9A7D43" stroke-width="0.45" opacity="0.5"/>
-  <path d="M110 8.5v15M102.5 16h15" stroke="#020202" stroke-width="1.6" stroke-linecap="square"/>
-  <path d="M98 5.5 99.8 7.3M122 5.5l-1.8 1.8M98 26.5l1.8-1.8M122 26.5l-1.8-1.8" stroke="#9A7D43" stroke-width="0.7" stroke-linecap="round" opacity="0.7"/>
-  <text x="110" y="47" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="7" fill="#020202">AMEN</text>
-</svg>

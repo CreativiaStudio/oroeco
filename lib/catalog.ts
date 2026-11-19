@@ -190,9 +190,9 @@ export const products: Product[] = [
     compareAtPrice: 2890,
     currency: "EUR",
     images: [
-          "/images/products/luxury/golay_south_sea_01.jpg",
-          "/images/products/luxury/golay_south_sea_02.jpg",
-          "/images/products/luxury/luxury_velvet_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_velvet_box.jpg"
     ],
     description:
       "Solitario in oro bianco 18 kt con diamante centrale brillante da 0,50 ct, purezza VS e colore G. La montatura a griffe esalta la luce della pietra. Corredato di certificato gemmologico ufficiale e astuccio in velluto.",
@@ -232,10 +232,10 @@ export const products: Product[] = [
     price: 1290,
     currency: "EUR",
     images: [
-          "/images/products/davite-delucchi/veretta_diamanti_01.jpg",
-          "/images/products/davite-delucchi/veretta_diamanti_02.jpg",
-          "/images/products/davite-delucchi/veretta_diamanti_03.jpg",
-          "/images/products/davite-delucchi/davite_box_certificato.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/veretta_diamanti_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/veretta_diamanti_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/veretta_diamanti_03.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/davite-delucchi/davite_box_certificato.jpg"
     ],
     description:
       "Veretta eternity in oro giallo 18 kt con diamanti a brillante incastonati a giro completo. Un classico intramontabile da indossare da sola o in abbinamento.",
@@ -274,9 +274,9 @@ export const products: Product[] = [
     compareAtPrice: 2150,
     currency: "EUR",
     images: [
-          "/images/products/luxury/golay_south_sea_01.jpg",
-          "/images/products/luxury/golay_south_sea_02.jpg",
-          "/images/products/luxury/luxury_velvet_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_velvet_box.jpg"
     ],
     description:
       "Anello trilogy in oro bianco 18 kt con tre diamanti a rappresentare passato, presente e futuro. Eleganza senza tempo per l'anello più importante.",
@@ -390,10 +390,10 @@ export const products: Product[] = [
     compareAtPrice: 1180,
     currency: "EUR",
     images: [
-          "/images/products/nihama/nihama_akoya_strand_01.jpg",
-          "/images/products/nihama/nihama_akoya_clasp_02.jpg",
-          "/images/products/nihama/nihama_akoya_luster_03.jpg",
-          "/images/products/nihama/nihama_box_passaporto.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_akoya_strand_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_akoya_clasp_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_akoya_luster_03.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_box_passaporto.jpg"
     ],
     description:
       "Collier in oro con perle di acqua dolce selezionate, dal lustro naturale. Un gioiello romantico e sofisticato per le occasioni speciali.",
@@ -466,9 +466,9 @@ export const products: Product[] = [
     price: 450,
     currency: "EUR",
     images: [
-          "/images/products/luxury/cammeo_italiano_01.jpg",
-          "/images/products/luxury/cammeo_italiano_02.jpg",
-          "/images/products/luxury/luxury_velvet_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/cammeo_italiano_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/cammeo_italiano_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_velvet_box.jpg"
     ],
     description:
       "Orecchini pendenti con cammeo inciso a mano della tradizione torrese, montati su oro 18 kt. Ogni pezzo è unico, espressione dell'artigianato italiano.",
@@ -502,9 +502,9 @@ export const products: Product[] = [
     price: 290,
     currency: "EUR",
     images: [
-          "/images/products/luxury/dana_oro_cerchi_01.jpg",
-          "/images/products/luxury/dana_oro_cerchi_02.jpg",
-          "/images/products/luxury/luxury_velvet_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/dana_oro_cerchi_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/dana_oro_cerchi_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_velvet_box.jpg"
     ],
     description:
       "Orecchini a cerchio in oro giallo 9 kt, leggeri e portabili tutto il giorno. Un classico dal prezzo accessibile, perfetto anche da regalare.",
@@ -540,9 +540,9 @@ export const products: Product[] = [
     compareAtPrice: 3990,
     currency: "EUR",
     images: [
-          "/images/products/nihama/nihama_bracciale_01.jpg",
-          "/images/products/nihama/nihama_bracciale_02.jpg",
-          "/images/products/nihama/nihama_box_passaporto.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_bracciale_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_bracciale_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_box_passaporto.jpg"
     ],
     description:
       "Bracciale tennis in oro bianco 18 kt con una linea ininterrotta di diamanti. Massima espressione di luce e raffinatezza al polso.",
@@ -615,9 +615,9 @@ export const products: Product[] = [
     price: 390,
     currency: "EUR",
     images: [
-          "/images/products/luxury/dana_oro_cerchi_01.jpg",
-          "/images/products/luxury/dana_oro_cerchi_02.jpg",
-          "/images/products/luxury/luxury_velvet_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/dana_oro_cerchi_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/dana_oro_cerchi_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_velvet_box.jpg"
     ],
     description:
       "Bracciale a catena in oro bianco 9 kt, dal design moderno e portabile ogni giorno. Ottimo come prima gioielleria o regalo.",
@@ -688,9 +688,9 @@ export const products: Product[] = [
     price: 129,
     currency: "EUR",
     images: [
-          "/images/products/luxury/amen_medaglia_01.jpg",
-          "/images/products/luxury/amen_medaglia_02.jpg",
-          "/images/products/luxury/amen_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/amen_medaglia_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/amen_medaglia_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/amen_box.jpg"
     ],
     description:
       "Medaglia della Madonna in argento 925 smaltato, custode di fede e protezione. Un dono di valore che accompagna ogni giorno.",
@@ -800,9 +800,9 @@ export const products: Product[] = [
     price: 1290,
     currency: "EUR",
     images: [
-          "/images/products/locman/locman_montecristo_01.jpg",
-          "/images/products/locman/locman_montecristo_02.jpg",
-          "/images/products/locman/locman_box_garanzia.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_montecristo_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_montecristo_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_box_garanzia.jpg"
     ],
     description:
       "Locman Montecristo con movimento automatico svizzero, cassa in acciaio e vetro zaffiro. Design italiano dal carattere sportivo ed elegante.",
@@ -838,9 +838,9 @@ export const products: Product[] = [
     price: 3900,
     currency: "EUR",
     images: [
-          "/images/products/paul-picot/paul_picot_classic_01.jpg",
-          "/images/products/paul-picot/paul_picot_classic_02.jpg",
-          "/images/products/paul-picot/paul_picot_radica_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_classic_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_classic_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/paul_picot_radica_box.jpg"
     ],
     description:
       "Cronografo Paul Picot di manifattura svizzera, cassa in acciaio con finiture a specchio e quadrante guilloché. Alta orologeria per i collezionisti.",
@@ -875,9 +875,9 @@ export const products: Product[] = [
     price: 299,
     currency: "EUR",
     images: [
-          "/images/products/luxury/guess_watch_01.jpg",
-          "/images/products/luxury/guess_watch_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Orologio subacqueo Guess Voyage con ghiera girevole, cassa oversize e cinturino in silicone. Stile deciso per un look contemporaneo.",
@@ -915,9 +915,9 @@ export const products: Product[] = [
     compareAtPrice: 299,
     currency: "EUR",
     images: [
-          "/images/products/luxury/guess_watch_01.jpg",
-          "/images/products/luxury/guess_watch_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Orologio donna Guess con quadrante madreperla e cristalli scintillanti. Un accessorio gioiello che illumina ogni outfit.",
@@ -953,9 +953,9 @@ export const products: Product[] = [
     price: 690,
     currency: "EUR",
     images: [
-          "/images/products/locman/locman_stealth_lady_01.jpg",
-          "/images/products/locman/locman_stealth_lady_02.jpg",
-          "/images/products/locman/locman_box_garanzia.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_stealth_lady_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_stealth_lady_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/locman_box_garanzia.jpg"
     ],
     description:
       "Orologio donna Locman dal design elegante e minimalista, cassa in acciaio e cinturino intercambiabile. Made in Italy, garanzia internazionale.",
@@ -1029,9 +1029,9 @@ export const products: Product[] = [
     price: 89,
     currency: "EUR",
     images: [
-          "/images/products/luxury/guess_watch_01.jpg",
-          "/images/products/luxury/guess_watch_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Portafoglio uomo in pelle martellata con logo in metallo, scomparti per carte e porta banconote. Eleganza funzionale per ogni giorno.",
@@ -1062,9 +1062,9 @@ export const products: Product[] = [
     price: 119,
     currency: "EUR",
     images: [
-          "/images/products/luxury/ducati_corse_crono_01.jpg",
-          "/images/products/luxury/ducati_corse_crono_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Cintura in pelle pieno fiore con fibbia in acciaio spazzolato. Linea pulita ispirata al design Ducati, per un look maschile deciso.",
@@ -1097,9 +1097,9 @@ export const products: Product[] = [
     price: 79,
     currency: "EUR",
     images: [
-          "/images/products/luxury/gerba_bracciale_pietre_01.jpg",
-          "/images/products/luxury/gerba_bracciale_pietre_02.jpg",
-          "/images/products/luxury/luxury_pouch.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_pouch.jpg"
     ],
     description:
       "Portachiavi in argento 925 dal design minimale, con anello rinforzato e incisione personalizzabile. Un dettaglio di lusso da regalare.",
@@ -1133,9 +1133,9 @@ export const products: Product[] = [
     price: 145,
     currency: "EUR",
     images: [
-          "/images/products/luxury/gerba_bracciale_pietre_01.jpg",
-          "/images/products/luxury/gerba_bracciale_pietre_02.jpg",
-          "/images/products/luxury/luxury_pouch.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/gerba_bracciale_pietre_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_pouch.jpg"
     ],
     description:
       "Gemelli da cerimonia con inserto in onice nero e finitura in acciaio. L'accessorio essenziale per smoking e abiti formali, in confezione regalo.",
@@ -1171,9 +1171,9 @@ export const products: Product[] = [
     compareAtPrice: 220,
     currency: "EUR",
     images: [
-          "/images/products/luxury/ducati_corse_crono_01.jpg",
-          "/images/products/luxury/ducati_corse_crono_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Stilografica dal corpo in resina lucida con dettagli in metallo e pennino in acciaio. Presentata in elegante confezione regalo con cartuccia e converter.",
@@ -1204,9 +1204,9 @@ export const products: Product[] = [
     price: 69,
     currency: "EUR",
     images: [
-          "/images/products/luxury/guess_watch_01.jpg",
-          "/images/products/luxury/guess_watch_02.jpg",
-          "/images/products/luxury/luxury_watch_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
     ],
     description:
       "Penna a sfera con finiture dorate e logo in evidenza. Scrittura fluida e design raffinato, ideale come pensiero aziendale o regalo.",
@@ -1239,9 +1239,9 @@ export const products: Product[] = [
     price: 199,
     currency: "EUR",
     images: [
-          "/images/products/villeroy/villeroy_posate_01.jpg",
-          "/images/products/villeroy/villeroy_posate_02.jpg",
-          "/images/products/villeroy/villeroy_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_posate_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_posate_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_gift_box.jpg"
     ],
     description:
       "Servizio posate in acciaio inossidabile 18/10 da 24 pezzi, design contemporaneo e finitura lucida. Lavabile in lavastoviglie.",
@@ -1271,9 +1271,9 @@ export const products: Product[] = [
     price: 149,
     currency: "EUR",
     images: [
-          "/images/products/villeroy/villeroy_maxima_calici_01.jpg",
-          "/images/products/villeroy/villeroy_maxima_calici_02.jpg",
-          "/images/products/villeroy/villeroy_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_maxima_calici_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_maxima_calici_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_gift_box.jpg"
     ],
     description:
       "Set di 6 calici in cristallo sonoro dal gambo sottile e coppa ampia. Perfetti per esaltare vini pregiati e brindare con stile.",
@@ -1303,9 +1303,9 @@ export const products: Product[] = [
     price: 260,
     currency: "EUR",
     images: [
-          "/images/products/lladro/lladro_valencia_art_01.jpg",
-          "/images/products/lladro/lladro_valencia_art_02.jpg",
-          "/images/products/lladro/lladro_box_sigillo.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_valencia_art_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_valencia_art_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_box_sigillo.jpg"
     ],
     description:
       "Vaso in ceramica decorata a mano, con finiture smaltate e motivi classici. Un oggetto d'arredo che impreziosisce ogni ambiente.",
@@ -1335,8 +1335,8 @@ export const products: Product[] = [
     price: 59,
     currency: "EUR",
     images: [
-          "/images/products/cuorematto/D9162.jpeg",
-          "/images/products/cuorematto/cuorematto_box_solidale.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/cuorematto/D9162.jpeg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/cuorematto/cuorematto_box_solidale.jpg"
     ],
     description:
       "Diffusore con bastoncini in rattan, fragranza Oud calda e avvolgente. Fino a 3 mesi di profumazione per un ambiente elegante.",
@@ -1368,9 +1368,9 @@ export const products: Product[] = [
     price: 420,
     currency: "EUR",
     images: [
-          "/images/products/lladro/lladro_valencia_art_01.jpg",
-          "/images/products/lladro/lladro_valencia_art_02.jpg",
-          "/images/products/lladro/lladro_box_sigillo.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_valencia_art_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_valencia_art_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/lladro_box_sigillo.jpg"
     ],
     description:
       "Statuina in porcellana artistica dipinta a mano, raffigurante un bimbo con bambola. Pezzo da collezione firmato Lladró, autentico valore nel tempo.",
@@ -1400,9 +1400,9 @@ export const products: Product[] = [
     price: 45,
     currency: "EUR",
     images: [
-          "/images/products/luxury/alberelli_capodimonte_01.jpg",
-          "/images/products/luxury/alberelli_capodimonte_02.jpg",
-          "/images/products/luxury/luxury_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_gift_box.jpg"
     ],
     description:
       "Candela profumata con fragranza speziata di arancio e cannella, in bicchiere di vetro decorato. Perfetta per creare atmosfera nelle feste.",
@@ -1434,9 +1434,9 @@ export const products: Product[] = [
     price: 129,
     currency: "EUR",
     images: [
-          "/images/products/luxury/alberelli_capodimonte_01.jpg",
-          "/images/products/luxury/alberelli_capodimonte_02.jpg",
-          "/images/products/luxury/luxury_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_gift_box.jpg"
     ],
     description:
       "Cornice in argento con decori in stile barocco, per custodire i ricordi più cari. Vetro protettivo e retro in velluto.",
@@ -1468,9 +1468,9 @@ export const products: Product[] = [
     price: 139,
     currency: "EUR",
     images: [
-          "/images/products/villeroy/villeroy_decanter_01.jpg",
-          "/images/products/villeroy/villeroy_decanter_02.jpg",
-          "/images/products/villeroy/villeroy_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_decanter_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_decanter_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_gift_box.jpg"
     ],
     description:
       "Decanter in cristallo soffiato con tappo a sfera, ideale per ossigenare vini rossi importanti. Design classico e presenza scenica.",
@@ -1500,8 +1500,8 @@ export const products: Product[] = [
     price: 29,
     currency: "EUR",
     images: [
-          "/images/products/cuorematto/D9183.jpeg",
-          "/images/products/cuorematto/cuorematto_box_solidale.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/cuorematto/D9183.jpeg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/cuorematto/cuorematto_box_solidale.jpg"
     ],
     description:
       "Oggetto regalo solidale: parte del ricavato sostiene progetti di beneficenza. Un pensiero che fa del bene, in confezione regalo.",
@@ -1534,9 +1534,9 @@ export const products: Product[] = [
     price: 79,
     currency: "EUR",
     images: [
-          "/images/products/luxury/alberelli_capodimonte_01.jpg",
-          "/images/products/luxury/alberelli_capodimonte_02.jpg",
-          "/images/products/luxury/luxury_gift_box.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/alberelli_capodimonte_02.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_gift_box.jpg"
     ],
     description:
       "Decorazione per albero in vetro soffiato con finitura dorata, realizzata a mano. Un tocco di luce preziosa per l'albero di Natale.",
@@ -1606,8 +1606,8 @@ export const products: Product[] = [
     price: 19,
     currency: "EUR",
     images: [
-          "/images/products/villeroy/villeroy_toys_delight_01.jpg",
-          "/images/products/cuorematto/cuorematto_box_solidale.jpg"
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/villeroy_toys_delight_01.jpg",
+          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/cuorematto/cuorematto_box_solidale.jpg"
     ],
     description:
       "Pallina natalizia personalizzabile con nome e data, in vetro e decori dipinti a mano. Un ricordo unico da appendere ogni anno.",
