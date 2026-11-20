@@ -18,18 +18,14 @@ import {
   OFFICIAL_STORE_HOURS,
   STORE_CONTACT,
 } from "@/lib/brandPolicy";
-import { getAllBrands, getBrandBySlug } from "@/lib/catalog";
+import { getBrandBySlug } from "@/lib/catalog";
 import { getLiveProductsByBrand } from "@/lib/liveCatalog";
 
 interface BrandPageProps {
   params: Promise<{ slug: string }>;
 }
 
-export function generateStaticParams() {
-  return getAllBrands()
-    .filter((b) => !isRemovedBrand(b.slug))
-    .map((b) => ({ slug: b.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,

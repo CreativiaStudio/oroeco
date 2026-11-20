@@ -47,7 +47,7 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
             "absolute inset-0 h-full w-full bg-white transition-opacity duration-700 ease-out",
             hoverImage && "group-hover:opacity-0",
           )}
-          imageClassName="transition-transform duration-[1100ms] ease-out group-hover:scale-[1.04]"
+          imageClassName="object-contain transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]"
           priority={priority}
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           fallbackLabel={product.name}
@@ -58,7 +58,7 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
             src={hoverImage}
             alt={product.name}
             className="absolute inset-0 h-full w-full bg-white opacity-0 transition-opacity duration-700 ease-out group-hover:opacity-100"
-            imageClassName="transition-transform duration-[1100ms] ease-out group-hover:scale-[1.04]"
+            imageClassName="object-contain transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             fallbackLabel={product.name}
           />

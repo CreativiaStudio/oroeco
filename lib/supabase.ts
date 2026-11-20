@@ -16,7 +16,12 @@ const supabaseAnonKey =
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
   "sb_publishable_Q0fwrkkuocjEU6-X5BAECg_0MizBLit";
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+const noStoreFetch: typeof fetch = (input, init) =>
+  fetch(input, { ...init, cache: "no-store" });
+
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  global: { fetch: noStoreFetch },
+});
 
 /**
  * Client con privilegi di servizio (Service Role) per operazioni amministrative / checkout atomico.
@@ -26,6 +31,7 @@ export function getServiceSupabase() {
   const serviceKey =
     process.env.SUPABASE_SERVICE_ROLE_KEY || supabaseAnonKey;
   return createClient(supabaseUrl, serviceKey, {
+    global: { fetch: noStoreFetch },
     auth: {
       persistSession: false,
       autoRefreshToken: false,

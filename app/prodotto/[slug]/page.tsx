@@ -7,6 +7,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ProductGrid } from "@/components/catalog/ProductGrid";
 import { getLiveAllApprovedProducts, getLiveProductBySlug } from "@/lib/liveCatalog";
 
+export const dynamic = "force-dynamic";
+
 interface ProductPageProps {
   params: Promise<{ slug: string }>;
 }

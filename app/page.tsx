@@ -15,6 +15,8 @@ import {
 } from "@/lib/liveCatalog";
 import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const [liveFeatured, liveAll] = await Promise.all([
     getLiveFeaturedProducts(),

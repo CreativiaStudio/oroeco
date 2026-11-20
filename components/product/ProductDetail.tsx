@@ -73,11 +73,12 @@ export function ProductDetail({ product }: ProductDetailProps) {
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
         {/* Galleria */}
         <div className="flex flex-col gap-4">
-          <div className="relative overflow-hidden rounded-sm border border-line">
+          <div className="relative overflow-hidden rounded-sm border border-line bg-white">
             <SmartImage
               src={product.images[activeImage]}
               alt={product.name}
-              className="aspect-[4/5] w-full"
+              className="aspect-square w-full bg-white"
+              imageClassName="object-contain p-4 sm:p-6"
               sizes="(max-width: 1024px) 100vw, 50vw"
               priority
               fallbackLabel={product.name}
@@ -98,7 +99,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                   onClick={() => setActiveImage(index)}
                   aria-label={`Immagine ${index + 1}`}
                   className={cn(
-                    "relative flex-shrink-0 overflow-hidden rounded-sm border transition-all duration-200",
+                    "relative flex-shrink-0 overflow-hidden rounded-sm border bg-white transition-all duration-200",
                     activeImage === index
                       ? "border-gold shadow-sm ring-1 ring-gold"
                       : "border-line opacity-70 hover:border-gold hover:opacity-100",
@@ -107,8 +108,9 @@ export function ProductDetail({ product }: ProductDetailProps) {
                   <SmartImage
                     src={image}
                     alt={`${product.name} — vista ${index + 1}`}
-                    className="h-20 w-16 object-cover"
-                    sizes="64px"
+                    className="h-20 w-20 bg-white"
+                    imageClassName="object-contain p-1"
+                    sizes="80px"
                     fallbackLabel={product.name}
                   />
                 </button>

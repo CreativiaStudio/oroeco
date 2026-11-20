@@ -8,6 +8,8 @@ import { isInStoreOnlyBrand, isRemovedBrand } from "@/lib/brandPolicy";
 import { getAllBrands } from "@/lib/catalog";
 import { getLiveAllApprovedProducts } from "@/lib/liveCatalog";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Brand — Le Firme della Gioielleria",
   description:
