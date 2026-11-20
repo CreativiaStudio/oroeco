@@ -120,7 +120,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
         {/* Informazioni */}
         <div className="flex flex-col">
           <Link
-            href={`/brand?marca=${product.brandSlug}`}
+            href={`/brand/${product.brandSlug}`}
             className="text-[0.7rem] font-semibold uppercase tracking-[0.22em] text-gold transition-colors hover:text-gold-bright"
           >
             {product.brand}
@@ -343,35 +343,149 @@ export function ProductDetail({ product }: ProductDetailProps) {
   );
 }
 
+function pickStr(raw: Record<string, unknown>, ...keys: string[]): string | undefined {
+  for (const k of keys) {
+    const v = raw[k];
+    if (typeof v === "string" && v.trim()) return v.trim();
+    if (typeof v === "number" && Number.isFinite(v)) return String(v);
+  }
+  return undefined;
+}
+
 function buildAttributes(product: Product): { label: string; value: string }[] {
-  const { attributes } = product;
-  const rows: { label: string; value?: string }[] = [
-    { label: "Metallo", value: attributes.metal },
-    { label: "Caratura", value: attributes.carats },
-    {
-      label: "Pietre",
-      value: attributes.stones?.length ? attributes.stones.join(", ") : undefined,
-    },
-    { label: "Taglio", value: attributes.cut },
-    { label: "Peso pietra", value: attributes.caratWeight },
-    {
-      label: "Peso",
-      value: attributes.weightGr ? `${attributes.weightGr} g` : undefined,
-    },
-    { label: "Misura", value: attributes.size },
-    { label: "Movimento", value: attributes.movement },
-    { label: "Cassa", value: attributes.caseMaterial },
-    {
-      label: "Diametro cassa",
-      value: attributes.caseDiameter
-        ? `${attributes.caseDiameter} mm`
-        : undefined,
-    },
-    { label: "Impermeabilità", value: attributes.waterResistance },
-    { label: "Materiale", value: attributes.material },
-    { label: "Genere", value: attributes.gender },
-    { label: "Colore", value: attributes.color },
-  ];
+  const raw = (product.attributes ?? {}) as Record<string, unknown>;
+  const rows: { label: string; value?: string }[] = [];
+
+  switch (product.category) {
+    case "gioielli": {
+      const metal = pickStr(raw, "metal");
+      const material = pickStr(raw, "material", "Materiale");
+      const stones =
+        Array.isArray(raw.stones) && raw.stones.length
+          ? raw.stones.join(", ")
+          : pickStr(raw, "Pietre");
+
+      rows.push(
+        { label: "Metallo", value: metal },
+        { label: "Caratura", value: pickStr(raw, "carats") },
+        {
+          label: "Materiale",
+          value:
+            material &&
+            (!metal || material.toLowerCase() !== metal.toLowerCase())
+              ? material
+              : undefined,
+        },
+        { label: "Pietre", value: stones },
+        { label: "Taglio", value: pickStr(raw, "cut") },
+        { label: "Peso pietra", value: pickStr(raw, "caratWeight") },
+        {
+          label: "Peso",
+          value: raw.weightGr ? `${raw.weightGr} g` : pickStr(raw, "Peso"),
+        },
+        {
+          label: "Misura / Dimensioni",
+          value: pickStr(raw, "size", "Dimensioni", "Taglie"),
+        },
+        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish") },
+        { label: "Chiusura", value: pickStr(raw, "Chiusura") },
+        { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
+        { label: "Genere", value: pickStr(raw, "gender", "Genere") },
+        { label: "Colore", value: pickStr(raw, "color", "Colore") },
+        { label: "Origine", value: pickStr(raw, "origin", "Origine") },
+      );
+      break;
+    }
+
+    case "orologi": {
+      rows.push(
+        { label: "Movimento", value: pickStr(raw, "movement", "Movimento") },
+        { label: "Calibro", value: pickStr(raw, "Calibro") },
+        {
+          label: "Materiale cassa",
+          value: pickStr(
+            raw,
+            "caseMaterial",
+            "Materiale cassa",
+            "Cassa",
+            "material",
+            "Materiale",
+            "metal",
+          ),
+        },
+        {
+          label: "Diametro cassa",
+          value: raw.caseDiameter
+            ? `${raw.caseDiameter} mm`
+            : pickStr(raw, "Diametro cassa", "Diametro"),
+        },
+        { label: "Spessore cassa", value: pickStr(raw, "Spessore cassa") },
+        { label: "Vetro", value: pickStr(raw, "glass", "Vetro") },
+        { label: "Quadrante", value: pickStr(raw, "Quadrante") },
+        {
+          label: "Cinturino / Bracciale",
+          value: pickStr(raw, "Bracciale", "Cinturino"),
+        },
+        {
+          label: "Impermeabilità",
+          value: pickStr(raw, "waterResistance", "Impermeabilità"),
+        },
+        { label: "Funzioni", value: pickStr(raw, "Funzioni") },
+        { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
+        { label: "Genere", value: pickStr(raw, "gender", "Genere") },
+        { label: "Colore", value: pickStr(raw, "color", "Colore") },
+        { label: "Origine", value: pickStr(raw, "origin", "Origine") },
+      );
+      break;
+    }
+
+    case "accessori": {
+      rows.push(
+        {
+          label: "Materiale",
+          value: pickStr(raw, "material", "Materiale", "metal"),
+        },
+        { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
+        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish") },
+        {
+          label: "Dimensioni",
+          value: pickStr(raw, "dimensions", "Dimensioni", "size"),
+        },
+        { label: "Colore", value: pickStr(raw, "color", "Colore") },
+        { label: "Genere", value: pickStr(raw, "gender", "Genere") },
+        { label: "Origine", value: pickStr(raw, "origin", "Origine") },
+      );
+      break;
+    }
+
+    case "casa":
+    case "natale":
+    default: {
+      rows.push(
+        {
+          label: "Materiale",
+          value: pickStr(raw, "material", "Materiale", "metal"),
+        },
+        { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
+        {
+          label: "Dimensioni",
+          value: pickStr(raw, "dimensions", "Dimensioni", "size"),
+        },
+        { label: "Finitura", value: pickStr(raw, "finish", "Finitura") },
+        { label: "Colore", value: pickStr(raw, "color", "Colore") },
+        { label: "Scultore", value: pickStr(raw, "sculptor", "Scultore") },
+        { label: "Peso", value: pickStr(raw, "Peso") },
+        { label: "Anno di lancio", value: pickStr(raw, "Anno di lancio") },
+        {
+          label: "Sorgente luminosa",
+          value: pickStr(raw, "Sorgente luminosa"),
+        },
+        { label: "Autonomia", value: pickStr(raw, "Autonomia") },
+        { label: "Origine", value: pickStr(raw, "origin", "Origine") },
+      );
+      break;
+    }
+  }
 
   return rows
     .filter((row): row is { label: string; value: string } =>

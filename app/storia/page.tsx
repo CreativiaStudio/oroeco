@@ -13,6 +13,7 @@ import {
 import { PageHero } from "@/components/catalog/PageHero";
 import { SmartImage } from "@/components/ui/SmartImage";
 import { TrustBadges } from "@/components/home/TrustBadges";
+import { OFFICIAL_STORE_HOURS } from "@/lib/brandPolicy";
 
 export const metadata: Metadata = {
   title: "La Nostra Storia — Gioielleria a San Marzano sul Sarno dal 1992",
@@ -101,7 +102,7 @@ export default function StoriaPage() {
             <div className="grid grid-cols-3 gap-6 border-t border-line pt-7">
               {[
                 { value: "30+", label: "Anni di attività" },
-                { value: "18", label: "Marchi trattati" },
+                { value: "1992", label: "Anno di fondazione" },
                 { value: "1000+", label: "Clienti al banco" },
               ].map((stat) => (
                 <div key={stat.label} className="space-y-1">
@@ -191,6 +192,9 @@ export default function StoriaPage() {
           </h2>
           <p className="max-w-xl text-sm leading-relaxed text-white/65">
             Gioielleria ORO &amp; co (di Calabrese Speranza) — Via Filippo Turati, n. 30, San Marzano sul Sarno (SA). Tel: 081 518 6476 · WhatsApp: 351 877 8689.
+          </p>
+          <p className="text-xs uppercase tracking-[0.14em] text-gold-soft/90">
+            {OFFICIAL_STORE_HOURS.compact}
           </p>
           <Link
             href="/gioielli"

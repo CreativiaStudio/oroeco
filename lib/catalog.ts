@@ -13,7 +13,7 @@ function img(id: string, width = 1400): string {
   return `${UNSPLASH}${id}?auto=format&fit=crop&w=${width}&q=80`;
 }
 
-/** 18 marchi ufficiali censiti in gioielleria. */
+/** Marchi ufficiali censiti in gioielleria. */
 export const brands: Brand[] = [
   {
     id: "brand-davite-delucchi",
@@ -31,7 +31,7 @@ export const brands: Brand[] = [
     country: "Italia",
     description:
       "Il marchio italiano del gioiello accessibile, dal design curato.",
-    categories: ["gioielli", "natale"],
+    categories: ["gioielli", "orologi"],
   },
   {
     id: "brand-nihama",
@@ -39,7 +39,7 @@ export const brands: Brand[] = [
     name: "Nihama",
     country: "Italia",
     description:
-      "Gioielli femminili contemporanei, tennis e parure di grande impatto.",
+      "Alta gioielleria in perle coltivate e creazioni preziose, disponibile in gioielleria su appuntamento.",
     categories: ["gioielli"],
   },
   {
@@ -134,7 +134,7 @@ export const brands: Brand[] = [
     name: "Cuorematto",
     country: "Italia",
     description:
-      "Profumatori e oggetti regalo con anima solidale e artigianale.",
+      "Profumatori, decorazioni natalizie e oggetti regalo artigianali.",
     categories: ["casa", "natale"],
   },
   {
@@ -161,17 +161,8 @@ export const brands: Brand[] = [
     name: "Ducati",
     country: "Italia",
     description:
-      "Lo stile del Made in Italy motoristico declinato in accessori.",
-    categories: ["accessori"],
-  },
-  {
-    id: "brand-amen",
-    slug: "amen",
-    name: "AMEN",
-    country: "Italia",
-    description:
-      "Ciondoli e medaglie religiose in argento, custodi di fede e memoria.",
-    categories: ["gioielli"],
+      "Orologi dal design sportivo e grintoso ispirato al mondo Ducati Corse.",
+    categories: ["orologi"],
   },
 ];
 

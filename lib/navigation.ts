@@ -63,9 +63,9 @@ export const mainNav: NavItem[] = [
     ],
     featured: {
       eyebrow: "Gioielleria",
-      title: "Oro, Perle & Luce",
+      title: "Oro, Argento & Luce",
       description:
-        "Stroili, Unoaerre, Gerba, Guess e Nihama selezionati dalla nostra Gioielleria.",
+        "Stroili, Unoaerre, Gerba e Guess selezionati dalla nostra Gioielleria.",
       href: "/gioielli",
       cta: "Scopri la collezione",
       image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-3.jpg",
@@ -123,7 +123,6 @@ export const mainNav: NavItem[] = [
         links: [
           { label: "Statue", href: "/casa?sub=statue" },
           { label: "Profumatori", href: "/casa?sub=profumatori" },
-          { label: "Solidali", href: "/casa?sub=solidali" },
           { label: "Candele", href: "/casa?sub=candele" },
           { label: "Vasi", href: "/casa?sub=vasi" },
           { label: "Decanter", href: "/casa?sub=decanter" },
@@ -145,9 +144,14 @@ export const mainNav: NavItem[] = [
     href: "/brand",
     children: [
       { label: "Bulova", href: "/brand/bulova" },
+      { label: "Cammeo Italiano", href: "/brand/cammeo-italiano" },
       { label: "Cuorematto", href: "/brand/cuorematto" },
+      { label: "Dana Oro 9 kt", href: "/brand/dana-oro-9-kt" },
+      { label: "Davite & Delucchi", href: "/brand/davite-delucchi" },
+      { label: "Ducati", href: "/brand/ducati" },
       { label: "Gerba", href: "/brand/gerba" },
       { label: "Gli Alberelli", href: "/brand/gli-alberelli" },
+      { label: "Golay", href: "/brand/golay" },
       { label: "Guess", href: "/brand/guess" },
       { label: "Lladró", href: "/brand/lladro" },
       { label: "Locman", href: "/brand/locman" },
@@ -161,23 +165,6 @@ export const mainNav: NavItem[] = [
   {
     label: "Natale",
     href: "/natale",
-    columns: [
-      {
-        heading: "Sottocategorie",
-        links: [
-          { label: "Decorazioni", href: "/natale?sub=decorazioni" },
-          { label: "Regali di Natale", href: "/natale?sub=regali" },
-        ],
-      },
-    ],
-    featured: {
-      eyebrow: "Speciale Natale 2026",
-      title: "Speciale Natale 2026",
-      description: "Porcellane Villeroy & Boch e idee regalo firmate ORO&CO.",
-      href: "/natale",
-      cta: "Scopri il Natale",
-      image: "/images/client-media/cat-natale.webp",
-    },
   },
 ];
 
@@ -203,15 +190,11 @@ export const subcategoriesByCategory: Record<
   casa: [
     { slug: "statue", label: "Statue" },
     { slug: "profumatori", label: "Profumatori" },
-    { slug: "solidali", label: "Solidali" },
     { slug: "candele", label: "Candele" },
     { slug: "vasi", label: "Vasi" },
     { slug: "decanter", label: "Decanter" },
   ],
-  natale: [
-    { slug: "decorazioni", label: "Decorazioni" },
-    { slug: "regali", label: "Regali di Natale" },
-  ],
+  natale: [],
 };
 
 /** Titoli editoriali delle pagine di categoria. */
@@ -223,7 +206,7 @@ export const categoryCopy: Record<
     eyebrow: "Gioielleria",
     title: "Gioielli",
     description:
-      "Anelli, bracciali, collane, orecchini e perle coltivate selezionati con certificato ufficiale di autenticità.",
+      "Anelli, bracciali, collane, orecchini e ciondoli selezionati con certificato ufficiale di autenticità.",
     image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-1.jpg",
   },
   orologi: {
@@ -244,7 +227,7 @@ export const categoryCopy: Record<
     eyebrow: "Arte dell'Abitare",
     title: "Casa",
     description:
-      "Porcellane Lladró, ceramiche Gli Alberelli, profumatori d'ambiente e oggetti solidali per una casa dal gusto raffinato.",
+      "Porcellane Lladró, ceramiche Gli Alberelli, profumatori d'ambiente e oggetti d'autore per una casa dal gusto raffinato.",
     image: "/images/client-media/cat-casa.webp",
   },
   natale: {

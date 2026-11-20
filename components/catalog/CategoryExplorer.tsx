@@ -60,25 +60,141 @@ export function CategoryExplorer({
     return map;
   }, [products, filterType]);
 
+  const isOnlyJewelry = useMemo(
+    () => products.length > 0 && products.every((p) => p.category === "gioielli"),
+    [products],
+  );
+  const isOnlyWatches = useMemo(
+    () => products.length > 0 && products.every((p) => p.category === "orologi"),
+    [products],
+  );
+  const isOnlyHomeOrChristmas = useMemo(
+    () =>
+      products.length > 0 &&
+      products.every((p) => p.category === "casa" || p.category === "natale"),
+    [products],
+  );
+  const isOnlyAccessories = useMemo(
+    () => products.length > 0 && products.every((p) => p.category === "accessori"),
+    [products],
+  );
+
+  const materialOptions = useMemo(() => {
+    if (isOnlyJewelry) {
+      return [
+        { value: "oro", label: "Oro (18 kt & 9 kt)" },
+        { value: "argento", label: "Argento 925‰" },
+        { value: "acciaio", label: "Acciaio 316L" },
+        { value: "bronzo", label: "Bronzo placcato" },
+      ];
+    }
+    if (isOnlyWatches) {
+      return [
+        { value: "acciaio", label: "Acciaio 316L" },
+        { value: "titanio", label: "Titanio" },
+        { value: "pelle_silicone", label: "Pelle / Silicone" },
+      ];
+    }
+    if (isOnlyHomeOrChristmas) {
+      return [
+        { value: "porcellana_cristallo", label: "Porcellana / Cristallo" },
+        { value: "legno_vetro", label: "Legno / Vetro" },
+      ];
+    }
+    if (isOnlyAccessories) {
+      return [
+        { value: "pelle_silicone", label: "Pelle" },
+        { value: "acciaio", label: "Acciaio 316L" },
+        { value: "argento", label: "Argento 925‰" },
+      ];
+    }
+    const allOptions = [
+      { value: "oro", label: "Oro (18 kt & 9 kt)" },
+      { value: "argento", label: "Argento 925‰" },
+      { value: "acciaio", label: "Acciaio 316L" },
+      { value: "bronzo", label: "Bronzo placcato" },
+      { value: "titanio", label: "Titanio" },
+      { value: "pelle_silicone", label: "Pelle / Silicone" },
+      { value: "porcellana_cristallo", label: "Porcellana / Cristallo" },
+      { value: "legno_vetro", label: "Legno / Vetro" },
+    ];
+    const textAll = products
+      .map((p) => {
+        const attrs = p.attributes as Record<string, unknown> | undefined;
+        return String(
+          attrs?.caseMaterial ||
+            attrs?.["Materiale cassa"] ||
+            attrs?.metal ||
+            attrs?.material ||
+            attrs?.Materiale ||
+            "",
+        ).toLowerCase();
+      })
+      .join(" ");
+    return allOptions.filter((opt) => {
+      if (opt.value === "oro") return textAll.includes("oro");
+      if (opt.value === "argento") return textAll.includes("argento");
+      if (opt.value === "acciaio") return textAll.includes("acciaio");
+      if (opt.value === "bronzo") return textAll.includes("bronzo");
+      if (opt.value === "titanio") return textAll.includes("titan");
+      if (opt.value === "pelle_silicone") {
+        return /pelle|silicone|polimero|saffiano|cuoio/.test(textAll);
+      }
+      if (opt.value === "porcellana_cristallo") {
+        return /porcellana|cristallo|ceramica/.test(textAll);
+      }
+      if (opt.value === "legno_vetro") {
+        return /legno|bamb|vetro|midollino/.test(textAll);
+      }
+      return false;
+    });
+  }, [
+    products,
+    isOnlyJewelry,
+    isOnlyWatches,
+    isOnlyHomeOrChristmas,
+    isOnlyAccessories,
+  ]);
+
+  const materialFieldLabel = isOnlyJewelry
+    ? "Metallo:"
+    : isOnlyWatches
+      ? "Materiale cassa:"
+      : "Materiale:";
+
+  const materialAllLabel = isOnlyJewelry
+    ? "Tutti i metalli"
+    : "Tutti i materiali";
+
   // Determine which facet groups are relevant for the current product set
   const hasMovements = useMemo(() => {
     return products.some((p) => Boolean(p.attributes?.movement));
   }, [products]);
 
   const hasMetals = useMemo(() => {
-    return products.some((p) => {
-      const attrs = p.attributes as Record<string, unknown> | undefined;
-      return Boolean(attrs?.metal || attrs?.material || attrs?.Materiale);
-    });
-  }, [products]);
+    return (
+      materialOptions.length > 0 &&
+      products.some((p) => {
+        const attrs = p.attributes as Record<string, unknown> | undefined;
+        return Boolean(
+          attrs?.caseMaterial ||
+            attrs?.["Materiale cassa"] ||
+            attrs?.metal ||
+            attrs?.material ||
+            attrs?.Materiale,
+        );
+      })
+    );
+  }, [products, materialOptions]);
 
   const hasStones = useMemo(() => {
+    if (isOnlyHomeOrChristmas || isOnlyAccessories) return false;
     return products.some(
       (p) =>
         (p.attributes?.stones && p.attributes.stones.length > 0) ||
         Boolean((p.attributes as Record<string, unknown>)?.pearlType),
     );
-  }, [products]);
+  }, [products, isOnlyHomeOrChristmas, isOnlyAccessories]);
 
   const hasActiveFacets =
     materialFilter !== "all" ||
@@ -137,7 +253,12 @@ export function CategoryExplorer({
       filtered = filtered.filter((p) => {
         const attrs = p.attributes as Record<string, unknown> | undefined;
         const rawMat = String(
-          attrs?.metal || attrs?.material || attrs?.Materiale || "",
+          attrs?.caseMaterial ||
+            attrs?.["Materiale cassa"] ||
+            attrs?.metal ||
+            attrs?.material ||
+            attrs?.Materiale ||
+            "",
         ).toLowerCase();
         if (materialFilter === "oro") {
           return rawMat.includes("oro");
@@ -151,6 +272,12 @@ export function CategoryExplorer({
         if (materialFilter === "bronzo") {
           return rawMat.includes("bronzo");
         }
+        if (materialFilter === "titanio") {
+          return rawMat.includes("titan");
+        }
+        if (materialFilter === "pelle_silicone") {
+          return /pelle|silicone|polimero|saffiano|cuoio/.test(rawMat);
+        }
         if (materialFilter === "porcellana_cristallo") {
           return (
             rawMat.includes("porcellana") ||
@@ -158,6 +285,9 @@ export function CategoryExplorer({
             rawMat.includes("ceramica") ||
             rawMat.includes("vetro")
           );
+        }
+        if (materialFilter === "legno_vetro") {
+          return /legno|bamb|vetro|midollino/.test(rawMat);
         }
         return true;
       });
@@ -249,48 +379,55 @@ export function CategoryExplorer({
   return (
     <section className="container-luxe py-14 sm:py-16">
       {/* Barra filtri primaria */}
-      <div className="flex flex-col gap-6 border-b border-line pb-6 lg:flex-row lg:items-center lg:justify-between">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="mr-1 inline-flex items-center gap-2 text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-graphite-soft">
-            <SlidersHorizontal className="h-3.5 w-3.5" strokeWidth={1.6} />
-            {filterLabel}
-          </span>
-          <button
-            type="button"
-            onClick={() => setActive("all")}
-            className={cn(
-              "rounded-full border px-4 py-2 text-xs font-medium transition-colors",
-              active === "all"
-                ? "border-gold bg-gold text-white"
-                : "border-line text-graphite hover:border-gold hover:text-gold",
-            )}
-          >
-            Tutti
-            <span className="ml-1.5 opacity-60">{products.length}</span>
-          </button>
-          {filters.map((filter) => {
-            const count = counts.get(filter.value) ?? 0;
-            return (
-              <button
-                key={filter.value}
-                type="button"
-                onClick={() => setActive(filter.value)}
-                className={cn(
-                  "rounded-full border px-4 py-2 text-xs font-medium transition-colors",
-                  active === filter.value
-                    ? "border-gold bg-gold text-white"
-                    : "border-line text-graphite hover:border-gold hover:text-gold",
-                  count === 0 && "opacity-40",
-                )}
-              >
-                {filter.label}
-                <span className="ml-1.5 opacity-60">{count}</span>
-              </button>
-            );
-          })}
-        </div>
+      <div
+        className={cn(
+          "flex flex-col gap-6 border-b border-line pb-6 lg:flex-row lg:items-center",
+          filters.length > 0 ? "lg:justify-between" : "lg:justify-end",
+        )}
+      >
+        {filters.length > 0 ? (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="mr-1 inline-flex items-center gap-2 text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-graphite-soft">
+              <SlidersHorizontal className="h-3.5 w-3.5" strokeWidth={1.6} />
+              {filterLabel}
+            </span>
+            <button
+              type="button"
+              onClick={() => setActive("all")}
+              className={cn(
+                "rounded-full border px-4 py-2 text-xs font-medium transition-colors",
+                active === "all"
+                  ? "border-gold bg-gold text-white"
+                  : "border-line text-graphite hover:border-gold hover:text-gold",
+              )}
+            >
+              Tutti
+              <span className="ml-1.5 opacity-60">{products.length}</span>
+            </button>
+            {filters.map((filter) => {
+              const count = counts.get(filter.value) ?? 0;
+              return (
+                <button
+                  key={filter.value}
+                  type="button"
+                  onClick={() => setActive(filter.value)}
+                  className={cn(
+                    "rounded-full border px-4 py-2 text-xs font-medium transition-colors",
+                    active === filter.value
+                      ? "border-gold bg-gold text-white"
+                      : "border-line text-graphite hover:border-gold hover:text-gold",
+                    count === 0 && "opacity-40",
+                  )}
+                >
+                  {filter.label}
+                  <span className="ml-1.5 opacity-60">{count}</span>
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 self-end lg:self-auto">
           <label
             htmlFor="sort"
             className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-graphite-soft"
@@ -312,7 +449,7 @@ export function CategoryExplorer({
         </div>
       </div>
 
-      {/* Barra filtri secondari (Faccette per Materiale, Movimento, Pietra e Prezzo) */}
+      {/* Barra filtri secondari (Faccette contestuali per Categoria, Movimento, Pietra e Prezzo) */}
       <div className="mt-4 flex flex-wrap items-center gap-3 border-b border-line/60 pb-4 text-xs">
         <span className="inline-flex items-center gap-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-graphite-soft">
           <Filter className="h-3 w-3 text-gold" />
@@ -329,8 +466,8 @@ export function CategoryExplorer({
             type="text"
             value={searchQuery}
             onChange={(event) => setSearchQuery(event.target.value)}
-            placeholder="Cerca modello, metallo o codice..."
-            aria-label="Cerca modello, metallo o codice"
+            placeholder="Cerca modello, brand o codice..."
+            aria-label="Cerca modello, brand o codice"
             className="w-full min-w-0 rounded border border-line bg-white py-1 pl-8 pr-7 text-xs text-ink outline-none transition-colors placeholder:text-graphite-soft/70 focus:border-gold"
           />
           {searchQuery && (
@@ -345,11 +482,11 @@ export function CategoryExplorer({
           )}
         </div>
 
-        {/* Metallo / Materiale */}
+        {/* Metallo / Materiale contestuale */}
         {hasMetals && (
           <div className="flex items-center gap-1">
-            <span className="text-[0.65rem] uppercase tracking-wider text-graphite-soft/80 mr-1 flex items-center gap-1">
-              <Sparkles className="h-3 w-3 text-gold" /> Metallo:
+            <span className="mr-1 flex items-center gap-1 text-[0.65rem] uppercase tracking-wider text-graphite-soft/80">
+              <Sparkles className="h-3 w-3 text-gold" /> {materialFieldLabel}
             </span>
             <select
               value={materialFilter}
@@ -361,12 +498,12 @@ export function CategoryExplorer({
                   : "border-line bg-white text-graphite hover:border-graphite-soft",
               )}
             >
-              <option value="all">Tutti i metalli</option>
-              <option value="oro">Oro (18 kt & 9 kt)</option>
-              <option value="argento">Argento 925‰</option>
-              <option value="acciaio">Acciaio 316L</option>
-              <option value="bronzo">Bronzo placcato</option>
-              <option value="porcellana_cristallo">Porcellana / Cristallo</option>
+              <option value="all">{materialAllLabel}</option>
+              {materialOptions.map((opt) => (
+                <option key={opt.value} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
             </select>
           </div>
         )}

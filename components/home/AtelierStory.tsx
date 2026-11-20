@@ -67,7 +67,7 @@ export function AtelierStory() {
                 </p>
                 <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
                   Oggi ORO&amp;CO è un punto di riferimento per l&apos;alta gioielleria
-                  e l&apos;orologeria: diciotto marchi prestigiosi, periti gemmologi e
+                  e l&apos;orologeria: prestigiose maison, periti gemmologi e
                   la costante presenza della famiglia al banco, per un rapporto di
                   fiducia che dura da oltre trent&apos;anni.
                 </p>

@@ -1,53 +1,41 @@
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { FeaturedTabs, type FeaturedTab } from "@/components/home/FeaturedTabs";
 import { HeroSection } from "@/components/home/HeroSection";
+import { ServicesSection } from "@/components/home/ServicesSection";
 import { BrandBar } from "@/components/home/BrandBar";
 import { AtelierStory } from "@/components/home/AtelierStory";
 import { TrustBadges } from "@/components/home/TrustBadges";
 import { VideoShowcaseCarousel } from "@/components/home/VideoShowcaseCarousel";
 import { EditorialQuadrants } from "@/components/home/EditorialQuadrants";
-import { ChristmasShowcase } from "@/components/home/ChristmasShowcase";
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
+import { isInStoreOnlyBrand, isRemovedBrand } from "@/lib/brandPolicy";
 import {
   getLiveAllApprovedProducts,
-  getLiveChristmasProducts,
   getLiveFeaturedProducts,
 } from "@/lib/liveCatalog";
 import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 
 export default async function HomePage() {
-  const liveFeatured = await getLiveFeaturedProducts();
-  const liveAll = await getLiveAllApprovedProducts();
-  const liveChristmas = await getLiveChristmasProducts();
+  const [liveFeatured, liveAll] = await Promise.all([
+    getLiveFeaturedProducts(),
+    getLiveAllApprovedProducts(),
+  ]);
 
-  const bestsellers = [...liveFeatured].sort(
+  const filterOnlineSellable = <T extends { brandSlug: string }>(items: T[]) =>
+    items.filter(
+      (p) => !isInStoreOnlyBrand(p.brandSlug) && !isRemovedBrand(p.brandSlug),
+    );
+
+  const bestsellers = filterOnlineSellable([...liveFeatured]).sort(
     (a, b) => (b.rating ?? 0) - (a.rating ?? 0),
   );
-  const seed = liveAll.slice(0, 8);
-  const liveDiamonds = liveAll
-    .filter((p) => p.category === "gioielli" && p.price >= 250)
-    .slice(0, 8);
+  const seed = filterOnlineSellable(liveAll).slice(0, 12);
 
   const tabs: FeaturedTab[] = [
     {
       id: "bestseller",
       label: "Bestseller",
-      products: bestsellers.length >= 4 ? bestsellers : seed,
-    },
-    {
-      id: "nuovi",
-      label: "Nuovi Arrivi",
-      products: liveAll.slice(0, 8),
-    },
-    {
-      id: "natale",
-      label: "Speciale Natale 2026",
-      products: liveChristmas.slice(0, 8),
-    },
-    {
-      id: "diamanti",
-      label: "Diamanti & Oro",
-      products: liveDiamonds,
+      products: (bestsellers.length >= 4 ? bestsellers : seed).slice(0, 12),
     },
   ];
 
@@ -64,7 +52,11 @@ export default async function HomePage() {
               CREATI PER EMOZIONARE · DAL 1992
             </p>
           </LuxuryReveal>
-          <LuxuryReveal variant="line" delayMs={100} className="mx-auto mt-6 h-px w-16 bg-gold/70">
+          <LuxuryReveal
+            variant="line"
+            delayMs={100}
+            className="mx-auto mt-6 h-px w-16 bg-gold/70"
+          >
             <span className="sr-only">Separatore</span>
           </LuxuryReveal>
           <LuxuryReveal variant="up" delayMs={160}>
@@ -84,18 +76,20 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white py-20 sm:py-24">
-        <div className="container-luxe">
-          <FeaturedTabs tabs={tabs} />
-        </div>
-      </section>
+      <FeaturedTabs tabs={tabs} />
+
+      <ServicesSection />
+
+      <BrandBar />
 
       <EditorialQuadrants />
-      <ChristmasShowcase />
-      <BrandBar />
+
       <AtelierStory />
+
       <CategoryGrid />
+
       <TrustBadges />
+
       <VideoShowcaseCarousel />
     </>
   );

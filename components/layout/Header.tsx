@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { Logo } from "@/components/layout/Logo";
 import { SmartImage } from "@/components/ui/SmartImage";
+import { isInStoreOnlyBrand } from "@/lib/brandPolicy";
 import { mainNav, type NavItem } from "@/lib/navigation";
 import type { Product } from "@/types/product";
 import { cn, formatPrice } from "@/lib/utils";
@@ -22,194 +23,22 @@ import { selectWishlistCount, useWishlistStore } from "@/store/useWishlistStore"
 
 /* ------------------------------ Mega / Dropdown ----------------------------- */
 
-type MegaVisualCard = {
-  id: string;
-  label: string;
-  subtitle: string;
-  href: string;
-  image: string;
-  fit?: "contain" | "cover";
-};
-
-const MEGA_VISUAL_CARDS: Record<string, MegaVisualCard[]> = {
-  "/gioielli": [
-    {
-      id: "gioielli-bracciali",
-      label: "Bracciali",
-      subtitle: "Oro & argento",
-      href: "/gioielli?sub=bracciali",
-      image: "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwb77ffe1d/images/c1693346-master.jpg?sw=1024&sh=1024",
-      fit: "contain",
-    },
-    {
-      id: "gioielli-collane",
-      label: "Collane",
-      subtitle: "Catene & girocolli",
-      href: "/gioielli?sub=collane",
-      image: "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwab14d9f4/images/c1433131-master.jpg?sw=1024&sh=1024",
-      fit: "contain",
-    },
-    {
-      id: "gioielli-orecchini",
-      label: "Orecchini",
-      subtitle: "Luce ed eleganza",
-      href: "/gioielli?sub=orecchini",
-      image: "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwe705debc/images/c1623824-master.jpg?sw=1024&sh=1024",
-      fit: "contain",
-    },
-  ],
-  "/orologi": [
-    {
-      id: "orologi-uomo",
-      label: "Orologi Uomo",
-      subtitle: "Cronografi & automatici",
-      href: "/orologi?sub=uomo",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/paul-picot/2127s-bn-01.webp",
-      fit: "contain",
-    },
-    {
-      id: "orologi-donna",
-      label: "Orologi Donna",
-      subtitle: "Eleganza al polso",
-      href: "/orologi?sub=donna",
-      image: "https://media.citizen.it/ImgOriginal/bulova_96L353_01_2000x2000.jpg",
-      fit: "contain",
-    },
-    {
-      id: "orologi-collezione",
-      label: "Alta Orologeria",
-      subtitle: "Locman & Bulova",
-      href: "/orologi",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/locman/0538a01s-00bkgypk-01.webp",
-      fit: "contain",
-    },
-  ],
-  "/accessori": [
-    {
-      id: "accessori-pochette-piatta",
-      label: "Pochette Piatta",
-      subtitle: "Pelle Saffiano nera",
-      href: "/accessori?sub=pelletteria",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gerba/gb015-black-01.webp",
-      fit: "contain",
-    },
-    {
-      id: "accessori-pochette",
-      label: "Pochette Gerba",
-      subtitle: "Con cinturino da polso",
-      href: "/accessori?sub=pelletteria",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gerba/gb010-black-01.webp",
-      fit: "contain",
-    },
-    {
-      id: "accessori-portacarte",
-      label: "Porta Carte",
-      subtitle: "Pelle Saffiano bordeaux",
-      href: "/accessori?sub=pelletteria",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gerba/gb004-red-01.webp",
-      fit: "contain",
-    },
-  ],
-  "/casa": [
-    {
-      id: "casa-statue",
-      label: "Statue & Sculture",
-      subtitle: "Porcellane Lladró",
-      href: "/casa?sub=statue",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/01009430-01.webp",
-      fit: "contain",
-    },
-    {
-      id: "casa-profumatori",
-      label: "Profumatori",
-      subtitle: "Ceramiche Gli Alberelli",
-      href: "/casa?sub=profumatori",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/gli-alberelli/7717-01.webp",
-      fit: "contain",
-    },
-    {
-      id: "casa-candele",
-      label: "Candele & Luci",
-      subtitle: "Litofanie d'autore",
-      href: "/casa?sub=candele",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/lladro/01023923-01.webp",
-      fit: "contain",
-    },
-  ],
-  "/natale": [
-    {
-      id: "natale-decorazioni",
-      label: "Decorazioni",
-      subtitle: "Christmas Toys Memory",
-      href: "/natale?sub=decorazioni",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/14_8602_6500_1.webp",
-      fit: "contain",
-    },
-    {
-      id: "natale-regali",
-      label: "Regali di Natale",
-      subtitle: "Villeroy & Boch",
-      href: "/natale?sub=regali",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/villeroy/14_8332_3522_1.webp",
-      fit: "contain",
-    },
-    {
-      id: "natale-selezione",
-      label: "Atmosfera Festiva",
-      subtitle: "Selezione ORO&CO",
-      href: "/natale",
-      image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/natale/natale-3.jpg",
-      fit: "cover",
-    },
-  ],
-};
-
-const BRAND_VISUAL_CARDS = [
-  {
-    label: "Gioielleria",
-    subtitle: "Oro, argento e perle",
-    href: "/gioielli",
-    image: "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/editorial/modella-1.jpg",
-    imageClassName: "object-cover object-top",
-  },
-  {
-    label: "Orologi",
-    subtitle: "Alta orologeria",
-    href: "/orologi",
-    image: "/images/client-media/cat-orologi.webp",
-    imageClassName: "object-cover object-center",
-  },
-];
+function getBrandSlugFromHref(href: string): string {
+  return href.replace(/^\/brand\//, "").trim().toLowerCase();
+}
 
 function MegaPanel({ item, onClose }: { item: NavItem; onClose: () => void }) {
   const isBrand = item.href === "/brand";
-  const isLightFeatured = item.href === "/accessori";
-  const visualCards = MEGA_VISUAL_CARDS[item.href] ?? [];
   const columns = item.columns ?? [];
   const children = item.children ?? [];
 
   return (
-    <div className="w-full border-t border-[#dedede] bg-white text-[#020202] shadow-[0_30px_60px_-45px_rgba(10,10,10,0.35)]">
+    <div className="w-full border-t border-[#dedede] bg-white text-[#020202] shadow-[0_24px_48px_-36px_rgba(10,10,10,0.28)]">
       {isBrand ? (
-        <div className="container-luxe grid grid-cols-1 items-stretch gap-8 py-9 lg:grid-cols-[1.25fr_1fr]">
-          <div className="flex flex-col justify-between border-r border-[#ececec] pr-8">
-            <div className="flex flex-col gap-5">
+        <div className="container-luxe py-8">
+          <div className="flex flex-col gap-5">
+            <div className="flex items-center justify-between border-b border-[#f0ece4] pb-3">
               <span className="eyebrow-muted">Le Maison</span>
-              <ul className="grid grid-cols-2 gap-x-6 gap-y-3.5 sm:grid-cols-3">
-                {children.map((brand) => (
-                  <li key={brand.href}>
-                    <Link
-                      href={brand.href}
-                      onClick={onClose}
-                      className="font-serif text-[0.9rem] uppercase tracking-[0.11em] text-[#020202] transition-colors hover:text-gold"
-                    >
-                      {brand.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="mt-6 border-t border-[#f0ece4] pt-4">
               <Link
                 href="/brand"
                 onClick={onClose}
@@ -218,73 +47,45 @@ function MegaPanel({ item, onClose }: { item: NavItem; onClose: () => void }) {
                 Tutti i Brand →
               </Link>
             </div>
-          </div>
 
-          <div className="grid grid-cols-2 gap-5">
-            {BRAND_VISUAL_CARDS.map((card) => (
-              <Link
-                key={card.href}
-                href={card.href}
-                onClick={onClose}
-                className="group relative overflow-hidden rounded-sm border border-[#eaeaea]"
-              >
-                <SmartImage
-                  src={card.image}
-                  alt={card.label}
-                  className="aspect-[4/3] h-full w-full"
-                  imageClassName={cn(
-                    "transition-transform duration-[900ms] ease-out group-hover:scale-105",
-                    card.imageClassName,
-                  )}
-                  sizes="260px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#020202]/75 via-[#020202]/15 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 flex flex-col gap-0.5 p-5">
-                  <span className="font-serif text-[0.95rem] uppercase tracking-[0.18em] text-white">
-                    {card.label}
-                  </span>
-                  <span className="font-serif text-xs italic text-white/75">
-                    {card.subtitle}
-                  </span>
-                </div>
-              </Link>
-            ))}
+            <ul className="grid grid-cols-2 gap-x-8 gap-y-3 sm:grid-cols-3 lg:grid-cols-4">
+              {children.map((brand) => {
+                const slug = getBrandSlugFromHref(brand.href);
+                const inStoreOnly = isInStoreOnlyBrand(slug);
+                return (
+                  <li key={brand.href}>
+                    <Link
+                      href={brand.href}
+                      onClick={onClose}
+                      className="inline-flex flex-wrap items-baseline gap-1.5 font-serif text-[0.9rem] uppercase tracking-[0.11em] text-[#020202] transition-colors hover:text-gold"
+                    >
+                      <span>{brand.label}</span>
+                      {inStoreOnly ? (
+                        <span className="text-[0.62rem] font-sans normal-case tracking-normal text-[#8a8078]">
+                          · In gioielleria
+                        </span>
+                      ) : null}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
       ) : (
-        <div className="container-luxe grid grid-cols-1 items-stretch gap-8 py-9 lg:grid-cols-[215px_1fr_285px]">
-          {/* Colonna 1: Sottocategorie esatte della macro-voce */}
-          <div className="flex flex-col justify-between border-r border-[#ececec] pr-6">
-            <div className="flex flex-col gap-5">
-              {columns.length > 0 ? (
-                columns.map((column) => (
-                  <div key={column.heading} className="flex flex-col gap-3">
-                    <span className="eyebrow-muted">{column.heading}</span>
-                    <ul className="flex flex-col gap-2.5">
-                      {column.links.map((link) => (
-                        <li key={link.href}>
-                          <Link
-                            href={link.href}
-                            onClick={onClose}
-                            className="font-serif text-[0.94rem] text-[#4e423e] transition-colors hover:text-gold"
-                          >
-                            {link.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))
-              ) : (
-                <div className="flex flex-col gap-3">
-                  <span className="eyebrow-muted">Sottocategorie</span>
-                  <ul className="flex flex-col gap-2.5">
-                    {children.map((link) => (
+        <div className="container-luxe py-8">
+          <div className="flex flex-col gap-5">
+            {columns.length > 0 ? (
+              columns.map((column) => (
+                <div key={column.heading} className="flex flex-col gap-4">
+                  <span className="eyebrow-muted">{column.heading}</span>
+                  <ul className="flex flex-wrap items-center gap-x-8 gap-y-3">
+                    {column.links.map((link) => (
                       <li key={link.href}>
                         <Link
                           href={link.href}
                           onClick={onClose}
-                          className="font-serif text-[0.94rem] text-[#4e423e] transition-colors hover:text-gold"
+                          className="font-serif text-[0.96rem] tracking-[0.06em] text-[#4e423e] transition-colors hover:text-gold"
                         >
                           {link.label}
                         </Link>
@@ -292,114 +93,36 @@ function MegaPanel({ item, onClose }: { item: NavItem; onClose: () => void }) {
                     ))}
                   </ul>
                 </div>
-              )}
-            </div>
+              ))
+            ) : (
+              <div className="flex flex-col gap-4">
+                <span className="eyebrow-muted">{item.label}</span>
+                <ul className="flex flex-wrap items-center gap-x-8 gap-y-3">
+                  {children.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        onClick={onClose}
+                        className="font-serif text-[0.96rem] tracking-[0.06em] text-[#4e423e] transition-colors hover:text-gold"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-            <div className="mt-6 border-t border-[#f0ece4] pt-4">
+            <div className="border-t border-[#f0ece4] pt-4">
               <Link
                 href={item.href}
                 onClick={onClose}
                 className="inline-flex items-center gap-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-gold transition-colors hover:text-[#020202]"
               >
-                Vedi tutto →
+                Esplora tutto {item.label} →
               </Link>
             </div>
           </div>
-
-          {/* Colonna 2: Griglia simmetrica fissa a 3 card */}
-          <div className="grid grid-cols-3 gap-5">
-            {visualCards.map((card) => (
-              <Link
-                key={card.id}
-                href={card.href}
-                onClick={onClose}
-                className="group flex flex-col gap-3"
-              >
-                <div className="overflow-hidden rounded-sm border border-[#eaeaea] bg-[#fafafa]">
-                  <SmartImage
-                    src={card.image}
-                    alt={card.label}
-                    className="aspect-square w-full bg-white"
-                    imageClassName={cn(
-                      "transition-transform duration-[900ms] ease-out group-hover:scale-105",
-                      card.fit === "cover"
-                        ? "object-cover"
-                        : "object-contain p-3.5",
-                    )}
-                    sizes="(min-width: 1280px) 220px, 30vw"
-                  />
-                </div>
-                <div className="flex flex-col gap-0.5 text-center">
-                  <span className="font-serif text-[0.86rem] uppercase tracking-[0.13em] text-[#020202] transition-colors group-hover:text-gold">
-                    {card.label}
-                  </span>
-                  <span className="font-serif text-[0.8rem] italic text-[#6b6b6b]">
-                    {card.subtitle}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          {/* Colonna 3: Card editoriale in evidenza */}
-          {item.featured ? (
-            isLightFeatured ? (
-              <Link
-                href={item.featured.href}
-                onClick={onClose}
-                className="group relative hidden min-h-[260px] flex-col justify-between overflow-hidden rounded-sm border border-[#eaeaea] bg-[#f7f3ec] p-5 lg:flex"
-              >
-                <div className="relative mx-auto h-36 w-full">
-                  <SmartImage
-                    src={item.featured.image}
-                    alt={item.featured.title}
-                    className="h-full w-full bg-transparent"
-                    imageClassName="object-contain p-2 transition-transform duration-[900ms] ease-out group-hover:scale-105"
-                    sizes="260px"
-                  />
-                </div>
-                <div className="flex flex-col gap-1 border-t border-[#e7dfd2] pt-4">
-                  <span className="eyebrow text-gold">{item.featured.eyebrow}</span>
-                  <span className="font-serif text-lg text-[#020202]">
-                    {item.featured.title}
-                  </span>
-                  <span className="text-xs leading-relaxed text-[#4e423e]">
-                    {item.featured.description}
-                  </span>
-                  <span className="mt-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.2em] text-gold transition-colors group-hover:text-[#020202]">
-                    {item.featured.cta} →
-                  </span>
-                </div>
-              </Link>
-            ) : (
-              <Link
-                href={item.featured.href}
-                onClick={onClose}
-                className="group relative hidden min-h-[260px] overflow-hidden rounded-sm border border-[#eaeaea] lg:block"
-              >
-                <SmartImage
-                  src={item.featured.image}
-                  alt={item.featured.title}
-                  className="absolute inset-0 h-full w-full"
-                  imageClassName="object-cover transition-transform duration-[900ms] ease-out group-hover:scale-105"
-                  sizes="285px"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#020202]/85 via-[#020202]/25 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1.5 p-6">
-                  <span className="eyebrow text-gold-soft">{item.featured.eyebrow}</span>
-                  <span className="font-serif text-xl text-white">
-                    {item.featured.title}
-                  </span>
-                  <span className="text-xs leading-relaxed text-white/80">
-                    {item.featured.description}
-                  </span>
-                  <span className="mt-1.5 text-[0.68rem] uppercase tracking-[0.22em] text-gold-soft">
-                    {item.featured.cta} →
-                  </span>
-                </div>
-              </Link>
-            )
-          ) : null}
         </div>
       )}
     </div>

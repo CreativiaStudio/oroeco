@@ -30,17 +30,28 @@ export async function getDbBrands(): Promise<Brand[]> {
  * Fetch all products from dedicated Supabase instance.
  */
 export async function getDbProducts(): Promise<Product[]> {
-  const { data, error } = await supabase
-    .from("oroeco_products")
-    .select("*")
-    .order("created_at", { ascending: false });
+  const PAGE_SIZE = 1000;
+  const allRows: any[] = [];
 
-  if (error || !data) {
-    console.error("Error fetching products from Supabase:", error);
-    return [];
+  for (let offset = 0; offset < 10000; offset += PAGE_SIZE) {
+    const { data, error } = await supabase
+      .from("oroeco_products")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .range(offset, offset + PAGE_SIZE - 1);
+
+    if (error) {
+      console.error("Error fetching products from Supabase:", error);
+      if (allRows.length === 0) return [];
+      break;
+    }
+
+    if (!data || data.length === 0) break;
+    allRows.push(...data);
+    if (data.length < PAGE_SIZE) break;
   }
 
-  return data.map((p) => ({
+  return allRows.map((p) => ({
     id: p.id,
     slug: p.slug,
     name: p.name,

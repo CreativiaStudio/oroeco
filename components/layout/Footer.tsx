@@ -6,6 +6,7 @@ import { InstagramFeedStrip } from "@/components/layout/InstagramFeedStrip";
 import { Logo } from "@/components/layout/Logo";
 import { NewsletterForm } from "@/components/layout/NewsletterForm";
 import { PaymentLogos } from "@/components/layout/PaymentLogos";
+import { OFFICIAL_STORE_HOURS } from "@/lib/brandPolicy";
 
 const collections = [
   { label: "Gioielli", href: "/gioielli" },
@@ -183,7 +184,11 @@ export function Footer() {
               </li>
               <li className="flex gap-3">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0 text-gold" strokeWidth={1.6} />
-                <span>Lun–Sab 9:30–13:00 / 16:30–20:00</span>
+                <span className="flex flex-col gap-0.5 leading-snug">
+                  <span>{OFFICIAL_STORE_HOURS.monday}</span>
+                  <span>{OFFICIAL_STORE_HOURS.tueSat}</span>
+                  <span className="text-gold-soft">{OFFICIAL_STORE_HOURS.december}</span>
+                </span>
               </li>
             </ul>
           </div>

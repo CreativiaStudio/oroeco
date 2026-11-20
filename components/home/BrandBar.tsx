@@ -24,11 +24,10 @@ const ROW_BOTTOM_SLUGS = [
   "dana-oro-9-kt",
   "lladro",
   "gli-alberelli",
-  "amen",
 ];
 
 /**
- * Rassegna dei 18 marchi ufficiali in gioielleria:
+ * Rassegna dei marchi ufficiali in gioielleria:
  * due righe asincrone in senso opposto con armonizzazione ottica delle proporzioni,
  * monocromatiche in grafite a riposo e nel colore originale della maison in hover.
  */
@@ -51,7 +50,7 @@ export function BrandBar() {
         <LuxuryReveal variant="up">
           <span className="eyebrow">I Marchi della Gioielleria</span>
           <h2 className="mt-3 font-serif text-2xl uppercase tracking-[0.12em] text-[#020202] sm:text-3xl">
-            Diciotto firme, un&apos;unica selezione
+            Le nostre firme, un&apos;unica selezione
           </h2>
         </LuxuryReveal>
       </div>
