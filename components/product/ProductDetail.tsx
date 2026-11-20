@@ -78,7 +78,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
               src={product.images[activeImage]}
               alt={product.name}
               className="aspect-square w-full bg-white"
-              imageClassName="object-contain p-4 sm:p-6"
+              imageClassName="object-contain"
               sizes="(max-width: 1024px) 100vw, 50vw"
               priority
               fallbackLabel={product.name}
@@ -109,7 +109,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                     src={image}
                     alt={`${product.name} — vista ${index + 1}`}
                     className="h-20 w-20 bg-white"
-                    imageClassName="object-contain p-1"
+                    imageClassName="object-contain"
                     sizes="80px"
                     fallbackLabel={product.name}
                   />

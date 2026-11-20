@@ -50,6 +50,7 @@ const FIX_UNDERSIZED = process.argv.includes("--fix-undersized");
 const POLISH_V3 = process.argv.includes("--polish-v3");
 const REBUILD_SHADOWS_V4 = process.argv.includes("--rebuild-shadows-v4");
 const SQUARE_CUOREMATTO_V4 = process.argv.includes("--square-cuorematto-v4");
+const RESTORE_CONTEXT_IMG1 = process.argv.includes("--restore-context-img1");
 const ONLY_SKU = (() => {
   const i = process.argv.indexOf("--only-sku");
   return i !== -1 && process.argv[i + 1] ? process.argv[i + 1].toUpperCase() : null;
@@ -894,6 +895,108 @@ async function analyzeCorners(buf) {
   return { width, height, hasAlphaCorners, cornerMinRGB, cornerMaxDiff, avg };
 }
 
+async function hasPerimeterContent(buf, corners) {
+  if (corners.hasAlphaCorners) return false;
+  const { data, info } = await sharp(buf).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  const w = info.width;
+  const h = info.height;
+  if (w < 10 || h < 10) return false;
+  const { r: bgR, g: bgG, b: bgB } = corners.avg;
+  let diffBorder = 0;
+  let total = 0;
+  for (let x = 0; x < w; x++) {
+    for (const y of [1, h - 2]) {
+      const i = (y * w + x) * 4;
+      if (
+        Math.max(Math.abs(data[i] - bgR), Math.abs(data[i + 1] - bgG), Math.abs(data[i + 2] - bgB)) > 12
+      ) {
+        diffBorder++;
+      }
+      total++;
+    }
+  }
+  for (let y = 0; y < h; y++) {
+    for (const x of [1, w - 2]) {
+      const i = (y * w + x) * 4;
+      if (
+        Math.max(Math.abs(data[i] - bgR), Math.abs(data[i + 1] - bgG), Math.abs(data[i + 2] - bgB)) > 12
+      ) {
+        diffBorder++;
+      }
+      total++;
+    }
+  }
+  return total > 0 && diffBorder / total > 0.03;
+}
+
+const VILLEROY_KEEP_0_1 = new Set([
+  "14-8332-3714",
+  "14-8332-3661",
+  "14-8332-3660",
+  "14-8585-2680",
+  "14-8332-3600",
+]);
+
+const VILLEROY_KEEP_0_2 = new Set([
+  "14-8602-6560",
+  "14-8585-6165",
+  "14-8327-6648",
+  "14-8332-6152",
+]);
+
+const VILLEROY_IMG1_OVERRIDES = {
+  "VB-2295": "products/villeroy/14_8585_2295_3.webp",
+  "VB-2220": "products/villeroy/VB-2220_2.webp",
+  "VB-2905": "products/villeroy/14_8585_2905_2.jpg",
+};
+
+const GUESS_CONTEXT_IMG1_SKUS = new Set([
+  "W1161G2",
+  "JUBB06091JWYGS",
+  "GW0974G1",
+  "JUBN02245JWRHT/U",
+  "JUBN02245JWYGEMT/U",
+  "W0799G2",
+  "W1161G1",
+]);
+
+const LOCMAN_CONTEXT_IMG1_SKUS = new Set(["0253R14R-RRMWRG2PA"]);
+
+async function isBoxedContextInGrid(buf) {
+  try {
+    const { data, info } = await sharp(buf).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+    const bgR = data[0];
+    const bgG = data[1];
+    const bgB = data[2];
+    const t = await sharp(buf)
+      .flatten({ background: { r: bgR, g: bgG, b: bgB } })
+      .trim({ threshold: 10 })
+      .toBuffer({ resolveWithObject: true });
+    const tw = t.info.width;
+    const th = t.info.height;
+    if (tw < 80 || th < 80) return false;
+    const left = Math.max(0, -(t.info.trimOffsetLeft || 0));
+    const top = Math.max(0, -(t.info.trimOffsetTop || 0));
+    let topNonBg = 0;
+    let botNonBg = 0;
+    const ryTop = Math.min(info.height - 1, top + 2);
+    const ryBot = Math.max(0, top + th - 3);
+    for (let x = left; x < left + tw; x++) {
+      const iT = (ryTop * info.width + x) * 4;
+      if (Math.max(Math.abs(data[iT] - bgR), Math.abs(data[iT + 1] - bgG), Math.abs(data[iT + 2] - bgB)) > 15) {
+        topNonBg++;
+      }
+      const iB = (ryBot * info.width + x) * 4;
+      if (Math.max(Math.abs(data[iB] - bgR), Math.abs(data[iB + 1] - bgG), Math.abs(data[iB + 2] - bgB)) > 15) {
+        botNonBg++;
+      }
+    }
+    return topNonBg / tw > 0.5 || botNonBg / tw > 0.5;
+  } catch (_) {
+    return false;
+  }
+}
+
 async function fetchAllApproved() {
   const PAGE = 1000;
   const all = [];
@@ -916,6 +1019,85 @@ async function processOne(p, context = {}) {
   const imgs = Array.isArray(p.images) ? p.images : [];
   const origUrl = imgs[0];
   if (!origUrl) return { status: "skipped_no_img", brand: p.brand_name, sku: p.sku };
+
+  if (RESTORE_CONTEXT_IMG1) {
+    if (imgs.length < 2 || !imgs[1] || !imgs[1].includes("/products/grid-v")) {
+      return { status: "skipped_not_grid_img1", brand: p.brand_name, sku: p.sku };
+    }
+
+    const sku = String(p.sku || "").trim();
+    const raw = sku.toLowerCase();
+    const safeSku = slugify(sku);
+    const us = raw.replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
+    const upperSku = sku.toUpperCase();
+
+    let foundOrigKey = null;
+
+    if (p.brand_name === "Villeroy & Boch") {
+      const map = context.restoreR2?.["Villeroy & Boch"];
+      const ov = VILLEROY_IMG1_OVERRIDES[upperSku];
+      if (ov) {
+        const ovBase = ov.split("/").pop().toLowerCase();
+        foundOrigKey = map?.get(ovBase) || null;
+      } else {
+        const cand = VILLEROY_KEEP_0_1.has(sku)
+          ? [`${us}_2.jpg`, `${us}_2.webp`]
+          : VILLEROY_KEEP_0_2.has(sku)
+            ? [`${us}_3.jpg`, `${us}_3.webp`]
+            : [`${us}_3.webp`, `${us}_3.jpg`, `${us}_2.webp`, `${us}_2.jpg`];
+        foundOrigKey = cand.map((c) => map?.get(c)).find(Boolean) || null;
+      }
+      if (!foundOrigKey) {
+        throw new Error(`Originale R2 img1 mancante per Villeroy ${sku}`);
+      }
+    } else if (p.brand_name === "Unoaerre") {
+      const map = context.restoreR2?.Unoaerre;
+      const cand = [
+        `${raw}_2.jpg`, `${raw}_2.webp`, `${raw}_2.png`,
+        `${us}_2.jpg`, `${us}_2.webp`,
+        `${safeSku}-02.jpg`, `${safeSku}-02.webp`,
+      ];
+      foundOrigKey = cand.map((c) => map?.get(c)).find(Boolean) || null;
+      if (!foundOrigKey) {
+        throw new Error(`Originale R2 img1 mancante per Unoaerre ${sku}`);
+      }
+    } else if (p.brand_name === "Guess" && GUESS_CONTEXT_IMG1_SKUS.has(upperSku)) {
+      const map = context.restoreR2?.Guess;
+      const cand = [`${safeSku}-02.webp`, `${safeSku}-02.jpg`, `${raw}-02.webp`, `${raw}_2.webp`];
+      foundOrigKey = cand.map((c) => map?.get(c)).find(Boolean) || null;
+      if (!foundOrigKey) {
+        throw new Error(`Originale R2 img1 mancante per Guess ${sku}`);
+      }
+    } else if (p.brand_name === "Locman" && LOCMAN_CONTEXT_IMG1_SKUS.has(upperSku)) {
+      const map = context.restoreR2?.Locman;
+      const cand = [`${safeSku}-02.webp`, `${safeSku}-02.jpg`, `${raw}-02.webp`];
+      foundOrigKey = cand.map((c) => map?.get(c)).find(Boolean) || null;
+      if (!foundOrigKey) {
+        throw new Error(`Originale R2 img1 mancante per Locman ${sku}`);
+      }
+    } else if (p.brand_name === "Stroili") {
+      const buf1 = await fetchWithRetry(imgs[1]);
+      const boxed = await isBoxedContextInGrid(buf1);
+      if (boxed) {
+        console.log(`⚠️ [audit-stroili-img1] Possibile foto di contesto rimpicciolita: ${sku}`);
+        return { status: "stroili_boxed_hit", brand: p.brand_name, sku };
+      }
+      return { status: "skipped_stroili_ok", brand: p.brand_name, sku };
+    } else {
+      return { status: "skipped_packshot_img1", brand: p.brand_name, sku };
+    }
+
+    const restoredUrl = `${R2_PUBLIC_URL}/${foundOrigKey}`;
+    const nextImages = [imgs[0], restoredUrl, ...imgs.slice(2)];
+    const { error: upErr } = await sb
+      .from("oroeco_products")
+      .update({ images: nextImages, updated_at: new Date().toISOString() })
+      .eq("id", p.id);
+    if (upErr) throw upErr;
+
+    console.log(`↩️ [restore-img1] ${p.brand_name} ${sku}: -> ${foundOrigKey}`);
+    return { status: "restored_context_img1", brand: p.brand_name, sku, origKey: foundOrigKey };
+  }
 
   if (REBUILD_SHADOWS_V4) {
     const map = context.r2Index?.[p.brand_name];
@@ -962,6 +1144,7 @@ async function processOne(p, context = {}) {
 
     if (
       p.brand_name !== "Villeroy & Boch" &&
+      p.brand_name !== "Unoaerre" &&
       imgs.length >= 2 &&
       imgs[1] &&
       imgs[1].includes("/products/grid-v") &&
@@ -979,8 +1162,9 @@ async function processOne(p, context = {}) {
         const buf1 = await fetchWithRetry(`${R2_PUBLIC_URL}/${foundKey1}`);
         const corners1 = await analyzeCorners(buf1);
         const isCaseA1 =
-          corners1.hasAlphaCorners ||
-          (corners1.cornerMinRGB >= 230 && corners1.cornerMaxDiff <= 14);
+          (corners1.hasAlphaCorners ||
+            (corners1.cornerMinRGB >= 230 && corners1.cornerMaxDiff <= 14)) &&
+          !(await hasPerimeterContent(buf1, corners1));
         if (isCaseA1) {
           const norm1 = await shadowSafeNormalizeFromOriginal(buf1, corners1);
           const r2Key1 = `products/grid-v4/${brandSlug}/${safeSku}-02.webp`;
@@ -1088,12 +1272,19 @@ async function processOne(p, context = {}) {
       }
     }
 
-    if (imgs.length >= 2 && imgs[1] && !imgs[1].includes("/products/grid-v3/")) {
+    if (
+      p.brand_name !== "Villeroy & Boch" &&
+      p.brand_name !== "Unoaerre" &&
+      imgs.length >= 2 &&
+      imgs[1] &&
+      !imgs[1].includes("/products/grid-v3/")
+    ) {
       const buf1 = await fetchWithRetry(imgs[1]);
       const corners1 = await analyzeCorners(buf1);
       const isCaseA1 =
-        corners1.hasAlphaCorners ||
-        (corners1.cornerMinRGB >= 230 && corners1.cornerMaxDiff <= 14);
+        (corners1.hasAlphaCorners ||
+          (corners1.cornerMinRGB >= 230 && corners1.cornerMaxDiff <= 14)) &&
+        !(await hasPerimeterContent(buf1, corners1));
 
       if (isCaseA1) {
         const norm1 = await safeTrimAndNormalize(buf1, corners1);
@@ -1321,6 +1512,23 @@ async function processOne(p, context = {}) {
   let targets = allApproved.filter((p) => !/nihama/i.test(p.brand_name || ""));
 
   const context = {};
+  if (RESTORE_CONTEXT_IMG1) {
+    console.log("Indicizzazione originali R2 per --restore-context-img1...");
+    const restoreR2 = {};
+    for (const [bName, pref] of [
+      ["Villeroy & Boch", "products/villeroy/"],
+      ["Unoaerre", "products/unoaerre/"],
+      ["Guess", "products/guess/"],
+      ["Locman", "products/locman/"],
+    ]) {
+      const keys = await listAllR2Keys(pref);
+      restoreR2[bName] = new Map(keys.map((k) => [k.split("/").pop().toLowerCase(), k]));
+      console.log(`  R2 ${bName}: ${keys.length} oggetti`);
+    }
+    context.restoreR2 = restoreR2;
+    targets = targets.filter((p) => Array.isArray(p.images) && p.images[1]?.includes("/products/grid-v"));
+  }
+
   if (REBUILD_SHADOWS_V4) {
     console.log("Indicizzazione originali R2 per --rebuild-shadows-v4...");
     const r2Index = {};
@@ -1370,6 +1578,8 @@ async function processOne(p, context = {}) {
         img0_v4: 0,
         img1_v4: 0,
         cuore_v4: 0,
+        restored_context_img1: 0,
+        stroili_boxed_hits: 0,
         skipped: 0,
         errors: 0,
       };
@@ -1386,7 +1596,11 @@ async function processOne(p, context = {}) {
       try {
         const res = await processOne(p, context);
         const st = ensureBrandStats(p.brand_name || "NULL");
-        if (res.status === "rebuild_shadows_v4") {
+        if (res.status === "restored_context_img1") {
+          st.restored_context_img1++;
+        } else if (res.status === "stroili_boxed_hit") {
+          st.stroili_boxed_hits++;
+        } else if (res.status === "rebuild_shadows_v4") {
           st.img0_v4 += res.img0_v4;
           st.img1_v4 += res.img1_v4;
           if (res.img0_v4 === 0 && res.img1_v4 === 0) st.skipped++;
@@ -1417,15 +1631,17 @@ async function processOne(p, context = {}) {
 
   const report = {
     generated_at: new Date().toISOString(),
-    mode: REBUILD_SHADOWS_V4
-      ? "rebuild_shadows_v4"
-      : SQUARE_CUOREMATTO_V4
-        ? "square_cuorematto_v4"
-        : POLISH_V3
-          ? "polish_v3"
-          : FIX_UNDERSIZED
-            ? "fix_undersized"
-            : "initial",
+    mode: RESTORE_CONTEXT_IMG1
+      ? "restore_context_img1"
+      : REBUILD_SHADOWS_V4
+        ? "rebuild_shadows_v4"
+        : SQUARE_CUOREMATTO_V4
+          ? "square_cuorematto_v4"
+          : POLISH_V3
+            ? "polish_v3"
+            : FIX_UNDERSIZED
+              ? "fix_undersized"
+              : "initial",
     total_approved: allApproved.length,
     targets_processed: targets.length,
     totals: {
@@ -1437,6 +1653,8 @@ async function processOne(p, context = {}) {
       img0_v4: Object.values(statsByBrand).reduce((a, c) => a + c.img0_v4, 0),
       img1_v4: Object.values(statsByBrand).reduce((a, c) => a + c.img1_v4, 0),
       cuore_v4: Object.values(statsByBrand).reduce((a, c) => a + c.cuore_v4, 0),
+      restored_context_img1: Object.values(statsByBrand).reduce((a, c) => a + c.restored_context_img1, 0),
+      stroili_boxed_hits: Object.values(statsByBrand).reduce((a, c) => a + c.stroili_boxed_hits, 0),
       skipped: Object.values(statsByBrand).reduce((a, c) => a + c.skipped, 0),
       errors: errors.length,
     },
