@@ -6,7 +6,7 @@ import { InstagramFeedStrip } from "@/components/layout/InstagramFeedStrip";
 import { Logo } from "@/components/layout/Logo";
 import { NewsletterForm } from "@/components/layout/NewsletterForm";
 import { PaymentLogos } from "@/components/layout/PaymentLogos";
-import { OFFICIAL_STORE_HOURS } from "@/lib/brandPolicy";
+import { OFFICIAL_STORE_HOURS, STORE_CONTACT } from "@/lib/brandPolicy";
 
 const collections = [
   { label: "Gioielli", href: "/gioielli" },
@@ -40,6 +40,22 @@ function InstagramIcon({ className = "h-4 w-4" }: { className?: string }) {
       <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
       <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+}
+
+function FacebookIcon({ className = "h-4 w-4" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.6}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
     </svg>
   );
 }
@@ -174,7 +190,7 @@ export function Footer() {
               <li className="flex gap-3">
                 <InstagramIcon className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
                 <a
-                  href="https://www.instagram.com/gioielleria_oroeco/"
+                  href={STORE_CONTACT.instagramHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white"
@@ -182,6 +198,19 @@ export function Footer() {
                   @gioielleria_oroeco
                 </a>
               </li>
+              {STORE_CONTACT.facebookHref && (
+                <li className="flex gap-3">
+                  <FacebookIcon className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+                  <a
+                    href={STORE_CONTACT.facebookHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white"
+                  >
+                    Facebook · ORO&amp;CO
+                  </a>
+                </li>
+              )}
               <li className="flex gap-3">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0 text-gold" strokeWidth={1.6} />
                 <span className="flex flex-col gap-0.5 leading-snug">

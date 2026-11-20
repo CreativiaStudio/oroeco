@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { getAdminSessionFromRequest } from "@/lib/adminAuth";
 import {
   deleteObjectFromR2,
   listR2Objects,
@@ -20,6 +21,13 @@ function sanitizeFilename(name: string): string {
 }
 
 export async function GET(req: NextRequest) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   try {
     const { searchParams } = new URL(req.url);
     const prefix = searchParams.get("prefix") || "";
@@ -46,6 +54,13 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   try {
     const formData = await req.formData();
     const file = formData.get("file");
@@ -94,6 +109,13 @@ export async function POST(req: NextRequest) {
 }
 
 export async function DELETE(req: NextRequest) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   try {
     const { searchParams } = new URL(req.url);
     let key = searchParams.get("key") || "";

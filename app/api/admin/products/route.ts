@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { getAdminSessionFromRequest } from "@/lib/adminAuth";
 import {
   getDbProducts,
   updateProductApproval,
@@ -8,6 +9,13 @@ import {
 } from "@/lib/db";
 
 export async function GET(req: Request) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   try {
     const { searchParams } = new URL(req.url);
     const status = searchParams.get("status"); // 'all' | 'pending_approval' | 'approved' | 'rejected'
@@ -38,6 +46,13 @@ export async function GET(req: Request) {
 }
 
 export async function PATCH(req: Request) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   try {
     const body = await req.json();
 

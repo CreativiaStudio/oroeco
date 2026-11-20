@@ -845,7 +845,7 @@ registerSuite("Tier 4 — S5: Christmas Campaign Seasonal Rush (Renato)", async 
 
   it("S5.1 — /natale renders the holiday selection and featured items are marked isChristmas: true", () => {
     assert.ok(fileExists("app/natale/page.tsx"), "app/natale/page.tsx must exist");
-    expect(readText("app/natale/page.tsx")).toContain("getChristmasProducts");
+    expect(readText("app/natale/page.tsx")).toContain("getLiveChristmasProducts");
 
     const christmas = catalog.getChristmasProducts();
     expect(christmas.length).toBeGreaterThan(0);

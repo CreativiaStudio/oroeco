@@ -24,6 +24,7 @@ import {
   History,
   Images,
   LayoutDashboard,
+  LogOut,
   type LucideIcon,
   Minus,
   Package,
@@ -1135,6 +1136,17 @@ export function AdminDashboard() {
                   <Store className="h-3.5 w-3.5" strokeWidth={2} />
                   Vedi Sito Pubblico
                 </Link>
+                <button
+                  type="button"
+                  onClick={async () => {
+                    await fetch("/api/admin/auth/logout", { method: "POST" }).catch(() => null);
+                    window.location.href = "/admin/login";
+                  }}
+                  className="inline-flex items-center gap-2 rounded-sm border border-red-400/40 bg-red-500/10 px-3.5 py-2 text-[0.68rem] font-semibold uppercase tracking-[0.12em] text-red-200 transition-colors hover:border-red-300 hover:bg-red-500/20 hover:text-white"
+                >
+                  <LogOut className="h-3.5 w-3.5" strokeWidth={2} />
+                  Esci
+                </button>
               </div>
             </div>
 

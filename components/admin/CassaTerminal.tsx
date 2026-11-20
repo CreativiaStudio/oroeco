@@ -14,6 +14,7 @@ import {
   Coins,
   CreditCard,
   FileText,
+  LogOut,
   Minus,
   Percent,
   Plus,
@@ -493,6 +494,18 @@ export function CassaTerminal() {
               <Clock className="h-4 w-4 text-gold-soft" strokeWidth={1.8} />
               <span>{mounted ? clock : "—"}</span>
             </div>
+
+            <button
+              type="button"
+              onClick={async () => {
+                await fetch("/api/admin/auth/logout", { method: "POST" }).catch(() => null);
+                window.location.href = "/admin/login";
+              }}
+              className="inline-flex items-center gap-1.5 rounded-sm border border-red-400/40 bg-red-500/10 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-red-200 transition-colors hover:border-red-300 hover:bg-red-500/20 hover:text-white"
+            >
+              <LogOut className="h-3.5 w-3.5" strokeWidth={2} />
+              Esci
+            </button>
           </div>
         </div>
       </header>

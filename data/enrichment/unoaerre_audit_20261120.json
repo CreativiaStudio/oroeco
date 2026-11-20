@@ -1,0 +1,321 @@
+{
+  "generated_at": "2026-11-20T12:30:16.313Z",
+  "pdf_files_parsed": 10,
+  "pdf_unique_skus": 128,
+  "aeternum_uomo_fixed": [
+    "F04308",
+    "F04302",
+    "F04312",
+    "F04309",
+    "F04317",
+    "F04311",
+    "F04318",
+    "F04307",
+    "F04305",
+    "F04310",
+    "F04306",
+    "F04301",
+    "F04300",
+    "F04303",
+    "F04319",
+    "F04315",
+    "F04320",
+    "F04316",
+    "F04313",
+    "F04314"
+  ],
+  "missing_skus_inserted_solo_cassa": 41,
+  "inserted_details": [
+    {
+      "sku": "M01228",
+      "name": "Unoaerre — Funetta Oro Giallo 9 Carati (Ref. M01228)",
+      "price": 769,
+      "gender": "Donna",
+      "metal": "Oro giallo 9 kt (375‰)"
+    },
+    {
+      "sku": "M01155",
+      "name": "Unoaerre — Croce Oro Giallo 9 Carati (Ref. M01155)",
+      "price": 259,
+      "gender": "Donna",
+      "metal": "Oro giallo 9 kt (375‰)"
+    },
+    {
+      "sku": "F06030",
+      "name": "Unoaerre — Bracciale Tennis Bianco Luxury Argento (Ref. F06030)",
+      "price": 109,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06235-13",
+      "name": "Unoaerre — Anello Bianco Luxury Argento (Ref. F06235-13)",
+      "price": 79,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06211-18",
+      "name": "Unoaerre — Anello Giallo Chicco Argento (Ref. F06211-18)",
+      "price": 179,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F02862",
+      "name": "Unoaerre — Orecchini Gialli Tubogas Bronzo (Ref. F02862)",
+      "price": 84,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02845",
+      "name": "Unoaerre — Bracciale Giallo Tubogas Bronzo (Ref. F02845)",
+      "price": 129,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02807",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F02807)",
+      "price": 79,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02808",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F02808)",
+      "price": 79,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02806",
+      "name": "Unoaerre — Collana Bicolore Classica Bronzo (Ref. F02806)",
+      "price": 139,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02800",
+      "name": "Unoaerre — Bracciale Bicolore Classica Bronzo (Ref. F02800)",
+      "price": 99,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02813",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F02813)",
+      "price": 64,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F01920",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F01920)",
+      "price": 59,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F06385",
+      "name": "Unoaerre — Bracciale Tennis Blu Luxury Argento (Ref. F06385)",
+      "price": 139,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06363",
+      "name": "Unoaerre — Bracciale Tennis Bianco Luxury Argento (Ref. F06363)",
+      "price": 119,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F05770",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F05770)",
+      "price": 89,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F05771",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F05771)",
+      "price": 99,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F05862",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F05862)",
+      "price": 99,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06075",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F06075)",
+      "price": 99,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06076",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F06076)",
+      "price": 109,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06077",
+      "name": "Unoaerre — Bracciale Tennis Nero Luxury Argento (Ref. F06077)",
+      "price": 109,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06756",
+      "name": "Unoaerre — Bracciale Giallo Chicco Argento (Ref. F06756)",
+      "price": 299,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F06211-21",
+      "name": "Unoaerre — Anello Giallo Chicco Argento (Ref. F06211-21)",
+      "price": 179,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F06258-18",
+      "name": "Unoaerre — Anello Giallo Chicco Argento (Ref. F06258-18)",
+      "price": 119,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F06214-21",
+      "name": "Unoaerre — Anello Giallo Chicco Argento (Ref. F06214-21)",
+      "price": 169,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F06260-21",
+      "name": "Unoaerre — Anello Giallo Chicco Argento (Ref. F06260-21)",
+      "price": 189,
+      "gender": "Donna",
+      "metal": "Argento 925 placcato oro"
+    },
+    {
+      "sku": "F06250-18",
+      "name": "Unoaerre — Anello Bianco Chicco Argento (Ref. F06250-18)",
+      "price": 179,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F02809",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F02809)",
+      "price": 84,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02811",
+      "name": "Unoaerre — Orecchini Gialli Classica Bronzo (Ref. F02811)",
+      "price": 74,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02802",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F02802)",
+      "price": 79,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02803",
+      "name": "Unoaerre — Bracciale Bianco Classica Bronzo (Ref. F02803)",
+      "price": 79,
+      "gender": "Donna",
+      "metal": "Bronzo Argentato"
+    },
+    {
+      "sku": "F02771",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F02771)",
+      "price": 89,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F01557",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F01557)",
+      "price": 49,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F01865",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F01865)",
+      "price": 69,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F01607",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F01607)",
+      "price": 64,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F00437",
+      "name": "Unoaerre — Bracciale Giallo Classica Bronzo (Ref. F00437)",
+      "price": 49,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F02790",
+      "name": "Unoaerre — Spilla Gialla Bronzo (Ref. F02790)",
+      "price": 84,
+      "gender": "Donna",
+      "metal": "Bronzo Bagno Oro"
+    },
+    {
+      "sku": "F05859",
+      "name": "Unoaerre — Orecchini Bianchi Luxury Argento (Ref. F05859)",
+      "price": 59,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F06442",
+      "name": "Unoaerre — Orecchini Bianchi Luxury Argento (Ref. F06442)",
+      "price": 119,
+      "gender": "Donna",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F05461",
+      "name": "Unoaerre — Gemelli Bianchi Argento (Ref. F05461)",
+      "price": 129,
+      "gender": "Uomo",
+      "metal": "Argento 925 rodiato"
+    },
+    {
+      "sku": "F04304",
+      "name": "Unoaerre — Bracciale Bianco Acciaio (Ref. F04304)",
+      "price": 69,
+      "gender": "Uomo",
+      "metal": "Acciaio inossidabile 316L"
+    }
+  ],
+  "final_db_unoaerre_total": 239,
+  "final_db_unoaerre_approved": 163,
+  "final_db_unoaerre_rejected": 76,
+  "final_db_unoaerre_uomo_approved": 20
+}

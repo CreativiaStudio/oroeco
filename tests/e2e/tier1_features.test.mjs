@@ -406,16 +406,17 @@ registerSuite("1. Database Isolation & Standalone Schema (R3)", async () => {
     assert.match(schema, /SECURITY DEFINER/);
   });
 
-  it("provides lib/catalog.ts as a 100% local, typed catalogue with 18 brands", () => {
+  it("provides lib/catalog.ts as a 100% local, typed catalogue with 17 active brands", () => {
     const source = readText("lib/catalog.ts");
     assert.match(source, /export const products: Product\[\]/);
     assert.match(source, /export const brands: Brand\[\]/);
     assert.ok(!/fetch\(|axios|createClient|@supabase|XMLHttpRequest/.test(source), "catalogue must stay local");
 
-    assert.strictEqual(catalog.brands.length, 18);
-    assert.strictEqual(catalog.getAllBrands().length, 18);
-    assert.strictEqual(new Set(catalog.brands.map((brand) => brand.slug)).size, 18);
-    assert.ok(catalog.products.length >= 18, "catalogue must expose a meaningful product set");
+    assert.strictEqual(catalog.brands.length, 17);
+    assert.strictEqual(catalog.getAllBrands().length, 17);
+    assert.strictEqual(new Set(catalog.brands.map((brand) => brand.slug)).size, 17);
+    assert.ok(!catalog.brands.some((brand) => brand.slug === "amen"), "AMEN must be removed");
+    assert.ok(catalog.products.length >= 17, "catalogue must expose a meaningful product set");
 
     const categories = new Set(["gioielli", "orologi", "accessori", "casa", "natale"]);
     for (const product of catalog.products) {
@@ -501,11 +502,11 @@ registerSuite("3. Navigation & Excel Routes (R1)", async () => {
     assert.match(source, /Renato/);
   });
 
-  it("/gioielli exposes the five Excel subcategories", () => {
+  it("/gioielli exposes the five updated subcategories", () => {
     assert.ok(fileExists("app/gioielli/page.tsx"));
     assert.deepStrictEqual(
       subcategoriesByCategory.gioielli.map((item) => item.slug),
-      ["anelli", "collane", "orecchini", "bracciali", "ciondoli"],
+      ["anelli", "bracciali", "collane", "orecchini", "ciondoli"],
     );
     assert.ok(catalog.getProductsByCategory("gioielli").length > 0);
   });
@@ -519,53 +520,50 @@ registerSuite("3. Navigation & Excel Routes (R1)", async () => {
     assert.ok(catalog.getProductsByCategory("orologi").length > 0);
   });
 
-  it("/accessori exposes the four Excel subcategories", () => {
+  it("/accessori exposes pelletteria and portachiavi subcategories", () => {
     assert.ok(fileExists("app/accessori/page.tsx"));
     assert.deepStrictEqual(
       subcategoriesByCategory.accessori.map((item) => item.slug),
-      ["pelletteria", "portachiavi", "gemelli", "penne"],
+      ["pelletteria", "portachiavi"],
     );
     assert.ok(catalog.getProductsByCategory("accessori").length > 0);
   });
 
-  it("/casa exposes the nine Excel subcategories", () => {
+  it("/casa exposes the active home subcategories without solidali", () => {
     assert.ok(fileExists("app/casa/page.tsx"));
     assert.deepStrictEqual(
       subcategoriesByCategory.casa.map((item) => item.slug),
       [
-        "posate",
-        "bicchieri",
-        "vasi",
-        "profumatori",
         "statue",
+        "profumatori",
         "candele",
-        "cornici",
+        "vasi",
         "decanter",
-        "solidali",
       ],
     );
+    assert.ok(!subcategoriesByCategory.casa.some((item) => item.slug === "solidali"));
     assert.ok(catalog.getProductsByCategory("casa").length > 0);
   });
 
-  it("/brand lists all 18 official brands from the navigation", () => {
+  it("/brand lists all 17 active official brands from the navigation", () => {
     assert.ok(fileExists("app/brand/page.tsx"));
     const brands = catalog.getAllBrands();
-    assert.strictEqual(brands.length, 18);
+    assert.strictEqual(brands.length, 17);
 
     const brandNav = mainNav.find((item) => item.href === "/brand");
     assert.ok(brandNav && Array.isArray(brandNav.children), "mainNav must expose the brand menu");
-    assert.strictEqual(brandNav.children.length, 18);
+    assert.strictEqual(brandNav.children.length, 17);
 
-    const navSlugs = brandNav.children.map((child) => child.href.split("marca=")[1]);
+    const navSlugs = brandNav.children.map((child) => child.href.replace(/^\/brand\//, ""));
     assert.deepStrictEqual(
       [...navSlugs].sort(),
       brands.map((brand) => brand.slug).sort(),
     );
   });
 
-  it("/natale renders the Christmas selection (isChristmas: true)", () => {
+  it("/natale renders the live Christmas selection", () => {
     assert.ok(fileExists("app/natale/page.tsx"));
-    assert.match(readText("app/natale/page.tsx"), /getChristmasProducts/);
+    assert.match(readText("app/natale/page.tsx"), /getLiveChristmasProducts/);
 
     const christmas = catalog.getChristmasProducts();
     assert.ok(christmas.length > 0, "Christmas selection must not be empty");
@@ -575,6 +573,29 @@ registerSuite("3. Navigation & Excel Routes (R1)", async () => {
 
   it("the dynamic /prodotto/[slug] route exists", () => {
     assert.ok(fileExists("app/prodotto/[slug]/page.tsx"), "dynamic product route must exist");
+  });
+
+  it("/admin, /admin/cassa and /api/admin|pos routes enforce HMAC session protection", () => {
+    assert.ok(fileExists("middleware.ts"), "middleware.ts must exist");
+    assert.ok(fileExists("lib/adminAuth.ts"), "lib/adminAuth.ts must exist");
+    assert.ok(fileExists("app/admin/login/page.tsx"), "app/admin/login/page.tsx must exist");
+    const mw = readText("middleware.ts");
+    assert.match(mw, /"\/admin\/:path\*"/);
+    assert.match(mw, /"\/api\/admin\/:path\*"/);
+    assert.match(mw, /"\/api\/pos\/:path\*"/);
+
+    const auth = readText("lib/adminAuth.ts");
+    assert.match(auth, /oroeco_admin_session/);
+    assert.match(auth, /HMAC/);
+
+    for (const apiPath of [
+      "app/api/admin/products/route.ts",
+      "app/api/admin/crm/route.ts",
+      "app/api/admin/media/route.ts",
+      "app/api/pos/sale/route.ts",
+    ]) {
+      assert.match(readText(apiPath), /getAdminSessionFromRequest/, `${apiPath} must verify session`);
+    }
   });
 });
 

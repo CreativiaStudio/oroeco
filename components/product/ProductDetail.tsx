@@ -412,7 +412,6 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
             "Cassa",
             "material",
             "Materiale",
-            "metal",
           ),
         },
         {
@@ -445,7 +444,7 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
       rows.push(
         {
           label: "Materiale",
-          value: pickStr(raw, "material", "Materiale", "metal"),
+          value: pickStr(raw, "material", "Materiale"),
         },
         { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
         { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish") },
@@ -466,7 +465,7 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
       rows.push(
         {
           label: "Materiale",
-          value: pickStr(raw, "material", "Materiale", "metal"),
+          value: pickStr(raw, "material", "Materiale"),
         },
         { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
         {
@@ -483,6 +482,10 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
           value: pickStr(raw, "Sorgente luminosa"),
         },
         { label: "Autonomia", value: pickStr(raw, "Autonomia") },
+        {
+          label: "Lavabile in lavastoviglie",
+          value: raw.dishwasherSafe === true ? "Sì" : undefined,
+        },
         { label: "Origine", value: pickStr(raw, "origin", "Origine") },
       );
       break;

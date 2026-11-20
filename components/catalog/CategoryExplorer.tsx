@@ -48,6 +48,7 @@ export function CategoryExplorer({
   const [materialFilter, setMaterialFilter] = useState<string>("all");
   const [movementFilter, setMovementFilter] = useState<string>("all");
   const [stoneFilter, setStoneFilter] = useState<string>("all");
+  const [genderFilter, setGenderFilter] = useState<string>("all");
   const [priceFilter, setPriceFilter] = useState<string>("all");
 
   const counts = useMemo(() => {
@@ -168,8 +169,30 @@ export function CategoryExplorer({
 
   // Determine which facet groups are relevant for the current product set
   const hasMovements = useMemo(() => {
-    return products.some((p) => Boolean(p.attributes?.movement));
+    return products.some((p) => {
+      const attrs = p.attributes as Record<string, unknown> | undefined;
+      return Boolean(attrs?.movement || attrs?.Movimento);
+    });
   }, [products]);
+
+  const genderOptions = useMemo(() => {
+    const found = new Set<string>();
+    for (const p of products) {
+      const attrs = p.attributes as Record<string, unknown> | undefined;
+      const g = String(attrs?.gender || attrs?.Genere || "").trim().toLowerCase();
+      if (g === "donna" || g.includes("femmin")) found.add("donna");
+      else if (g === "uomo" || g.includes("masch")) found.add("uomo");
+      else if (g === "unisex") found.add("unisex");
+    }
+    const ordered: { value: string; label: string }[] = [
+      { value: "donna", label: "Donna" },
+      { value: "uomo", label: "Uomo" },
+      { value: "unisex", label: "Unisex" },
+    ];
+    return ordered.filter((opt) => found.has(opt.value));
+  }, [products]);
+
+  const hasGenderFacet = genderOptions.length >= 2;
 
   const hasMetals = useMemo(() => {
     return (
@@ -200,6 +223,7 @@ export function CategoryExplorer({
     materialFilter !== "all" ||
     movementFilter !== "all" ||
     stoneFilter !== "all" ||
+    genderFilter !== "all" ||
     priceFilter !== "all" ||
     searchQuery.trim() !== "" ||
     onlyInStock;
@@ -208,6 +232,7 @@ export function CategoryExplorer({
     setMaterialFilter("all");
     setMovementFilter("all");
     setStoneFilter("all");
+    setGenderFilter("all");
     setPriceFilter("all");
     setSearchQuery("");
     setOnlyInStock(false);
@@ -296,7 +321,8 @@ export function CategoryExplorer({
     // 3. Movement filter
     if (movementFilter !== "all") {
       filtered = filtered.filter((p) => {
-        const mov = (p.attributes?.movement || "").toLowerCase();
+        const attrs = p.attributes as Record<string, unknown> | undefined;
+        const mov = String(attrs?.movement || attrs?.Movimento || "").toLowerCase();
         const name = p.name.toLowerCase();
         if (movementFilter === "automatico") {
           return mov.includes("automatic") || mov.includes("meccanic");
@@ -308,6 +334,15 @@ export function CategoryExplorer({
           return mov.includes("quarz") || mov.includes("precisionist");
         }
         return true;
+      });
+    }
+
+    // 3b. Gender filter
+    if (genderFilter !== "all") {
+      filtered = filtered.filter((p) => {
+        const attrs = p.attributes as Record<string, unknown> | undefined;
+        const g = String(attrs?.gender || attrs?.Genere || "").trim().toLowerCase();
+        return g === genderFilter;
       });
     }
 
@@ -371,6 +406,7 @@ export function CategoryExplorer({
     materialFilter,
     movementFilter,
     stoneFilter,
+    genderFilter,
     priceFilter,
     searchQuery,
     onlyInStock,
@@ -553,6 +589,33 @@ export function CategoryExplorer({
               <option value="gemme_colore">Zaffiri, Rubini o Smeraldi</option>
               <option value="perla">Perle Coltivate</option>
               <option value="topazio_zirconi">Topazio, Ametista & Zirconi</option>
+            </select>
+          </div>
+        )}
+
+        {/* Genere */}
+        {hasGenderFacet && (
+          <div className="flex items-center gap-1">
+            <span className="mr-1 text-[0.65rem] uppercase tracking-wider text-graphite-soft/80">
+              Genere:
+            </span>
+            <select
+              value={genderFilter}
+              onChange={(e) => setGenderFilter(e.target.value)}
+              aria-label="Filtra per genere"
+              className={cn(
+                "rounded border px-2.5 py-1 text-xs outline-none transition-colors",
+                genderFilter !== "all"
+                  ? "border-gold bg-gold/10 font-medium text-gold"
+                  : "border-line bg-white text-graphite hover:border-graphite-soft",
+              )}
+            >
+              <option value="all">Tutti i generi</option>
+              {genderOptions.map((opt) => (
+                <option key={opt.value} value={opt.value}>
+                  {opt.label}
+                </option>
+              ))}
             </select>
           </div>
         )}

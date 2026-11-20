@@ -62,7 +62,7 @@ export function HeroSection() {
             className="animate-fade-up mt-3.5 font-serif text-3xl uppercase leading-[1.06] tracking-[0.06em] text-white sm:text-4xl lg:mt-4 lg:text-[#020202] xl:text-[3.35rem]"
             style={{ animationDelay: "220ms" }}
           >
-            L&apos;Arte dell&apos;Oro
+            L&apos;Arte del Gioiello
             <span className="mt-1 block italic normal-case tracking-[0.02em] text-[#e7d9b8] lg:text-[#8c6a2b]">
               e del tempo
             </span>
@@ -72,9 +72,9 @@ export function HeroSection() {
             className="animate-fade-up mt-3.5 font-serif text-base leading-relaxed text-white/85 lg:mt-4 lg:text-[#4e423e]"
             style={{ animationDelay: "340ms" }}
           >
-            Oro 18 kt, diamanti certificati
+            Gioielleria, alta orologeria, cristalli
             <br />
-            e alta orologeria a San Marzano.
+            e oggetti d&apos;autore a San Marzano.
           </p>
 
           <div

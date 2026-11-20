@@ -101,6 +101,7 @@ export const mainNav: NavItem[] = [
         heading: "Sottocategorie",
         links: [
           { label: "Pelletteria", href: "/accessori?sub=pelletteria" },
+          { label: "Portachiavi", href: "/accessori?sub=portachiavi" },
         ],
       },
     ],
@@ -186,6 +187,7 @@ export const subcategoriesByCategory: Record<
   ],
   accessori: [
     { slug: "pelletteria", label: "Pelletteria" },
+    { slug: "portachiavi", label: "Portachiavi" },
   ],
   casa: [
     { slug: "statue", label: "Statue" },

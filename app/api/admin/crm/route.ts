@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { getAdminSessionFromRequest } from "@/lib/adminAuth";
 import { getServiceSupabase } from "@/lib/supabase";
 
 /**
@@ -60,7 +61,14 @@ function buildCustomerPayload(body: Record<string, unknown>): CustomerPayload {
   };
 }
 
-export async function GET() {
+export async function GET(req: Request) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   const client = getSupabaseAdmin();
 
   const customers: Record<string, unknown>[] = [];
@@ -117,6 +125,13 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
+  const session = await getAdminSessionFromRequest(req);
+  if (!session) {
+    return NextResponse.json(
+      { success: false, ok: false, error: "Accesso non autorizzato" },
+      { status: 401 },
+    );
+  }
   let body: Record<string, unknown>;
 
   try {
