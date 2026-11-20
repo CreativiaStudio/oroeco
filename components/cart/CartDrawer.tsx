@@ -330,38 +330,41 @@ export function CartDrawer() {
               </div>
             ) : null}
 
+            <Link
+              href="/checkout"
+              onClick={() => {
+                trackBeginCheckout(items, totals.total);
+                closeCart();
+              }}
+              className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-6 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-gold"
+            >
+              Procedi al Checkout
+            </Link>
+
             {checkoutPreviewOpen ? (
-              <div className="mt-5 rounded-sm border border-gold/40 bg-[#f7f3ec] p-4">
-                <p className="font-serif text-base uppercase tracking-[0.12em] text-[#020202]">
-                  Checkout Protetto &amp; Concierge ORO&amp;co
+              <div className="mt-3 rounded-sm border border-gold/40 bg-[#f7f3ec] p-4">
+                <p className="font-serif text-sm uppercase tracking-[0.12em] text-[#020202]">
+                  Concierge ORO&amp;CO
                 </p>
-                <p className="mt-2 text-xs leading-relaxed text-graphite">
-                  Concludi subito il tuo ordine con assistenza prioritaria in
-                  gioielleria oppure prenota il ritiro a San Marzano sul Sarno.
+                <p className="mt-1.5 text-xs leading-relaxed text-graphite">
+                  Concludi con assistenza diretta del personale o prenota il ritiro a San Marzano sul Sarno.
                 </p>
                 <a
                   href={whatsappCheckoutHref}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex w-full items-center justify-center rounded-sm bg-[#020202] px-4 py-3 text-center font-serif text-[0.7rem] uppercase tracking-[0.2em] text-white transition-colors hover:bg-gold"
+                  className="mt-3 inline-flex w-full items-center justify-center rounded-sm bg-[#020202] px-4 py-2.5 text-center font-serif text-[0.68rem] uppercase tracking-[0.18em] text-white transition-colors hover:bg-gold"
                 >
-                  Concludi su WhatsApp
+                  Apri Chat WhatsApp
                 </a>
-                <button
-                  type="button"
-                  onClick={() => setCheckoutPreviewOpen(false)}
-                  className="mt-2 inline-flex w-full items-center justify-center rounded-sm border border-line bg-white px-4 py-3 text-center font-serif text-[0.7rem] uppercase tracking-[0.2em] text-[#020202] transition-colors hover:border-gold hover:text-gold"
-                >
-                  Torna al riepilogo
-                </button>
               </div>
             ) : (
               <button
                 type="button"
                 onClick={handleBeginCheckout}
-                className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-6 py-4 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-gold"
+                className="mt-2.5 inline-flex w-full items-center justify-center rounded-sm border border-line px-4 py-2.5 text-[0.65rem] font-medium uppercase tracking-[0.16em] text-graphite transition-colors hover:border-gold hover:text-gold"
               >
-                Procedi all&apos;Ordine
+                Preferisci ordinare su WhatsApp?
               </button>
             )}
             <p className="mt-3 flex items-center justify-center gap-2 text-[0.65rem] uppercase tracking-[0.14em] text-graphite-soft">
