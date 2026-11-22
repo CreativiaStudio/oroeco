@@ -1,0 +1,1923 @@
+{
+  "summary": {
+    "brand": "Gerba",
+    "totalApproved": 69,
+    "verifiedCount": 68,
+    "unverifiedCount": 1,
+    "priceChangedCount": 14,
+    "timestamp": "2026-11-22T22:30:56.829Z"
+  },
+  "items": [
+    {
+      "id": "89c715af-6a87-43a6-bae8-680a2ebbbdc7",
+      "sku": "130",
+      "barcode": "8054000487189",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB (130)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-lab-130",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "130",
+        "stones": [
+          "Aulite",
+          "Occhio di Tigre",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "a57acbc2-d0bc-4592-a536-bcd086434d01",
+      "sku": "149",
+      "barcode": "8054000487585",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Aulite Celeste Ematite e Bronzite Argento 925 (149)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 49,
+      "delta": -5,
+      "sourceUrl": "https://www.cittaoro.it/bracciali-in-argento-1/bracciale-unisex-gerba-149-con-cordoncino-pietre-naturali-e-argento-925.html",
+      "notes": "Listino ufficiale €49,00 verificato su Città Oro (scontato €44,09) e Unique Gioielli (€49,00), inferiore al current_db_price (€54). Chiusura a cappio in Argento 925.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Colore": "Celeste, Grigio, Bronzo, Argento",
+        "origin": "Italia",
+        "Referenza": "149",
+        "stones": [
+          "Aulite celeste",
+          "Ematite",
+          "Bronzite"
+        ]
+      }
+    },
+    {
+      "id": "9d8c3666-7930-44f9-8eac-e3539d18ffb4",
+      "sku": "180",
+      "barcode": "8054000488735",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Occhio di Tigre Rosso e Murrine Argento 925 (180)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/gerba-195-cm-taglia-m-l/",
+      "notes": "Listino pieno €54,00 verificato su Verre Gioielli (SKU GERBA LAB 180, scontato €48,60). Nota: Verre Gioielli indica 'Occhio di Tigre Marrone', mentre il DB riporta 'Occhio di Tigre Rosso e Murrine'.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Colore": "Marrone / Rosso, Argento",
+        "origin": "Italia",
+        "Referenza": "180",
+        "stones": [
+          "Occhio di tigre",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "eae8a428-0917-490c-86dd-d54ef670781d",
+      "sku": "182",
+      "barcode": "8054000488759",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB (182)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-lab-182",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "182",
+        "stones": [
+          "Ematite",
+          "Occhio di Tigre",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "778a8491-0637-40dc-9f28-41c9b7288153",
+      "sku": "183",
+      "barcode": "8054000488766",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Aulite Celeste Ematite e Bronzite Argento 925 (183)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-in-occhio-di-tigre-gerba-lab-183.html",
+      "notes": "Listino pieno €54,00 verificato su Città Oro (MPN 183, scontato €48,59). Discrepanza sulle pietre: i rivenditori (Città Oro, Longo Gioielli) indicano Gerba LAB 183 'in Occhio di Tigre', mentre il titolo DB riporta 'Aulite Celeste Ematite e Bronzite' (identico al modello 149).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Colore": "Multicolor",
+        "origin": "Italia",
+        "Referenza": "183",
+        "stones": [
+          "Occhio di tigre"
+        ]
+      }
+    },
+    {
+      "id": "1038bd77-73d6-485d-a5d3-34c12e5ff115",
+      "sku": "185",
+      "barcode": "8054000488780",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Occhio di Tigre Verde e Murrine Argento 925 (185)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "https://www.gioiellipaololoseto.it/prodotto/bracciale-gerba-lab-185/",
+      "notes": "Listino pieno €54,00 confermato su Gioielli Paolo Loseto (€54,00) e Città Oro (listino €54,00, scontato €48,59). Gioielleria Saltini lo quota €73,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Colore": "Verde, Multicolor",
+        "origin": "Italia",
+        "Referenza": "185",
+        "stones": [
+          "Occhio di tigre verde",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "722dec08-5f19-49b7-91f2-83976a99d88c",
+      "sku": "186",
+      "barcode": "8054000488797",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Agata Blu e Murrine Argento 925 (186)",
+      "status": "verified",
+      "oldPrice": 54,
+      "newPrice": 55,
+      "delta": 1,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-gerba-186.html",
+      "notes": "Listino pieno €55,00 verificato su Città Oro (MPN 186, scontato €49,50; current_db_price €54). Città Oro lo classifica Genere Femminile, Cordoncino, Multicolor senza dettaglio pietre in scheda (Agata Blu e Murrine da titolo DB).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "Colore": "Blu, Multicolor",
+        "origin": "Italia",
+        "Referenza": "186",
+        "stones": [
+          "Agata blu",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "56a69f74-9129-48de-adf2-20dda9fc4826",
+      "sku": "187",
+      "barcode": "8054000488803",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale LAB Aulite Celeste e Murrine Argento 925 (187)",
+      "status": "unverified_out_of_catalog",
+      "oldPrice": 54,
+      "newPrice": 54,
+      "delta": 0,
+      "sourceUrl": "Catalogo Gerba 2026 (CATALOGO GERBA UOMO SS 2026 PREZZI OK_compressed_compressed.pdf p.4)",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "LAB",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "187",
+        "stones": [
+          "Aulite",
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "57f810fa-dbb5-4741-81af-911ecce5a0d1",
+      "sku": "249",
+      "barcode": "8054000497195",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Stone Marechiaro sodalite agata argento (249)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 48,
+      "delta": 1,
+      "sourceUrl": "https://gerba.it/products/bracciale-stone-marechiaro",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "249",
+        "stones": [
+          "Agata",
+          "Sodalite"
+        ]
+      }
+    },
+    {
+      "id": "72d1d308-7b57-4386-bb0f-0f637bd303c9",
+      "sku": "250",
+      "barcode": "8054000497416",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Sahara Pietre Naturali e Argento 925 (250)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://www.lineaoro1992.it/bracciali/2375-bracciale-gerba-stone-6-mm-250-sahara.html",
+      "notes": "Listino pieno €47,00 verificato su LineaOro 1992 (prezzo regolare €47,00, scontato €37,60), Luigi Freddo Gioielleria e Oiritaly.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Unisex",
+        "Colore": "Rosso, Beige, Bianco, Argento",
+        "origin": "Italia",
+        "Referenza": "250",
+        "stones": [
+          "Occhio di tigre rosso",
+          "Pietra paesina",
+          "Aulite"
+        ]
+      }
+    },
+    {
+      "id": "e73c3d27-bab4-41be-afd5-3ffe7d429947",
+      "sku": "364",
+      "barcode": "8054000507375",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Grey London Sodalite Ematite Labradorite 6mm (364)",
+      "status": "verified",
+      "oldPrice": 48,
+      "newPrice": 48,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-unisex-gerba-364-elastico-con-pietre-naturali-e-argento-925.html",
+      "notes": "Listino pieno €48,00 verificato su Città Oro (scontato €43,20) e altri rivenditori ufficiali (Esposito Gioielli, Fico Gioielli, Pignataro Gioielli).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "Colore": "Blu, Grigio, Argento",
+        "origin": "Italia",
+        "Referenza": "364",
+        "stones": [
+          "Sodalite",
+          "Ematite",
+          "Labradorite"
+        ]
+      }
+    },
+    {
+      "id": "d26bb3ad-5be5-4084-b68a-9e91095b8b8d",
+      "sku": "720",
+      "barcode": "8054000544530",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale OLIVER Pietre Naturali e Argento 925 (720)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-unised-gerba-720-elastico-con-pietre-naturali-e-argento-925.html",
+      "notes": "Listino pieno €47,00 verificato su Città Oro e Longo Gioielli (PC Gioielli lo propone a €44,00). Città Oro lo indica come collezione Ceramic; PC Gioielli/Esposito Gioielli come Stone Classic (Oliver 720).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone Classic",
+        "Genere": "Uomo",
+        "Colore": "Marrone, Turchese, Argento",
+        "origin": "Italia",
+        "Referenza": "720",
+        "stones": [
+          "Occhio di tigre",
+          "Pasta di turchese"
+        ]
+      }
+    },
+    {
+      "id": "ce73f433-6971-4a35-90ed-b80a71c95d69",
+      "sku": "725",
+      "barcode": "8054000544585",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale MARTIN Pietre Naturali e Argento 925 (725)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciali-in-argento-1/bracciale-unisex-gerba-725-elastico-con-pietre-naturali-e-argento-925.html",
+      "notes": "Listino pieno €47,00 verificato su Città Oro e Aurum Gioielli (scontato €42,00; PC Gioielli/Unique Gioielli a €44,00).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone Classic",
+        "Genere": "Uomo",
+        "Colore": "Blu, Marrone, Turchese, Argento",
+        "origin": "Italia",
+        "Referenza": "725",
+        "stones": [
+          "Agata blu",
+          "Occhio di tigre",
+          "Pasta di turchese"
+        ]
+      }
+    },
+    {
+      "id": "87a26499-7d73-43ba-bed1-407368b4989a",
+      "sku": "732",
+      "barcode": "8054000544868",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Elastic Paul Uomo (732)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-paul-732-uomo",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "732",
+        "stones": [
+          "Occhio di Tigre"
+        ]
+      }
+    },
+    {
+      "id": "d39ab9c3-745d-47ad-a815-1a6094ecbf18",
+      "sku": "735",
+      "barcode": "8054000544899",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Elastic Noah Uomo (735)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-noah-735-uomo",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "735",
+        "stones": [
+          "Ematite",
+          "Onice",
+          "Turchese"
+        ]
+      }
+    },
+    {
+      "id": "3433046e-8c12-468d-a898-febee48b8df9",
+      "sku": "737",
+      "barcode": "8054000544912",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Elastic Farrel Uomo (737)",
+      "status": "verified",
+      "oldPrice": 47,
+      "newPrice": 47,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-elastic-farrel-737-uomo",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Elastic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "737",
+        "stones": [
+          "Ematite",
+          "Occhio di Tigre"
+        ]
+      }
+    },
+    {
+      "id": "f53da38c-07a4-4f95-bce5-fdf952e3ed36",
+      "sku": "757",
+      "barcode": "8054000545537",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Abram Pietre Naturali e Argento 925 (757)",
+      "status": "verified",
+      "oldPrice": 44,
+      "newPrice": 39,
+      "delta": -5,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-unisex-gerba-757-elastico-con-pietre-naturali-e-argento-925.html",
+      "notes": "Listino €39,00 confermato su 4 rivenditori per Gerba 757 Pietre Naturali e Argento 925 (Città Oro MPN 757 C24.2, Esposito Gioielli 'Abram 757', Luppolo Gioiellieri, Unique Gioielli). Nota: Città Oro ha anche una variante '757 NEW' in acciaio a €44,01 (scontata €39,60), possibile origine del current_db_price €44.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "Colore": "Beige, Turchese, Argento",
+        "origin": "Italia",
+        "Referenza": "757",
+        "stones": [
+          "Pietra paesina",
+          "Murrine turchesi"
+        ]
+      }
+    },
+    {
+      "id": "0f79534a-1a11-49bb-85ce-424deb7b4f49",
+      "sku": "759",
+      "barcode": "8054000545551",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale George Pietre Naturali e Argento 925 (759)",
+      "status": "verified",
+      "oldPrice": 44,
+      "newPrice": 39,
+      "delta": -5,
+      "sourceUrl": "https://uniquegioielli.com/prodotto/bracciale-gerba-da-uomo-stone-george-759-con-paesina-agata-argento-925/",
+      "notes": "Prezzo di listino pieno verificato a €39,00 su Unique Gioielli e Gioielleria Alesci (dove è scontato del 25% a €29,25); differisce dal prezzo DB attuale (€44).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "759",
+        "stones": [
+          "Pietra Paesina",
+          "Agata",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "615005de-72a1-4208-8376-2d6747a78cf6",
+      "sku": "760",
+      "barcode": "8054000545773",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Lewis Pietre Naturali e Argento 925 (760)",
+      "status": "verified",
+      "oldPrice": 44,
+      "newPrice": 39,
+      "delta": -5,
+      "sourceUrl": "https://uniquegioielli.com/prodotto/bracciale-gerba-da-uomo-stone-lewis-760-con-murrine-paesina-argento-925/",
+      "notes": "Prezzo di listino pieno verificato a €39,00 su Unique Gioielli; differisce dal prezzo DB attuale (€44).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Stone",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "760",
+        "stones": [
+          "Pietra Paesina",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "06dfc81e-33b4-4b44-a464-e8643fc107f2",
+      "sku": "ACAPULCO 17",
+      "barcode": "8054429696506",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (ACAPULCO 17)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-acapulco-17",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "Taglia S/M 19 cm / Taglia M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "ACAPULCO 17",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "f2a4e36c-20b6-4936-bb0d-a996a10c7d84",
+      "sku": "BRN20",
+      "barcode": "8054634718048",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale BRN Artigianale Argento 925 (BRN20)",
+      "status": "verified",
+      "oldPrice": 89,
+      "newPrice": 89,
+      "delta": 0,
+      "sourceUrl": "https://shop.biboorafi.it/it/gerba/bracciale/uomo/brn20/",
+      "notes": "Prezzo di listino €89,00 confermato su Bibò Orafi e Oiritaly. Chiusura in Argento 925 e componenti in murrina turchese (Silver Collection 03, unisex).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Silver Collection",
+        "Genere": "Uomo",
+        "Colore": "Argento, Turchese",
+        "origin": "Italia",
+        "Referenza": "BRN20",
+        "stones": [
+          "Murrina turchese"
+        ]
+      }
+    },
+    {
+      "id": "947d72d7-68fd-4c0f-b2ec-b4473b8d45d1",
+      "sku": "BS38",
+      "barcode": "8054020476064",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS38)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925/",
+      "notes": "Listino €29,00 (scontato a €26,10 su Verre Gioielli; €29,00 anche su Gioielleria Russo). Chiusura in Murrina Rossa.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Bianco, Blu, Rosso",
+        "origin": "Italia",
+        "Referenza": "BS38",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "ff7469ae-72ed-4be2-82d9-b50885107174",
+      "sku": "BS39",
+      "barcode": "8054020476071",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS39)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925-2/",
+      "notes": "Listino €29,00 (scontato a €26,10 su Verre Gioielli). Presente anche su Bibò Orafi/Oiritaly. Chiusura in Murrina Bianca.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Bianco, Blu, Celeste",
+        "origin": "Italia",
+        "Referenza": "BS39",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "e850e315-b8e2-43fe-9fe5-a69f35aa9a22",
+      "sku": "BS40",
+      "barcode": "8054020476293",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS40)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925-3/",
+      "notes": "Listino €29,00 confermato su Verre Gioielli (scontato a €26,10) e Bibò Orafi (shop.biboorafi.it). Chiusura in Murrina Rossa.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Bianco, Blu, Celeste, Beige",
+        "origin": "Italia",
+        "Referenza": "BS40",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "feb03091-be54-4265-bff7-86a024ab46c7",
+      "sku": "BS41",
+      "barcode": "8054020476309",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS41)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925-4/",
+      "notes": "Listino €29,00 (scontato a €26,10 su Verre Gioielli). Chiusura in Murrina Gialla. Nota: Landi Gioiellieri riporta erroneamente €48/Uomo per codice BS41, ma la serie ufficiale Baby BS38-BS44 è confermata a €29,00 su Verre Gioielli.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Verde, Giallo, Arancione",
+        "origin": "Italia",
+        "Referenza": "BS41",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "504b6c4c-954a-4d78-b3b6-a4424e437a37",
+      "sku": "BS42",
+      "barcode": "8054020476316",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS42)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925-5/",
+      "notes": "Listino €29,00 (scontato a €26,10 su Verre Gioielli). Chiusura in Murrina Gialla.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Celeste, Giallo, Arancione",
+        "origin": "Italia",
+        "Referenza": "BS42",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "a9aaf57a-0ac4-4236-9ed2-a5cec2391c5e",
+      "sku": "BS44",
+      "barcode": "8054020476330",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Baby Ceramica e Murrine Argento 925 (BS44)",
+      "status": "verified",
+      "oldPrice": 29,
+      "newPrice": 29,
+      "delta": 0,
+      "sourceUrl": "https://verregioielli.com/negozio/bracciali/bracciale-per-bambini-gerba-con-murrina-e-ceramica-multicolor-e-argento-925-7/",
+      "notes": "Listino €29,00 (scontato a €26,10 su Verre Gioielli; €29,00 anche su Gioielleria Sora ed Esposito Gioielli). Chiusura in Murrina Bianca.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Baby",
+        "Genere": "Unisex",
+        "Colore": "Bianco, Celeste, Blu",
+        "origin": "Italia",
+        "Referenza": "BS44",
+        "stones": [
+          "Ceramica",
+          "Murrina"
+        ]
+      }
+    },
+    {
+      "id": "d478b9b9-8b6d-423c-895f-f3ba14255dae",
+      "sku": "CANNES 12",
+      "barcode": "8054440145816",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (CANNES 12)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-cannes-12",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "Taglia S/M 19 cm / Taglia M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "CANNES 12",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "be9801a2-b954-45b2-8688-6edab6dc4248",
+      "sku": "CE01",
+      "barcode": "8054020638431",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE01)",
+      "status": "verified",
+      "oldPrice": 39,
+      "newPrice": 39,
+      "delta": 0,
+      "sourceUrl": "https://gioielleriaalesci.com/Prodotti/item/6023CA098FC3471B9B7C84E1D4F986D2/uomo-gioielli-bracciali-bracciale-gerba-ce01-ceramica.html",
+      "notes": "Prezzo di listino pieno €39,00 su Gioielleria Alesci (esposto in promo Black Friday Weeks 2026 -25% a €29,25).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CE01",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "3ba18957-4bff-464f-80b0-03d238f91254",
+      "sku": "CE02",
+      "barcode": "8054020638448",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE02)",
+      "status": "verified",
+      "oldPrice": 39,
+      "newPrice": 39,
+      "delta": 0,
+      "sourceUrl": "https://shop.gioielleriamancini.it/it/gerba/bracciale/uomo/ce02/",
+      "notes": "Prezzo di listino €39,00 su Gioielleria Mancini (Oiritaly include ricarico marketplace a €57,55). Made in Italy.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Multicolor",
+        "origin": "Italia",
+        "Referenza": "CE02",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "f5326903-a7f6-4ec3-a588-a72c3c23e816",
+      "sku": "CE03",
+      "barcode": "8054020638455",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE03)",
+      "status": "verified",
+      "oldPrice": 39,
+      "newPrice": 49,
+      "delta": 10,
+      "sourceUrl": "https://www.guglielminogioiellisrl.com/prodotto/bracciale-gerba-ceramic-washer-03/",
+      "notes": "Listino €49,00 rilevato presso rivenditore autorizzato Guglielmino Gioielli (Ceramic Washer 03), superiore al prezzo DB (€39). Presente anche su Gioielleria Alesci come CE03 Ceramica.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Multicolor",
+        "origin": "Italia",
+        "Referenza": "CE03",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "d0c115bd-ce06-45c8-9d68-35cfaa0486bd",
+      "sku": "CE04",
+      "barcode": "8054020638462",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE04)",
+      "status": "verified",
+      "oldPrice": 39,
+      "newPrice": 39,
+      "delta": 0,
+      "sourceUrl": "https://shop.gioielleriamancini.it/it/gerba/bracciale/uomo/ce04/",
+      "notes": "Listino €39,00 confermato (coerente con DB); spesso scontato online intorno a €33,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CE04",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "497b5409-68bf-467f-a7aa-6494f43908dd",
+      "sku": "CE05",
+      "barcode": "8054020638479",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Ceramic Perline Ceramica e Argento 925 (CE05)",
+      "status": "verified",
+      "oldPrice": 39,
+      "newPrice": 39,
+      "delta": 0,
+      "sourceUrl": "https://shop.gioielleriamancini.it/it/gerba/bracciale/uomo/ce05/",
+      "notes": "Rivenditore autorizzato Gioielleria Mancini riporta fascia €39,00 (coerente con DB e CE04), mentre marketplace terzi (eBay/Oiritaly) riportano €56,95-€57,55. Segnalato anche acciaio nella scheda rivenditore.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Multicolor",
+        "origin": "Italia",
+        "Referenza": "CE05",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "afe9773e-dfb4-4a66-9006-1293ef9d876a",
+      "sku": "CS04",
+      "barcode": "8054020773002",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS04)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://espositogioielli.it/products/bracciale-uomo-gerba-silver-ceramic-cs04",
+      "notes": "Listino €76,00 IVA inclusa confermato presso rivenditori autorizzati (Cicalese Gioielli, Melissa D), coerente con DB. Chiusura a bottone.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Silver Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Blu (ceramica), marrone (filo cerato), argento",
+        "origin": "Italia",
+        "Referenza": "CS04",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "9f468118-4ab7-4b3e-9352-656254a9ff6a",
+      "sku": "CS06",
+      "barcode": "8054020773026",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS06)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 68,
+      "delta": -8,
+      "sourceUrl": "https://gerba.it/products/bracciale-silver-ceramic-06-uomo-donna",
+      "notes": "Presente su sito ufficiale gerba.it. I rivenditori online osservati (Aemmeoro, Cittaoro, eBay) mostrano €68,00-€69,00 (possibile prezzo promo rispetto al listino €76,00 della linea Silver Ceramic presente in DB). Chiusura a cappio con bottone in Argento 925.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Silver Ceramic / Caracciolo",
+        "Genere": "Unisex",
+        "Colore": "Bianco (ceramica), argento, filo cerato marrone/neutro",
+        "origin": "Italia",
+        "Referenza": "CS06",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "bd0b025a-d793-4fea-a734-e73050458238",
+      "sku": "CS07",
+      "barcode": "8054020773033",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS07)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/en/products/bracciale-gerba-silver-ceramic-cs07",
+      "notes": "Listino ufficiale €76,00 confermato su gerba.it (coerente con DB); scontato online a €61,00-€68,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Silver Ceramic / Caracciolo",
+        "Genere": "Uomo",
+        "Colore": "Multicolor (ceramica), marrone (filo cerato), argento",
+        "origin": "Italia",
+        "Referenza": "CS07",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "144c3135-5969-40df-99fa-5c5ae0e444f6",
+      "sku": "CS08",
+      "barcode": "8054020773040",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS08)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciali-in-argento-1/bracciale-unisex-gerba-cs08-in-macrame-con-ceramica-e-argento-925.html",
+      "notes": "Listino ufficiale €76,00 confermato su Alba Gioielli (coerente con DB); promo online €49,00-€60,00. Chiusura a cappio/asola con bottone logato in Argento 925.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Ceramic Silver / Caracciolo",
+        "Genere": "Uomo",
+        "Colore": "Celeste / azzurro (ceramica), blu (filo), argento",
+        "origin": "Italia",
+        "Referenza": "CS08",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "84014a02-6deb-4424-a6b8-368005f27f2f",
+      "sku": "CS09",
+      "barcode": "8054020773057",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS09)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://gioielleriaalesci.com/Prodotti/item/513F0F3AB85F4052A9554EE205EB2DBD/uomo-gioielli-bracciali-bracciale-gerba-cs09.html",
+      "notes": "Listino €76,00 confermato presso rivenditori autorizzati (Gioielleria Alesci, Lella Gioielli), coerente con DB; promo online intorno a €70,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Multicolor (ceramica), argento, cordino scuro/cerato",
+        "origin": "Italia",
+        "Referenza": "CS09",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "25e5dfd6-c026-48a5-b76a-4b7c164c205a",
+      "sku": "CS10",
+      "barcode": "8054020773279",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS10)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://lellagioielli.it/13796-Bracciale-Gerba-Ceramic-CS10.html",
+      "notes": "Listino ufficiale €76,00 confermato (Lella Gioielli, Gioielleria Mancini), coerente con DB; promo online intorno a €70,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Varianti cromatiche miste / multicolor (es. azzurro, beige, giallo)",
+        "origin": "Italia",
+        "Referenza": "CS10",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "fbc16290-f037-4779-b7f2-149799926400",
+      "sku": "CS11",
+      "barcode": "8054020773286",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS11)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://bonogioielli.com/products/cs11-bracciale-gerba-silver-ceramic-bracciale-elementi-ceramica-grigia-ed-elementichiusura-bottone-argento",
+      "notes": "Listino €76,00 confermato presso rivenditori autorizzati (Gioielleria Russo, Bono Gioielli, Esposito Gioielli), coerente con DB. Chiusura a bottone/cappio.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Silver Ceramic",
+        "Genere": "Uomo",
+        "Colore": "Grigio ematite (ceramica), argento lucido",
+        "origin": "Italia",
+        "Referenza": "CS11",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "9e2f4ca3-8e59-4bcd-b37a-68517575dd38",
+      "sku": "CS12",
+      "barcode": "8054020773293",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS12)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://www.gioiellidifinomottola.it/brand/16-gerba",
+      "notes": "Identificato tramite EAN 8054020773293 / SKU CS12 con listino €76,00 coerente con DB (Gioielli di Fino Mottola). Colore specifico e misure puntuali non confermati univocamente dai risultati (alcune ricerche per solo codice CS12 rimandano a CW12).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CS12",
+        "stones": [
+          "Ceramica"
+        ]
+      }
+    },
+    {
+      "id": "955d9980-e560-40ef-9daa-2ecac06e408c",
+      "sku": "CS13",
+      "barcode": "8054020773309",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS13)",
+      "status": "verified",
+      "oldPrice": 76,
+      "newPrice": 76,
+      "delta": 0,
+      "sourceUrl": "https://www.cicalesegioielli.com/bracciali-argento/9792-bracciale-uomo-gerba-argento-e-ceramica-collazione-caracciolo.html",
+      "notes": "Bracciale uomo Gerba collezione Caracciolo / Silver Ceramic (SKU CS13, EAN 8054020773309). Prezzo pieno € 76,00 IVA inclusa verificato su Cicalese Gioielli.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Silver Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CS13",
+        "stones": [
+          "ceramica"
+        ]
+      }
+    },
+    {
+      "id": "5a95fda7-de4b-4728-b2e4-7a05762e8da5",
+      "sku": "CS15",
+      "barcode": "8054020773323",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS15)",
+      "status": "verified",
+      "oldPrice": 85,
+      "newPrice": 85,
+      "delta": 0,
+      "sourceUrl": "https://www.cicalesegioielli.com/bracciali-argento/9797-bracciale-uomo-gerba-argento-e-ceramica-collazione-caracciolo.html",
+      "notes": "Bracciale uomo Gerba collezione Caracciolo / Silver Ceramic (SKU CS15, EAN 8054020773323). Prezzo pieno € 85,00 IVA inclusa verificato su Cicalese Gioielli.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Silver Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CS15",
+        "stones": [
+          "ceramica"
+        ]
+      }
+    },
+    {
+      "id": "37f89a26-958a-4ad0-839b-e4bc46940d9d",
+      "sku": "CS16",
+      "barcode": "8054020773330",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS16)",
+      "status": "verified",
+      "oldPrice": 85,
+      "newPrice": 85,
+      "delta": 0,
+      "sourceUrl": "https://bonogioielli.com/products/cs16-bracciale-gerba-silver-ceramic-bracciale-elementi-ceramica-grigia-ed-elementi-argento-argento-rosatochiusura-bottone-argento",
+      "notes": "Bracciale uomo Gerba Silver Ceramic CS16 con cordino marrone, elementi in ceramica grigia ematite, dettagli in argento 925 e argento rosato, chiusura a bottone. Prezzo di listino € 85,00 confermato su Bono Gioielli ed Esposito Gioielli (espositogioielli.it/products/bracciale-uomo-gerba-silver-ceramic-cs16).",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Silver Ceramic / Caracciolo",
+        "Genere": "Uomo",
+        "Colore": "Marrone / Grigio ematite / Argento rosato",
+        "origin": "Italia",
+        "Referenza": "CS16",
+        "stones": [
+          "ceramica"
+        ]
+      }
+    },
+    {
+      "id": "60ed3a29-c91c-49ab-b96c-3ef9337d4b02",
+      "sku": "CS18",
+      "barcode": "8054020773354",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS18)",
+      "status": "verified",
+      "oldPrice": 85,
+      "newPrice": 85,
+      "delta": 0,
+      "sourceUrl": "https://www.cicalesegioielli.com/bracciali-argento/9795-bracciale-uomo-gerba-argento-e-ceramica-collazione-caracciolo.html",
+      "notes": "Bracciale uomo Gerba collezione Caracciolo / Silver Ceramic (SKU CS18, EAN 8054020773354). Prezzo pieno € 85,00 IVA inclusa verificato su Cicalese Gioielli.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Caracciolo / Silver Ceramic",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "CS18",
+        "stones": [
+          "ceramica"
+        ]
+      }
+    },
+    {
+      "id": "9a1ff76e-6df4-4d3b-91e0-b6cf5e6630d5",
+      "sku": "CS19",
+      "barcode": "8054020773361",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Caracciolo Filo Cerato Ceramiche e Argento 925 (CS19)",
+      "status": "verified",
+      "oldPrice": 85,
+      "newPrice": 85,
+      "delta": 0,
+      "sourceUrl": "https://bonogioielli.com/products/cs19-bracciale-gerba-silver-ceramic-bracciale-elementi-ceramica-bianca-blu-azzurra-rossa-ed-elementi-argento-rosatochiusura-bottone-argento",
+      "notes": "Prezzo di listino € 85,00 su Bono Gioielli (coerente con CS15/CS16/CS18 della stessa serie). Nota: Gioielleria Saltini (gioielleriasaltini.com/IT/bracciale-gerba-uomo-mon-amour-in-argento-pietre-dure-cs19/19493) lo riporta sotto collezione Mon Amour a € 95,00.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Silver Ceramic / Mon Amour",
+        "Genere": "Uomo",
+        "Colore": "Multicolor (bianco, blu, azzurro, rosso, argento rosato)",
+        "origin": "Italia",
+        "Referenza": "CS19",
+        "stones": [
+          "ceramica",
+          "pietre dure"
+        ]
+      }
+    },
+    {
+      "id": "22d64e14-226d-48af-8b69-d57e3308ab53",
+      "sku": "FORMENTERA 20",
+      "barcode": "8054221644651",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (FORMENTERA 20)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-formentera-20",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "FORMENTERA 20",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "73488c2b-dfa4-4b26-ad96-1bbdf704372d",
+      "sku": "GB004 RED",
+      "barcode": "8054196229860",
+      "category": "accessori",
+      "name": "Gerba — Porta Carte di Credito Pelle Saffiano Bordeaux (GB004 RED)",
+      "status": "verified",
+      "oldPrice": 84,
+      "newPrice": 84,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/en/products/carta-credito-gb004-black-v",
+      "notes": "Prezzo di listino ufficiale Gerba (gerba.it) e Angarano Gioiellieri per la linea porta carte GB004 in pelle Saffiano con logo in argento 925 pari a € 84,00 (6 scomparti/2L 6CC). La variante specifica GB004 RED (bordeaux/rosso) è segnalata su Capodagli (capodagli.it) a € 78,00.",
+      "attributes": {
+        "type": "Porta carte di credito",
+        "Materiale": "Pelle di vitello Saffiano, logo in argento 925",
+        "material": "Pelle di vitello Saffiano, logo in argento 925",
+        "Dimensioni": "10 x 8 cm",
+        "Collezione": "Pelletteria",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Genere": "Unisex",
+        "Colore": "Bordeaux / Rosso",
+        "origin": "Italia",
+        "Referenza": "GB004 RED"
+      }
+    },
+    {
+      "id": "51fd10d1-c3b8-48c8-8153-a15302ced477",
+      "sku": "GB004BLACK V",
+      "barcode": "8054880754524",
+      "category": "accessori",
+      "name": "Gerba — Porta Carte di Credito GB004 BLACK V (GB004BLACK V)",
+      "status": "verified",
+      "oldPrice": 84,
+      "newPrice": 84,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/carta-credito-gb004-black-v",
+      "notes": null,
+      "attributes": {
+        "type": "Porta carte di credito",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "material": "Pelle di vitello saffiano e Argento 925",
+        "Dimensioni": "10x8 cm",
+        "Collezione": "Pelletteria",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "GB004BLACK V"
+      }
+    },
+    {
+      "id": "2e79598f-ecef-4f5a-a34b-d8fdb5c96773",
+      "sku": "GB010 BLACK",
+      "barcode": "8054057204036",
+      "category": "accessori",
+      "name": "Gerba — Pochette Pelle Saffiano (GB010 BLACK)",
+      "status": "verified",
+      "oldPrice": 185,
+      "newPrice": 185,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/pochette-gb010-black",
+      "notes": null,
+      "attributes": {
+        "type": "Pochette",
+        "Materiale": "Pelle di vitello saffiano e Argento 925",
+        "material": "Pelle di vitello saffiano e Argento 925",
+        "Dimensioni": "25x16 cm",
+        "Collezione": "Pelletteria",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "GB010 BLACK"
+      }
+    },
+    {
+      "id": "e862dadc-106e-4f36-b8a2-a894feb35c67",
+      "sku": "GB015 BLACK",
+      "barcode": "8054432388085",
+      "category": "accessori",
+      "name": "Gerba — Pochette Piatta Pelle Saffiano Nera 25x19,5cm (GB015 BLACK)",
+      "status": "verified",
+      "oldPrice": 195,
+      "newPrice": 195,
+      "delta": 0,
+      "sourceUrl": "https://www.capodagli.it/products/gerba-pochette-piatta-in-pelle-di-vitello-saffiano-misure-25x19-5x7cm-gb015-black",
+      "notes": "Pochette piatta / clutch Gerba GB015 Black (EAN 8054432388085) in pelle di vitello Saffiano nera. Prezzo di listino € 195,00 confermato su Capodagli 1937.",
+      "attributes": {
+        "type": "Pochette",
+        "Materiale": "Pelle di vitello stampa Saffiano",
+        "material": "Pelle di vitello stampa Saffiano",
+        "Dimensioni": "25 x 19,5 x 7 cm",
+        "Collezione": "Pelletteria",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Genere": "Unisex",
+        "Colore": "Nero (Black)",
+        "origin": "Italia",
+        "Referenza": "GB015 BLACK"
+      }
+    },
+    {
+      "id": "bddf680f-02c8-4dcb-badf-fc9e1ea9b02b",
+      "sku": "HAITI 24",
+      "barcode": "8054656661414",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (HAITI 24)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-haiti-24",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "HAITI 24",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "cb63901b-7f12-4a1f-a34b-5fe50493c874",
+      "sku": "HORN11",
+      "barcode": "8054367764190",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Horn Collection 11 (HORN11)",
+      "status": "verified",
+      "oldPrice": 48,
+      "newPrice": 48,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-horn-collection-11",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "Taglia S/M 19 cm; Taglia M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "HORN11",
+        "stones": [
+          "Bronzite"
+        ]
+      }
+    },
+    {
+      "id": "e5476d0a-1e4c-47bd-926c-9a1f821f0d2c",
+      "sku": "HORN12",
+      "barcode": "8054367764206",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Horn Collection Bronzite e Corno Turchese Argento 925 (HORN12)",
+      "status": "verified",
+      "oldPrice": 48,
+      "newPrice": 48,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciali-in-argento-1/bracciale-unisex-elastico-gerba-horn12-in-argento-925-con-pietre-naturali-e-corno.html",
+      "notes": "Prezzo di listino ufficiale € 48,00 (riportato come 'Prezzo precedente: 48,00 €' su Città Oro, in saldo a € 39,90). Bracciale elastico unisex con bronzite 6 mm e corno in argento 925 smaltato turchese.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Colore": "Marrone / Turchese",
+        "origin": "Italia",
+        "Referenza": "HORN12",
+        "stones": [
+          "bronzite",
+          "ceramica turchese"
+        ]
+      }
+    },
+    {
+      "id": "18f93e0d-1639-42e8-906b-8bc67092965a",
+      "sku": "HORN13",
+      "barcode": "8054367764213",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Horn Collection Onice e Corno Rosso Argento 925 (HORN13)",
+      "status": "verified",
+      "oldPrice": 48,
+      "newPrice": 48,
+      "delta": 0,
+      "sourceUrl": "https://www.cittaoro.it/bracciale-unisex-elastico-gerba-horn13-in-argento-925-con-pietre-naturali-e-corno.html",
+      "notes": "Prezzo di listino ufficiale € 48,00 (riportato come 'Prezzo precedente: 48,00 €' su Città Oro, in saldo a € 43,20; confermato anche su Gioielleria Godenzi e Aemme Oro). Bracciale elastico unisex con onice 6 mm e corno in argento 925 smaltato rosso.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Horn Collection",
+        "Genere": "Uomo",
+        "Colore": "Nero / Rosso",
+        "origin": "Italia",
+        "Referenza": "HORN13",
+        "stones": [
+          "onice",
+          "ceramica rossa"
+        ]
+      }
+    },
+    {
+      "id": "9276adc8-fcd4-4642-91e6-2cb68b5e13b5",
+      "sku": "IBIZA 11",
+      "barcode": "8054710866977",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (IBIZA 11)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-ibiza-11",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "IBIZA 11",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "9085f042-f48c-4922-92cb-1caa5fae0d9e",
+      "sku": "LUX 06",
+      "barcode": "8054569686634",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Lux06 (LUX 06)",
+      "status": "verified",
+      "oldPrice": 139,
+      "newPrice": 129,
+      "delta": -10,
+      "sourceUrl": "https://gerba.it/products/bracciale-lux06",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "LUX 06"
+      }
+    },
+    {
+      "id": "59536501-22ce-4793-ab32-4d77332eaa32",
+      "sku": "LUX 07",
+      "barcode": "8054569686641",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Lux07 (LUX 07)",
+      "status": "verified",
+      "oldPrice": 139,
+      "newPrice": 129,
+      "delta": -10,
+      "sourceUrl": "https://gerba.it/products/bracciale-lux07",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "LUX 07"
+      }
+    },
+    {
+      "id": "517a3fd3-82b7-4123-b272-bdcfa004b381",
+      "sku": "LUX 08",
+      "barcode": "8054569686658",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Lux08 (LUX 08)",
+      "status": "verified",
+      "oldPrice": 149,
+      "newPrice": 139,
+      "delta": -10,
+      "sourceUrl": "https://gerba.it/products/bracciale-lux08",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Luxury",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "LUX 08"
+      }
+    },
+    {
+      "id": "3e4a1d57-94c6-43fb-81a2-92f4dd23a621",
+      "sku": "NAPOLI 46",
+      "barcode": "8054552297793",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (NAPOLI 46)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-exuma-23",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "NAPOLI 46",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "83868713-6d79-4f23-bc90-ec3c89b6c0fb",
+      "sku": "PL01",
+      "barcode": "8054024578535",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Pearl (PL01)",
+      "status": "verified",
+      "oldPrice": 75,
+      "newPrice": 75,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl01",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "PL01",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "89321e2e-1dbe-4dd3-9776-205a0f27aff6",
+      "sku": "PL02",
+      "barcode": "8054024578542",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Pearl (PL02)",
+      "status": "verified",
+      "oldPrice": 75,
+      "newPrice": 75,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl02",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "PL02",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "d3fb190e-59b6-44c7-8543-a04f0add1011",
+      "sku": "PL04",
+      "barcode": "8054024578566",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Pearl (PL04)",
+      "status": "verified",
+      "oldPrice": 75,
+      "newPrice": 75,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-pearl-pl04",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Pearl",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "PL04",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "bed8b334-6a72-45fc-8167-8315bee10dd9",
+      "sku": "PORTORICO 14",
+      "barcode": "8054741961788",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (PORTORICO 14)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-portorico-14",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "PORTORICO 14",
+        "stones": [
+          "Perla"
+        ]
+      }
+    },
+    {
+      "id": "4bf19610-7754-4398-88eb-c96f6e44de37",
+      "sku": "STRANGE S04",
+      "barcode": "8054886046272",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale (STRANGE S04)",
+      "status": "verified",
+      "oldPrice": 59,
+      "newPrice": 55,
+      "delta": -4,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s04",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "STRANGE S04",
+        "stones": [
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "463392d5-f20f-4bf4-8d7c-3b812572c1cd",
+      "sku": "STRANGE S05",
+      "barcode": "8054886046289",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale (STRANGE S05)",
+      "status": "verified",
+      "oldPrice": 59,
+      "newPrice": 55,
+      "delta": -4,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s05",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "STRANGE S05",
+        "stones": [
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "80a4e394-52b0-4ba7-ad67-e32cf0c83710",
+      "sku": "STRANGE S07",
+      "barcode": "8054886046302",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale (STRANGE S07)",
+      "status": "verified",
+      "oldPrice": 59,
+      "newPrice": 55,
+      "delta": -4,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-strange-s07",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Strange Stone",
+        "Genere": "Unisex",
+        "origin": "Italia",
+        "Referenza": "STRANGE S07",
+        "stones": [
+          "Murrine"
+        ]
+      }
+    },
+    {
+      "id": "1b824a48-2a3b-4ec4-ae70-61c14b8caa7b",
+      "sku": "STRANGE S08",
+      "barcode": "8054886046319",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Strange Stone Pietre Dure Murrine e Argento 925 (STRANGE S08)",
+      "status": "verified",
+      "oldPrice": 59,
+      "newPrice": 59,
+      "delta": 0,
+      "sourceUrl": "https://www.vellix.it/gioielli-uomo/1919-gerba-strange-s08-uomo.html",
+      "notes": "Prezzo di listino pieno € 59,00 verificato su Vellix (non scontato; confermato anche su Gioielleria Segoni). Filo cerato marrone intrecciato con pietre di sodalite blu a forma di sassolino, ceramica beige, elementi in argento 925 e chiusura a bottone in osso.",
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "S/M 19 cm · M/L 21 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Strange Stone",
+        "Genere": "Uomo",
+        "Colore": "Marrone / Blu / Beige",
+        "origin": "Italia",
+        "Referenza": "STRANGE S08",
+        "stones": [
+          "sodalite blu",
+          "ceramica beige"
+        ]
+      }
+    },
+    {
+      "id": "71732443-26d2-4077-b1d2-1bd529b35993",
+      "sku": "SYDNEY 22",
+      "barcode": "8054284942688",
+      "category": "gioielli",
+      "name": "Gerba — Bracciale Colored (SYDNEY 22)",
+      "status": "verified",
+      "oldPrice": 65,
+      "newPrice": 65,
+      "delta": 0,
+      "sourceUrl": "https://gerba.it/products/bracciale-gerba-colored-sydney-22",
+      "notes": null,
+      "attributes": {
+        "metal": "Argento 925",
+        "material": "Pietre naturali / Ceramiche e Argento 925",
+        "Materiale": "Pietre naturali / Ceramiche e Argento 925",
+        "Taglie": "M/L 21 cm / S/M 19 cm",
+        "Lavorazione": "Artigianale Made in Italy",
+        "Collezione": "Colored",
+        "Genere": "Uomo",
+        "origin": "Italia",
+        "Referenza": "SYDNEY 22",
+        "stones": [
+          "Perla"
+        ]
+      }
+    }
+  ]
+}
