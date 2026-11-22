@@ -178,7 +178,6 @@ export const products: Product[] = [
     subcategory: "anelli",
     subcategoryLabel: "Anelli",
     price: 2480,
-    compareAtPrice: 2890,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_01.jpg",
@@ -262,7 +261,6 @@ export const products: Product[] = [
     subcategory: "anelli",
     subcategoryLabel: "Anelli",
     price: 1890,
-    compareAtPrice: 2150,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/golay_south_sea_01.jpg",
@@ -378,7 +376,6 @@ export const products: Product[] = [
     subcategory: "collane",
     subcategoryLabel: "Collane",
     price: 980,
-    compareAtPrice: 1180,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_akoya_strand_01.jpg",
@@ -528,7 +525,6 @@ export const products: Product[] = [
     subcategory: "bracciali",
     subcategoryLabel: "Bracciali",
     price: 3450,
-    compareAtPrice: 3990,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/nihama/nihama_bracciale_01.jpg",
@@ -750,7 +746,6 @@ export const products: Product[] = [
     subcategory: "uomo",
     subcategoryLabel: "Uomo",
     price: 449,
-    compareAtPrice: 529,
     currency: "EUR",
     images: [
           "https://media.citizen.it/ImgOriginal/bulova_96B441_01_2000x2000.jpg",
@@ -903,7 +898,6 @@ export const products: Product[] = [
     subcategory: "donna",
     subcategoryLabel: "Donna",
     price: 249,
-    compareAtPrice: 299,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/guess_watch_01.jpg",
@@ -1159,7 +1153,6 @@ export const products: Product[] = [
     subcategory: "penne",
     subcategoryLabel: "Penne",
     price: 189,
-    compareAtPrice: 220,
     currency: "EUR",
     images: [
           "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_01.jpg",
@@ -1557,7 +1550,6 @@ export const products: Product[] = [
     subcategory: "regali",
     subcategoryLabel: "Regali di Natale",
     price: 390,
-    compareAtPrice: 460,
     currency: "EUR",
     images: [
           "https://www.stroilioro.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw8a856d1d/images/c1685836-master.jpg?sw=1024&sh=1024",

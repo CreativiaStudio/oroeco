@@ -17,7 +17,7 @@ import {
   Award,
 } from "lucide-react";
 import { SmartImage } from "@/components/ui/SmartImage";
-import { cn, discountPercent, formatPrice } from "@/lib/utils";
+import { cn, formatPrice } from "@/lib/utils";
 import { useCartStore } from "@/store/useCartStore";
 import { useWishlistStore } from "@/store/useWishlistStore";
 import { InstallmentBadge } from "@/components/ui/InstallmentBadge";
@@ -44,7 +44,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const wishlistIds = useWishlistStore((state) => state.ids);
 
   const inWishlist = wishlistIds.includes(product.id);
-  const discount = discountPercent(product.price, product.compareAtPrice);
 
   const attributes = buildAttributes(product);
 
@@ -83,11 +82,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
               priority
               fallbackLabel={product.name}
             />
-            {product.compareAtPrice && discount > 0 ? (
-              <span className="absolute left-4 top-4 rounded-sm bg-gold px-3 py-1.5 text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-white">
-                −{discount}%
-              </span>
-            ) : null}
           </div>
 
           {product.images.length > 1 ? (
@@ -158,11 +152,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
             <span className="font-serif text-3xl text-ink">
               {formatPrice(product.price)}
             </span>
-            {product.compareAtPrice ? (
-              <span className="text-base text-graphite-soft line-through">
-                {formatPrice(product.compareAtPrice)}
-              </span>
-            ) : null}
             <span className="text-xs uppercase tracking-[0.14em] text-graphite-soft">
               IVA inclusa
             </span>
@@ -354,22 +343,37 @@ function pickStr(raw: Record<string, unknown>, ...keys: string[]): string | unde
   return undefined;
 }
 
+function pickBoolStr(raw: Record<string, unknown>, ...keys: string[]): string | undefined {
+  for (const k of keys) {
+    const v = raw[k];
+    if (v === true) return "Sì";
+    if (v === false) return "No";
+    if (typeof v === "string" && v.trim()) {
+      const low = v.trim().toLowerCase();
+      if (["true", "sì", "si", "yes"].includes(low)) return "Sì";
+      if (["false", "no"].includes(low)) return "No";
+      return v.trim();
+    }
+  }
+  return undefined;
+}
+
 function buildAttributes(product: Product): { label: string; value: string }[] {
   const raw = (product.attributes ?? {}) as Record<string, unknown>;
   const rows: { label: string; value?: string }[] = [];
 
   switch (product.category) {
     case "gioielli": {
-      const metal = pickStr(raw, "metal");
+      const metal = pickStr(raw, "metal", "Metallo");
       const material = pickStr(raw, "material", "Materiale");
       const stones =
         Array.isArray(raw.stones) && raw.stones.length
           ? raw.stones.join(", ")
-          : pickStr(raw, "Pietre");
+          : pickStr(raw, "Pietre", "stones");
 
       rows.push(
         { label: "Metallo", value: metal },
-        { label: "Caratura", value: pickStr(raw, "carats") },
+        { label: "Caratura", value: pickStr(raw, "carats", "Caratura") },
         {
           label: "Materiale",
           value:
@@ -379,18 +383,18 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
               : undefined,
         },
         { label: "Pietre", value: stones },
-        { label: "Taglio", value: pickStr(raw, "cut") },
-        { label: "Peso pietra", value: pickStr(raw, "caratWeight") },
+        { label: "Taglio", value: pickStr(raw, "cut", "Taglio") },
+        { label: "Peso pietra", value: pickStr(raw, "caratWeight", "Peso pietra") },
         {
           label: "Peso",
           value: raw.weightGr ? `${raw.weightGr} g` : pickStr(raw, "Peso"),
         },
         {
           label: "Misura / Dimensioni",
-          value: pickStr(raw, "size", "Dimensioni", "Taglie"),
+          value: pickStr(raw, "size", "Dimensioni", "Taglie", "Lunghezza"),
         },
-        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish") },
-        { label: "Chiusura", value: pickStr(raw, "Chiusura") },
+        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish", "Finitura") },
+        { label: "Chiusura", value: pickStr(raw, "Chiusura", "clasp") },
         { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
         { label: "Genere", value: pickStr(raw, "gender", "Genere") },
         { label: "Colore", value: pickStr(raw, "color", "Colore") },
@@ -402,7 +406,7 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
     case "orologi": {
       rows.push(
         { label: "Movimento", value: pickStr(raw, "movement", "Movimento") },
-        { label: "Calibro", value: pickStr(raw, "Calibro") },
+        { label: "Calibro", value: pickStr(raw, "Calibro", "caliber") },
         {
           label: "Materiale cassa",
           value: pickStr(
@@ -425,7 +429,7 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
         { label: "Quadrante", value: pickStr(raw, "Quadrante") },
         {
           label: "Cinturino / Bracciale",
-          value: pickStr(raw, "Bracciale", "Cinturino"),
+          value: pickStr(raw, "Bracciale", "Cinturino", "strap"),
         },
         {
           label: "Impermeabilità",
@@ -442,12 +446,13 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
 
     case "accessori": {
       rows.push(
+        { label: "Tipologia", value: pickStr(raw, "type", "Tipologia") },
         {
           label: "Materiale",
           value: pickStr(raw, "material", "Materiale"),
         },
         { label: "Collezione", value: pickStr(raw, "collection", "Collezione") },
-        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish") },
+        { label: "Lavorazione", value: pickStr(raw, "Lavorazione", "finish", "Finitura") },
         {
           label: "Dimensioni",
           value: pickStr(raw, "dimensions", "Dimensioni", "size"),
@@ -463,6 +468,7 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
     case "natale":
     default: {
       rows.push(
+        { label: "Tipologia", value: pickStr(raw, "type", "Tipologia") },
         {
           label: "Materiale",
           value: pickStr(raw, "material", "Materiale"),
@@ -472,10 +478,14 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
           label: "Dimensioni",
           value: pickStr(raw, "dimensions", "Dimensioni", "size"),
         },
+        {
+          label: "Capacità",
+          value: pickStr(raw, "capacity", "Capacità", "Volume"),
+        },
         { label: "Finitura", value: pickStr(raw, "finish", "Finitura") },
         { label: "Colore", value: pickStr(raw, "color", "Colore") },
         { label: "Scultore", value: pickStr(raw, "sculptor", "Scultore") },
-        { label: "Peso", value: pickStr(raw, "Peso") },
+        { label: "Peso", value: pickStr(raw, "Peso", "weight") },
         { label: "Anno di lancio", value: pickStr(raw, "Anno di lancio") },
         {
           label: "Sorgente luminosa",
@@ -484,17 +494,27 @@ function buildAttributes(product: Product): { label: string; value: string }[] {
         { label: "Autonomia", value: pickStr(raw, "Autonomia") },
         {
           label: "Lavabile in lavastoviglie",
-          value: raw.dishwasherSafe === true ? "Sì" : undefined,
+          value: pickBoolStr(raw, "dishwasherSafe", "Lavastoviglie"),
         },
+        {
+          label: "Adatto a microonde",
+          value: pickBoolStr(raw, "microwaveSafe", "Microonde"),
+        },
+        { label: "Occasione", value: pickStr(raw, "occasion", "Occasione") },
+        { label: "Progetto solidale", value: pickStr(raw, "solidale", "Progetto solidale") },
         { label: "Origine", value: pickStr(raw, "origin", "Origine") },
       );
       break;
     }
   }
 
+  const seenLabels = new Set<string>();
   return rows
-    .filter((row): row is { label: string; value: string } =>
-      Boolean(row.value && row.value !== ""),
-    )
+    .filter((row): row is { label: string; value: string } => {
+      if (!row.value || !row.value.trim()) return false;
+      if (seenLabels.has(row.label)) return false;
+      seenLabels.add(row.label);
+      return true;
+    })
     .map((row) => ({ label: row.label, value: row.value }));
 }

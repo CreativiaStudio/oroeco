@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
 import { SmartImage } from "@/components/ui/SmartImage";
-import { cn, discountPercent, formatPrice } from "@/lib/utils";
+import { cn, formatPrice } from "@/lib/utils";
 import { useWishlistStore } from "@/store/useWishlistStore";
 import type { Product } from "@/types/product";
 
@@ -23,7 +23,6 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
   useEffect(() => setMounted(true), []);
 
   const inWishlist = mounted && wishlistIds.includes(product.id);
-  const discount = discountPercent(product.price, product.compareAtPrice);
   const hoverImage = product.images[1];
 
   const badge = product.isNew
@@ -65,18 +64,13 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
         ) : null}
 
         {/* Badge */}
-        <div className="pointer-events-none absolute left-3 top-3 z-20 flex flex-col items-start gap-1.5">
-          {badge ? (
+        {badge ? (
+          <div className="pointer-events-none absolute left-3 top-3 z-20 flex flex-col items-start gap-1.5">
             <span className="bg-ink/80 px-2 py-0.5 text-[0.55rem] font-medium uppercase tracking-[0.16em] text-white">
               {badge}
             </span>
-          ) : null}
-          {discount > 0 ? (
-            <span className="bg-gold/90 px-2 py-0.5 text-[0.55rem] font-medium uppercase tracking-[0.16em] text-white">
-              −{discount}%
-            </span>
-          ) : null}
-        </div>
+          </div>
+        ) : null}
 
         {/* Wishlist */}
         <button
@@ -110,11 +104,6 @@ export function ProductCard({ product, priority, className }: ProductCardProps) 
           <span className="font-serif text-[0.95rem] text-[#020202]">
             {formatPrice(product.price)}
           </span>
-          {product.compareAtPrice ? (
-            <span className="font-serif text-xs text-neutral-400 line-through">
-              {formatPrice(product.compareAtPrice)}
-            </span>
-          ) : null}
           {product.price >= 100 ? (
             <span className="text-[0.62rem] text-graphite-soft">
               · 3 rate da {formatPrice(product.price / 3)}
