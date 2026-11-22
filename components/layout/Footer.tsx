@@ -100,10 +100,6 @@ export function Footer() {
           {/* Colonna 1: Identità & Autenticità */}
           <div className="space-y-5">
             <Logo variant="wordmark" tone="light" className="h-12" />
-            <p className="max-w-xs text-sm leading-relaxed text-white/60">
-              Gioielleria e Alta Orologeria dal 1992. Periti gemmologi, pezzi
-              certificati e assistenza al banco di Renato e famiglia.
-            </p>
             <div className="flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-gold-soft">
               <ShieldCheck className="h-4 w-4" strokeWidth={1.6} />
               Autenticità certificata 100%
@@ -236,7 +232,7 @@ export function Footer() {
 
           <div className="flex flex-col items-center gap-1.5 text-center lg:items-end lg:text-right">
             <p className="text-xs text-white/45">
-              © {new Date().getFullYear()} ORO&amp;CO Gioielleria di Calabrese Speranza — P.IVA 03525160655
+              © {new Date().getFullYear()} ORO&amp;CO Gioielleria di Calabrese Speranza — P.IVA 02187110651
             </p>
             <p className="text-xs text-white/45">
               Sviluppato da{" "}
