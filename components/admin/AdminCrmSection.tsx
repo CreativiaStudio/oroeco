@@ -17,10 +17,11 @@ import {
   Store,
   X,
 } from 'lucide-react';
+import type { StoredAppointmentBooking } from '@/lib/appointmentsServer';
 import { formatPrice } from '@/lib/utils';
 
 type Channel = 'instore' | 'online' | 'appointment' | 'whatsapp' | 'lab';
-type Referente = 'Renato' | 'Carmela' | 'Maria';
+type Referente = 'Renato' | 'Patrizia' | 'Zia';
 type AppointmentStatus = 'Confermato' | 'In attesa' | 'Completato';
 type FilterKey = 'all' | 'instore' | 'online' | 'appointment' | 'whatsapp' | 'vip';
 
@@ -234,7 +235,7 @@ const INITIAL_CONTACTS: Contact[] = [
     channel: 'lab',
     interest: 'Restauro catenina oro giallo e saldatura maglia',
     amount: 180,
-    referente: 'Carmela',
+    referente: 'Patrizia',
     notes: 'Ritiro previsto in laboratorio, contatto telefonico al completamento.',
     purchases: [
       { id: 'p-04', item: 'Restauro catenina oro giallo', amount: 180, date: '2026-11-05T09:40', channel: 'lab' },
@@ -286,13 +287,13 @@ const INITIAL_CONTACTS: Contact[] = [
     channel: 'appointment',
     interest: 'Orologeria classica con cinturino in pelle',
     amount: 0,
-    referente: 'Carmela',
+    referente: 'Zia',
     appointmentAt: '2026-11-25T17:00',
     appointmentStatus: 'In attesa',
     notes: 'Valutazione di un orologio di famiglia in permuta.',
     purchases: [],
     appointments: [
-      { id: 'a-03', date: '2026-11-25', time: '17:00', referente: 'Carmela', reason: 'Alta Orologeria', status: 'In attesa' },
+      { id: 'a-03', date: '2026-11-25', time: '17:00', referente: 'Zia', reason: 'Alta Orologeria', status: 'In attesa' },
     ],
     createdAt: '2026-11-12T11:25',
   },
@@ -440,6 +441,7 @@ async function postCrm(body: Record<string, unknown>): Promise<boolean> {
 
 export function AdminCrmSection() {
   const [contacts, setContacts] = useState<Contact[]>(INITIAL_CONTACTS);
+  const [webBookings, setWebBookings] = useState<StoredAppointmentBooking[]>([]);
   const [hydrated, setHydrated] = useState(false);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<FilterKey>('all');
@@ -472,9 +474,14 @@ export function AdminCrmSection() {
       try {
         const response = await fetch('/api/admin/crm', { cache: 'no-store' });
         if (!response.ok) return;
-        const payload: unknown = await response.json();
+        const payload = (await response.json()) as {
+          appointments?: StoredAppointmentBooking[];
+        };
         if (cancelled) return;
         setContacts((previous) => mergeApiContacts(previous, payload));
+        if (Array.isArray(payload.appointments)) {
+          setWebBookings(payload.appointments);
+        }
       } catch {
         /* API non raggiungibile: resta disponibile l'archivio locale. */
       } finally {
@@ -651,6 +658,25 @@ export function AdminCrmSection() {
     });
   };
 
+  const handleUpdateWebBookingStatus = async (
+    bookingId: string,
+    nextStatus: 'Confermato' | 'Completato' | 'Annullato',
+  ) => {
+    setWebBookings((prev) =>
+      prev.map((item) => (item.id === bookingId ? { ...item, status: nextStatus } : item)),
+    );
+    const ok = await postCrm({
+      action: 'update_appointment_status',
+      bookingId,
+      status: nextStatus,
+    });
+    setNotice(
+      ok
+        ? `Appuntamento ${bookingId} aggiornato su "${nextStatus}".`
+        : `Impossibile aggiornare su Supabase lo stato di ${bookingId}.`,
+    );
+  };
+
   return (
     <div className="space-y-6 bg-white text-[#020202]">
       <div className="flex flex-wrap items-end justify-between gap-4">
@@ -746,6 +772,58 @@ export function AdminCrmSection() {
           />
         </label>
       </div>
+
+      {webBookings.length > 0 ? (
+        <div className="overflow-hidden rounded-2xl border border-[#DEDEDE] bg-white">
+          <div className="flex items-center justify-between gap-3 border-b border-[#DEDEDE] bg-[#F7F3EC] px-4 py-3">
+            <p className="flex items-center gap-2 text-sm font-medium text-[#020202]">
+              <Calendar className="h-4 w-4 text-[#9A7D43]" aria-hidden="true" />
+              Prenotazioni Online da `/appuntamento` ({webBookings.length})
+            </p>
+            <span className="text-xs text-[#4E423E]">Sincronizzate con Supabase</span>
+          </div>
+          <div className="divide-y divide-[#EFEAE0]">
+            {webBookings.slice(0, 12).map((booking) => (
+              <div
+                key={booking.id}
+                className="flex flex-wrap items-center justify-between gap-3 px-4 py-3 text-sm"
+              >
+                <div className="min-w-0 space-y-0.5">
+                  <p className="font-medium text-[#020202]">
+                    {booking.date} alle <span className="font-mono">{booking.time}</span> —{' '}
+                    {booking.firstName} {booking.lastName}
+                  </p>
+                  <p className="text-xs text-[#4E423E]">
+                    {booking.service}
+                    {booking.brand ? ` (${booking.brand})` : ''} · Referente:{' '}
+                    <strong>{booking.referente}</strong> · Tel: {booking.phone}
+                    {booking.email ? ` · ${booking.email}` : ''}
+                  </p>
+                  {booking.notes ? (
+                    <p className="text-xs italic text-[#6B615C]">{booking.notes}</p>
+                  ) : null}
+                </div>
+                <div className="flex flex-wrap items-center gap-1.5">
+                  {(['Confermato', 'Completato', 'Annullato'] as const).map((statusOption) => (
+                    <button
+                      key={statusOption}
+                      type="button"
+                      onClick={() => void handleUpdateWebBookingStatus(booking.id, statusOption)}
+                      className={`rounded-full border px-2.5 py-1 text-[11px] font-medium transition cursor-pointer ${
+                        booking.status === statusOption
+                          ? 'border-[#012236] bg-[#012236] text-white'
+                          : 'border-[#DEDEDE] bg-white text-[#4E423E] hover:border-[#9A7D43]'
+                      }`}
+                    >
+                      {statusOption}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
 
       <div className="overflow-hidden rounded-2xl border border-[#DEDEDE] bg-white">
         <div className="flex items-center justify-between gap-3 border-b border-[#DEDEDE] px-4 py-3">
@@ -1029,8 +1107,8 @@ export function AdminCrmSection() {
                   }
                 >
                   <option value="Renato">Renato</option>
-                  <option value="Carmela">Carmela</option>
-                  <option value="Maria">Maria</option>
+                  <option value="Patrizia">Patrizia</option>
+                  <option value="Zia">Zia</option>
                 </select>
               </label>
               <label className="text-xs text-[#4E423E]">

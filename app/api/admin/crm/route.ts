@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { readAllAppointments } from "@/lib/appointmentsServer";
 import { getAdminSessionFromRequest } from "@/lib/adminAuth";
 import { getServiceSupabase } from "@/lib/supabase";
 
@@ -118,8 +119,10 @@ export async function GET(req: Request) {
     console.error("[API Admin CRM GET] Lettura oroeco_abandoned_carts fallita:", error);
   }
 
+  const appointments = await readAllAppointments();
+
   return NextResponse.json(
-    { ok: true, customers, sales, abandonedCarts },
+    { ok: true, customers, sales, abandonedCarts, appointments },
     { headers: { "Cache-Control": "no-store" } },
   );
 }
@@ -150,6 +153,61 @@ export async function POST(req: Request) {
     );
   }
 
+  const client = getSupabaseAdmin();
+
+  if (body.action === "update_appointment_status") {
+    const bookingId = cleanText(body.bookingId);
+    const nextStatus = cleanText(body.status);
+    if (
+      !bookingId ||
+      (nextStatus !== "Confermato" && nextStatus !== "Completato" && nextStatus !== "Annullato")
+    ) {
+      return NextResponse.json(
+        { ok: false, error: "bookingId e stato valido obbligatori" },
+        { status: 400 },
+      );
+    }
+    if (!client) {
+      return NextResponse.json({ ok: true, saved: "local" });
+    }
+    const { error } = await client.from("oroeco_audit_log").insert({
+      category: "CRM",
+      action: "APPOINTMENT_STATUS_UPDATED",
+      operator: session.operator,
+      details: { id: bookingId, status: nextStatus },
+    });
+    if (error) {
+      return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+    }
+    return NextResponse.json({ ok: true, saved: "cloud", status: nextStatus });
+  }
+
+  if (body.action === "create_appointment") {
+    const name = cleanText(body.name) || "Cliente";
+    const [firstName, ...rest] = name.split(/\s+/);
+    const bookingId = `APP-${String(body.date || "").replace(/-/g, "")}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
+    const booking = {
+      id: bookingId,
+      date: cleanText(body.date) || new Date().toISOString().slice(0, 10),
+      time: cleanText(body.time) || "10:30",
+      service: cleanText(body.reason) || "Consulenza in Gioielleria",
+      firstName,
+      lastName: rest.join(" "),
+      phone: cleanText(body.phone) || "",
+      referente: cleanText(body.referente) || session.operator,
+      status: "Confermato",
+      createdAt: new Date().toISOString(),
+    };
+    if (!client) return NextResponse.json({ ok: true, booking, saved: "local" });
+    await client.from("oroeco_audit_log").insert({
+      category: "CRM",
+      action: "APPOINTMENT_BOOKED",
+      operator: session.operator,
+      details: booking,
+    });
+    return NextResponse.json({ ok: true, booking, saved: "cloud" });
+  }
+
   if (body.action !== "create_customer") {
     return NextResponse.json(
       { ok: false, error: "Azione non supportata" },
@@ -158,7 +216,6 @@ export async function POST(req: Request) {
   }
 
   const customer = buildCustomerPayload(body);
-  const client = getSupabaseAdmin();
 
   if (!client) {
     return NextResponse.json({ ok: true, customer, saved: "local" });

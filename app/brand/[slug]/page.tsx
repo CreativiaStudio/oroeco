@@ -154,21 +154,28 @@ export default async function BrandDetailPage({ params }: BrandPageProps) {
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 pt-2">
+                  <Link
+                    href={`/appuntamento?servizio=alta-gioielleria&brand=${encodeURIComponent(brand.name)}`}
+                    className="inline-flex h-12 items-center gap-2.5 rounded-[2px] bg-[#020202] px-6 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-gold"
+                  >
+                    <Calendar className="h-4 w-4" strokeWidth={1.6} />
+                    Prenota appuntamento in gioielleria
+                  </Link>
                   <a
                     href={appointmentHref}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex h-12 items-center gap-2.5 rounded-[2px] bg-[#020202] px-6 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-white transition-colors hover:bg-gold"
+                    className="inline-flex h-12 items-center gap-2.5 rounded-[2px] border border-[#020202] bg-white px-6 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#020202] transition-colors hover:bg-[#020202] hover:text-white"
                   >
                     <MessageCircle className="h-4 w-4" strokeWidth={1.6} />
-                    Prenota appuntamento su WhatsApp
+                    WhatsApp
                   </a>
                   <a
                     href={STORE_CONTACT.phoneHref}
-                    className="inline-flex h-12 items-center gap-2.5 rounded-[2px] border border-[#020202] bg-white px-6 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#020202] transition-colors hover:bg-[#020202] hover:text-white"
+                    className="inline-flex h-12 items-center gap-2.5 rounded-[2px] border border-[#DEDEDE] bg-white px-5 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#4E423E] transition-colors hover:border-[#020202] hover:text-[#020202]"
                   >
                     <Phone className="h-4 w-4" strokeWidth={1.6} />
-                    Chiama {STORE_CONTACT.phoneDisplay}
+                    {STORE_CONTACT.phoneDisplay}
                   </a>
                 </div>
               </div>

@@ -31,6 +31,7 @@ import {
   Pencil,
   PlugZap,
   Plus,
+  Printer,
   Receipt,
   RefreshCw,
   RotateCcw,
@@ -52,6 +53,8 @@ import {
 import { Logo } from "@/components/layout/Logo";
 import { SmartImage } from "@/components/ui/SmartImage";
 import { ProductInspectorModal } from "@/components/admin/ProductInspectorModal";
+import { JewelryLabelPrinterModal } from "@/components/admin/JewelryLabelPrinterModal";
+import { SupplierInvoiceStagingSection } from "@/components/admin/SupplierInvoiceStagingSection";
 import { AdminCrmSection } from "@/components/admin/AdminCrmSection";
 import { AdminBillingConnectionSection } from "@/components/admin/AdminBillingConnectionSection";
 import { MediaLibrary } from "@/components/admin/MediaLibrary";
@@ -615,6 +618,7 @@ export function AdminDashboard() {
   const [approvalTab, setApprovalTab] = useState<"all" | "online" | "cassa_only">("all");
   const [approvingIds, setApprovingIds] = useState<string[]>([]);
   const [bulkApproving, setBulkApproving] = useState(false);
+  const [labelPrinterProducts, setLabelPrinterProducts] = useState<Product[] | null>(null);
 
   // Caricamento asincrono prodotti reali da Supabase
   const loadDbProducts = () => {
@@ -1724,6 +1728,16 @@ export function AdminDashboard() {
                                     >
                                       <Pencil className="h-3.5 w-3.5" />
                                     </button>
+
+                                    {/* Stampa Etichetta Barcode */}
+                                    <button
+                                      type="button"
+                                      onClick={() => setLabelPrinterProducts([product])}
+                                      className="inline-flex h-7 w-7 items-center justify-center rounded-sm border border-[#E5E0D5] bg-white text-graphite transition-colors hover:border-[#012236] hover:text-[#012236] cursor-pointer"
+                                      title="Stampa etichetta gioiello / barcode"
+                                    >
+                                      <Printer className="h-3.5 w-3.5" />
+                                    </button>
                                   </div>
                                 </td>
                               </tr>
@@ -1742,6 +1756,9 @@ export function AdminDashboard() {
                 ============================================================ */}
             {activeSection === "invoices" && (
               <div className="space-y-6">
+                {/* Compartimento Stagno XML FatturaPA Reale */}
+                <SupplierInvoiceStagingSection onCommitted={loadDbProducts} />
+
                 {/* Importazione rapida fattura fornitore */}
                 <Card className="overflow-hidden">
                   <div className="flex flex-wrap items-start justify-between gap-4 border-b border-[#E5E0D5] bg-[#F8F7F4] px-5 py-5">
@@ -2304,6 +2321,22 @@ export function AdminDashboard() {
               <span>Pubblica Online</span>
             </button>
 
+            {/* Stampa Etichette Gioielli */}
+            <button
+              type="button"
+              onClick={() => {
+                const selectedSet = new Set(selectedIds);
+                const resolved = allProducts.filter((p) => selectedSet.has(p.id));
+                if (resolved.length > 0) setLabelPrinterProducts(resolved);
+              }}
+              disabled={batchProcessing}
+              className="inline-flex items-center gap-1.5 rounded-full bg-[#C5A059] px-3.5 py-1.5 text-xs font-bold text-[#0A0A0A] transition-all hover:bg-[#d4af37] disabled:opacity-50 cursor-pointer shadow-xs"
+              title="Stampa etichette barcode per i prodotti selezionati"
+            >
+              <Printer className="h-3.5 w-3.5" />
+              <span>Stampa Etichette</span>
+            </button>
+
             {/* Annulla Selezione */}
             <button
               type="button"
@@ -2328,6 +2361,13 @@ export function AdminDashboard() {
         onApprove={handleApproveFromModal}
         onReject={handleRejectFromModal}
         isProcessing={isModalProcessing}
+      />
+
+      {/* Modale Stampa Etichette Barcode Gioielli */}
+      <JewelryLabelPrinterModal
+        isOpen={Boolean(labelPrinterProducts && labelPrinterProducts.length > 0)}
+        onClose={() => setLabelPrinterProducts(null)}
+        products={labelPrinterProducts || []}
       />
     </div>
   );

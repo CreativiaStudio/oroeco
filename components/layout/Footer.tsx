@@ -18,6 +18,7 @@ const collections = [
 ];
 
 const assistance = [
+  { label: "Prenota Appuntamento", href: "/appuntamento" },
   { label: "Spedizioni e Resi", href: "/spedizioni-e-resi" },
   { label: "Garanzia e Certificati", href: "/storia#garanzie" },
   { label: "Pagamenti e Finanziamenti", href: "/storia#pagamenti" },
