@@ -69,9 +69,9 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
   return (
     <>
-      <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
+      <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-16">
         {/* Galleria */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 lg:sticky lg:top-28 lg:self-start">
           <div className="relative overflow-hidden rounded-sm border border-line bg-white">
             <SmartImage
               src={product.images[activeImage]}
