@@ -1,26 +1,8 @@
 import Link from "next/link";
-import { ArrowRight, BadgeCheck, Gem, Users } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { SmartImage } from "@/components/ui/SmartImage";
 import { LuxuryReveal } from "@/components/ui/LuxuryReveal";
 import { ScrollParallax } from "@/components/motion/ScrollParallax";
-
-const pillars = [
-  {
-    icon: Gem,
-    title: "Selezione delle pietre",
-    text: "Diamanti e gemme scelti uno a uno, con analisi di purezza, colore e taglio.",
-  },
-  {
-    icon: BadgeCheck,
-    title: "Perizia gemmologica",
-    text: "Ogni prezioso è accompagnato da certificato ufficiale di autenticità.",
-  },
-  {
-    icon: Users,
-    title: "Dal 1992",
-    text: "Renato, mamma e zia vi accolgono in gioielleria con consulenza personale.",
-  },
-];
 
 /** Storytelling immersivo dell'atelier con coreografia bidirezionale sinistra/destra e parallasse. */
 export function AtelierStory() {
@@ -84,28 +66,7 @@ export function AtelierStory() {
               </div>
             </LuxuryReveal>
 
-            <ul className="divide-y divide-[#dedede] border-y border-t border-[#dedede]">
-              {pillars.map((pillar, idx) => (
-                <li key={pillar.title} className="py-5">
-                  <LuxuryReveal variant="up" delayMs={120 + idx * 85} className="flex gap-5">
-                    <pillar.icon
-                      className="mt-0.5 h-6 w-6 shrink-0 text-[#020202]"
-                      strokeWidth={1.25}
-                    />
-                    <div className="space-y-1">
-                      <h3 className="font-serif text-lg uppercase tracking-[0.08em] text-[#020202]">
-                        {pillar.title}
-                      </h3>
-                      <p className="text-sm leading-relaxed text-[#4e423e]">
-                        {pillar.text}
-                      </p>
-                    </div>
-                  </LuxuryReveal>
-                </li>
-              ))}
-            </ul>
-
-            <LuxuryReveal variant="up" delayMs={280}>
+            <LuxuryReveal variant="up" delayMs={180}>
               <Link
                 href="/storia"
                 className="group inline-flex items-center gap-2 rounded-[3px] border border-[#020202] px-6 py-3 text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#020202] transition-colors duration-300 hover:bg-[#020202] hover:text-white"
