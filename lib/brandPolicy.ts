@@ -41,5 +41,7 @@ export const STORE_CONTACT = {
   whatsappDisplay: "351 877 8689",
   whatsappHref: "https://wa.me/393518778689",
   instagramHref: "https://www.instagram.com/gioielleria_oroeco/",
-  facebookHref: (process.env.NEXT_PUBLIC_FACEBOOK_URL || "").trim(),
+  facebookHref: (
+    process.env.NEXT_PUBLIC_FACEBOOK_URL || "https://www.facebook.com/gioielleriaoroeco"
+  ).trim(),
 } as const;

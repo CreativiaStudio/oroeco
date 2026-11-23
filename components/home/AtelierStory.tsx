@@ -17,7 +17,7 @@ const pillars = [
   },
   {
     icon: Users,
-    title: "Al banco dal 1992",
+    title: "Dal 1992",
     text: "Renato, mamma e zia vi accolgono in gioielleria con consulenza personale.",
   },
 ];
@@ -60,16 +60,26 @@ export function AtelierStory() {
             <LuxuryReveal variant="up" delayMs={100}>
               <div className="space-y-4">
                 <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
-                  Tutto è iniziato nel 1992, quando Speranza e la famiglia Calabrese hanno aperto le porte della loro
-                  gioielleria con un&apos;idea semplice e ambiziosa: offrire ai propri
-                  clienti gioielli autentici, selezionati con occhio esperto e
-                  accompagnati da un consiglio sincero.
+                  Nel 1992 le sorelle{" "}
+                  <strong className="font-semibold italic text-ink">
+                    Speranza e Chiara Calabrese
+                  </strong>{" "}
+                  danno vita al loro sogno inaugurando la &ldquo;Gioielleria Oro e...&rdquo;, la prima boutique di accessori di lusso nel centro storico di San Marzano sul Sarno. Da allora, grazie alla professionalità e all&apos;amore per il proprio lavoro, sono diventate un punto di riferimento imprescindibile nella zona. Da due generazioni familiari offre esclusive e lussuose collezioni di gioielleria e di orologeria.
+                </p>
+                <blockquote className="border-l-2 border-gold pl-4 font-serif text-base font-semibold italic leading-snug text-ink sm:text-lg">
+                  &ldquo;La nostra vera essenza, il cuore pulsante della nostra attività&rdquo;
+                </blockquote>
+                <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
+                  L&apos;attenzione per ogni cliente ha spinto ad ampliare la gamma di servizi offerti. Qui puoi ricevere il supporto anche per la tua lista nozze, o per realizzare gioielli personalizzati così da sentirti unico e speciale.
                 </p>
                 <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
-                  Oggi ORO&amp;CO è un punto di riferimento per l&apos;alta gioielleria
-                  e l&apos;orologeria: prestigiose maison, periti gemmologi e
-                  la costante presenza della famiglia al banco, per un rapporto di
-                  fiducia che dura da oltre trent&apos;anni.
+                  Un&apos;attività che si proietta al futuro, non dimenticando però le proprie radici e puntando a una crescita e a un aggiornamento costante nel solco intrapreso da una famiglia di gioiellieri amanti del proprio lavoro.
+                </p>
+                <p className="text-pretty text-sm leading-relaxed text-ink sm:text-base">
+                  <strong className="font-semibold">ORO &amp; Co</strong> il{" "}
+                  <em className="italic">
+                    posto giusto dove trovare il dettaglio prezioso che racconti la tua identità
+                  </em>
                 </p>
               </div>
             </LuxuryReveal>

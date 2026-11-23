@@ -18,7 +18,7 @@ import { OFFICIAL_STORE_HOURS } from "@/lib/brandPolicy";
 export const metadata: Metadata = {
   title: "La Nostra Storia — Gioielleria a San Marzano sul Sarno dal 1992",
   description:
-    "La storia di ORO&CO: dal 1992 a San Marzano sul Sarno la tradizione orafa della famiglia Calabrese, periti gemmologi, trasparenza e cura del cliente.",
+    "Dal 1992 a San Marzano sul Sarno la storia delle sorelle Speranza e Chiara Calabrese e di ORO & Co: alta gioielleria, orologeria, lista nozze e gioielli personalizzati.",
 };
 
 const values = [
@@ -40,7 +40,7 @@ const values = [
   {
     icon: HeartHandshake,
     title: "Cura del cliente",
-    text: "Consulenza personale e post-vendita, con la famiglia sempre presente al banco.",
+    text: "Consulenza personale, lista nozze, gioielli personalizzati e assistenza post-vendita dedicata.",
   },
 ];
 
@@ -87,23 +87,32 @@ export default function StoriaPage() {
               <span className="italic text-gold">scritta con l&apos;oro</span>
             </h2>
             <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
-              Nel 1992 la famiglia Calabrese apre la gioielleria a San Marzano sul Sarno con un obiettivo
-              chiaro: mettere al centro la persona, non solo il prodotto. Da
-              allora la gioielleria è cresciuta, arricchendosi di nuovi marchi e
-              collezioni, ma lo spirito è rimasto lo stesso.
+              Nel 1992 le sorelle{" "}
+              <strong className="font-semibold italic text-ink">
+                Speranza e Chiara Calabrese
+              </strong>{" "}
+              danno vita al loro sogno inaugurando la &ldquo;Gioielleria Oro e...&rdquo;, la prima boutique di accessori di lusso nel centro storico di San Marzano sul Sarno. Da allora, grazie alla professionalità e all&apos;amore per il proprio lavoro, sono diventate un punto di riferimento imprescindibile nella zona. Da due generazioni familiari offre esclusive e lussuose collezioni di gioielleria e di orologeria.
+            </p>
+            <blockquote className="border-l-2 border-gold pl-4 font-serif text-base font-semibold italic leading-snug text-ink sm:text-lg">
+              &ldquo;La nostra vera essenza, il cuore pulsante della nostra attività&rdquo;
+            </blockquote>
+            <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
+              L&apos;attenzione per ogni cliente ha spinto ad ampliare la gamma di servizi offerti. Qui puoi ricevere il supporto anche per la tua lista nozze, o per realizzare gioielli personalizzati così da sentirti unico e speciale.
             </p>
             <p className="text-pretty text-sm leading-relaxed text-graphite sm:text-base">
-              Oggi ORO&amp;CO è un punto di riferimento per l&apos;alta
-              gioielleria e l&apos;orologeria nell&apos;Agro Nocerino-Sarnese. Speranza, Renato, Carmela e Maria
-              accolgono ogni cliente con la stessa cura di sempre, offrendo
-              consulenza esperta, perizia gemmologica e un servizio post-vendita
-              autentico.
+              Un&apos;attività che si proietta al futuro, non dimenticando però le proprie radici e puntando a una crescita e a un aggiornamento costante nel solco intrapreso da una famiglia di gioiellieri amanti del proprio lavoro.
+            </p>
+            <p className="text-pretty text-sm leading-relaxed text-ink sm:text-base">
+              <strong className="font-semibold">ORO &amp; Co</strong> il{" "}
+              <em className="italic">
+                posto giusto dove trovare il dettaglio prezioso che racconti la tua identità
+              </em>
             </p>
             <div className="grid grid-cols-3 gap-6 border-t border-line pt-7">
               {[
                 { value: "30+", label: "Anni di attività" },
                 { value: "1992", label: "Anno di fondazione" },
-                { value: "1000+", label: "Clienti al banco" },
+                { value: "1000+", label: "Clienti in gioielleria" },
               ].map((stat) => (
                 <div key={stat.label} className="space-y-1">
                   <p className="font-serif text-2xl text-gold sm:text-3xl">
