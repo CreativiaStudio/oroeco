@@ -11,7 +11,6 @@ const ROW_TOP_SLUGS = [
   "cammeo-italiano",
   "bulova",
   "paul-picot",
-  "ducati",
   "golay",
 ];
 

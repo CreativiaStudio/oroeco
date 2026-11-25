@@ -16,7 +16,7 @@ export const IN_STORE_ONLY_BRAND_SLUGS = new Set<string>([
   "cammeo-italiano",
 ]);
 
-export const REMOVED_BRAND_SLUGS = new Set<string>(["amen"]);
+export const REMOVED_BRAND_SLUGS = new Set<string>(["amen", "ducati"]);
 
 export function isInStoreOnlyBrand(slug: string): boolean {
   return IN_STORE_ONLY_BRAND_SLUGS.has(slug.toLowerCase());

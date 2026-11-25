@@ -76,7 +76,6 @@ const BRAND_OPTIONS = [
   "Davite & Delucchi",
   "Nihama",
   "Golay",
-  "Ducati",
 ];
 
 export function SupplierInvoiceStagingSection({

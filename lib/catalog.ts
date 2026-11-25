@@ -155,15 +155,6 @@ export const brands: Brand[] = [
       "Decorazioni natalizie e cornici d'autore in argento e porcellana.",
     categories: ["casa", "natale"],
   },
-  {
-    id: "brand-ducati",
-    slug: "ducati",
-    name: "Ducati",
-    country: "Italia",
-    description:
-      "Orologi dal design sportivo e grintoso ispirato al mondo Ducati Corse.",
-    categories: ["orologi"],
-  },
 ];
 
 export const products: Product[] = [
@@ -1035,39 +1026,6 @@ export const products: Product[] = [
     reviewsCount: 48,
     createdAt: "2025-09-16T09:00:00.000Z",
   },
-  {
-    id: "p-024",
-    slug: "cintura-pelle-fibbia-acciaio",
-    name: "Cintura Pelle con Fibbia in Acciaio",
-    brand: "Ducati",
-    brandSlug: "ducati",
-    category: "accessori",
-    subcategory: "pelletteria",
-    subcategoryLabel: "Pelletteria",
-    price: 119,
-    currency: "EUR",
-    images: [
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_01.jpg",
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_02.jpg",
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
-    ],
-    description:
-      "Cintura in pelle pieno fiore con fibbia in acciaio spazzolato. Linea pulita ispirata al design Ducati, per un look maschile deciso.",
-    shortDescription: "Pelle pieno fiore, fibbia acciaio, taglia regolabile.",
-    inStock: true,
-    stockQuantity: 14,
-    barcode: "8054112300246",
-    sku: "ORC-AC-P02",
-    attributes: {
-      material: "Pelle",
-      gender: "Uomo",
-      color: "Nero",
-    },
-    tags: ["cintura", "pelletteria", "ducati", "uomo"],
-    rating: 4.4,
-    reviewsCount: 15,
-    createdAt: "2025-08-08T09:00:00.000Z",
-  },
 
   /* --------------------------- ACCESSORI: PORTACHIAVI -------------------------- */
   {
@@ -1143,39 +1101,6 @@ export const products: Product[] = [
   },
 
   /* ------------------------------ ACCESSORI: PENNE ---------------------------- */
-  {
-    id: "p-027",
-    slug: "penna-stilografica-regalo-luxury",
-    name: "Penna Stilografica Regalo Luxury",
-    brand: "Ducati",
-    brandSlug: "ducati",
-    category: "accessori",
-    subcategory: "penne",
-    subcategoryLabel: "Penne",
-    price: 189,
-    currency: "EUR",
-    images: [
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_01.jpg",
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/ducati_corse_crono_02.jpg",
-          "https://pub-b188305c4a244b49b7f08a50cfc80bd0.r2.dev/products/luxury/luxury_watch_box.jpg"
-    ],
-    description:
-      "Stilografica dal corpo in resina lucida con dettagli in metallo e pennino in acciaio. Presentata in elegante confezione regalo con cartuccia e converter.",
-    shortDescription: "Pennino in acciaio, confezione regalo con converter.",
-    inStock: true,
-    stockQuantity: 9,
-    barcode: "8054112300277",
-    sku: "ORC-AC-S01",
-    attributes: {
-      material: "Resina e metallo",
-      color: "Nero",
-      gender: "Unisex",
-    },
-    tags: ["penna", "stilografica", "regalo", "ducati"],
-    rating: 4.6,
-    reviewsCount: 13,
-    createdAt: "2025-07-21T09:00:00.000Z",
-  },
   {
     id: "p-028",
     slug: "penna-sfera-detailing-oro",

@@ -149,7 +149,6 @@ export const mainNav: NavItem[] = [
       { label: "Cuorematto", href: "/brand/cuorematto" },
       { label: "Dana Oro 9 kt", href: "/brand/dana-oro-9-kt" },
       { label: "Davite & Delucchi", href: "/brand/davite-delucchi" },
-      { label: "Ducati", href: "/brand/ducati" },
       { label: "Gerba", href: "/brand/gerba" },
       { label: "Gli Alberelli", href: "/brand/gli-alberelli" },
       { label: "Golay", href: "/brand/golay" },
