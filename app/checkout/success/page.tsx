@@ -48,6 +48,10 @@ function CheckoutSuccessContent() {
     };
   }, [sessionId]);
 
+  const isPendingPayment = Boolean(
+    summary?.paymentStatus && summary.paymentStatus !== "paid",
+  );
+
   return (
     <div className="container-luxe py-16 sm:py-24">
       <div className="mx-auto max-w-2xl rounded-sm border border-[#DEDEDE] bg-[#F7F3EC] p-8 text-center sm:p-12">
@@ -56,14 +60,19 @@ function CheckoutSuccessContent() {
         </span>
 
         <p className="mt-5 text-[0.68rem] font-semibold uppercase tracking-[0.24em] text-[#9A7D43]">
-          Ordine Confermato · ORO&amp;CO dal 1992
+          {isPendingPayment
+            ? "Ordine Ricevuto · Pagamento in Verifica"
+            : "Ordine Confermato · ORO&CO dal 1992"}
         </p>
         <h1 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-          Grazie per il tuo acquisto
+          {isPendingPayment
+            ? "Ordine registrato, pagamento in verifica"
+            : "Grazie per il tuo acquisto"}
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-graphite">
-          Abbiamo ricevuto correttamente il pagamento. Il nostro laboratorio di San Marzano sul Sarno
-          sta preparando la tua confezione regalo ufficiale e il certificato di autenticità.
+          {isPendingPayment
+            ? "Il circuito di pagamento sta completando la contabilizzazione (es. PayPal con addebito bancario). Riceverai conferma automatica appena l'accredito sarà completato."
+            : "Abbiamo ricevuto correttamente il pagamento. Il nostro laboratorio di San Marzano sul Sarno sta preparando la tua confezione regalo ufficiale e il certificato di autenticità."}
         </p>
 
         {loading && (

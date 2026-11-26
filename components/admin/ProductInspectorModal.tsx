@@ -88,6 +88,7 @@ export function ProductInspectorModal({
 
   const [copiedBarcode, setCopiedBarcode] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
   const [mediaPickerMode, setMediaPickerMode] = useState<"replace" | "add" | null>(null);
 
   // Sync state when product changes
@@ -117,6 +118,7 @@ export function ProductInspectorModal({
       setSize(attrs.size || "");
       setMaterial(attrs.material || "");
       setSaveSuccess(false);
+      setSaveError(null);
     }
   }, [product]);
 
@@ -194,20 +196,38 @@ export function ProductInspectorModal({
   };
 
   const handleSaveInternal = async () => {
-    const updated = buildUpdatedProduct();
-    await onSave(updated);
-    setSaveSuccess(true);
-    setTimeout(() => setSaveSuccess(false), 2500);
+    setSaveError(null);
+    setSaveSuccess(false);
+    try {
+      const updated = buildUpdatedProduct();
+      await onSave(updated);
+      setSaveSuccess(true);
+      setTimeout(() => setSaveSuccess(false), 2500);
+    } catch (err: any) {
+      setSaveError(err?.message || "Errore durante il salvataggio su database.");
+    }
   };
 
   const handleApproveInternal = async () => {
-    const updated = buildUpdatedProduct("approved");
-    await onApprove(updated);
+    setSaveError(null);
+    setSaveSuccess(false);
+    try {
+      const updated = buildUpdatedProduct("approved");
+      await onApprove(updated);
+    } catch (err: any) {
+      setSaveError(err?.message || "Errore durante la pubblicazione del prodotto.");
+    }
   };
 
   const handleRejectInternal = async () => {
-    const updated = buildUpdatedProduct("rejected");
-    await onReject(updated);
+    setSaveError(null);
+    setSaveSuccess(false);
+    try {
+      const updated = buildUpdatedProduct("rejected");
+      await onReject(updated);
+    } catch (err: any) {
+      setSaveError(err?.message || "Errore durante l'impostazione Solo Cassa.");
+    }
   };
 
   const copyBarcodeToClipboard = () => {
@@ -732,6 +752,11 @@ export function ProductInspectorModal({
             {saveSuccess && (
               <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700">
                 <Check className="h-4 w-4" /> Modifiche salvate con successo!
+              </span>
+            )}
+            {saveError && (
+              <span className="inline-flex items-center gap-1.5 text-xs font-bold text-red-700">
+                <AlertCircle className="h-4 w-4 shrink-0" /> {saveError}
               </span>
             )}
           </div>

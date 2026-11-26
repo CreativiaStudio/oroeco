@@ -1,3 +1,4 @@
+import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 import { getAdminSessionFromRequest } from "@/lib/adminAuth";
 import {
@@ -59,24 +60,28 @@ export async function PATCH(req: Request) {
     // 1. Batch status update (Online or Solo Cassa)
     if (body.action === "batch_update_status" && Array.isArray(body.ids) && body.status) {
       const result = await batchUpdateProductApproval(body.ids, body.status);
+      revalidatePath("/", "layout");
       return NextResponse.json({ success: true, count: result?.length || 0 });
     }
 
     // 2. Legacy batch approval
     if (body.action === "batch_approve" && Array.isArray(body.ids)) {
       const result = await batchApproveProducts(body.ids);
+      revalidatePath("/", "layout");
       return NextResponse.json({ success: true, count: result?.length || 0 });
     }
 
     // 3. Single approval
     if (body.action === "update_approval" && body.id && body.status) {
       const result = await updateProductApproval(body.id, body.status);
+      revalidatePath("/", "layout");
       return NextResponse.json({ success: true, product: result });
     }
 
     // 4. Update details (prezzo, ricarico, categoria, giacenza)
     if (body.action === "update_details" && body.id && body.updates) {
       const result = await updateProductDetails(body.id, body.updates);
+      revalidatePath("/", "layout");
       return NextResponse.json({ success: true, product: result });
     }
 

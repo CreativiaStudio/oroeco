@@ -569,7 +569,57 @@ export function AdminDashboard() {
   const liveStocks = mounted ? stocks : null;
   const liveTransactions: InventoryTransaction[] = mounted ? transactions : [];
 
+  // Prodotti reali da Supabase & Workflow Approvazioni Renato
+  const [dbProducts, setDbProducts] = useState<Product[]>([]);
+  const [loadingDb, setLoadingDb] = useState(false);
+  const [approvalTab, setApprovalTab] = useState<"all" | "online" | "cassa_only">("all");
+  const [approvingIds, setApprovingIds] = useState<string[]>([]);
+  const [stockUpdatingIds, setStockUpdatingIds] = useState<string[]>([]);
+  const [bulkApproving, setBulkApproving] = useState(false);
+  const [labelPrinterProducts, setLabelPrinterProducts] = useState<Product[] | null>(null);
+  const [inventoryError, setInventoryError] = useState<string | null>(null);
+
+  const showInventoryNotice = (msg: string) => {
+    setInventoryError(null);
+    setInventoryNotice(msg);
+  };
+
+  const showInventoryError = (msg: string) => {
+    setInventoryNotice(null);
+    setInventoryError(msg);
+  };
+
+  // Caricamento asincrono prodotti reali da Supabase
+  const loadDbProducts = () => {
+    setLoadingDb(true);
+    fetch("/api/admin/products")
+      .then(async (r) => {
+        const data = await r.json().catch(() => ({}));
+        if (!r.ok || !data.success) {
+          throw new Error(data.error || `Errore caricamento catalogo (${r.status})`);
+        }
+        if (Array.isArray(data.products)) {
+          setDbProducts(data.products);
+        }
+      })
+      .catch((err) => {
+        console.warn("Fallback catalogo locale:", err);
+        showInventoryError(`Impossibile sincronizzare con Supabase: ${err?.message || "errore di rete"}`);
+      })
+      .finally(() => setLoadingDb(false));
+  };
+
+  useEffect(() => {
+    loadDbProducts();
+  }, []);
+
+  // Usa prodotti da Supabase se disponibili, altrimenti fallback locale
+  const allProducts = dbProducts.length > 0 ? dbProducts : products;
+
   const stockFor = (product: Product): number => {
+    if (dbProducts.length > 0) {
+      return product.stockQuantity;
+    }
     if (liveStocks && typeof liveStocks[product.id] === "number") {
       return liveStocks[product.id];
     }
@@ -583,9 +633,11 @@ export function AdminDashboard() {
     let totalPieces = 0;
     let outOfStock = 0;
     let lowStock = 0;
-    for (const product of products) {
-      const quantity =
-        liveStocks && typeof liveStocks[product.id] === "number"
+    const usingDb = dbProducts.length > 0;
+    for (const product of allProducts) {
+      const quantity = usingDb
+        ? product.stockQuantity
+        : liveStocks && typeof liveStocks[product.id] === "number"
           ? liveStocks[product.id]
           : product.stockQuantity;
       totalValue += product.price * quantity;
@@ -594,7 +646,7 @@ export function AdminDashboard() {
       else if (quantity === 1) lowStock += 1;
     }
     return { totalValue, totalPieces, outOfStock, lowStock };
-  }, [products, liveStocks]);
+  }, [allProducts, dbProducts.length, liveStocks]);
 
   const todayMovements = useMemo(() => {
     const today = new Date().toDateString();
@@ -611,35 +663,6 @@ export function AdminDashboard() {
   const [categoryFilter, setCategoryFilter] = useState<"all" | ProductCategory>("all");
   const [brandFilter, setBrandFilter] = useState<string>("all");
   const [inventoryNotice, setInventoryNotice] = useState<string | null>(null);
-
-  // Prodotti reali da Supabase & Workflow Approvazioni Renato
-  const [dbProducts, setDbProducts] = useState<Product[]>([]);
-  const [loadingDb, setLoadingDb] = useState(false);
-  const [approvalTab, setApprovalTab] = useState<"all" | "online" | "cassa_only">("all");
-  const [approvingIds, setApprovingIds] = useState<string[]>([]);
-  const [bulkApproving, setBulkApproving] = useState(false);
-  const [labelPrinterProducts, setLabelPrinterProducts] = useState<Product[] | null>(null);
-
-  // Caricamento asincrono prodotti reali da Supabase
-  const loadDbProducts = () => {
-    setLoadingDb(true);
-    fetch("/api/admin/products")
-      .then((r) => r.json())
-      .then((data) => {
-        if (data.success && Array.isArray(data.products) && data.products.length > 0) {
-          setDbProducts(data.products);
-        }
-      })
-      .catch((err) => console.warn("Fallback catalogo locale:", err))
-      .finally(() => setLoadingDb(false));
-  };
-
-  useEffect(() => {
-    loadDbProducts();
-  }, []);
-
-  // Usa prodotti da Supabase se disponibili, altrimenti fallback locale
-  const allProducts = dbProducts.length > 0 ? dbProducts : products;
 
   // Conteggi Canale E-Commerce vs Solo Cassa
   const onlineCount = useMemo(
@@ -737,8 +760,8 @@ export function AdminDashboard() {
           status,
         }),
       });
-      const data = await res.json();
-      if (data.success) {
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
         setDbProducts((prev) =>
           prev.map((p) =>
             selectedIds.includes(p.id) ? { ...p, approvalStatus: status } : p
@@ -748,15 +771,15 @@ export function AdminDashboard() {
           status === "approved"
             ? "ONLINE sull'e-commerce"
             : "in SOLO CASSA (rimossi dal sito web)";
-        setInventoryNotice(
+        showInventoryNotice(
           `✓ ${selectedIds.length} prodotti impostati con successo su ${label}!`
         );
         setSelectedIds([]);
       } else {
-        setInventoryNotice(`Errore modifica massiva: ${data.error}`);
+        showInventoryError(`Errore modifica massiva: ${data.error || `HTTP ${res.status}`}`);
       }
     } catch (e: any) {
-      setInventoryNotice(`Errore modifica massiva: ${e.message}`);
+      showInventoryError(`Errore modifica massiva: ${e.message}`);
     } finally {
       setBatchProcessing(false);
     }
@@ -774,19 +797,21 @@ export function AdminDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "update_approval", id: product.id, status: nextStatus }),
       });
-      const data = await res.json();
-      if (data.success) {
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
         setDbProducts((prev) =>
           prev.map((p) => (p.id === product.id ? { ...p, approvalStatus: nextStatus } : p))
         );
         if (nextStatus === "approved") {
-          setInventoryNotice(`Prodotto "${product.name}" ora ONLINE sull'e-commerce!`);
+          showInventoryNotice(`Prodotto "${product.name}" ora ONLINE sull'e-commerce!`);
         } else {
-          setInventoryNotice(`Prodotto "${product.name}" rimosso dal sito: ora è SOLO CASSA (disponibile per cassa Aura RT).`);
+          showInventoryNotice(`Prodotto "${product.name}" rimosso dal sito: ora è SOLO CASSA (disponibile per cassa Aura RT).`);
         }
+      } else {
+        showInventoryError(`Errore cambio visibilità per "${product.name}": ${data.error || `HTTP ${res.status}`}`);
       }
     } catch (e: any) {
-      setInventoryNotice(`Errore cambio visibilità: ${e.message}`);
+      showInventoryError(`Errore cambio visibilità: ${e.message}`);
     } finally {
       setApprovingIds((prev) => prev.filter((id) => id !== product.id));
     }
@@ -801,15 +826,17 @@ export function AdminDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "update_approval", id: product.id, status: "approved" }),
       });
-      const data = await res.json();
-      if (data.success) {
-        setDbProducts((prev) =>
-          prev.map((p) => (p.id === product.id ? { ...p, approvalStatus: "approved" } : p))
-        );
-        setInventoryNotice(`Prodotto "${product.name}" approvato! Ora è visibile nello storefront.`);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || `HTTP ${res.status}`);
       }
+      setDbProducts((prev) =>
+        prev.map((p) => (p.id === product.id ? { ...p, approvalStatus: "approved" } : p))
+      );
+      showInventoryNotice(`Prodotto "${product.name}" approvato! Ora è visibile nello storefront.`);
     } catch (e: any) {
-      setInventoryNotice(`Errore approvazione: ${e.message}`);
+      showInventoryError(`Errore approvazione: ${e.message}`);
+      throw e;
     } finally {
       setApprovingIds((prev) => prev.filter((id) => id !== product.id));
     }
@@ -824,15 +851,17 @@ export function AdminDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "update_approval", id: product.id, status: "rejected" }),
       });
-      const data = await res.json();
-      if (data.success) {
-        setDbProducts((prev) =>
-          prev.map((p) => (p.id === product.id ? { ...p, approvalStatus: "rejected" } : p))
-        );
-        setInventoryNotice(`Prodotto "${product.name}" rifiutato.`);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || `HTTP ${res.status}`);
       }
+      setDbProducts((prev) =>
+        prev.map((p) => (p.id === product.id ? { ...p, approvalStatus: "rejected" } : p))
+      );
+      showInventoryNotice(`Prodotto "${product.name}" impostato su Solo Cassa.`);
     } catch (e: any) {
-      setInventoryNotice(`Errore rifiuto: ${e.message}`);
+      showInventoryError(`Errore impostazione Solo Cassa: ${e.message}`);
+      throw e;
     } finally {
       setApprovingIds((prev) => prev.filter((id) => id !== product.id));
     }
@@ -853,16 +882,18 @@ export function AdminDashboard() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "batch_approve", ids: idsToApprove }),
       });
-      const data = await res.json();
-      if (data.success) {
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
         const approvedSet = new Set(idsToApprove);
         setDbProducts((prev) =>
           prev.map((p) => (approvedSet.has(p.id) ? { ...p, approvalStatus: "approved" } : p))
         );
-        setInventoryNotice(`${idsToApprove.length} prodotti approvati in blocco con successo!`);
+        showInventoryNotice(`${idsToApprove.length} prodotti approvati in blocco con successo!`);
+      } else {
+        showInventoryError(`Errore approvazione massiva: ${data.error || `HTTP ${res.status}`}`);
       }
     } catch (e: any) {
-      setInventoryNotice(`Errore approvazione massiva: ${e.message}`);
+      showInventoryError(`Errore approvazione massiva: ${e.message}`);
     } finally {
       setBulkApproving(false);
     }
@@ -899,16 +930,23 @@ export function AdminDashboard() {
           },
         }),
       });
-      const data = await res.json();
-      if (data.success) {
-        setDbProducts((prev) =>
-          prev.map((p) => (p.id === updated.id ? updated : p))
-        );
-        setInspectingProduct(updated);
-        setInventoryNotice(`Prodotto "${updated.name}" salvato con successo!`);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || `HTTP ${res.status}`);
       }
+      const normalizedUpdated: Product = {
+        ...updated,
+        inStock: updated.stockQuantity > 0,
+      };
+      setDbProducts((prev) =>
+        prev.map((p) => (p.id === updated.id ? normalizedUpdated : p))
+      );
+      setInspectingProduct(normalizedUpdated);
+      showInventoryNotice(`Prodotto "${updated.name}" salvato con successo!`);
     } catch (e: any) {
-      setInventoryNotice(`Errore salvataggio: ${e.message}`);
+      const msg = e?.message || "Errore sconosciuto";
+      showInventoryError(`Errore salvataggio "${updated.name}": ${msg}`);
+      throw new Error(msg);
     } finally {
       setIsModalProcessing(false);
     }
@@ -936,26 +974,55 @@ export function AdminDashboard() {
     }
   };
 
-  const handleRestockOne = (product: Product) => {
-    restock(product.barcode, 1, "Rettifica Admin", "Renato");
-    setInventoryNotice(`+1 pz caricato su ${product.name} (SKU ${product.sku}).`);
-  };
-
-  const handleDepleteOne = (product: Product) => {
-    const available = stockFor(product);
-    if (available <= 0) {
-      setInventoryNotice(
+  const handleAdjustStock = async (product: Product, delta: number) => {
+    if (stockUpdatingIds.includes(product.id)) return;
+    const currentQty = stockFor(product);
+    if (delta < 0 && currentQty <= 0) {
+      showInventoryNotice(
         `Impossibile scaricare ${product.name}: giacenza già a zero.`,
       );
       return;
     }
-    depleteStock(product.barcode, 1, "Rettifica Admin", "Renato");
-    setInventoryNotice(`-1 pz scaricato su ${product.name} (SKU ${product.sku}).`);
+    const nextQty = Math.max(0, currentQty + delta);
+
+    setStockUpdatingIds((prev) => [...prev, product.id]);
+    try {
+      const res = await fetch("/api/admin/products", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "update_details",
+          id: product.id,
+          updates: { stockQuantity: nextQty },
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) {
+        setDbProducts((prev) =>
+          prev.map((p) =>
+            p.id === product.id
+              ? { ...p, stockQuantity: nextQty, inStock: nextQty > 0 }
+              : p
+          )
+        );
+        showInventoryNotice(
+          `${delta > 0 ? "+1 pz caricato" : "-1 pz scaricato"} su ${product.name} → nuova giacenza: ${nextQty} pz (salvato su DB).`
+        );
+      } else {
+        showInventoryError(
+          `Errore aggiornamento giacenza "${product.name}": ${data.error || `HTTP ${res.status}`}`
+        );
+      }
+    } catch (e: any) {
+      showInventoryError(`Errore aggiornamento giacenza: ${e.message}`);
+    } finally {
+      setStockUpdatingIds((prev) => prev.filter((id) => id !== product.id));
+    }
   };
 
   const handleResetInventory = () => {
     resetToCatalog();
-    setInventoryNotice(
+    showInventoryNotice(
       "Scorte ripristinate ai valori iniziali del catalogo ORO&CO.",
     );
   };
@@ -1195,7 +1262,7 @@ export function AdminDashboard() {
                   <KpiCard
                     label="Pezzi Totali in Stock"
                     value={`${kpi.totalPieces} pz`}
-                    hint={`Distribuiti su ${products.length} articoli censiti`}
+                    hint={`Distribuiti su ${allProducts.length} articoli censiti`}
                     icon={Boxes}
                   />
                   <KpiCard
@@ -1474,6 +1541,23 @@ export function AdminDashboard() {
                     )}
                   </div>
 
+                  {inventoryError ? (
+                    <div className="mt-4 flex items-start justify-between gap-3 rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+                      <span className="flex items-start gap-2">
+                        <AlertTriangle className="mt-0.5 h-4 w-4 shrink-0 text-red-600" strokeWidth={2.2} />
+                        {inventoryError}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => setInventoryError(null)}
+                        aria-label="Chiudi errore"
+                        className="text-red-700/70 hover:text-red-900"
+                      >
+                        <X className="h-4 w-4" />
+                      </button>
+                    </div>
+                  ) : null}
+
                   {inventoryNotice ? (
                     <div className="mt-4 flex items-start justify-between gap-3 rounded-sm border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">
                       <span className="flex items-start gap-2">
@@ -1583,6 +1667,7 @@ export function AdminDashboard() {
                             const quantity = stockFor(product);
                             const isApproved = product.approvalStatus === "approved";
                             const isProcessing = approvingIds.includes(product.id);
+                            const isStockUpdating = stockUpdatingIds.includes(product.id);
                             const isSelected = selectedIds.includes(product.id);
 
                             return (
@@ -1666,9 +1751,9 @@ export function AdminDashboard() {
                                     <div className="flex items-center gap-1">
                                       <button
                                         type="button"
-                                        onClick={() => handleDepleteOne(product)}
-                                        disabled={quantity <= 0}
-                                        className="h-5 w-5 rounded border border-[#E5E0D5] bg-white text-[0.65rem] font-bold text-graphite hover:text-red-600 disabled:opacity-30"
+                                        onClick={() => handleAdjustStock(product, -1)}
+                                        disabled={quantity <= 0 || isStockUpdating}
+                                        className="h-5 w-5 rounded border border-[#E5E0D5] bg-white text-[0.65rem] font-bold text-graphite hover:text-red-600 disabled:opacity-30 cursor-pointer"
                                         title="-1 Scarico"
                                       >
                                         -
@@ -1678,8 +1763,9 @@ export function AdminDashboard() {
                                       </span>
                                       <button
                                         type="button"
-                                        onClick={() => handleRestockOne(product)}
-                                        className="h-5 w-5 rounded border border-emerald-200 bg-emerald-50 text-[0.65rem] font-bold text-emerald-700 hover:bg-emerald-100"
+                                        onClick={() => handleAdjustStock(product, 1)}
+                                        disabled={isStockUpdating}
+                                        className="h-5 w-5 rounded border border-emerald-200 bg-emerald-50 text-[0.65rem] font-bold text-emerald-700 hover:bg-emerald-100 disabled:opacity-30 cursor-pointer"
                                         title="+1 Carico"
                                       >
                                         +

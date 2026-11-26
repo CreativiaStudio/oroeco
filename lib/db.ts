@@ -165,11 +165,16 @@ export async function updateProductApproval(
     .update({ approval_status: status, updated_at: new Date().toISOString() })
     .eq("id", id)
     .select()
-    .single();
+    .maybeSingle();
 
   if (error) {
     console.error("Error updating product approval:", error);
     throw error;
+  }
+  if (!data) {
+    throw new Error(
+      "Aggiornamento stato prodotto non applicato su Supabase (0 righe aggiornate: verificare SUPABASE_SERVICE_ROLE_KEY/RLS)."
+    );
   }
   return data;
 }
@@ -194,6 +199,11 @@ export async function batchUpdateProductApproval(
   if (error) {
     console.error("Error batch updating product approval:", error);
     throw error;
+  }
+  if (!data || data.length === 0) {
+    throw new Error(
+      "Aggiornamento massivo non applicato su Supabase (0 righe aggiornate: verificare SUPABASE_SERVICE_ROLE_KEY/RLS)."
+    );
   }
   return data;
 }
@@ -242,8 +252,11 @@ export async function updateProductDetails(
     payload.subcategory = updates.subcategory;
   if (updates.subcategoryLabel !== undefined)
     payload.subcategory_label = updates.subcategoryLabel;
-  if (updates.stockQuantity !== undefined)
-    payload.stock_quantity = updates.stockQuantity;
+  if (updates.stockQuantity !== undefined) {
+    const normalizedQty = Math.max(0, Math.floor(Number(updates.stockQuantity) || 0));
+    payload.stock_quantity = normalizedQty;
+    payload.in_stock = normalizedQty > 0;
+  }
   if (updates.approvalStatus !== undefined)
     payload.approval_status = updates.approvalStatus;
   if (updates.markupMultiplier !== undefined)
@@ -260,11 +273,16 @@ export async function updateProductDetails(
     .update(payload)
     .eq("id", id)
     .select()
-    .single();
+    .maybeSingle();
 
   if (error) {
     console.error("Error updating product details:", error);
     throw error;
+  }
+  if (!data) {
+    throw new Error(
+      "Salvataggio dettagli prodotto non applicato su Supabase (0 righe aggiornate: verificare SUPABASE_SERVICE_ROLE_KEY/RLS)."
+    );
   }
   return data;
 }

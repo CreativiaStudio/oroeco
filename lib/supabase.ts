@@ -8,13 +8,15 @@ import { createClient } from "@supabase/supabase-js";
  * Rispettando il vincolo di isolamento totale rispetto ad altri progetti o database d'agenzia.
  */
 
-const supabaseUrl =
+const supabaseUrl = (
   process.env.NEXT_PUBLIC_SUPABASE_URL ||
-  "https://cuztyagbckeyljlhhzvr.supabase.co";
+  "https://cuztyagbckeyljlhhzvr.supabase.co"
+).trim();
 
-const supabaseAnonKey =
+const supabaseAnonKey = (
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
-  "sb_publishable_Q0fwrkkuocjEU6-X5BAECg_0MizBLit";
+  "sb_publishable_Q0fwrkkuocjEU6-X5BAECg_0MizBLit"
+).trim();
 
 const noStoreFetch: typeof fetch = (input, init) =>
   fetch(input, { ...init, cache: "no-store" });
@@ -28,8 +30,12 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
  * Utilizzabile solo server-side.
  */
 export function getServiceSupabase() {
-  const serviceKey =
-    process.env.SUPABASE_SERVICE_ROLE_KEY || supabaseAnonKey;
+  const serviceKey = (process.env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
+  if (!serviceKey) {
+    throw new Error(
+      "SUPABASE_SERVICE_ROLE_KEY non configurata sul server: impossibile modificare i dati su Supabase.",
+    );
+  }
   return createClient(supabaseUrl, serviceKey, {
     global: { fetch: noStoreFetch },
     auth: {

@@ -247,6 +247,23 @@ export async function POST(req: Request) {
       line_items: lineItems,
       billing_address_collection: wantsInvoice ? "required" : "auto",
       allow_promotion_codes: true,
+      ...(deliveryMethod === "shipping"
+        ? {
+            payment_intent_data: {
+              shipping: {
+                name: `${firstName} ${lastName}`.trim(),
+                ...(phone ? { phone } : {}),
+                address: {
+                  line1: address,
+                  city,
+                  postal_code: postalCode,
+                  ...(province ? { state: province } : {}),
+                  country: "IT",
+                },
+              },
+            },
+          }
+        : {}),
       success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${origin}/checkout/cancel`,
       metadata: {

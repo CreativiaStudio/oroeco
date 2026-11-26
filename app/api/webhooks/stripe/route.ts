@@ -37,7 +37,10 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "Firma webhook non valida." }, { status: 400 });
   }
 
-  if (event.type !== "checkout.session.completed") {
+  if (
+    event.type !== "checkout.session.completed" &&
+    event.type !== "checkout.session.async_payment_succeeded"
+  ) {
     return NextResponse.json({ received: true, ignored: event.type });
   }
 

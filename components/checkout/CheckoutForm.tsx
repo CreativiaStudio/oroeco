@@ -567,7 +567,7 @@ export function CheckoutForm() {
             className="mt-6 flex h-14 w-full items-center justify-center gap-2 rounded-sm bg-[#020202] px-6 text-xs font-semibold uppercase tracking-[0.22em] text-white transition-colors hover:bg-gold disabled:cursor-not-allowed disabled:opacity-50"
           >
             <Lock className="h-4 w-4" />
-            {submitting ? "Reindirizzamento sicuro…" : "Paga con Carta, Apple Pay o Klarna"}
+            {submitting ? "Reindirizzamento sicuro…" : "Paga con Carta, PayPal, Apple Pay o Klarna"}
           </button>
 
           <a
